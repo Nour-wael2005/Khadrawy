@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Cairo:wght@400;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --forest-green: #1d4533;
+  --warm-cream: cream;
+  --soft-peach: #f9d2ba;
+  --earthy-brown: earthy;
+  --bg-surface: surface;
+  --text-main: #1d4533;
+}
+
+/* بنعرف ألوان Tailwind بناءً على المتغيرات عشان نقدر نستخدمها كـ classes */
+@theme {
+  --color-forest: var(--forest-green);
+  --color-cream: var(--warm-cream);
+  --color-peach: var(--soft-peach);
+  --color-earthy: var(--earthy-brown);
+  --color-surface: var(--bg-surface);
+  --color-main: var(--text-main);
+}
+
+body {
+  background-color: var(--warm-cream);
+  color: var(--text-main);
+  font-family: "Plus Jakarta Sans", "Cairo", sans-serif !important;
+}
+
+* {
+  font-family: "Plus Jakarta Sans", "Cairo", sans-serif !important;
+}
