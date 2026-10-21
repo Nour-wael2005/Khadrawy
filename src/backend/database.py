@@ -1,13 +1,13 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
-
+import os
 
 # =====================================================
 # DATABASE CONFIG
 # =====================================================
 
-DATABASE_URL = "sqlite:///./khadrwy.db"
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATABASE_URL = f"sqlite:///{os.path.join(BASE_DIR, 'khadrwy.db')}"
 
 # =====================================================
 # ENGINE

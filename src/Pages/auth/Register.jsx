@@ -120,7 +120,7 @@ export default function Register() {
       {/* الكارت الأبيض الناصع مع الظل الناعم والزوايا المنحنية */}
       <form
         onSubmit={handleRegister}
-        className="bg-white p-8 sm:p-10 rounded-3xl shadow-xl shadow-forest/10 w-full max-w-md border border-forest/5 relative z-10"
+        className="bg-white p-8 sm:p-10 top-10 lg:top-5 rounded-3xl shadow-xl shadow-forest/10 w-full max-w-md border border-forest/5 relative z-30"
       >
         <div className="flex flex-col items-center mb-8 text-center">
           <Link to="/" className="flex items-center gap-2 group mb-3">

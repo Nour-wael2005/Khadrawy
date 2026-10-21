@@ -1,4 +1,4 @@
-// المسار: src/App.jsx
+// src/App.jsx
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -9,29 +9,47 @@ import {
 } from "react-router-dom";
 import { LanguageProvider } from "./Context/LanguageContext";
 
-// Layout
+// Layouts
 import MainLayout from "./Components/MainLayout";
+import PublicLayout from "./Components/PublicLayout";
 
-// Auth Pages (مستقلة بدون الناف والفوتر)
+// Public pages
+import PublicHome from "./Pages/PublicHome";
+
+// Authentication pages
 import Login from "./Pages/auth/Login";
 import Register from "./Pages/auth/Register";
 import ForgotPassword from "./Pages/auth/ForgotPassword";
-import Farmers from "./Pages/landowner/Farmers";
-import AddFarmer from "./Pages/landowner/AddFarmer";
 
-// Dashboards & AI Pages
+// Route protection
+import ProtectedRoute from "./ProtectedRoute";
+
+// Dashboards
 import EngineerDashboard from "./Pages/engineer/EngineerDashboard";
 import GardenerDashboard from "./Pages/gardener/GardenerDashboard";
 import LandownerDashboard from "./Pages/landowner/LandownerDashboard";
-import AIAssistant from "./Pages/AIAssistant";
+import FarmerDashboard from "./Pages/Farmer/FarmerDashboard";
+
+// Landowner management pages
 import Lands from "./Pages/landowner/Lands";
 import AddLand from "./Pages/landowner/AddLand";
 import Engineers from "./Pages/landowner/Engineers";
 import AddEngineer from "./Pages/landowner/AddEngineer";
-// كومبوننت مؤقت للصفحات الفرعية (Lands, Engineers, Farmers, Reports, Notifications)
-// عشان لما تضغطي على أي كارد في الداشبورد يفتح الصفحة وميرجعكيش للـ Login
+import Farmers from "./Pages/landowner/Farmers";
+import AddFarmer from "./Pages/landowner/AddFarmer";
+
+// Gardener pages
+import MyPlants from "./Pages/gardener/MyPlants";
+import PlantDetails from "./Pages/gardener/PlantDetails";
+
+// AI pages
+import AIAssistant from "./Pages/AIAssistant";
+import PlantDoctor from "./Pages/PlantDoctor";
+
+// Temporary placeholders for pages not implemented yet.
 function SubPagePlaceholder({ title, subtitle }) {
   const navigate = useNavigate();
+
   return (
     <div className="min-h-[80vh] bg-[#FAF6F0] px-6 sm:px-10 py-8 font-sans">
       <div className="max-w-6xl mx-auto">
@@ -55,71 +73,154 @@ export default function App() {
     <LanguageProvider>
       <Router>
         <Routes>
-          {/* 1️⃣ صفحات المصادقة (مستقلة وبدون Navbar/Footer) */}
+          {/* Authentication pages: no application layout */}
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
 
-          {/* 2️⃣ باقي الصفحات (مع Navbar و Footer داخل MainLayout) */}
+          {/* Public website */}
+          <Route element={<PublicLayout />}>
+            <Route path="/" element={<PublicHome />} />
+            <Route path="/home" element={<PublicHome />} />
+          </Route>
+
+          {/* Application pages: shared navbar/footer layout */}
           <Route element={<MainLayout />}>
-            <Route path="/" element={<Navigate to="/login" replace />} />
-            <Route path="/engineer-dashboard" element={<EngineerDashboard />} />
-            <Route path="/gardener-dashboard" element={<GardenerDashboard />} />
-            <Route path="/lands" element={<Lands />} />
-            <Route path="/engineers" element={<Engineers />} />
-            <Route path="/farmers" element={<Farmers />} />
-            <Route path="/engineers/add" element={<AddEngineer />} />
-            <Route path="/farmers/add" element={<AddFarmer />} />
-            <Route path="/lands/add" element={<AddLand />} />
             <Route
-              path="/landowner-dashboard"
-              element={<LandownerDashboard />}
+              path="/engineer-dashboard"
+              element={
+                <ProtectedRoute allowedRole="engineer">
+                  <EngineerDashboard />
+                </ProtectedRoute>
+              }
             />
 
-            {/* مسارات الشات و Plant Doctor */}
-            <Route path="/ai-assistant" element={<AIAssistant />} />
-            <Route path="/plant-doctor" element={<AIAssistant />} />
+            <Route
+              path="/gardener-dashboard"
+              element={
+                <ProtectedRoute allowedRole="gardener">
+                  <GardenerDashboard />
+                </ProtectedRoute>
+              }
+            />
 
+            <Route
+              path="/landowner-dashboard"
+              element={
+                <ProtectedRoute allowedRole="landowner">
+                  <LandownerDashboard />
+                </ProtectedRoute>
+              }
+            />
+
+            <Route
+              path="/farmer-dashboard"
+              element={
+                <ProtectedRoute allowedRole="farmer">
+                  <FarmerDashboard />
+                </ProtectedRoute>
+              }
+            />
+
+            {/* Landowner management: use real pages, not placeholders */}
+            <Route
+              path="/lands"
+              element={
+                <ProtectedRoute allowedRole="landowner">
+                  <Lands />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/lands/add"
+              element={
+                <ProtectedRoute allowedRole="landowner">
+                  <AddLand />
+                </ProtectedRoute>
+              }
+            />
             <Route
               path="/engineers"
               element={
-                <SubPagePlaceholder
-                  title="Agricultural Engineers"
-                  subtitle="Manage engineers assigned across your lands."
-                />
+                <ProtectedRoute allowedRole="landowner">
+                  <Engineers />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/engineers/add"
+              element={
+                <ProtectedRoute allowedRole="landowner">
+                  <AddEngineer />
+                </ProtectedRoute>
               }
             />
             <Route
               path="/farmers"
               element={
-                <SubPagePlaceholder
-                  title="Farmers Directory"
-                  subtitle="View and manage all farmers across your lands."
-                />
+                <ProtectedRoute allowedRole="landowner">
+                  <Farmers />
+                </ProtectedRoute>
               }
             />
             <Route
+              path="/farmers/add"
+              element={
+                <ProtectedRoute allowedRole="landowner">
+                  <AddFarmer />
+                </ProtectedRoute>
+              }
+            />
+
+            {/* Gardener pages */}
+            <Route
+              path="/my-plants"
+              element={
+                <ProtectedRoute allowedRole="gardener">
+                  <MyPlants />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/my-plants/:plantId"
+              element={
+                <ProtectedRoute allowedRole="gardener">
+                  <PlantDetails />
+                </ProtectedRoute>
+              }
+            />
+
+            {/* AI pages */}
+            <Route path="/ai-assistant" element={<AIAssistant />} />
+            <Route path="/plant-doctor" element={<PlantDoctor />} />
+
+            {/* Temporary pages until dedicated screens are implemented */}
+            <Route
               path="/reports"
               element={
-                <SubPagePlaceholder
-                  title="Agricultural Reports"
-                  subtitle="Detailed seasonal and greenhouse reports."
-                />
+                <ProtectedRoute allowedRole="landowner">
+                  <SubPagePlaceholder
+                    title="Agricultural Reports"
+                    subtitle="Detailed seasonal and greenhouse reports."
+                  />
+                </ProtectedRoute>
               }
             />
             <Route
               path="/notifications"
               element={
-                <SubPagePlaceholder
-                  title="Monitoring & Alerts"
-                  subtitle="Real-time sensor alerts and diagnosis follow-ups."
-                />
+                <ProtectedRoute allowedRole="landowner">
+                  <SubPagePlaceholder
+                    title="Monitoring & Alerts"
+                    subtitle="Real-time sensor alerts and diagnosis follow-ups."
+                  />
+                </ProtectedRoute>
               }
             />
           </Route>
 
-          {/* أي مسار خاطئ يرجع للـ Login */}
-          <Route path="*" element={<Navigate to="/login" replace />} />
+          {/* Unknown routes return to the public home page */}
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Router>
     </LanguageProvider>

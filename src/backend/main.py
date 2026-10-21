@@ -20,6 +20,7 @@ import io
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
 from datetime import timedelta
+from threading import Lock
 
 # =====================================================
 # PROJECT IMPORTS
@@ -36,6 +37,10 @@ from .auth import (
     ACCESS_TOKEN_EXPIRE_MINUTES
 )
 from .rag.generator import generate_rag_answer
+
+# Accept legacy role values already stored in existing SQLite databases.
+ENGINEER_ROLES = ("engineer", "agricultural_engineer")
+FIELD_WORKER_ROLES = ("farmer", "gardener")
 
 # =====================================================
 # DATABASE INITIALIZATION & AUTO-MIGRATION
@@ -205,6 +210,7 @@ class CreateEngineerRequest(BaseModel):
     status: str = "Active"
     land_ids: list[int] = []
 
+
 class CreateFarmerRequest(BaseModel):
     name: str
     email: str
@@ -217,132 +223,90 @@ class CreateFarmerRequest(BaseModel):
 # =====================================================
 # INITIAL SEED DATA (Engineers, Lands, Farmers)
 # =====================================================
+# Prevent two simultaneous requests from inserting the same default records.
+_seed_lock = Lock()
+
+
 def seed_initial_data_if_empty(db: Session):
-    # 1. إضافة المهندسين الافتراضيين لو مفيش مهندسين
-    if db.query(User).filter(User.role == "engineer").count() == 0:
-        eng1 = User(
-            name="Omar El-Sayed",
-            email="omar@khadrwy.com",
-            hashed_password=hash_password("123456"),
-            phone="01012345678",
-            role="engineer",
-            specialization="Greenhouse & Irrigation",
-            status="Active"
-        )
-        eng2 = User(
-            name="Nour Hassan",
-            email="nour@khadrwy.com",
-            hashed_password=hash_password("123456"),
-            phone="01123456789",
-            role="engineer",
-            specialization="Plant Pathology & Soil",
-            status="Active"
-        )
-        eng3 = User(
-            name="Salma Amin",
-            email="salma@khadrwy.com",
-            hashed_password=hash_password("123456"),
-            phone="01234567890",
-            role="engineer",
-            specialization="Orchard & Citrus Systems",
-            status="Active"
-        )
-        db.add_all([eng1, eng2, eng3])
-        db.commit()
-        db.refresh(eng1)
-        db.refresh(eng2)
-        db.refresh(eng3)
-
-        # 2. إضافة الأراضي الافتراضية مربوطة بالمهندسين
-        if db.query(Land).count() == 0:
-            initial_lands = [
-                Land(
-                    name="Orchard Block C",
-                    location="Giza, Egypt",
-                    engineer=eng3.name,
-                    engineer_id=eng3.id,
-                    device="Not connected",
-                    status="Setup required",
-                    crop_type="Citrus",
-                    growth_stage="Fruiting",
-                    soil_type="Sandy",
-                    turn_on_below=30,
-                    turn_off_above=65,
-                    operation_mode="Manual",
-                ),
-                Land(
-                    name="Olive Field East",
-                    location="Giza, Egypt",
-                    engineer=eng2.name,
-                    engineer_id=eng2.id,
-                    device="Online",
-                    status="Attention",
-                    crop_type="Olives",
-                    growth_stage="Flowering",
-                    soil_type="Clay Loam",
-                    turn_on_below=28,
-                    turn_off_above=60,
-                    operation_mode="Timer",
-                ),
-                Land(
-                    name="North Greenhouse",
-                    location="Giza, Egypt",
-                    engineer=eng1.name,
-                    engineer_id=eng1.id,
-                    device="Online",
-                    status="Healthy",
-                    crop_type="Tomato",
-                    growth_stage="Vegetative",
-                    soil_type="Loamy",
-                    turn_on_below=35,
-                    turn_off_above=70,
-                    operation_mode="Auto",
-                ),
+    """Create the legacy demo records once, without duplicate-email inserts."""
+    with _seed_lock:
+        # Only seed the legacy engineers when the database has no engineer role.
+        if db.query(User).filter(User.role.in_(ENGINEER_ROLES)).count() == 0:
+            engineer_specs = [
+                ("Omar El-Sayed", "omar@khadrwy.com", "01012345678", "Greenhouse & Irrigation"),
+                ("Nour Hassan", "nour@khadrwy.com", "01123456789", "Plant Pathology & Soil"),
+                ("Salma Amin", "salma@khadrwy.com", "01234567890", "Orchard & Citrus Systems"),
             ]
-            db.add_all(initial_lands)
+            engineers_by_email = {}
+            for name, email, phone, specialization in engineer_specs:
+                # Check by unique email too: a legacy row may have a newer role value.
+                user = db.query(User).filter(User.email == email).first()
+                if user is None:
+                    user = User(
+                        name=name,
+                        email=email,
+                        hashed_password=hash_password("123456"),
+                        phone=phone,
+                        role="engineer",
+                        specialization=specialization,
+                        status="Active",
+                    )
+                    db.add(user)
+                    db.flush()
+                engineers_by_email[email] = user
             db.commit()
+            for user in engineers_by_email.values():
+                db.refresh(user)
 
-    # 3. إضافة المزارعين الافتراضيين لو مفيش مزارعين
-    if db.query(User).filter(User.role.in_(["gardener", "farmer"])).count() == 0:
-        lands = db.query(Land).all()
-        land1_id = lands[0].id if len(lands) > 0 else None
-        land2_id = lands[1].id if len(lands) > 1 else land1_id
-        land3_id = lands[2].id if len(lands) > 2 else land1_id
+            # Preserve any land that already exists. Seed the legacy trio only
+            # when the entire lands table is empty.
+            if db.query(Land).count() == 0:
+                default_lands = [
+                    ("Orchard Block C", "Citrus", "Fruiting", "Sandy", 30, 65, "Manual", "salma@khadrwy.com", "Not connected", "Setup required"),
+                    ("Olive Field East", "Olives", "Flowering", "Clay Loam", 28, 60, "Timer", "nour@khadrwy.com", "Online", "Attention"),
+                    ("North Greenhouse", "Tomato", "Vegetative", "Loamy", 35, 70, "Auto", "omar@khadrwy.com", "Online", "Healthy"),
+                ]
+                for name, crop, stage, soil, turn_on, turn_off, mode, email, device, status in default_lands:
+                    eng = engineers_by_email.get(email)
+                    db.add(Land(
+                        name=name,
+                        location="Giza, Egypt",
+                        engineer=eng.name if eng else "Unassigned",
+                        engineer_id=eng.id if eng else None,
+                        device=device,
+                        status=status,
+                        crop_type=crop,
+                        growth_stage=stage,
+                        soil_type=soil,
+                        turn_on_below=turn_on,
+                        turn_off_above=turn_off,
+                        operation_mode=mode,
+                    ))
+                db.commit()
 
-        initial_farmers = [
-            User(
-                name="Mahmoud Ibrahim",
-                email="mahmoud.farmer@khadrwy.com",
-                hashed_password=hash_password("123456"),
-                phone="01098765432",
-                role="gardener",
-                specialization="Irrigation & Pump Operator",
-                status="Active",
-                assigned_land_id=land3_id,
-            ),
-            User(
-                name="Hassan Ali",
-                email="hassan.farmer@khadrwy.com",
-                hashed_password=hash_password("123456"),
-                phone="01187654321",
-                role="gardener",
-                specialization="Harvesting & Pruning",
-                status="Active",
-                assigned_land_id=land2_id,
-            ),
-            User(
-                name="Saeed Abdel-Rahman",
-                email="saeed.farmer@khadrwy.com",
-                hashed_password=hash_password("123456"),
-                phone="01276543210",
-                role="gardener",
-                specialization="Soil & Fertilizer Application",
-                status="Active",
-                assigned_land_id=land1_id,
-            ),
-        ]
-        db.add_all(initial_farmers)
-        db.commit()
+        # Only seed these legacy field workers when there are none. Email checks
+        # prevent UNIQUE violations if a row exists with an older role value.
+        if db.query(User).filter(User.role.in_(FIELD_WORKER_ROLES)).count() == 0:
+            field_worker_specs = [
+                ("Mahmoud Ibrahim", "mahmoud.farmer@khadrwy.com", "01098765432", "Irrigation & Pump Operator", "North Greenhouse"),
+                ("Hassan Ali", "hassan.farmer@khadrwy.com", "01187654321", "Harvesting & Pruning", "Olive Field East"),
+                ("Saeed Abdel-Rahman", "saeed.farmer@khadrwy.com", "01276543210", "Soil & Fertilizer Application", "Orchard Block C"),
+            ]
+            for name, email, phone, specialization, land_name in field_worker_specs:
+                if db.query(User).filter(User.email == email).first():
+                    continue
+                land = db.query(Land).filter(Land.name == land_name).first()
+                db.add(User(
+                    name=name,
+                    email=email,
+                    hashed_password=hash_password("123456"),
+                    phone=phone,
+                    role="gardener",
+                    specialization=specialization,
+                    status="Active",
+                    assigned_land_id=land.id if land else None,
+                ))
+            db.commit()
 
 # =====================================================
 # HOME & AUTH ENDPOINTS
@@ -423,8 +387,8 @@ def reset_password(data: ResetPasswordRequest, db: Session = Depends(get_db)):
 def get_dashboard_stats(db: Session = Depends(get_db)):
     seed_initial_data_if_empty(db)
     lands_count = db.query(Land).count()
-    engineers_count = db.query(User).filter(User.role == "engineer").count()
-    farmers_count = db.query(User).filter(User.role.in_(["gardener", "farmer"])).count()
+    engineers_count = db.query(User).filter(User.role.in_(ENGINEER_ROLES)).count()
+    farmers_count = db.query(User).filter(User.role.in_(FIELD_WORKER_ROLES)).count()
 
     return {
         "total_lands": lands_count,
@@ -500,7 +464,7 @@ def get_lands(
 @app.post("/lands")
 def create_land(land_data: CreateLandRequest, db: Session = Depends(get_db)):
     # لو المهندس المختار موجود في الداتابيز، نربط الـ engineer_id بتاعه كمان
-    eng_user = db.query(User).filter(User.name == land_data.engineer, User.role == "engineer").first()
+    eng_user = db.query(User).filter(User.name == land_data.engineer, User.role.in_(ENGINEER_ROLES)).first()
     new_land = Land(
         **land_data.model_dump(),
         engineer_id=eng_user.id if eng_user else None
@@ -525,7 +489,7 @@ def delete_land(land_id: int, db: Session = Depends(get_db)):
 @app.get("/engineers")
 def get_engineers(db: Session = Depends(get_db)):
     seed_initial_data_if_empty(db)
-    engineers = db.query(User).filter(User.role == "engineer").order_by(User.id.desc()).all()
+    engineers = db.query(User).filter(User.role.in_(ENGINEER_ROLES)).order_by(User.id.desc()).all()
     all_lands = db.query(Land).all()
 
     result = []
@@ -563,7 +527,7 @@ def create_engineer(data: CreateEngineerRequest, db: Session = Depends(get_db)):
         email=data.email.strip(),
         hashed_password=hash_password(data.password),
         phone=data.phone.strip(),
-        role="engineer",
+        role="agricultural_engineer",
         specialization=data.specialization,
         status=data.status
     )
@@ -587,7 +551,7 @@ def create_engineer(data: CreateEngineerRequest, db: Session = Depends(get_db)):
 
 @app.delete("/engineers/{engineer_id}")
 def delete_engineer(engineer_id: int, db: Session = Depends(get_db)):
-    eng = db.query(User).filter(User.id == engineer_id, User.role == "engineer").first()
+    eng = db.query(User).filter(User.id == engineer_id, User.role.in_(ENGINEER_ROLES)).first()
     if not eng:
         raise HTTPException(status_code=404, detail="Engineer not found")
 
@@ -610,7 +574,7 @@ def get_farmers(db: Session = Depends(get_db)):
     seed_initial_data_if_empty(db)
     farmers = (
         db.query(User)
-        .filter(User.role.in_(["gardener", "farmer"]))
+        .filter(User.role.in_(FIELD_WORKER_ROLES))
         .order_by(User.id.desc())
         .all()
     )
@@ -645,7 +609,7 @@ def create_farmer(data: CreateFarmerRequest, db: Session = Depends(get_db)):
         email=data.email.strip(),
         hashed_password=hash_password(data.password),
         phone=data.phone.strip(),
-        role="gardener",
+        role="farmer",
         specialization=data.specialization,
         status=data.status,
         assigned_land_id=data.assigned_land_id,
@@ -665,7 +629,7 @@ def create_farmer(data: CreateFarmerRequest, db: Session = Depends(get_db)):
 def delete_farmer(farmer_id: int, db: Session = Depends(get_db)):
     farmer = (
         db.query(User)
-        .filter(User.id == farmer_id, User.role.in_(["gardener", "farmer"]))
+        .filter(User.id == farmer_id, User.role.in_(FIELD_WORKER_ROLES))
         .first()
     )
     if not farmer:
@@ -674,6 +638,7 @@ def delete_farmer(farmer_id: int, db: Session = Depends(get_db)):
     db.delete(farmer)
     db.commit()
     return {"message": "Farmer removed successfully"}
+
 
 # =====================================================
 # PLANT PREDICTION
@@ -706,7 +671,7 @@ async def predict(
 
     if confidence < 0.60:
         recommendation = {
-            "status": "uncertain",
+            "path": "uncertain",
             "message": "The model is not confident enough. Please upload a clearer image.",
             "actions": [
                 "Take a clear picture of the affected leaf.",
