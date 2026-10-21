@@ -140,17 +140,19 @@ export default function Login() {
       setIsLoading(false);
 
       // التوجيه للوحة التحكم حسب الرول القادم من الداتا بيز
-      if (data.role === "engineer") {
+      if (data.role === "engineer" || data.role === "agricultural engineer") {
         navigate("/engineer-dashboard");
       } else if (data.role === "gardener") {
         navigate("/gardener-dashboard");
+      } else if (data.role === "farmer") {
+        navigate("/farmer-dashboard");
       } else {
         navigate("/landowner-dashboard");
       }
     } catch (err) {
       setIsLoading(false);
       console.error("خطأ في الاتصال أو السيرفر:", err.message); // طبع الخطأ بالكامل في الكونسول
-      alert(      
+      alert(
         err.message ||
           "حدث خطأ في الاتصال بالسيرفر. تأكد أن الـ Backend شغّال!",
       );
@@ -158,7 +160,7 @@ export default function Login() {
   };
 
   return (
-<div className="min-h-screen bg-gradient-to-br from-[#F4F9F5] via-[#E8F3EB] to-[#DCECE0] flex flex-col justify-center items-center px-4 py-12 relative overflow-hidden">   
+    <div className="min-h-screen bg-gradient-to-br from-[#F4F9F5] via-[#E8F3EB] to-[#DCECE0] flex flex-col justify-center items-center px-4 py-12 relative overflow-hidden">
       {/* زر تبديل اللغة الأنيق في زاوية الشاشة */}
       <button
         type="button"
@@ -265,15 +267,15 @@ export default function Login() {
                 </span>
               </div> */}
 
-              {/* شروط التقدم */}
-              {/* <div className="w-full bg-gray-200 h-1.5 rounded-full overflow-hidden">
+          {/* شروط التقدم */}
+          {/* <div className="w-full bg-gray-200 h-1.5 rounded-full overflow-hidden">
                 <div
                   className={`h-full transition-all duration-300 ${strengthMeta.color} ${strengthMeta.width}`}
                 ></div>
               </div> */}
 
-              {/* القواعد المطلوبة */}
-              {/* <ul className="grid grid-cols-2 gap-2 text-xs pt-1">
+          {/* القواعد المطلوبة */}
+          {/* <ul className="grid grid-cols-2 gap-2 text-xs pt-1">
                 <li
                   className={
                     hasMinLength ? "text-forest font-bold" : "text-gray-400"
@@ -292,7 +294,7 @@ export default function Login() {
                   className={
                     hasCapital ? "text-forest font-bold" : "text-gray-400"
                   } */}
-                {/* >
+          {/* >
                   {hasCapital ? "✓" : "○"}{" "}
                   {t.reqCapital || "حرف كبير (Capital)"}
                 </li>
