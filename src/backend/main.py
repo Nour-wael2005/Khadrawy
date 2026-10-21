@@ -1,7 +1,12 @@
+# المسار: src/backend/main.py
 # =====================================================
 # KHADRWY - AI AGRICULTURAL SYSTEM
 # =====================================================
+from ..data.mock_users import MOCK_USERS
+from ..data.mock_lands import MOCK_LANDS
+from ..data.mock_plants import MOCK_MY_PLANTS
 
+from sqlalchemy import inspect, text
 from fastapi import (
     FastAPI,
     File,
@@ -22,7 +27,7 @@ from datetime import timedelta
 from .model import predict_plant
 from .recommendations import get_recommendation
 from .database import Base, engine, get_db
-from .user_model import User
+from .user_model import User, Land
 from .auth import (
     hash_password,
     verify_password,
@@ -30,23 +35,109 @@ from .auth import (
     get_current_user,
     ACCESS_TOKEN_EXPIRE_MINUTES
 )
+from .rag.generator import generate_rag_answer
 
 # =====================================================
-# DATABASE
+# DATABASE INITIALIZATION & AUTO-MIGRATION
 # =====================================================
-Base.metadata.create_all(bind=engine)
+def ensure_all_tables_updated():
+    """يتأكد تلقائياً أن جداول users و lands تحتوي على كل الأعمدة المطلوبة بدون أخطاء"""
+    Base.metadata.create_all(bind=engine)
+    inspector = inspect(engine)
+    tables = inspector.get_table_names()
+
+    with engine.begin() as conn:
+        if "users" in tables:
+            user_cols = [col["name"] for col in inspector.get_columns("users")]
+            if "specialization" not in user_cols:
+                conn.execute(text("ALTER TABLE users ADD COLUMN specialization VARCHAR DEFAULT 'Field Operations'"))
+            if "status" not in user_cols:
+                conn.execute(text("ALTER TABLE users ADD COLUMN status VARCHAR DEFAULT 'Active'"))
+            if "assigned_land_id" not in user_cols:
+                conn.execute(text("ALTER TABLE users ADD COLUMN assigned_land_id INTEGER"))
+
+        if "lands" in tables:
+            land_cols = [col["name"] for col in inspector.get_columns("lands")]
+            if "engineer_id" not in land_cols:
+                conn.execute(text("ALTER TABLE lands ADD COLUMN engineer_id INTEGER"))
+            if "crop_type" not in land_cols:
+                conn.execute(text("ALTER TABLE lands ADD COLUMN crop_type VARCHAR DEFAULT 'Tomato'"))
+            if "growth_stage" not in land_cols:
+                conn.execute(text("ALTER TABLE lands ADD COLUMN growth_stage VARCHAR DEFAULT 'Vegetative'"))
+            if "soil_type" not in land_cols:
+                conn.execute(text("ALTER TABLE lands ADD COLUMN soil_type VARCHAR DEFAULT 'Loamy'"))
+            if "turn_on_below" not in land_cols:
+                conn.execute(text("ALTER TABLE lands ADD COLUMN turn_on_below INTEGER DEFAULT 35"))
+            if "turn_off_above" not in land_cols:
+                conn.execute(text("ALTER TABLE lands ADD COLUMN turn_off_above INTEGER DEFAULT 70"))
+            if "high_temp_override" not in land_cols:
+                conn.execute(text("ALTER TABLE lands ADD COLUMN high_temp_override BOOLEAN DEFAULT 0"))
+            if "override_temp" not in land_cols:
+                conn.execute(text("ALTER TABLE lands ADD COLUMN override_temp INTEGER DEFAULT 32"))
+            if "operation_mode" not in land_cols:
+                conn.execute(text("ALTER TABLE lands ADD COLUMN operation_mode VARCHAR DEFAULT 'Auto'"))
+            if "max_run_time" not in land_cols:
+                conn.execute(text("ALTER TABLE lands ADD COLUMN max_run_time INTEGER DEFAULT 15"))
+            if "cooldown_period" not in land_cols:
+                conn.execute(text("ALTER TABLE lands ADD COLUMN cooldown_period INTEGER DEFAULT 2"))
+            if "do_not_water_start" not in land_cols:
+                conn.execute(text("ALTER TABLE lands ADD COLUMN do_not_water_start VARCHAR DEFAULT '12:00'"))
+            if "do_not_water_end" not in land_cols:
+                conn.execute(text("ALTER TABLE lands ADD COLUMN do_not_water_end VARCHAR DEFAULT '15:00'"))
+
+ensure_all_tables_updated()
 
 # =====================================================
-# APP
+# APP & CORS
 # =====================================================
 app = FastAPI(
     title="Khadrwy AI",
     description="AI Plant Disease Detection, Recommendation & Agricultural Assistant API"
 )
 
-# =====================================================
-# CORS
-# =====================================================
+# Get mock users, with optional role filter
+@app.get("/api/mock/users")
+def get_mock_users(role: str | None = None):
+    users = MOCK_USERS
+
+    if role:
+        users = [user for user in users if user["role"] == role]
+
+    # Never return password fields to the frontend
+    return [
+        {key: value for key, value in user.items()
+         if key != "hashed_password"}
+        for user in users
+    ]
+
+
+# Get mock lands, with optional engineer filter
+@app.get("/api/mock/lands")
+def get_mock_lands(engineer_id: int | None = None):
+    lands = MOCK_LANDS
+
+    if engineer_id is not None:
+        lands = [
+            land for land in lands
+            if land["engineer_id"] == engineer_id
+        ]
+
+    return lands
+
+
+# Get mock plants for a specific gardener
+@app.get("/api/mock/plants")
+def get_mock_plants(gardener_id: int | None = None):
+    plants = MOCK_MY_PLANTS
+
+    if gardener_id is not None:
+        plants = [
+            plant for plant in plants
+            if plant["gardener_id"] == gardener_id
+        ]
+
+    return plants
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -62,22 +153,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# =====================================================
+# SCHEMAS
+# =====================================================
 class ResetPasswordRequest(BaseModel):
-    identifier: str  # البريد الإلكتروني أو رقم الهاتف
+    identifier: str
     new_password: str
-    
-# =====================================================
-# HOME
-# =====================================================
-@app.get("/")
-def home():
-    return {
-        "message": "Khadrwy AI API is running!"
-    }
 
-# =====================================================
-# AUTH SCHEMAS
-# =====================================================
 class RegisterRequest(BaseModel):
     name: str
     email: str
@@ -89,29 +171,193 @@ class LoginRequest(BaseModel):
     identifier: str
     password: str
 
-# =====================================================
-# RAG CHAT SCHEMA
-# =====================================================
 class ChatRequest(BaseModel):
     message: str
     plant: str | None = None
     condition: str | None = None
     confidence: float | None = None
 
+class CreateLandRequest(BaseModel):
+    name: str
+    location: str = "Giza, Egypt"
+    engineer: str = "Omar El-Sayed"
+    device: str = "Online"
+    status: str = "Healthy"
+    crop_type: str = "Tomato"
+    growth_stage: str = "Vegetative"
+    soil_type: str = "Loamy"
+    turn_on_below: int = 35
+    turn_off_above: int = 70
+    high_temp_override: bool = False
+    override_temp: int = 32
+    operation_mode: str = "Auto"
+    max_run_time: int = 15
+    cooldown_period: int = 2
+    do_not_water_start: str = "12:00"
+    do_not_water_end: str = "15:00"
+
+class CreateEngineerRequest(BaseModel):
+    name: str
+    email: str
+    password: str
+    phone: str
+    specialization: str = "Crop & Soil Management"
+    status: str = "Active"
+    land_ids: list[int] = []
+
+class CreateFarmerRequest(BaseModel):
+    name: str
+    email: str
+    password: str
+    phone: str
+    specialization: str = "Irrigation & Pump Operator"
+    status: str = "Active"
+    assigned_land_id: int | None = None
+
 # =====================================================
-# REGISTER
+# INITIAL SEED DATA (Engineers, Lands, Farmers)
 # =====================================================
+def seed_initial_data_if_empty(db: Session):
+    # 1. إضافة المهندسين الافتراضيين لو مفيش مهندسين
+    if db.query(User).filter(User.role == "engineer").count() == 0:
+        eng1 = User(
+            name="Omar El-Sayed",
+            email="omar@khadrwy.com",
+            hashed_password=hash_password("123456"),
+            phone="01012345678",
+            role="engineer",
+            specialization="Greenhouse & Irrigation",
+            status="Active"
+        )
+        eng2 = User(
+            name="Nour Hassan",
+            email="nour@khadrwy.com",
+            hashed_password=hash_password("123456"),
+            phone="01123456789",
+            role="engineer",
+            specialization="Plant Pathology & Soil",
+            status="Active"
+        )
+        eng3 = User(
+            name="Salma Amin",
+            email="salma@khadrwy.com",
+            hashed_password=hash_password("123456"),
+            phone="01234567890",
+            role="engineer",
+            specialization="Orchard & Citrus Systems",
+            status="Active"
+        )
+        db.add_all([eng1, eng2, eng3])
+        db.commit()
+        db.refresh(eng1)
+        db.refresh(eng2)
+        db.refresh(eng3)
+
+        # 2. إضافة الأراضي الافتراضية مربوطة بالمهندسين
+        if db.query(Land).count() == 0:
+            initial_lands = [
+                Land(
+                    name="Orchard Block C",
+                    location="Giza, Egypt",
+                    engineer=eng3.name,
+                    engineer_id=eng3.id,
+                    device="Not connected",
+                    status="Setup required",
+                    crop_type="Citrus",
+                    growth_stage="Fruiting",
+                    soil_type="Sandy",
+                    turn_on_below=30,
+                    turn_off_above=65,
+                    operation_mode="Manual",
+                ),
+                Land(
+                    name="Olive Field East",
+                    location="Giza, Egypt",
+                    engineer=eng2.name,
+                    engineer_id=eng2.id,
+                    device="Online",
+                    status="Attention",
+                    crop_type="Olives",
+                    growth_stage="Flowering",
+                    soil_type="Clay Loam",
+                    turn_on_below=28,
+                    turn_off_above=60,
+                    operation_mode="Timer",
+                ),
+                Land(
+                    name="North Greenhouse",
+                    location="Giza, Egypt",
+                    engineer=eng1.name,
+                    engineer_id=eng1.id,
+                    device="Online",
+                    status="Healthy",
+                    crop_type="Tomato",
+                    growth_stage="Vegetative",
+                    soil_type="Loamy",
+                    turn_on_below=35,
+                    turn_off_above=70,
+                    operation_mode="Auto",
+                ),
+            ]
+            db.add_all(initial_lands)
+            db.commit()
+
+    # 3. إضافة المزارعين الافتراضيين لو مفيش مزارعين
+    if db.query(User).filter(User.role.in_(["gardener", "farmer"])).count() == 0:
+        lands = db.query(Land).all()
+        land1_id = lands[0].id if len(lands) > 0 else None
+        land2_id = lands[1].id if len(lands) > 1 else land1_id
+        land3_id = lands[2].id if len(lands) > 2 else land1_id
+
+        initial_farmers = [
+            User(
+                name="Mahmoud Ibrahim",
+                email="mahmoud.farmer@khadrwy.com",
+                hashed_password=hash_password("123456"),
+                phone="01098765432",
+                role="gardener",
+                specialization="Irrigation & Pump Operator",
+                status="Active",
+                assigned_land_id=land3_id,
+            ),
+            User(
+                name="Hassan Ali",
+                email="hassan.farmer@khadrwy.com",
+                hashed_password=hash_password("123456"),
+                phone="01187654321",
+                role="gardener",
+                specialization="Harvesting & Pruning",
+                status="Active",
+                assigned_land_id=land2_id,
+            ),
+            User(
+                name="Saeed Abdel-Rahman",
+                email="saeed.farmer@khadrwy.com",
+                hashed_password=hash_password("123456"),
+                phone="01276543210",
+                role="gardener",
+                specialization="Soil & Fertilizer Application",
+                status="Active",
+                assigned_land_id=land1_id,
+            ),
+        ]
+        db.add_all(initial_farmers)
+        db.commit()
+
+# =====================================================
+# HOME & AUTH ENDPOINTS
+# =====================================================
+@app.get("/")
+def home():
+    return {"message": "Khadrwy AI API is running!"}
+
 @app.post("/register")
 def register(user_data: RegisterRequest, db: Session = Depends(get_db)):
-    # 1. التأكد أن الإيميل مش مسجل قبل كده
     existing_email = db.query(User).filter(User.email == user_data.email).first()
     if existing_email:
         raise HTTPException(status_code=400, detail="البريد الإلكتروني مستخدم بالفعل")
 
-    # 2. تشفير كلمة المرور
     hashed_password = hash_password(user_data.password)
-
-    # 3. إنشاء المستخدم الجديد وحفظه
     new_user = User(
         name=user_data.name,
         email=user_data.email,
@@ -131,20 +377,13 @@ def register(user_data: RegisterRequest, db: Session = Depends(get_db)):
         "role": new_user.role
     }
 
-# =====================================================
-# LOGIN
-# =====================================================
 @app.post("/login")
 def login(user_data: LoginRequest, db: Session = Depends(get_db)):
-    # البحث عن المستخدم إما بالـ email أو الـ phone
     user = db.query(User).filter(
         (User.email == user_data.identifier) | (User.phone == user_data.identifier)
     ).first()
 
-    if not user:
-        raise HTTPException(status_code=401, detail="البيانات المدخلة أو كلمة المرور غير صحيحة")
-
-    if not verify_password(user_data.password, user.hashed_password):
+    if not user or not verify_password(user_data.password, user.hashed_password):
         raise HTTPException(status_code=401, detail="البيانات المدخلة أو كلمة المرور غير صحيحة")
 
     access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
@@ -161,6 +400,280 @@ def login(user_data: LoginRequest, db: Session = Depends(get_db)):
         "email": user.email,
         "role": user.role
     }
+
+@app.post("/reset-password")
+def reset_password(data: ResetPasswordRequest, db: Session = Depends(get_db)):
+    user = db.query(User).filter(
+        (User.email == data.identifier) | (User.phone == data.identifier)
+    ).first()
+
+    if not user:
+        raise HTTPException(status_code=404, detail="المستخدم غير موجود")
+
+    user.hashed_password = hash_password(data.new_password)
+    db.commit()
+    db.refresh(user)
+
+    return {"message": "تم تحديث كلمة المرور بنجاح"}
+
+# =====================================================
+# DASHBOARD STATS, NOTIFICATIONS & REPORTS
+# =====================================================
+@app.get("/dashboard/stats")
+def get_dashboard_stats(db: Session = Depends(get_db)):
+    seed_initial_data_if_empty(db)
+    lands_count = db.query(Land).count()
+    engineers_count = db.query(User).filter(User.role == "engineer").count()
+    farmers_count = db.query(User).filter(User.role.in_(["gardener", "farmer"])).count()
+
+    return {
+        "total_lands": lands_count,
+        "lands_sub": "+2 this season",
+        "total_engineers": engineers_count,
+        "engineers_sub": "All accounts active",
+        "total_farmers": farmers_count,
+        "farmers_sub": f"Across {lands_count} lands"
+    }
+
+@app.get("/notifications")
+def get_notifications(limit: int | None = None, db: Session = Depends(get_db)):
+    seed_initial_data_if_empty(db)
+    alerts = [
+        {
+            "id": 1,
+            "type": "moisture",
+            "title": "Low soil moisture",
+            "location": "Olive Field East",
+            "time": "18 min ago"
+        },
+        {
+            "id": 2,
+            "type": "sensor",
+            "title": "Sensor needs attention",
+            "location": "North field",
+            "time": "1 hour ago"
+        },
+        {
+            "id": 3,
+            "type": "diagnosis",
+            "title": "Diagnosis follow-up",
+            "location": "Tomato crop",
+            "time": "Yesterday"
+        },
+    ]
+    if limit:
+        return alerts[:limit]
+    return alerts
+
+@app.get("/reports/latest")
+def get_latest_report():
+    return {
+        "periodAndLand": "May 2025 · North Greenhouse",
+        "completeness": 84,
+        "summary": "12 diagnoses · 18 irrigation events · 4 notes"
+    }
+
+# =====================================================
+# LANDS ENDPOINTS
+# =====================================================
+@app.get("/lands")
+def get_lands(
+    limit: int | None = None,
+    engineer_id: int | None = None,
+    engineer_email: str | None = None,
+    db: Session = Depends(get_db)
+):
+    seed_initial_data_if_empty(db)
+    query = db.query(Land).order_by(Land.id.desc())
+
+    if engineer_id:
+        query = query.filter(Land.engineer_id == engineer_id)
+    elif engineer_email:
+        eng = db.query(User).filter(User.email == engineer_email).first()
+        if eng:
+            query = query.filter((Land.engineer_id == eng.id) | (Land.engineer == eng.name))
+
+    if limit:
+        return query.limit(limit).all()
+    return query.all()
+
+@app.post("/lands")
+def create_land(land_data: CreateLandRequest, db: Session = Depends(get_db)):
+    # لو المهندس المختار موجود في الداتابيز، نربط الـ engineer_id بتاعه كمان
+    eng_user = db.query(User).filter(User.name == land_data.engineer, User.role == "engineer").first()
+    new_land = Land(
+        **land_data.model_dump(),
+        engineer_id=eng_user.id if eng_user else None
+    )
+    db.add(new_land)
+    db.commit()
+    db.refresh(new_land)
+    return new_land
+
+@app.delete("/lands/{land_id}")
+def delete_land(land_id: int, db: Session = Depends(get_db)):
+    land = db.query(Land).filter(Land.id == land_id).first()
+    if not land:
+        raise HTTPException(status_code=404, detail="Land not found")
+    db.delete(land)
+    db.commit()
+    return {"message": "Land deleted successfully"}
+
+# =====================================================
+# ENGINEERS ENDPOINTS
+# =====================================================
+@app.get("/engineers")
+def get_engineers(db: Session = Depends(get_db)):
+    seed_initial_data_if_empty(db)
+    engineers = db.query(User).filter(User.role == "engineer").order_by(User.id.desc()).all()
+    all_lands = db.query(Land).all()
+
+    result = []
+    for eng in engineers:
+        assigned_lands = [
+            {
+                "id": l.id,
+                "name": l.name,
+                "crop_type": l.crop_type,
+                "status": l.status,
+                "device": l.device
+            }
+            for l in all_lands
+            if l.engineer_id == eng.id or (l.engineer and l.engineer.lower() == eng.name.lower())
+        ]
+        result.append({
+            "id": eng.id,
+            "name": eng.name,
+            "email": eng.email,
+            "phone": eng.phone or "N/A",
+            "specialization": eng.specialization or "Crop & Soil Management",
+            "status": eng.status or "Active",
+            "assigned_lands": assigned_lands
+        })
+    return result
+
+@app.post("/engineers")
+def create_engineer(data: CreateEngineerRequest, db: Session = Depends(get_db)):
+    existing = db.query(User).filter(User.email == data.email).first()
+    if existing:
+        raise HTTPException(status_code=400, detail="Email is already registered.")
+
+    new_eng = User(
+        name=data.name.strip(),
+        email=data.email.strip(),
+        hashed_password=hash_password(data.password),
+        phone=data.phone.strip(),
+        role="engineer",
+        specialization=data.specialization,
+        status=data.status
+    )
+    db.add(new_eng)
+    db.commit()
+    db.refresh(new_eng)
+
+    if data.land_ids:
+        selected_lands = db.query(Land).filter(Land.id.in_(data.land_ids)).all()
+        for land in selected_lands:
+            land.engineer_id = new_eng.id
+            land.engineer = new_eng.name
+        db.commit()
+
+    return {
+        "message": "Engineer registered and assigned to lands successfully",
+        "id": new_eng.id,
+        "name": new_eng.name,
+        "email": new_eng.email
+    }
+
+@app.delete("/engineers/{engineer_id}")
+def delete_engineer(engineer_id: int, db: Session = Depends(get_db)):
+    eng = db.query(User).filter(User.id == engineer_id, User.role == "engineer").first()
+    if not eng:
+        raise HTTPException(status_code=404, detail="Engineer not found")
+
+    assigned_lands = db.query(Land).filter(
+        (Land.engineer_id == eng.id) | (Land.engineer == eng.name)
+    ).all()
+    for land in assigned_lands:
+        land.engineer_id = None
+        land.engineer = "Unassigned"
+
+    db.delete(eng)
+    db.commit()
+    return {"message": "Engineer removed successfully"}
+
+# =====================================================
+# FARMERS ENDPOINTS
+# =====================================================
+@app.get("/farmers")
+def get_farmers(db: Session = Depends(get_db)):
+    seed_initial_data_if_empty(db)
+    farmers = (
+        db.query(User)
+        .filter(User.role.in_(["gardener", "farmer"]))
+        .order_by(User.id.desc())
+        .all()
+    )
+    lands_map = {l.id: l for l in db.query(Land).all()}
+
+    result = []
+    for f in farmers:
+        land_obj = lands_map.get(f.assigned_land_id)
+        result.append({
+            "id": f.id,
+            "name": f.name,
+            "email": f.email,
+            "phone": f.phone or "N/A",
+            "task_role": f.specialization or "Field Operations",
+            "status": f.status or "Active",
+            "assigned_land_id": f.assigned_land_id,
+            "land_name": land_obj.name if land_obj else "Unassigned",
+            "land_location": land_obj.location if land_obj else "—",
+            "land_crop": land_obj.crop_type if land_obj else "—",
+            "supervisor_engineer": land_obj.engineer if land_obj else "—",
+        })
+    return result
+
+@app.post("/farmers")
+def create_farmer(data: CreateFarmerRequest, db: Session = Depends(get_db)):
+    existing = db.query(User).filter(User.email == data.email.strip()).first()
+    if existing:
+        raise HTTPException(status_code=400, detail="Email is already registered.")
+
+    new_farmer = User(
+        name=data.name.strip(),
+        email=data.email.strip(),
+        hashed_password=hash_password(data.password),
+        phone=data.phone.strip(),
+        role="gardener",
+        specialization=data.specialization,
+        status=data.status,
+        assigned_land_id=data.assigned_land_id,
+    )
+    db.add(new_farmer)
+    db.commit()
+    db.refresh(new_farmer)
+
+    return {
+        "message": "Farmer registered successfully",
+        "id": new_farmer.id,
+        "name": new_farmer.name,
+        "email": new_farmer.email,
+    }
+
+@app.delete("/farmers/{farmer_id}")
+def delete_farmer(farmer_id: int, db: Session = Depends(get_db)):
+    farmer = (
+        db.query(User)
+        .filter(User.id == farmer_id, User.role.in_(["gardener", "farmer"]))
+        .first()
+    )
+    if not farmer:
+        raise HTTPException(status_code=404, detail="Farmer not found")
+
+    db.delete(farmer)
+    db.commit()
+    return {"message": "Farmer removed successfully"}
 
 # =====================================================
 # PLANT PREDICTION
@@ -195,13 +708,21 @@ async def predict(
         recommendation = {
             "status": "uncertain",
             "message": "The model is not confident enough. Please upload a clearer image.",
-            "actions": ["Take a clear picture of the affected leaf.", "Make sure the leaf is well illuminated.", "Avoid blurry or distant images."]
+            "actions": [
+                "Take a clear picture of the affected leaf.",
+                "Make sure the leaf is well illuminated.",
+                "Avoid blurry or distant images."
+            ]
         }
     elif healthy:
         recommendation = {
             "status": "healthy",
             "message": "The plant appears to be healthy.",
-            "actions": ["Continue regular monitoring.", "Maintain appropriate irrigation.", "Monitor the plant for new symptoms."]
+            "actions": [
+                "Continue regular monitoring.",
+                "Maintain appropriate irrigation.",
+                "Monitor the plant for new symptoms."
+            ]
         }
     else:
         recommendation = get_recommendation(predicted_class)
@@ -217,7 +738,7 @@ async def predict(
     }
 
 # =====================================================
-# AI AGRICULTURAL ASSISTANT - RAG (Temporary Placeholder)
+# AI AGRICULTURAL ASSISTANT - RAG
 # =====================================================
 @app.post("/chat")
 def chat(
@@ -227,34 +748,19 @@ def chat(
     if not chat_data.message.strip():
         raise HTTPException(status_code=400, detail="Message cannot be empty")
 
-    # مؤقتاً لحد ما نفعل الـ RAG تماماً
-    return {
-        "user": current_user.name,
-        "answer": "عذراً، مساعد الذكاء الاصطناعي قيد التحديث حالياً.",
-        "sources": []
-    }
-    
-    
-    
-    # =====================================================
-# RESET PASSWORD
-# =====================================================
-@app.post("/reset-password")
-def reset_password(data: ResetPasswordRequest, db: Session = Depends(get_db)):
-    # البحث عن المستخدم بالبريد أو الهاتف
-    user = db.query(User).filter(
-        (User.email == data.identifier) | (User.phone == data.identifier)
-    ).first()
+    try:
+        response = generate_rag_answer(chat_data.message)
+        answer_text = response.get("answer") if isinstance(response, dict) else str(response)
+        sources_list = response.get("sources", []) if isinstance(response, dict) else []
 
-    if not user:
-        raise HTTPException(status_code=404, detail="المستخدم غير موجود")
-
-    # تشفير كلمة المرور الجديدة
-    user.hashed_password = hash_password(data.new_password)
-    
-    db.commit()
-    db.refresh(user)
-
-    return {
-        "message": "تم تحديث كلمة المرور بنجاح"
-    }
+        return {
+            "user": current_user.name,
+            "answer": answer_text,
+            "sources": sources_list
+        }
+    except Exception as e:
+        print(f"RAG Error: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"حدث خطأ أثناء توليد الإجابة من الذكاء الاصطناعي: {str(e)}"
+        )

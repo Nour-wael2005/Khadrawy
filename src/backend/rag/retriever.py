@@ -9,8 +9,8 @@ import faiss
 
 from sentence_transformers import SentenceTransformer
 
-from backend.rag.knowledge_base import get_documents
-from backend.rag.fao_loader import get_fao_documents
+from .knowledge_base import get_documents
+from .fao_loader import get_fao_documents
 
 
 # =====================================================
