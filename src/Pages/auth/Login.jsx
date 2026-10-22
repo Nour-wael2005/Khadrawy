@@ -1,3 +1,4 @@
+// المسار: src/Pages/auth/Login.jsx
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useLanguage } from "../../Context/LanguageContext";
@@ -8,98 +9,17 @@ export default function Login() {
   const { t, toggleLang, lang } = useLanguage();
   const navigate = useNavigate();
 
-  const [identifier, setIdentifier] = useState(""); // يقبل الإيميل أو التليفون
+  const [identifier, setIdentifier] = useState("");
   const [password, setPassword] = useState("");
-
   const [errors, setErrors] = useState({});
   const [isLoading, setIsLoading] = useState(false);
-
-  // شروط كلمة المرور
-  // const hasMinLength = password.length >= 8;
-  // const hasNumber = /\d/.test(password);
-  // const hasCapital = /[A-Z]/.test(password);
-  // const hasSpecial = /[!@#$%^&*(),.?":{}|<>]/.test(password);
-
-  // // حساب درجة قوة كلمة المرور (من 0 إلى 4)
-  // const calculateStrength = () => {
-  //   let score = 0;
-  //   if (hasMinLength) score++;
-  //   if (hasNumber) score++;
-  //   if (hasCapital) score++;
-  //   if (hasSpecial) score++;
-  //   return score;
-  // };
-
-  // const strengthScore = calculateStrength();
-
-  // // تحديد ألوان ومستوى القوة بحسب الهوية
-  // const getStrengthMeta = () => {
-  //   if (strengthScore <= 1)
-  //     return {
-  //       label: t.weak || "ضعيف",
-  //       color: "bg-rose-500",
-  //       textColor: "text-rose-600",
-  //       width: "w-1/4",
-  //     };
-  //   if (strengthScore === 2 || strengthScore === 3)
-  //     return {
-  //       label: t.medium || "متوسط",
-  //       color: "bg-amber-500",
-  //       textColor: "text-amber-600",
-  //       width: "w-3/4",
-  //     };
-  //   return {
-  //     label: t.strong || "قوي جداً",
-  //     color: "bg-forest",
-  //     textColor: "text-forest",
-  //     width: "w-full",
-  //   };
-  // };
-
-  // const strengthMeta = getStrengthMeta();
-
-  // التحقق الذكي من الإيميل أو رقم الهاتف
-  const validateForm = () => {
-    let newErrors = {};
-
-    if (!identifier.trim()) {
-      newErrors.identifier =
-        t.identifierError || "يرجى إدخال البريد الإلكتروني أو رقم الهاتف";
-    } else {
-      const isEmail = identifier.includes("@");
-      const phoneRegex = /^[0-9+\s-]{10,15}$/;
-
-      if (isEmail) {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(identifier)) {
-          newErrors.identifier = t.invalidEmail || "البريد الإلكتروني غير صحيح";
-        }
-      } else {
-        if (!phoneRegex.test(identifier.replace(/\s+/g, ""))) {
-          newErrors.identifier =
-            t.invalidPhone || "رقم الهاتف غير صحيح (أدخل أرقاماً فقط)";
-        }
-      }
-    }
-
-    if (!password) {
-      newErrors.password = t.passwordError || "كلمة المرور مطلوبة";
-    } else if (strengthScore < 4) {
-      newErrors.password =
-        t.passwordRuleError || "يرجى استيفاء جميع شروط كلمة المرور";
-    }
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
 
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    // شلنا الشرط المعقد لقوة الباسورد في اللوجين عشان ميعطلش المستخدم لو الباسورد قديم
     let newErrors = {};
     if (!identifier.trim()) {
-      newErrors.identifier = "يرجى إدخال البريد الإلكتروني";
+      newErrors.identifier = "يرجى إدخال البريد الإلكتروني أو رقم الهاتف";
     }
     if (!password) {
       newErrors.password = "كلمة المرور مطلوبة";
@@ -110,51 +30,99 @@ export default function Login() {
       return;
     }
 
+    setErrors({});
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://localhost:8000/login", {
+      const cleanId = identifier.trim();
+
+      // تجاوز مؤقت للتجربة الفورية لحساب اللاند اونر وباقي الحسابات
+      if (
+        cleanId === "landowner@khadrawy.com" ||
+        cleanId === "engineer@khadrawy.com" ||
+        cleanId === "farmer@khadrawy.com"
+      ) {
+        const mockRole = cleanId.includes("landowner")
+          ? "landowner"
+          : cleanId.includes("engineer")
+          ? "engineer"
+          : "farmer";
+
+        localStorage.setItem("access_token", "mock-token-123");
+        localStorage.setItem("token", "mock-token-123");
+        localStorage.setItem("khadrwy_token", "mock-token-123");
+        localStorage.setItem("user_role", mockRole);
+        localStorage.setItem("khadrwy_role", mockRole);
+        localStorage.setItem("user_name", "Ahmed");
+        localStorage.setItem("khadrwy_name", "Ahmed");
+        localStorage.setItem("khadrwy_email", cleanId);
+
+        setIsLoading(false);
+
+        if (mockRole === "landowner") {
+          navigate("/landowner-dashboard");
+        } else if (mockRole === "engineer") {
+          navigate("/engineer-dashboard");
+        } else {
+          navigate("/gardener-dashboard");
+        }
+        return;
+      }
+
+      const response = await fetch("http://127.0.0.1:8000/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          identifier: identifier, // بنبعت الإيميل المدخل للباك إند
+          identifier: cleanId, // تم تعديلها من email إلى identifier لتطابق LoginRequest في main.py
           password: password,
         }),
       });
 
-      const data = await response.json();
+      const data = await response.json().catch(() => ({}));
 
       if (!response.ok) {
-        throw new Error(
-          data.detail || "البريد الإلكتروني أو كلمة المرور غير صحيحة",
-        );
+        // استخراج رسالة الخطأ بشكل سليم لمنع ظهور [object Object]
+        let errorMsg = "البريد الإلكتروني أو كلمة المرور غير صحيحة";
+        if (typeof data.detail === "string") {
+          errorMsg = data.detail;
+        } else if (Array.isArray(data.detail) && data.detail.length > 0) {
+          errorMsg = data.detail[0]?.msg || "تأكد من صحة البيانات المدخلة";
+        }
+        throw new Error(errorMsg);
       }
 
-      // حفظ التوكن والبيانات في الـ LocalStorage
+      // حفظ التوكن وبيانات المستخدم بكافة المفاتيح المستخدمة في المشروع
       localStorage.setItem("access_token", data.access_token);
+      localStorage.setItem("token", data.access_token);
+      localStorage.setItem("khadrwy_token", data.access_token);
       localStorage.setItem("user_role", data.role);
+      localStorage.setItem("khadrwy_role", data.role);
       localStorage.setItem("user_name", data.name);
+      localStorage.setItem("khadrwy_name", data.name);
+      localStorage.setItem("khadrwy_email", data.email);
 
       setIsLoading(false);
 
-      // التوجيه للوحة التحكم حسب الرول القادم من الداتا بيز
-      if (data.role === "engineer" || data.role === "agricultural engineer") {
+      // التوجيه للداشبورد المناسبة حسب الدور (Role)
+      if (
+        data.role === "engineer" ||
+        data.role === "agricultural_engineer" ||
+        data.role === "agricultural engineer"
+      ) {
         navigate("/engineer-dashboard");
-      } else if (data.role === "gardener") {
+      } else if (data.role === "gardener" || data.role === "farmer") {
         navigate("/gardener-dashboard");
-      } else if (data.role === "farmer") {
-        navigate("/farmer-dashboard");
       } else {
         navigate("/landowner-dashboard");
       }
     } catch (err) {
       setIsLoading(false);
-      console.error("خطأ في الاتصال أو السيرفر:", err.message); // طبع الخطأ بالكامل في الكونسول
+      console.error("خطأ في الاتصال أو السيرفر:", err);
       alert(
         err.message ||
-          "حدث خطأ في الاتصال بالسيرفر. تأكد أن الـ Backend شغّال!",
+          "حدث خطأ في الاتصال بالسيرفر. تأكد أن الـ Backend شغّال!"
       );
     }
   };
@@ -165,9 +133,8 @@ export default function Login() {
       <button
         type="button"
         onClick={toggleLang}
-        className="absolute top-6 left-6 bg-white border border-forest/20 text-forest px-4 py-2 rounded-xl shadow-xs hover:bg-[cream] transition text-sm font-semibold flex items-center gap-2"
+        className="absolute top-6 left-6 bg-white border border-forest/20 text-forest px-4 py-2 rounded-xl shadow-xs hover:bg-[cream] transition text-sm font-semibold flex items-center gap-2 cursor-pointer"
       >
-        <span></span>
         <span>{lang === "ar" ? "English" : "العربية"}</span>
       </button>
 
@@ -255,65 +222,11 @@ export default function Login() {
             )}
           </div>
 
-          {/* شروط وقوة كلمة المرور (تظهر فور بدء الكتابة) */}
-          {/* {password.length > 0 && (
-            <div className="bg-[cream]/40 p-4 rounded-2xl border border-forest/10 space-y-3">
-              <div className="flex justify-between items-center text-xs font-bold">
-                <span className="text-forest">
-                  {t.passwordStrength || "مستوى الأمان:"}
-                </span>
-                <span className={strengthMeta.textColor}>
-                  {strengthMeta.label}
-                </span>
-              </div> */}
-
-          {/* شروط التقدم */}
-          {/* <div className="w-full bg-gray-200 h-1.5 rounded-full overflow-hidden">
-                <div
-                  className={`h-full transition-all duration-300 ${strengthMeta.color} ${strengthMeta.width}`}
-                ></div>
-              </div> */}
-
-          {/* القواعد المطلوبة */}
-          {/* <ul className="grid grid-cols-2 gap-2 text-xs pt-1">
-                <li
-                  className={
-                    hasMinLength ? "text-forest font-bold" : "text-gray-400"
-                  }
-                >
-                  {hasMinLength ? "✓" : "○"} {t.reqLength || "8 حروف فأكثر"}
-                </li>
-                <li
-                  className={
-                    hasNumber ? "text-forest font-bold" : "text-gray-400"
-                  }
-                >
-                  {hasNumber ? "✓" : "○"} {t.reqNumber || "رقم واحد على الأقل"}
-                </li>
-                <li
-                  className={
-                    hasCapital ? "text-forest font-bold" : "text-gray-400"
-                  } */}
-          {/* >
-                  {hasCapital ? "✓" : "○"}{" "}
-                  {t.reqCapital || "حرف كبير (Capital)"}
-                </li>
-                <li
-                  className={
-                    hasSpecial ? "text-forest font-bold" : "text-gray-400"
-                  }
-                >
-                  {hasSpecial ? "✓" : "○"} {t.reqSpecial || "رمز خاص (@#$)"}
-                </li>
-              </ul>
-            </div>
-          )} */}
-
           {/* زر تسجيل الدخول الرئيسي */}
           <button
             type="submit"
             disabled={isLoading}
-            className="w-full py-3.5 bg-forest text-white font-bold text-sm rounded-xl hover:bg-forest/90 transition shadow-lg shadow-forest/20 flex justify-center items-center gap-2 mt-4"
+            className="w-full py-3.5 bg-forest text-white font-bold text-sm rounded-xl hover:bg-forest/90 transition shadow-lg shadow-forest/20 flex justify-center items-center gap-2 mt-4 cursor-pointer"
           >
             {isLoading ? (
               <span className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></span>
@@ -322,17 +235,6 @@ export default function Login() {
             )}
           </button>
         </form>
-
-        {/* التوجيه لصفحة التسجيل الجديد */}
-        {/* <div className="mt-8 text-center text-xs text-gray-600">
-          <span>{t.noAccount || "ليس لديك حساب؟"} </span>
-          <Link
-            to="/register"
-            className="font-bold text-forest hover:text-[earthy] transition underline"
-          >
-            {t.createAccount || "إنشاء حساب جديد"}
-          </Link>
-        </div> */}
       </div>
     </div>
   );
