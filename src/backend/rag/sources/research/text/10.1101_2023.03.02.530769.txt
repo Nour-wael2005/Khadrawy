@@ -1,0 +1,2168 @@
+Genome biology and evolution of mating type loci in four cereal rust fungi
+
+Obligate heterozygous loci such as sex- or mating-compatibility regions often display suppression of recombination and signals of genomic degeneration. In Basidiomycota, two distinct gene loci confer mating compatibility. These encode for homeodomain (HD) transcription factors and pheromone receptor (Pra)-ligand pairs. To date genome level mating type (MAT) loci analysis is lacking for obligate biotrophic basidiomycetes in the order Pucciniales, which contains many economically important plant pathogens.
+
+Here, we focus on four Puccinia cereal rust species, including P. coronata f. sp. avenae, Puccinia graminis f. sp. tritici, P. triticina and P. striiformis f. sp. tritici, which infect oat and wheat. MAT loci are located on two separate chromosomes supporting previous hypotheses of tetrapolar mating types in the Pucciniales. The HD locus is multiallelic in all four species while the PR locus appears to be biallelic except for P. graminis f. sp. tritici which displays genetic features of more than two alleles. HD loci were largely conserved in their macrosynteny within and between species without strong signals of recombination suppression. PR loci proximate regions, however, displayed extensive signs of recombination suppression and genomic degeneration in the three species with a clear biallelic PR locus. These observations suggest a correlation between recombination suppression, genomic degeneration and allele status of MAT loci which is consistent with recent mathematical modelling and simulations. Finally, we confirm the evolutionary conservation of MAT gene expression during the asexual infection cycle of the cereal host which we propose is related to correct nuclear pairing during spore formation. Together, our study provides insights into the evolution of MAT loci of key pathogenic Puccinia species. This detailed understanding is important to predict possible combinations of nuclear pairs that can arise via sexual reproduction or somatic recombination to enable the evolution of newly virulent isolates of these important plant pathogens.
+
+Author summarySex of animals and some plants is determined by sex chromosomes. In fungi, mate compatibility is determined by mating type (MAT) loci, which share some features with sex chromosomes including recombination suppression around heterozygous loci. Here, we study the MAT loci in fungal pathogens from the order Pucciniales that can cause rust diseases on many economically important plants including wheat and oat. We show that one of the MAT loci is multiallelic, while the other is biallelic. The biallelic locus shows strong signs of recombination suppression and genetic deterioration with an increase in transposable elements and gene deserts surrounding the locus. Our findings on the genome biology of MAT loci in four economically important pathogens will lead to a better understanding and prediction of evolution of novel virulent isolates that can lead to large scale pandemics in agriculture.
+
+1 
+ 
+ 1 
+ 2 
+ 3 
+Genome biology and evolution of mating type loci in four cereal rust 4 
+fungi 5 
+ 6 
+Zhenyan Luo1, Alistair McTaggart2, and Benjamin Schwessinger1* 7 
+ 8 
+ 9 
+ 10 
+ 11 
+ 12 
+1 Research Biology School, Australian National University, Canberra, ACT, Australia 13 
+2 Centre for Horticultural Science, Queensland Alliance for Agriculture and Food Innovation, 14 
+The University of Queensland, Ecosciences Precinct, Dutton Park, Queensland, Australia 15 
+*Corresponding author 16 
+E-mail: benjamin.schwessinger@anu.edu.au (BS) 17 
+ 18 
+ 19 
+ 20 
+ 21 
+ 22 
+ 23 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+2 
+ 
+Abstract 24 
+Obligate heterozygous loci such as sex- or mating-compatibility regions often display 25 
+suppression of recombination and signals of genomic degeneration. In Basidiomycota, two 26 
+distinct gene loci confer mating compatibility. These encode for homeodomain ( HD) 27 
+transcription factors and pheromone receptor (Pra)-ligand pairs. To date genome level mating 28 
+type ( MAT) loci analysis is lacking for obligate biotrophic basidiomycetes in the order 29 
+Pucciniales, which contains many economically important plant pathogens. 30 
+Here, we focus on four Puccinia cereal rust species, including  P. coronata f. sp. avenae, 31 
+Puccinia graminis f. sp. tritici, P. triticina and P. striiformis f. sp. tritici, which infect oat and 32 
+wheat. MAT loci are located on two separate chromosomes supporting previous hypotheses of 33 
+tetrapolar mating types in the Pucciniales. The HD locus is multiallelic in all four species 34 
+while the PR locus appears to be biallelic except for P. graminis f. sp. tritici which displays 35 
+genetic features of more than two alleles. HD loci were largely conserved in their 36 
+macrosynteny within and between species without strong signals of recombination 37 
+suppression. PR loci proximate regions, however, displayed extensive signs of recombination 38 
+suppression and genomic degeneration in the three species with a clear biallelic PR locus. 39 
+These observations suggest a correlation between recombination suppression, genomic 40 
+degeneration and allele status of MAT loci which is consistent with recent mathematical 41 
+modelling and simulations. Finally, we confirm the evolutionary conservation of MAT gene 42 
+expression during the asexual infection cycle of the cereal host which we propose is related to 43 
+correct nuclear pairing during spore formation. Together, our study provides insights into the 44 
+evolution of MAT loci of key pathogenic Puccinia species. This detailed understanding is 45 
+important to predict possible combinations of nuclear pairs that can arise via sexual 46 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+3 
+ 
+reproduction or somatic recombination to enable the evolution of newly virulent isolates of 47 
+these important plant pathogens.  48 
+ 49 
+ 50 
+Author summary 51 
+Sex of animals and some plants is determined by sex chromosomes. In fungi, mate 52 
+compatibility is determined by mating type ( MAT) loci, which share some features with sex 53 
+chromosomes including recombination suppression around heterozygous loci. Here, we study 54 
+the MAT loci in fungal pathogens from the order Pucciniales that can cause rust diseases on 55 
+many economically important plants including wheat and oat. We show that one of the MAT 56 
+loci is multiallelic, while the other is biallelic. The biallelic locus shows strong signs of 57 
+recombination suppression and genetic deterioration with an increase in transposable elements 58 
+and gene deserts surrounding the locus. Our findings on the genome biology of MAT loci in 59 
+four economically important pathogens will lead to a better understanding and prediction of 60 
+evolution of novel virulent isolates that can lead to large scale pandemics in agriculture. 61 
+ 62 
+Introduction 63 
+The evolution of ‘sex and mating-type’ determining loci and chromosomes is a fundamental 64 
+question in biology. It is widely accepted that X and Y chromosomes were originally 65 
+homologous, but recombination suppression gradually resulted in genetic degeneration of the 66 
+Y chromosome (1). Genetic degeneration footprints are alleviated rates of (non-)synonymous 67 
+substitutions (d N, d S), accumulation of transposable elements (TEs), accumulation of 68 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+4 
+ 
+inversions, reduced gene expression and/or reduced gene numbers which are all a 69 
+consequence of recombination cessation (2-5). In contrast to many animals and plants, 70 
+antagonistic selection is unlikely to be the evolutionary mechanism that causes recombination 71 
+cessation in fungal mating-type ( MAT) loci (6-8). Instead, mathematical modelling and 72 
+stochastic simulations suggest that recombination suppressors, e.g. inversions or TEs, which 73 
+are loaded with less deleterious mutations than average initially, are more likely to be fixed at 74 
+permanently heterozygous MAT loci when compared to other autosomal loci. This initial 75 
+fixation of recombination suppressors at MAT loci can lead to a progressive extension of non-76 
+recombining regions via the accumulation of additional inversion or TEs over longer 77 
+evolutionary timeframes (2). Importantly, this model predicts non-recombining regions 78 
+around MAT loci are larger at biallelic loci and in species with smaller effective population 79 
+size, short haploid phase, outcrossing mating systems, high mutation rates, and extended 80 
+dikaryotic life stages. Indeed, several fungal species carry extensive non-recombining regions 81 
+around MAT loci. Recombination suppression can range from hundreds of kbp (kilo base pairs) 82 
+to several mbp (mega base pairs) and lead to genetic degeneration (5, 9), such as in 83 
+Neurospora tetrasperma (10), Podospora anserina (11), Schizothecium tetrasporum (12) and 84 
+several Microbotryum spp. (8, 13).  85 
+Detailed analyses of MAT loci and their genome biology has been lacking behind for rust 86 
+fungi of the order Pucciniales in the division Basidiomycota (9). This is despite the fact that 87 
+Pucciniales is the fungal order with the most known plant pathogens with close to 8,000 88 
+described species that cause diseases with significant environmental and economic impact for 89 
+various trees and crops such as poplar, paperbarks, wheat, oat, soybean, and coffee (14-16). 90 
+Overall, Basidiomycota have evolved unique mating systems to govern nuclear compatibility, 91 
+mate selection, and completion of the full life cycle (9). From a genetic perspective, two MAT 92 
+loci determine mating-type identity and non-self-recognition in most Basidiomycota. The 93 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+5 
+ 
+pheromone receptor ( PR) locus contains a pheromone receptor (Pra ) gene and at least one 94 
+mating pheromone peptide precursor gene ( mfa) (17). The PR  locus defines pre-mating 95 
+compatibility and gamete fusion. The PRA protein is a transmembrane localized G protein-96 
+coupled receptor, which recognizes the processed and posttranslationally modified mature 97 
+pheromone peptide MFA encoded by a matching allelic PR locus (9). Downstream of initial 98 
+gamete fusion, the homeodomain ( HD) locus determines success in postmating development 99 
+(9). The HD locus contains two tightly linked homeodomain transcription factors genes, (bW-100 
+HD1 and bE-HD2 in Pucciniales (18, 19), also known as bE-HD1 and bW-HD2 in other fungi 101 
+(9)) which share a promoter and are outwardly transcribed in opposite directions. Their 102 
+protein products need to be of different allelic specificity to form heterocomplexes and to 103 
+initiate a transcriptional cascade downstream of PRA-MFA activation (9). The HD 104 
+transcription factors regulate cellular development during mating, maintenance of the 105 
+dikaryotic state, and control pathogenicity in some plant pathogens such as smuts (13). The 106 
+HD and PR  loci can be either physically linked or unlinked which means they segregate 107 
+together or independently, respectively. The mating system in Basidiomycota influences the 108 
+genomic organization and resulting segregation patterns of MAT loci. Most basidiomycete 109 
+species are heterothallic, where sexual gametes must carry different alleles at both MAT loci 110 
+and intra-haploid mating is not possible. Hence, heterothallic species can either have bipolar 111 
+or tetrapolar mating systems. In bipolar species the HD and PR loci are physically linked or 112 
+one locus has lost its function in mating. In any case, in bipolar species only one MAT locus 113 
+determines mate compatibility. In tetrapolar species, the HD and PR  loci are unlinked and 114 
+both determine mate compatibility. Bipolar mating systems are favorable in inbreeding 115 
+populations that undergo selfing. Under selfing a single locus is advantageous as the 116 
+likelihood of compatibility amongst gametes derived from the same diploid individual is 50% 117 
+(13). In comparison, a tetrapolar mating system has at most a 25% compatibility under the 118 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+6 
+ 
+same selfing conditions. In contrast, outcrossing mating systems benefit from multiallelism at 119 
+MAT loci because it increases compatibility at syngamy of haploid gametes from different 120 
+diploid individuals (6, 9, 13). In many tetrapolar basidiomycete species, the HD locus is 121 
+highly polymorphic in the population with ten to hundred known or estimated alleles that are 122 
+under negative, frequency dependent selection (13, 20, 21). The tetrapolar mating system is 123 
+thought to be the ancestral state in Basidiomycota, yet several species have evolved bipolarity 124 
+independently. For example, Microbotryum spp. are highly selfing, and multiple independent 125 
+evolutionary events have linked the HD locus and the PR locus into evolutionary strata of 126 
+different sizes and different ages in this genus (3, 7, 8, 22, 23). These evolutionary strata show 127 
+clear signatures of recombination suppression and genetic degeneration. Similarly, in the 128 
+Ustilaginomycotina, several species evolved bipolarity linking both MAT loci such as 129 
+Ustilago hordei, U. bromivora or Sporisorium scitamineum (9). In contrast, a recent study 130 
+showed that tetrapolarity has evolved multiple times in the human skin fungus genus 131 
+Malassezia, where the ancestral state is pseudobipolar (24).  132 
+Studying mating systems in fungal species of the order Pucciniales has been difficult because 133 
+of their obligate biotrophy and often complex life cycles that prevent culturing outside of their 134 
+hosts and often requires multiple hosts to complete their sexual life cycle (9). For example, 135 
+macrocyclic and heteroecious rust fungi have five spore stages and require two hosts to 136 
+complete their asexual and sexual life cycles. During the asexual infection cycle on the 137 
+“primary” host, e.g. wheat and oat, rust fungi are dikaryotic and produce re-infective 138 
+urediniospores that harbor two distinct nuclei carrying compatible mating types. The sexual 139 
+cycle is initiated with the production of teliospores, which represent the short diploid phase of 140 
+rust fungi. Resulting haploid basidiospores infect the “alternate” host, e. g. Berberis sp., and 141 
+form haploid infection structures with distinct mating types. Fusion of cell  with compatible 142 
+mating types generates dikaryotic intercellular mycelia within the plant tissue that gives rise 143 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+7 
+ 
+to dikaryotic aeciospores which are only infective on the “primary” host (25). Infection of the 144 
+primary host completes the full life cycle (9, 26). The role of MAT genes during the life cycle 145 
+of rust fungi is rudimentary. Though it is hypothesized that MAT genes regulate appropriate 146 
+nuclear paring during dikaryotic spore production and mediate the compatibility of haploid 147 
+cell fusions on the “alternate” host (9, 26). Original research suggested that most rust fungal 148 
+species are bipolar (26), yet more recent studies on the rust fungi Melampsora lini and P. 149 
+coronata var. coronata revealed tetrapolar mating systems (27, 28). In the absence of direct 150 
+experimental evidence, genomic insights into MAT loci from genome assemblies of the 151 
+dikaryotic state can provide hypotheses on the breeding systems. Independent initial genome 152 
+analyses of several rust fungi revealed two unlinked MAT loci with PR and HD loci being 153 
+located on different contigs, scaffolds or chromosomes including in Austropuccinia psidii (29), 154 
+P. graminis f. sp. tritici (30) and P. tritici (18, 19). This genome organization supports the 155 
+hypothesis of a tetrapolar mating system in these rust fungi. These rust fungi encode Pra 156 
+receptor genes belonging to the STE3 family. The likely bona fide receptors are encoded by 157 
+STE3.2-2 and STE3.2-3 that display clear signatures of ancient trans-specific polymorphisms 158 
+which are likely ancestral to Basidiomycota (31). Here the sequences of a given mating type 159 
+is more similar to pheromone receptor alleles of the same mating type in distantly related 160 
+fungi than the alternate allele in the same species. In most cases, at least one mfa allele has 161 
+been found in proximity to the STE3.2-2/3 locus. The additional STE3 family member 162 
+STE3.2-1 is nearly homozygous in studied species such as P. tritici and is hypothesized not to 163 
+be involved in mating (18). To date, the PR locus has been found to be biallelic in available 164 
+population level datasets for P. tritici  and P. striiformis f. sp. tritici (18, 21, 32), yet 165 
+Melampsora larici-populina might be carrying additional alleles and population level 166 
+analyses are missing for other rust fungi. In contrast, the HD locus is multiallelic in P. 167 
+triticina and P. striiformis f. sp. tritici (18, 21, 32) encoding variants of bW-HD1 and bE-HD2 168 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+8 
+ 
+that are highly dissimilar only in the variable N-terminal domain, shown to be essential for 169 
+functional heterodimerization in other Basidiomycota (33, 34). It is noteworthy that direct 170 
+biochemical or genetic evidence is lacking for any of these MAT genes’ involvement in 171 
+mating in rust fungi. Yet, complementation assays in U. maydis  and host induced gene 172 
+silencing on wheat demonstrated the importance of Pra and HD genes of P. triticina for 173 
+mating in a heterologous system and for spore production during asexual infection (18). In 174 
+addition, MAT genes were expressed during the asexual and/or sexual infection cycle in 175 
+several rust fungal species (18, 35). These initial studies open up several outstanding 176 
+knowledge gaps for MAT loci in rust fungi: 1) What is the chromosomal organization of PR 177 
+and HD loci and how does it compare between closely related species? 2) What is the allelic 178 
+diversity of MAT genes within rust fungal species? 3) What is the composition and 179 
+organization of MAT loci proximal regions, how does it compare between PR  and HD loci, 180 
+and how does it vary between closely related species? 4) What is the compositional and 181 
+organizational variation of MAT loci within rust fungal species? 5) Is the expression of MAT  182 
+genes during the asexual infection cycle common in rust fungi? 183 
+Addressing these knowledge gaps has long  been a challenge because initial genome 184 
+assemblies of rust fungi were fragmented and the structure of the MAT loci could not be 185 
+assessed consistently. For example, clustering of repetitive elements around MAT loci (17, 36, 186 
+37) is a challenge for studying MAT  loci in rust fungi with repeat-rich genomes because 187 
+repetitive sequences cause gaps, fragmentation, and phase-errors in the assembled genome. 188 
+Here, we overcome this challenge and address important knowledge gaps around MAT loci in 189 
+four cereal rust fungi by providing a detailed comparative analysis of publicly available 190 
+chromosome scale phased genome assemblies and complementary Illumina short-read 191 
+datasets. The study species include the oat crown rust fungus P. coronata f. sp.  avenae (38-192 
+40), and the three wheat rust fungi, P. graminis f. sp. tritici (30, 41, 42), P. triticina (43-46) 193 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+9 
+ 
+and P. striiformis f. sp. tritici (47-53), which combined are the biggest threat to wheat 194 
+production globally causing losses of several billion dollars every year (16). Our detailed 195 
+comparative analyses set out to address the following specific objectives. 1) To determine the 196 
+chromosomal organization of MAT  loci. 2) To assess the allelic diversity of these loci in the 197 
+four cereal rust fungi. 3) To evaluate synteny, recombination suppression, and genomic 198 
+deterioration around PR and HD loci with the prediction that multiallelic loci are more 199 
+syntenic than biallelic loci and that the latter show stronger footprints of recombination 200 
+suppression and genomic degeneration. 4) To gage the conservation and/or plasticity of MAT 201 
+loci within a cereal rust fungus species using P. triticina as model system. And 5) To 202 
+determine the expression of Pra and HD genes during the asexual infection cycle of the cereal 203 
+hosts.  204 
+We show that HD genes are multiallelic in all four rust fungal species and Pra  genes are 205 
+unequivocal biallelic in three out of four. Only biallelic MAT loci show strong signs of 206 
+recombination suppression and genomic degeneration which confirms with recent 207 
+mathematical modelling. Our results provide novel insights into the genome biology of MAT 208 
+loci in cereal rust fungi. These are important to consider when making predictions about 209 
+mating and hybridization events that are possibly linked to the evolution of novel 210 
+pathogenicity traits. 211 
+Results 212 
+Genomic organisation and inheritance of mating type genes 213 
+suggest cereal rust fungi have tetrapolar mating systems 214 
+We set out to test previous preliminary observations that suggest cereal rust fungi have a 215 
+tetrapolar mating system with PR and HD loci being unlinked (18, 19). We made use of the 216 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+10 
+ 
+seven available chromosome-level genome assemblies of four cereal rust fungi P. coronata f. 217 
+sp. avenae (Pca) (38, 40, 54), P. graminis f. sp. tritici (Pgt) (30, 41, 42, 53), P. triticina (Pt ) 218 
+(32, 43-46, 55) and P. striiformis f. sp. tritici (Pst) (47, 49-52, 56), in addition to five partially 219 
+phased assemblies (Table 1). Our initial analysis focused on one reference genome per species 220 
+with Pca 203, Pgt 21-0, Pt 76, and Pst 134E.  221 
+We used previously characterized MAT genes from the Pt  isolate BBBD (Table 2) (18) as 222 
+queries to identify orthologs in available genomes and proteomes (Table 1). We identified HD 223 
+(bW-HD1 and bE-HD2) and Pra (STE3.2-2 and STE3.2-3) alleles on chromosome 4 and 224 
+chromosome 9 respectively, whereas STE3.2-1 alleles were located on chromosome 1 (S1 225 
+Fig). This is consistent with previous preliminary analysis for Pgt and Pt, which suggested 226 
+HD and PR loci are located on two distinct chromosomes (30, 32). We confirmed these 227 
+results using five genome resources for cereal rust fungi that are only partially phased and 228 
+non-chromosome scale (Table 1). We identified two alleles of bW-HD1, bE-HD2 and PRA  229 
+(STE3.2-2 or STE3.2-3) in all five genome assemblies with the exception for STE3.2-2 in Pst 230 
+104E and Pca 12SD80 (38, 48). In the case of Pst 104E, STE3.2-2  was absent from the 231 
+genome assembly but we confirmed its presence in the raw sequencing data by mapping 232 
+sequencing reads against the Pst 134E phased chromosome scale genome assembly (47). 233 
+STE3.2-2 displayed average genome-wide read coverage without any nucleotide variation 234 
+confirming that Pst 104E  was also heterozygous for Pra . In the case of Pca 12SD80, we 235 
+identified two copies of STE3.2-2 on contig 000183F and 000183F_004. This miss-236 
+characterization of STE3.2-2 in Pst 104E and Pca 12SD80 is likely caused by early long-read 237 
+genome assembly errors using low accuracy PacBio long reads and suboptimal genome 238 
+assembly algorithms that struggle with highly repetitive regions. Similar observations have 239 
+been made for missing Pra genes reported for earlier genome versions of Melampsora larici-240 
+populina (57). 241 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+11 
+ 
+We also identified an additional Pra-like gene, STE3.2-1, on chromosome 1. However, its two 242 
+alleles are nearly identical in all dikaryotic genome assemblies and are not associated with 243 
+any pheromone peptide precursor genes. Hence, STE3.2-1 is likely not involved mating 244 
+compatibility in rust fungi.  245 
+ Taken together, the two MAT loci, HD and PR, are unlinked and heterozygous in all twelve 246 
+dikaryotic genome assemblies, which is consistent with a genome informed hypothesis of a 247 
+tetrapolar mating system for cereal rust fungi.  248 
+Mfa pheromone peptide precursor genes are closely linked to 249 
+STE3.2-2 but not STE3.2-3 250 
+We searched the available dikaryotic genomes for putative pheromone peptide precursor 251 
+genes, which encode mating factor a (MFA) peptides. Mfas are often linked to Pra alleles and 252 
+predicted to bind to the compatible pheromone receptors encoded at the allelic PR locus. We 253 
+used the previously identified mfa1, mfa2, and mfa3 genes of Pst, Pgt, and Pt as queries (18). 254 
+We identified a single mfa2 pheromone peptide precursor gene in all species. In all cases, 255 
+mfa2 and STE3.2-2 were closely linked, located within 500–1100 bp from each other, and 256 
+encoded on the same DNA strand (S2 Fig). The mfa2 derived peptides were all 34 amino 257 
+acids long with a characteristic CAAX motif at the C-terminus, where C is cysteine, A is an 258 
+aliphatic amino acid, and X is any amino acid (58) (S3B Fig).  The MFA2 amino acid 259 
+sequences were 100% identical at the species level (S3B Fig).  260 
+In contrast, the sequence, length, number, and location of mfa genes associated with STE3.2-3 261 
+varied between species (S2, S3A and S3C Figs). Pca  and Pst  encoded a single mfa1  allele. 262 
+Pcamfa1 of Pca 203 encoded a 66 amino acid peptide and was located 0.54 mbp upstream of 263 
+STE3.2-3. In Pst, Pstmfa1 encoded a 64 amino acid peptide and was located 10 kbp and 13 264 
+kbp away from STE3.2-3 in Pst 134E and Pst DK0911, respectively. In contrast, Pt  carried 265 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+12 
+ 
+two identical copies of Ptmfa1/3 encoding for 61 amino acid peptides. In the Pt 76 reference, 266 
+Ptmfa1/3 were associated with STE3.2-3 at a distance of 0.24 mbp and 0.27 mbp, respectively 267 
+(S2 Fig). In addition, Pgt encoded for two mfa genes in close proximity to STE3.2-3 that were 268 
+located upstream and downstream at a distance of 30 kbp and 96 kbp, respectively (S2 Fig). 269 
+Yet in contrast to Pt, Pgt mfa1 and mfa3 encoded for highly distinct pheromone peptide 270 
+precursor that were only 26.47% identical at the amino acid level and varied in length (59 vs 271 
+57 amino acids, respectively). Based on their amino acid differences, MFA1 and MFA3 were 272 
+predicted to be processed into distinct mature MFA peptides that might have different 273 
+receptor specificities.  274 
+In all four cereal rust fungi, Pra alleles were associated with species specific mfa genes. Yet, 275 
+the number, distance, organization, and sequence of mfa genes varied between species.  276 
+Genealogies elucidate distinct evolutionary histories for the 277 
+different MAT genes 278 
+Having identified the MAT genes, we investigated the genealogical relationships of each 279 
+individual gene and compared them between each other and with the species tree. This 280 
+allowed us to test for shared or distinct evolutionary histories, which can provide indications 281 
+for recombination within and between loci. For example, so called trans-specific 282 
+polymorphism indicate that recombination cessation is older than speciation (31, 59). In the 283 
+absence of a robust species tree (60), we first generated a multilocus species tree based on a 284 
+multiple sequence alignment of 2284 single orthologs proteins (61) including P. polysora f. sp. 285 
+zeae as an outgroup (Fig 1A). The species tree identified the three wheat rust fungi being most 286 
+closely related to each other when compared to the oat rust fungus Pca (Fig 1A). In the wheat 287 
+rust clade, Pgt was closer related to Pt, while Pst was more distantly related to the two. We 288 
+aligned HD genes bW-HD1 and bE-HD2 separately to construct independent gene trees using 289 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+13 
+ 
+P. polysora f.sp. zeae alleles as outgroups (Table 2, Figs 1B and 1C). The gene trees of bW-290 
+HD1 and bE-HD2 group alleles from each species into a species-specific clade (Figs 1B and 291 
+1C) and we therefore did not find any evidence for trans-specific polymorphisms for either 292 
+HD gene. We identified multiple bW-HD1 and bE-HD2 alleles for the four cereal rust fungi 293 
+suggesting the HD locus is multiallelic. We observed several shared HD  alleles between 294 
+isolates in the case of Pt while HD alleles in Pca and Pgt appeared to be more diverse. In the 295 
+case of Pgt, we were limited to only four alleles, making any meaningful conclusion difficult. 296 
+We next tested our null hypothesis that bW-HD1 and bE-HD2 have similar evolutionary 297 
+histories because they are closely linked and share a promoter. We performed approximately 298 
+unbiased (AU) tests (62) within each species to investigate if the tree topologies of bW-HD1 299 
+and bE-HD2 are concurrent with each other. In Pca, Pst, and Pt, we found that the pAU-value 300 
+of the AU test was smaller than 0.05 which led us to reject the null hypothesis of concurrent 301 
+tree topologies. This suggests distinct evolutionary histories for the bW-HD1 and bE-HD2 302 
+genes in these species, which might be caused by recombination within the HD locus. In 303 
+contrast, the AU-test for Pgt suggested similar tree topologies for bW-HD1 and bE-HD2 , 304 
+which likely is influenced by the low sample number of four alleles.  305 
+Next, we explored the evolutionary relationship between Pra alleles by building a single gene 306 
+tree using P. polysora f.sp. zeae STE3.2-2 and STE3.2-3 as outgroups. The Pra gene tree 307 
+formed two obvious clades based on allele identity grouping the S TE3.2-2 alleles of all 308 
+species into one clade and all STE3.2-3 alleles into another clade including respective alleles 309 
+of P. polysora f.sp. zeae (Fig 2). In each clade, there was little to no intra-species variation for 310 
+STE3.2-2 and STE3.2-3 based on the minimal branch lengths that separated allele copies in 311 
+each species sub-clade. This indicates that Pra might be biallelic in the cereal rust fungi (see 312 
+also below). The clear grouping by allele identity indicates strong trans-polymorphisms and a 313 
+long-term suppression of recombination at the PR locus that predates ancestral species split.  314 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+14 
+ 
+We next investigated if the putative pheromone peptide precursor mfa genes followed similar 315 
+evolutionary histories compared to their collocated Pra genes. Like the Pra genealogy, the 316 
+gene tree of mfa alleles revealed strong trans-specific polymorphisms because mfa copies 317 
+clustered by allelic and not species identity (S4 Fig). For example, all Mfa2 alleles grouped 318 
+into one large clade according to their physical association with the specific Pra allele 319 
+STE3.2-2. Similarly, all Mfa1  alleles grouped together with similar topology as their linked 320 
+STE3.3-2 copies. The species specific Pgtmfa3s, which are also physically linked to STE3.2-3, 321 
+were placed as a sister group to the mfa1 clade, being more closely related to mfa1 than to 322 
+mfa2. 323 
+We also investigated the genealogy of the Pra-like STE3.2-1. We used P. polysora f. sp. zeae 324 
+STE3.2-1 as outgroup for rooting the gene tree (63). The two STE3.2-1 alleles identified in 325 
+each isolate were almost completely identical and grouped by species identity. Overall, 326 
+STE3.2-1 showed very little variation within each species (S5 Fig). This further supports our 327 
+conclusion that STE3.2-1 is likely not involved in defining mate compatibility. 328 
+HD loci display limited signs of genomic deterioration and their 329 
+synteny is conserved within species 330 
+Different effects on recombination have been reported around MAT loci in basidiomycetes (8, 331 
+64). Hence, we investigated if we could identify signals of altered recombination, synteny, 332 
+and genomic deterioration around the MAT loci in rust fungi. First, we analyzed whether there 333 
+was a reduction in synteny on chromosome 4 surrounding the HD locus as a signature for 334 
+long-term recombination suppression. We used mummer (65) to align the haplotypes of 335 
+chromosome 4 from Pca, Pgt, Pt, and Pst, against each other (S6 Fig). Overall macro-synteny 336 
+of chromosome 4 haplotypes was conserved in all cereal rust fungi with Pt 76 being the most 337 
+syntenic (S6C Fig). Macro-synteny in a 40 kb-sized window around the HD locus was mostly 338 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+15 
+ 
+conserved in Pt 76, Pca 203, and Pst 134E while this initial analysis suggested that this locus 339 
+was less syntenic in Pgt 21-0 (S6 Fig).  340 
+We investigated the individual allelic divergence along chromosome 4 using synonymous 341 
+divergence (d S) value as an additional measure of footprint of ancient recombination 342 
+suppression events (8). This analysis tested if the HD and their proximal genes showed an 343 
+increase in dS values, which could be caused by long-term suppression of recombination and 344 
+accumulation of independent mutations, as seen in other Basidiomycota (13). We calculated 345 
+the pairwise d S values for all genes across all sister chromosomes in all four species of 346 
+Puccinia. This whole genome analysis of all allele pairs on sister chromosomes suggested that 347 
+chromosome 4 did not have increased dS values when compared to all other chromosomes (S7 348 
+Fig). The dS value of alleles for both HD genes fell within the upper 95% quantile of dS values 349 
+on chromosome 4. Yet, d S values of directly adjacent genes were not elevated beyond the 350 
+background level when we plotted d S values for allele pairs along chromosome 4 (Fig 3). 351 
+Consistently, regions around HD loci did not show any obviously aberrant patterns of gene or 352 
+transposon density, which are common features of genetic deterioration (Fig 3). We tested 353 
+whether HD loci were potentially linked to centromeres as reported in other Basidiomycota 354 
+(13, 66). We used previously identified centromere locations for Pgt  and Pst (47, 67) and 355 
+identified centromere locations for Pca and Pt using genome-wide Hi-C heatmaps based on 356 
+the bowtie-like Hi-C interaction features known for fungal centromeres (S8-11 Figs) (68). 357 
+This analysis revealed that HD loci are likely not directly linked to centromeres in any of the 358 
+four cereal rust fungi.  359 
+Lastly, we investigated overall nucleotide and gene coding regions conservation for the HD 360 
+locus including proximate regions containing 40 neighboring genes on either side of the locus. 361 
+We combined fine scale nucleotide synteny with gene conservation analysis. We specifically 362 
+tested if cereal rust fungi contain syntenic blocks with conserved protein coding genes 363 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+16 
+ 
+surrounding MAT loci as it was found for species in the genus Trichosporonales (64). We 364 
+used blastn to identify conserved nucleotide sequences within dikaryotic genomes and 365 
+between species. We plotted genes, transposons, nucleotide and protein coding gene 366 
+conservation for the HD loci proximate regions for all four cereal rust fungi (Fig 4A). Protein 367 
+coding genes and their order are mostly conserved within dikaryotic genomes of the same 368 
+species with 58/80 genes in Pca 203, 40/80 in Pgt 21-0, 57/80 in Pt 76, and 62/80 in Pst 134E 369 
+being conserved. Similarly, we observed considerable nucleotide conservation and synteny 370 
+within dikaryotic genomes with the exception of Pgt 21-0, which is consistent with our initial 371 
+mummer-based analysis (S7 Fig). Overall, synteny and protein coding gene conservation was 372 
+very limited between species for HD loci proximate regions. We could only identify three 373 
+conserved genes across all four cereal rust fungi. These three genes code for an integral 374 
+membrane protein (PTHR12459), D-2-hydroxyglutarate dehydrogenase (PTHR43716) and 375 
+Glucose-6-phosphate 1-sepimerase (IPR025532) with all three clustering downstream of the 376 
+HD locus (Fig 4A). Our TE analysis revealed that their coverage was overall consistent at the 377 
+order level within species but varied across species (S12 Fig). For example, TIR and other 378 
+undetermined class II DNA transposons dominated the HD  locus of Pst 134E, while HD loci 379 
+of other rust fungi displayed higher coverage of class I RNA transposons including LTRs. 380 
+Overall, our analysis of the HD locus suggests that it is overall conserved within each 381 
+dikaryotic genome on a species level, while conservation has been eroded between species 382 
+over longer evolutionary timescales. 383 
+PR loci display strong signs of genomic deterioration 384 
+To investigate organization and synteny of the PR loci, we performed the same approach as 385 
+for the HD  loci. Initial mummer based synteny analysis revealed clear macro- and micro-386 
+synteny breaks around the  PR  loci in all cereal rust fungi (S13 Fig). It also revealed 387 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+17 
+ 
+accumulation of highly repetitive sequences closely associated with PR loci, especially in Pca 388 
+203 and Pst 134E. This increase in TEs correlates with a reduction in gene density around PR 389 
+loci (Figs 4B and 5). The loss in synteny was specific to PR loci, as overall macro-synteny of 390 
+chromosome 9 was conserved in all species (S13 Fig).  391 
+Consistent with the macro-synteny analysis, the d S values for the Pra  alleles STE3.2-2- 392 
+STE3.2-3 belonged to the 99.9% quantile of dS values of all allele pairs found on chromosome 393 
+9 in all species (Fig 5 and S7 Fig). Gene density dropped significantly around PRA genes with 394 
+STE3.2-2/STE3.2-3 located within or adjacent to ‘gene deserts’ that extended over 1 mbps in 395 
+the case of Pst 134E . Concomitant with gene depletion leading to gene deserts, PR loci are 396 
+enriched in TEs. One exception was the PR locus of Pgt 21-0, which might be a biological 397 
+feature or a technical artefact (see Discussion). None of the Pra  alleles was closely linked to 398 
+centromeres except for Pst 134E  STE3.2-3, which was found in close proximity to the 399 
+centromere at a distance of 164 kbp, embedded in a > 1 Mb long stretch of TEs depleted of 400 
+genes (Fig 5).  401 
+Detailed nucleotide synteny and protein coding gene conservation analysis confirmed signals 402 
+of extended recombination suppression, loss of synteny and accumulation of transposable 403 
+elements around PR loci (Fig 4B). We observed little conservation of nucleotide sequences 404 
+and protein coding genes in Pra proximate regions within dikaryotic genomes or between 405 
+species. Indeed, we could not identify any conserved protein-coding gene in Pra proximate 406 
+regions across the four cereal rust fungi. The TE composition in Pra proximate regions varied 407 
+within dikaryotic genomes and between species (S12B Fig). This indicates the accumulation 408 
+of distinct transposable element families around the PR locus in different cereal rust species 409 
+(see more detail for Pt below). 410 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+18 
+ 
+Overall, the PR locus appears highly plastic with little conservation within and between 411 
+species.  412 
+STE3.2-1 loci are highly conserved within and among cereal rust 413 
+fungi 414 
+We analyzed STE3.2-1 as above for the MAT  loci. The three independent analyses revealed 415 
+that STE3.2-1 and its surrounding regions are highly conserved at the nucleotide and protein 416 
+coding gene level within dikaryotic genomes while being overall syntenic between species 417 
+(S14-16 Figs). This clearly sets apart the STE3.2-1 locus from the two MAT loci which further 418 
+supports the hypothesis that this locus is not involved in mate compatibility in rust fungi.  419 
+HD genes are multiallelic in cereal rust fungi while Pra genes 420 
+display little variation at the species level 421 
+We aimed to extend our species level analysis of variation in MAT genes (Figs 1 and 2) using 422 
+publicly available genomic data for all four species (S1 Table). We identified between 12 and 423 
+15 representative isolates per species that were assigned to as many distinct genomic lineages 424 
+as possible based on previous genealogical studies to avoid repeated sampling from clonal 425 
+lineages that are predicted to show no genetic variation at MAT genes (30, 40-42, 44-46, 50-426 
+53) (S1 Table) .  We quality controlled whole genome short read datasets and mapped them 427 
+against the respective reference genomes to estimate the genetic variation in MAT genes (S17-428 
+20 and 22-25 Figs). We identified high levels of polymorphisms at the HD loci for all 429 
+analyzed cereal rust fungi. Pca showed the highest level of variation of HD loci at the species 430 
+level (S18 Fig). When mapping Illumina short read data of the Pca isolates against the Pca 431 
+203 reference, the HD loci in the Pca isolates displayed high levels of polymorphism 432 
+including heterozygous SNPs and multiple unaligned regions and gaps. This suggested that 433 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+19 
+ 
+the HD loci present in our additionally selected Pca isolates were not well reflected in the Pca 434 
+203 reference assembly. This is likely due to the fact that the selected isolates were highly 435 
+diverse sexual populations of Pca sampled in the USA (40). We therefore implemented a 436 
+novel de novo reconstruction approach for HD loci and HD coding sequences directly from 437 
+whole genome Illumina short read datasets (see Methods for detail). We confirmed our 438 
+approach by reconstructing the Pca 203 HD locus from publicly available Illumina short read 439 
+datasets. We confirmed that the two reconstructed HD alleles were identical to the ones 440 
+derived from the dikaryotic reference genome assembly (Fig 1) via a nucleotide alignment of 441 
+the two bW-HD1 and bE-HD2  coding sequences to the reconstructed HD alleles (S21A Fig). 442 
+In total, we were able to reconstruct eleven bW-HD1 and twelve bE-HD1 alleles for Pca  443 
+(S21B Fig). Using this novel approach, we identified extensive genetic variation for bW-HD1 444 
+and bE-HD2 in Pgt and Pt (S21C-S21D Figs) while making use of recently published bW-445 
+HD1 and bE-HD2 alleles in case of Pst (21). We identified six, nine, and ten bW-HD1 and six, 446 
+eight, and ten bE-HD1 alleles for Pgt, Pt, and Pst, respectively. Overall, this suggests that the 447 
+HD genes are multiallelic in all four cereal rust fungi, which is consistent with other recent 448 
+reports (21, 32). 449 
+Compared to the HD genes, the Pra genes are reported to be far less polymorphic in many 450 
+basidiomycetes (9, 69, 70). Hence, we next focused our analysis on the Pra genes using the 451 
+same whole genome Illumina short read datasets (S1 Table). As expected, the Pra genes were 452 
+far less polymorphic within each species compared to HD loci (S22-26 Figs), which is 453 
+consistent with our initial analysis of Pra genes extracted from genome assemblies (Figs 1 454 
+and 2). In contrast to the highly polymorphic HD genes, we were able to identify only two 455 
+SNPs in the coding regions of STE3.2-2 and STE3.2-3 in Pca with a single SNP being non-456 
+synonymous (S26 Fig). Similarly, STE3.2-2 and STE3.2-3 copies of all Pst isolates had 457 
+identical coding regions. Our short-read mapping analysis of Pra in Pt identified four SNPs in 458 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+20 
+ 
+coding sequence regions of STE3.2-2 and STE3.2-3. These SNPs gave rise to a single 459 
+additional STE3.2-2 variant with two amino acid substitutions close to the C-terminus (S26 460 
+Fig). Pgt was the most polymorphic for Pra. We identified multiple distinct copies of STE3.2-461 
+2 and STE3.2-3 in the global Pgt population. We identified one STE3.2-2 variant with several 462 
+amino acid changes (S26B Fig). STE3.2-3 was the most polymorphic in Pgt including two 463 
+isolates, TTTSK and UVPgt60, which contain potential nonsense mutations leading to pre-464 
+mature stop codons (S26B Fig). Overall, our analysis suggests that Pra is most likely biallelic 465 
+in Pca, Pt, and Pst while Pgt may have more than two functional Pra alleles. 466 
+Lastly, we also investigated the nucleotide sequences of all mfa alleles at the species level. 467 
+Mfa1 and Mfa2 alleles were fully conserved in Pca and Pst, while Pt had only a single non-468 
+synonymous change in mfa1/3 (S3 Fig). In contrast, mfa1 and mfa3 in Pgt had several non-469 
+synonymous variations (S27 Fig). This species level variation in Pgt at the mfa loci is 470 
+consistent with significant variation observed in STE3.2-2 and STE3.2-3. 471 
+MAT loci are conserved at the species level in Puccinia triticina  472 
+while showing transposable element expansion specific to the 473 
+STE3.2-3 locus 474 
+We made use of four chromosome scale and fully phased genome assemblies for Pt (Table 1) 475 
+to explore the structural conservation or plasticity of the MAT loci within a cereal rust fungal 476 
+species. We performed macro-synteny, detailed nucleotide synteny, protein coding gene 477 
+conservation and TE analysis for the HD and PR loci within and between Pt 76 (43), Pt 15 478 
+(55), Pt 19NSW04 and Pt 20QLD87 (32). A recent study suggested that Pt 19NSW04 arose 479 
+via somatic hybridization between Pt 76 and Pt 20QLD87 or close relatives in Australia mid-480 
+2010 (32). Hence, Pt 19NSW04 and Pt 76  share one complete nuclear haplotype B, which 481 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+21 
+ 
+contains STE3.2-2, and Pt 19NSW04 and Pt 20QLD87 share one complete nuclear haplotype 482 
+C, which contains STE3.2-3. The Pt15 isolate is unrelated and was sampled in China in 2015. 483 
+Macro-synteny plots of the HD locus containing chromosomes suggested that the HD loci of 484 
+shared nuclear haplotypes e.g. Pt 19NSW04 and Pt 76 hapB or Pt 19NSW04 and Pt 20QLD87 485 
+hapC, are more conserved when compared to HD loci contained within each dikaryotic 486 
+genome (S6 and S28 Figs). Detailed nucleotide synteny and protein coding gene conservation 487 
+analysis revealed that gene order and function is highly conserved in the HD locus between 488 
+all tested nuclear haplotypes (S29 Fig). To investigate whether any specific TE families 489 
+cluster around the HD locus, we built a TE database based on the Pt 76 reference genome and 490 
+used it to annotate TEs in all four strains. We identified similar TE coverage at the order level 491 
+around the HD locus in all dikaryotic genomes (S30A Fig). 492 
+We performed identical analysis for the PR locus to get a species level understanding of its 493 
+evolution in Pt. We compared the overall structural relationship between chromosomes 494 
+containing STE3.2-2 or STE3.2-3 using macro-synteny plots. Like the HD locus, 495 
+chromosomes of shared nuclear haplotypes, e.g. Pt 19NSW04 vs Pt 76 hapB with STE3.2-2, 496 
+were more similar to each other than non-shared haplotypes, e.g. Pt 76 hapB vs Pt15 hapA 497 
+with STE3.2-3 (S13 and S31A Figs). The same applied for STE3.2-2 (S13 and S31B Figs). 498 
+We could clearly observe clustering of repetitive sequences around the STE3.2-2 and STE3.2-499 
+3 locus with the latter being more pronounced (S31 Fig). These repetitive sequences appeared 500 
+to be allele specific as they were not visible in macro-syntenty plots comparing STE3.2-2 and 501 
+STE3.2-3 containing chromosomes (S13 Fig). Detailed nucleotide synteny and protein coding 502 
+gene analysis showed that genes around either Pra allele were mostly conserved while some 503 
+haplotypes appeared to have inversions downstream of STE3.2-2 relative to the Pt 76 504 
+reference (Fig 6A and 6B). Gene synteny was more conserved for genes surrounding STE3.2-505 
+3 yet gene distance appeared to be especially variable between the two mfa1/3s and STE3.2-3 506 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+22 
+ 
+(Fig 6B). We explored the TE composition around each Pra allele and tested if TE expansions 507 
+could be an explanation for the difference in intergenic distances around the STE3.2-3 locus. 508 
+TE composition around STE3.2-2 and STE3.2-3 were markedly different with the STE3.2-3  509 
+locus displaying an increase of LTR retrotransposons (Fig 6C and S30B Fig.). TE coverage 510 
+and composition around STE3.2-2 was overall consistent between the different haplotypes 511 
+(S30B Fig). In the case of STE3.2-3 we found a single LTR Ty3 (also known as Gypsy (71)) 512 
+TE family (Ty3_Pt_STE3.2-3, Fig 6D) highly expanded at the locus with varying coverage 513 
+between haplotypes ranging from 14.7% to 25.4% with Pt 20QLD87  having the highest 514 
+coverage (Fig 6C). The percentage identity relative to the consensus sequence was > 99% 515 
+(Fig 6E) and most copies were around 8 kb (Fig 6F) which indicates active transposition of 516 
+Ty3_Pt_STE3.2-3 in recent history. To investigate whether this TE family was specific to the 517 
+STE3.2-3 locus, we compared its abundance at the locus with its abundance across the whole 518 
+genome. We found that Ty3_Pt_STE3.2-3  only clustered on STE3.2-3 containing 519 
+chromosomes in all four strains with only a very limited number of single copies found on 520 
+other chromosomes (S32 Fig). Indeed, Ty3_Pt_ STE3.2-3 had a strong preference to insert 521 
+between Ptmfa1/3s and STE3.2-3 (S33 Fig). To further investigate the structure of 522 
+Ty3_Pt_STE3.2-3, we used LTR_FINDER (72) to identify 5’ and 3’ LTR regions and other 523 
+features related to retrotransposons. Ty3_Pt_STE3.2-3 was found to have a short LTR, around 524 
+150 bp in all four strains, with target site repeat (TSR) region of ‘AAGT’, pol genes 525 
+containing reverse transcriptase (RT), ribonuclease H (RH), integrase (INT). However, we 526 
+failed to identify any group-specific antigen (gag) in these TEs (Fig 6D). 527 
+MAT genes are expressed late in the asexual infection cycle during 528 
+urediniospore production 529 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+23 
+ 
+Importance of MAT loci in sexual reproduction were well established for Pt and Pst (18, 73), 530 
+yet it is unclear if they are expressed and functional during the asexual reproduction on cereal 531 
+hosts as found in Pt (18). Hence, we investigated the expression patterns of MAT genes in Pca, 532 
+Pgt and Pst  using publicly available RNA-seq infection time series of their cereal hosts (38, 533 
+41, 48, 74) (S2 Table). We applied the trimmed mean of M-values (TMM) normalization to 534 
+read counts and assessed quality of the RNA-seq datasets by multidimensional scaling (MDS) 535 
+plots (S34 Fig). The MDS plots confirmed the suitability of the datasets for detailed 536 
+expression analysis based on technical replicates clustering closely together and dimension 1 537 
+separating samples according to their infection progress. The stable expression of two house 538 
+keeping genes for each species across all samples further confirmed the suitability of the 539 
+datasets for detailed MAT gene expression analysis (S35 Fig.).  540 
+STE3.2-2 and STE3.2-3 were upregulated during the asexual infection process and always 541 
+displayed highest expression at the latest time point available, which coincides with 542 
+sporulation and production of urediniospores (Fig 7). We confirmed the differential 543 
+expression at later infection timepoints with likelihood ratio test with a p-value cut-off of < 544 
+0.05 (S36 Fig). Similarly, HD genes are upregulated during asexual infection of the cereal 545 
+host (Fig 7). We did not observe any expression of STE3.2-1 in any of the samples. Lastly, we 546 
+were also interested to see if we could detect RNA of MAT genes in cereal rust spores before 547 
+infection and in specialized infection structures called haustoria. We used an additional Pst 548 
+RNA-seq dataset and compared the expression of MAT genes in ungerminated spores, 549 
+germinated spores, 5 days post infection, 9 days post infection and haustoria enriched samples 550 
+(S37 Fig) (48). HD genes displayed some expression in spores albeit lower than observed in 551 
+later stages of infection during spore production in the asexual cycle. In contrast, we could not 552 
+detect expression of Pra  genes in ungerminated and germinated spores. Yet, Pra genes were 553 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+24 
+ 
+expressed and upregulated at later stages of the asexual infection consistent with other 554 
+publicly available datasets (Fig 7C and S37 Fig).  555 
+Discussion 556 
+Our comparative analysis of predicted MAT genes in four cereal rust fungi provides novel 557 
+insight into the evolution of these genes and their proximal regions within and between 558 
+species.  559 
+First, we confirmed that HD and PR loci are unlinked and located on two distinct 560 
+chromosomes in all four cereal rust fungi, which confirms previous analysis on more 561 
+fragmented genome assemblies or for individual rust fungal species (18, 21, 30). Further, both 562 
+loci were heterozygous in all twelve dikaryotic genome assemblies. Taken together, these 563 
+observations strongly support the hypothesis of tetrapolar mating types in rust fungi. Though 564 
+this genome biology informed hypothesis requires experimental validation via crosses and 565 
+genetic analysis of resulting offspring. As previously observed for Pt (18), the Pra homologs 566 
+STE3.2-1 were highly conserved in all cereal rust fungi and had no mfa genes closely 567 
+associated. This suggests that STE3.2-1 does not regulate mate compatibility.  568 
+ In P. coronata f. sp.  avenae , P. striiformis f. sp. graminis  and P. striiformis f. sp. tritici, 569 
+STE3.2-1 is flanked by anaphase promoting complex APC10/Doc1 which regulates important 570 
+events in mitosis (75) and Elongation factor EF1B (76). Together, these findings suggest that 571 
+STE3.2-1 might play an important role during the cell cycle or different developmental 572 
+programs as reported for other basidiomycete fungi (77, 78).  However as previously reported 573 
+for P. triticina (18), expression for STE3.2-1 was absent or very low during the infection 574 
+cycle of the cereal host.  575 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+25 
+ 
+Heterothallic fungi with tetrapolar mating types are most often multiallelic at least at one of 576 
+the two MAT loci. Multiallelism is beneficial under outcrossing conditions, because it 577 
+increases the compatibility between randomly selected mates. At the same time, outcrossing 578 
+selects for new and rare alleles because these are compatible with existing and more common 579 
+alleles (9). For example, U. maydis has many distinct transcription factor alleles at the HD 580 
+locus (79, 80). We performed extensive analysis of HD loci extracted from dikaryotic genome 581 
+assemblies and developed a workflow that permitted us to de novo reconstruct loci directly 582 
+from Illumina short read sequencing data. This enabled us to investigate the allele status of 583 
+bW-HD1 and bE-HD2 in 12-15 additional isolates for each cereal rust fungal species without 584 
+the need for long-read genome assemblies or targeted amplicon sequencing. In addition, the 585 
+analyzed isolates were selected based on them being the best available representation of 586 
+global rust fungal lineages without repeated sampling within clonal lineages to facilitate a 587 
+more in-depth analysis of the allele status of MAT loci. This extensive analysis demonstrated 588 
+that the HD locus is also multiallelic in the four cereal rust fungal species. The four species 589 
+had between six to twelve alleles of bW-HD1 and bE-HD2. This supports previous analyses 590 
+of the allele status of these genes in P. striiformis f. sp. tritici, which identified nine alleles of 591 
+bW-HD1 and bE-HD2 (21). The number of bW-HD1  and bE-HD2 alleles is likely a gross 592 
+underestimate giving limited public datasets. The majority of analyzed isolates were retrieved 593 
+from the cereal host during the asexual reproduction cycle and from regions that are known to 594 
+be deprived of sexually recombining populations. The only exception was P. coronata f. sp.  595 
+avenae isolates, which are reported to be derived from sexual recombining populations in the 596 
+United States of America (40). Indeed, we identified the highest allelic variation of HD genes 597 
+(eleven bW-HD1 and twelve bE-HD2) in P. coronata f. sp. avenae. This is similar to previous 598 
+studies of isolates from likely sexual populations of P. striiformis f. sp. tritici in China, India, 599 
+and Pakistan, which showed the highest diversity in HD alleles compared to other clonal 600 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+26 
+ 
+lineages in Western wheat growing regions (21). In contrast to the multiallelic status of HD 601 
+genes, the Pra and associated mfa genes were clearly biallelic in P. coronata f. sp. avenae, P. 602 
+triticina and P. striiformis f. sp. tritici. In all cases, one Pra allele was linked to one specific 603 
+invariant mfa allele whereby P. triticina carried two mfa1/3 genes that were nearly identical in 604 
+the sequence of the predicted mature pheromone peptide. This biallelism of Pra/mfa is similar 605 
+to other tetrapolar dimorphic basidiomycetes like U. maydis and Cryptococcus sp. (81, 82). 606 
+The notable exception was P. graminis f. sp. tritici which encodes two mfa genes (mfa1 and 607 
+mfa3) in proximity to STE3.2-3. The two encoded peptides are highly variable and are likely 608 
+processed into two distinct mature pheromone peptides based on their sequence divergence, 609 
+which might lead to distinct receptor activation specificities. Interestingly, Pgt STE3.2-3 was 610 
+also the most variable Pra allele in all species. We identified three STE3.2-3 variants that 611 
+have at least four or more non-synonymous nucleotide changes relative to the most common 612 
+Pgt STE3.2-3 variant. Moreover, the STE3.2-3 variants in Pgt 126-6711, Pgt ME-02, and Pgt 613 
+PK-01 shared four distinctive amino acid changes in the C-terminus while being linked to an 614 
+mfa1 allele that gives rise to MFA1 with four amino acid substitutions. At the same time all 615 
+analyzed P. graminis f. sp. tritici isolates carried an invariant STE3.2-2 allele with only one 616 
+mfa gene in close proximity and we did not identify a clearly distinct additional Pra allele. 617 
+Hence the functional significance of the observed variation at the STE3.2-3 locus is currently 618 
+difficult to assess without more extensive sampling of isolates, more phased chromosome 619 
+scale genome assemblies and in the absence of direct functional crossing studies in P. 620 
+graminis f. sp. tritici. Yet, the organization of the STE3.2-3 locus is reminiscent of the PR 621 
+locus of Sporisorium reilianum  in the order Ustilaginales. In S. reilianum, the PR locus is at 622 
+least triallelic with each allele encoding one pheromone receptor and two distinct pheromone 623 
+peptides. Each of the mature pheromones derived from one allele specifically activates only 624 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+27 
+ 
+one of the receptors encoded by the two other alleles (83). Taken together, more studies are 625 
+needed to assess if the PR locus in P. graminis f. sp. tritici is more than biallelic.  626 
+We initially predicted that biallelic MAT loci would show stronger signatures of 627 
+recombination suppression and genomic degeneration than multiallelic loci based on 628 
+published mathematical models (2) and observations in other basidiomycete species (9, 84). 629 
+Indeed, the multiallelic HD  loci were mostly syntenic within dikaryotic genomes of the four 630 
+cereal rust species. This initial analysis with a limited set of genomes per species is likely to 631 
+hold true at the population level. In the case of P. triticina, the eight HD alleles of four  632 
+isolates were all highly syntenic with most of the genes being conserved between the different 633 
+alleles. Consistently, the TE composition at the order level was highly similar between HD 634 
+alleles of the same species. In contrast, PR loci showed strong signs of recombination 635 
+suppression and genomic degeneration. However, the PR loci did not follow the exact same 636 
+trends in all four species. The PR loci in P. coronata f. sp.  avenae , P. triticina and P. 637 
+striiformis f. sp. tritici were the most extended with the Pra genes being located at the edge or 638 
+within large gene deserts and TE islands of ~0.7 mbp, ~0.7 mbp, and ~1.2 mbp, respectively. 639 
+At least some of these repeats were shared between the two PR alleles within each dikaryotic 640 
+genome of P. coronata f. sp.  avenae  and P. striiformis f. sp. tritici based on whole 641 
+chromosome alignments. This was not the case for PR alleles in P. triticina. In all three cases, 642 
+there appeared to be differences in TE composition and coverage at the order level between 643 
+the two PR alleles. This was most obvious for P. triticina, where we analyzed four dikaryotic 644 
+genome assemblies and identified the STE3.2-3 specific TE family Ty3_Pt_ STE3.2-3. 645 
+Ty3_Pt_STE3.2-3 displayed preferential insertion for the STE3.2-3 allele and insertions 646 
+between the pheromone receptor and the two mfa genes. Ty3_Pt_ STE3.2-3 is likely a 647 
+currently active TE based on its sequence conservation, length of individual TE copies, and 648 
+the suggested nuclear exchange between the studied Australian isolates within the last decade 649 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+28 
+ 
+(32). These initial observations of partial allele specific TE composition and coverage in P. 650 
+coronata f. sp. avenae, P. triticina and P. striiformis f. sp. tritici contrast with observations of 651 
+TE analysis of biallelic MAT loci in 15 Microbotryum spp.. The MAT loci in Microbotryum 652 
+spp. did not display allele specific TE composition patterns, yet were likely reservoirs for TE 653 
+families that drove TE expansion at a genome scale at discrete time points associated with the 654 
+extension of evolutionary strata around the MAT loci (37). 655 
+Compared to these observations at biallelic PR loci, the PR locus in P. graminis f. sp. tritici 656 
+contained fewer TEs, more genes, and was much shorter with ~300 kbp. In addition, the TE 657 
+composition and coverage was very similar between the two alleles within the dikaryotic 658 
+genome of Pgt 21-0. These observations could be biological or a technical artifact of the 659 
+assembly process of this specific genome. The Pgt 21-0  assembly is based on older error 660 
+prone PacBio long-read technologies, included extensive manual curation and relied on gene 661 
+synteny between contigs and haplotypes for scaffolding. This gene based scaffolding might 662 
+have been broken by long-stretches of TEs around the PR locus as observed for the three 663 
+other cereal rusts and thereby introduced scaffolding errors in Pgt 21-0 (30). Several of the 664 
+other genomes generated with older error prone PacBio long-read technologies had issues 665 
+assembling the Pra locus correctly. Alternatively, these marked differences of the P. graminis 666 
+f. sp. tritici PR locus might reflect biological reality, as models predict that recombination 667 
+suppression and genomic degeneration is more pronounced at biallelic loci (2). If the PR 668 
+locus in P. graminis f. sp. tritici is not truly biallelic as potentially indicated by the gene-669 
+based analysis of Pra and mfa alleles, the organization and level of genomic degeneration at 670 
+the PR locus as observed would fulfill these predictions. However, more and better high-671 
+quality phased chromosome scale genome assemblies are necessary to differentiate these 672 
+alternative hypotheses concerning the PR locus in P. graminis f. sp. tritici.  673 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+29 
+ 
+The functions of MAT genes in rust fungi are currently unknown, beyond their likely role in 674 
+mediating mate compatibility. However, in P. triticina and M. larici-populina (35, 85), MAT 675 
+genes are expressed during the sexual and asexual infection cycle. Suppression of MAT gene 676 
+expression in P. triticina  during the asexual infection cycle on wheat reduces infection 677 
+severity and spore production (18). Here, we show that MAT genes are also upregulated 678 
+during the late stage of the asexual infection cycle of the cereal host in P. coronata f. sp.  679 
+avenae, P. graminis f. sp. tritici,  and P. striiformis f. sp. tritici. This suggests a broader 680 
+conservation of MAT gene expression during the late stages of the asexual infection cycle of 681 
+rust fungi. Rust fungal cells carry more than two nuclei in the same cytosol during the asexual 682 
+infection cycle (86). At the same time, ureodiniospores always carry two nuclei of compatible 683 
+mating types and never two nuclei of identical mating types. Studies from the early 20 th 684 
+century show that the two nuclei of ureodiniospore mother cells undergo synchronous nuclear 685 
+division within the same cytoplasm giving rise to four nuclei within the same ureodiniospore 686 
+precursor cells. This is followed by nuclear movement to restore appropriate nuclear pairing 687 
+and planar cell division that enables ureodiniospore maturation and reconstitutes the 688 
+dikaryotic state (86). The observed upregulation of MAT genes aligns with the development of 689 
+ureodiniospore primordia development and spore production. Hence, we hypothesize that 690 
+MAT genes are involved in the appropriate nuclear pairing at this stage of fungal development.  691 
+Understanding mating types in cereal rust fungi has also significant implications for 692 
+agriculture and for the prediction of the evolution of new virulent isolates. Recent reports 693 
+suggest that nuclear exchange between isolates during the asexual infection cycle (also known 694 
+as somatic hybridization (87)), in addition to sexual reproduction, can lead to nuclear 695 
+assortment (87). Nuclear exchange and the viability of the resulting offspring is likely 696 
+regulated by MAT genes because all proposed events have given rise to isolates with 697 
+dikaryotic genomes that carry opposing MAT gene pairs. We confirmed these observations 698 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+30 
+ 
+with our MAT gene analysis in the case of  Pgt Ug99 (Pgt 21-0 and unknown nuclear donor) 699 
+and Pt 19NSW04 (Pt 76 and Pt 20QLD87 as nuclear donors). In reverse, our analysis showed 700 
+that nuclear exchange has not occurred for the analyzed isolates of P. coronata f. sp. avenae, 701 
+and P. striiformis f. sp. tritici, because none of the isolates share identical HD and Pra alleles 702 
+that could be carried in the same nucleus. In cases of nuclear exchange, these nuclei behave 703 
+like entire linkage groups with virulence (also known as effectors) allele complements being 704 
+tied to specific MAT alleles if somatic hybridization occurs in the absence of parasexual 705 
+reproduction as currently proposed. This implies that the nuclear MAT alleles define the 706 
+possible virulence allele combinations that can arise via nuclear exchange. We hence can 707 
+predict the most likely novel virulence allele combinations that might arise given circulating 708 
+nuclear genomes in existing cereal rust fungal populations on their cereal hosts. This 709 
+observation requires us to generate phased and chromosome scale genome assemblies of all 710 
+cereal rust fungi at the population level. These will improve disease management strategies 711 
+and the durability of characterized resistance loci in the global wheat germplasm leading to 712 
+smarter rust resistance breeding programs.  713 
+Acknowledgments 714 
+We thank Dr. P. Tobias and Dr. M. Moeller for critical comments on manuscript, Dr. M. Bui 715 
+for advice in iqtree2 usage, Prof. C. Linde for useful suggestions, and R. Tam for providing a 716 
+snakemake pipeline for trimming raw sequencing data and centromere information of Pst 717 
+134E. We thank J. Lin for suggestions on data visualization. We acknowledge the excellent 718 
+and critical suggestions of the editor and peer reviewers that significantly improved the 719 
+manuscript. 720 
+Material and methods 721 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+31 
+ 
+Assessment of used genomic resources 722 
+Detailed information on isolates and genomes used in this study can be found in Table 1. 723 
+Completeness of genome assemblies were assessed by BUSCO v5.5.0 (88) in the genome 724 
+mode with a basidiomycota_odb10 set of genes. 725 
+Identification of MAT genes 726 
+MAT genes including the HD and PRA genes previously identified in P. triticina (Table 2) (18) 727 
+were used as blastp and blastn (89) query to identify orthologs in P. graminis f.sp tritici Ug99 728 
+and 21-0 isolates (30), P. striiformis f.sp tritici 134E (47), 104E (48) and DK0911 (49), P. 729 
+triticina 76 (43), 19NSW04, 20QLD87 (32)  and 15 (55), P. polysora GD1913 (63), P. 730 
+coronate f.sp avenae 203  (39), 12NC29  and 12SD80 (38) isolates. Missed STE3.2-3 in Pst 731 
+104E was fixed by mapping short reads to reference genome Pst 134E with bwa-mem2 (90). 732 
+Mfa genes were identified by using mfa of Pt BBBD, Pgt SCCL and Pst 78  (18) as a custom 733 
+motif database to search similar pattern in all studied species with Geneious Prime v. 2022.1.1 734 
+(91), using a function built from fuzznuc (92). Karyograms of Pca 203, Pgt 21-0, Pt 76 and 735 
+Pst 134E were made with RIdeogram 0.2.2 (93). 736 
+Genealogical analysis of the HD and Pra genes 737 
+To construct a species tree for cereal rust fungi, protein sequences encoded in one nuclear 738 
+genome from each cereal rust fungus species under study was used as input data. The input 739 
+data was processed by Orthofinder 2.5.5 (61, 94) to infer maximum likelihood trees from 740 
+multiple sequence alignments (MSA), fasttree v2.1 (95) was used to calculate likelihood-741 
+based local support values. Coding sequences of identified HD and Pra genes were aligned 742 
+with MACSE v2.07 (96) with default setting. Coding-sequence based alignments were 743 
+trimmed by using TrimAl v1.2 (97) with option (-gc 0.9) to remove sequences which have 744 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+32 
+ 
+gaps in more than 10% of samples, trimmed alignments were realigned with MACSE again. 745 
+Nucleotide alignments were imported into BEAUti v2.7.6 (98) to generate .xml files, 746 
+bModelTest 1.3.3 (99) was used to test the best nucleotide substitution model separately with 747 
+a Markov chain length by 15 million. HKY+G was chosen for inferring two HD genes, 748 
+whereas TN93+I was chosen for Pra genes and STE3.2-1 individually. Then BEAST 2 749 
+MCMC runs under a strict molecular clock with the Yule Model tree, a 15 million length 750 
+Markov chains was used to provide a sufficient effective sample size (ESS) of independent 751 
+samples. Tracer v.1.7.2 (100) was used to check if ESS values of all parameters are above 200 752 
+for each run. TreeAnnotator (98) was used to generate a maximum clade credibility tree with 753 
+10% burn in. Figtree v.1.4.4 (101) was used to visualize the final output.  754 
+Nucleotide sequences of identified mfa genes were aligned with MACSE v2.07 (96) with 755 
+default settings, amino acid alignment generated was used to construct maximum likelihood 756 
+tree via IQ-TREE 2 (version 2.1.4-beta) (102), the best model was estimated by ModelFinder 757 
+(-m MFP) (103) based on Akaike Information Corrected Criterion (AICc) score (104), 10000 758 
+replicates were set for ultrafast bootstrap (105). JTT+G4 substitution model was chosen by 759 
+ModelFinder (103).  760 
+To compare topologies of bW-HD1 and bE-HD2 gene trees, IQ-TREE 2 (version 2.1.4-beta) 761 
+(102) was used to build unrooted maximum likelihood trees for each species and both genes 762 
+separately, the best model for each alignment estimated by ModelFinder (-m MFP) (103) 763 
+based on AICc score (104), 10000 replicates were set for ultrafast bootstrap (105). Top 100 764 
+optimal gene trees of bW-HD1 and bE-HD2 were used as alternate topologies after removing 765 
+branch length values to perform AU tests (62) with IQ-TREE2 (-keep-ident –zb 10000 -n 0 -766 
+au), pAU <0.05 suggesting topological incongruence between the two HD genes. 767 
+Estimation of centromeric regions  768 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+33 
+ 
+Hi-C reads of Pca 203 and Pt 76 were mapped back to their corresponding haploid genome 769 
+assembly with Juicer 1.6 (68) and processed with the 3d-dna (106) pipeline. Juicerbox 1.8.8 770 
+(68) was used to visualize Hi-C maps. The approximate positions of centromeric regions were 771 
+estimated by zooming in on the Hi-C heatmap in Juicerbox and selecting the region 772 
+corresponding to strong interaction signals, which has been validated and widely used in 773 
+previous studies (107, 108). 774 
+ds value estimation for allele pairs and plotting 775 
+Inspired by the approach used by Branco et al. (8) for identifying evolutionary strata on 776 
+mating-type chromosomes of Microbotryum  species, proteinortho 6.0.22 (109) was used to 777 
+pair orthologs one-to-one with -synteny and -singles tag. Muscle 3.8.1551 (110) was applied 778 
+to generate coding sequence based protein alignments with default settings. PAML 4.9 (111) 779 
+was used to calculate synonymous divergence values from alignments generated with Muscle. 780 
+Genomes were split in 10 kbp per window, then density of genes and repeats were calculated 781 
+with bedtools v 2.29.2 (112). Results were visualized with karyoploteR v3.17 (113). 782 
+Synteny analysis of MAT loci and flanking regions 783 
+Self-alignment analyses between two haplotypes of each species were done with Nucmer 784 
+(version 3.23) (65) with –maxmatch option, alignments with a size of less than 1000 bp or 785 
+less than 90 % identity were removed, filtered data were visualized via Matplotlib (114). 786 
+Nucmer (version 3.23) (65) was used to align nucleotide sequences of MAT regions.  787 
+Blastn 2.10.0 (89) was used to identified conserved genes (identity higher than 70%, e-value 788 
+< 0.05) across and within species. Results were visualized with gggenomes 0.9.9.9000 (115). 789 
+General repeat annotations 790 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+34 
+ 
+REPET v3.0 pipeline (116, 117) was applied to annotate repeats in all genomes used in this 791 
+study, together with Repbase v22.05 (118), config files were based on default settings. 792 
+TEdenovo was used to predict novel repetitive elements and to construct specific custom 793 
+databases from each genome individually as described in the manual instructions. Constructed 794 
+custom databases were used for repeat annotation with TEannot. The reference TE database 795 
+built for Pt 76 from TEdenovo with the REPET v3.0 pipeline was used as reference for 796 
+annotating repeats in Pt 15 (55), Pt 19NSW04 and Pt 20QLD87 (32) with RepeatMasker 4.1.5 797 
+(119) To make analyses consistent, the Pt 76 genome was reannotated in the same way as the 798 
+other three isolates.  799 
+To calculate the coverage of each TE family, classification information from TEannot was 800 
+used. For TEs with more than one potential classification, hits from Repbase which have more 801 
+than 70% of similarity were used as evidence for reclassification. 802 
+LTR_FINDER v1.07 (72) with ps_scan (120, 121) was used to identify detailed structures of 803 
+LTRs of Ty3_Pt_STE3.2-3 in default setting. Reverse transcriptase (A0A0C4EV49_PUCT1), 804 
+Retrotransposon gag domain (A0A0C4EKM8_PUCT1), Integrase, catalytic domain 805 
+(A0A0C4EMG6_PUCT1) and Retropepsins (A0A0C4F2V2_PUCT1) (122), were 806 
+additionally used as query to search for motifs in identified LTR retrotransposons using 807 
+tblastn 2.12.0+ (89). 808 
+Identification of variants in MAT loci 809 
+Sequence data of Pca were published by (40), data of Pgt were published by (30, 41, 42, 53) 810 
+and under PRJNA39437, data of Pt used in this study have been published earlier by (44-46) 811 
+and under PRJNA39803 and PRJNA39801, data of Pst were published by (50-52) and under 812 
+PRJNA60743, all above data were downloaded from NCBI SRA database (URL: 813 
+https://www.ncbi.nlm.nih.gov/sra) (Table S1). Four Pca isolates, Pca 203 (39), Pgt 21-0 (30), 814 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+35 
+ 
+Pt 76  (43) and Pst 134E (47), with published chromosome-scale haplotype-phased genome 815 
+assemblies were used as reference for mapping. Trimmomatic 0.39.2 (123) was used to 816 
+remove adapters from raw reads whereas FastQC v0.11.8 (124) was applied for assessing the 817 
+quality before and after trimming. Bwa-mem2 (90) was used to map trimmed reads to 818 
+reference genomes, MarkDuplicates (Picard) 1.70 (125) was applied to remove PCR-819 
+generated duplicates. Samtools 1.12 (126) was used to remove mapped reads with mapping 820 
+quality lower than 30. IGV 2.16.2 (127) and Qualimap 2 (128) were both used to check 821 
+mapping quality.  822 
+For reconstruction of Pra alleles, freebayes-parallel 1.3.6 (129, 130) was applied to detect 823 
+variants, bcftools 1.12 (126) was used to exclude low quality variants with 'QUAL<40'. 824 
+Samtools 1.12 (126) was used to filter out regions of interest. The Ensembl Variant Effect 825 
+Predictor (VEP) 88.9 (131) was used to annotate sequence variants. Bcftools 1.12 (126) was 826 
+used to generate consensus sequences, nucleotide and protein alignments were generated and 827 
+visualized with Geneious Prime v. 2022.1.1 (91).  828 
+For de novo reconstruction of HD alleles, Spades (132), a de novo assembler, was used for 829 
+building draft genome assemblies from available whole genome Illumina short read datasets 830 
+(Table S1). For isolates with average read lengths > 101 bp, k-mer size of 101 was chosen for 831 
+building draft genomes. For isolates with average read lengths < 101 bp, k-mer size of 51 bp 832 
+was chosen. HD genes used in genealogical analysis were used as reference genes, blastn 833 
+2.12.0+ (89) was used to search and identify HD allele containing contigs of the draft genome 834 
+assemblies. KAT (133) was used to compute a k-mer matrix from de novo  assembled HD 835 
+contigs and reference HD loci sequences with default setting (k-mer size=27). KAT filter was 836 
+used to obtain all paired-end reads which contained HD k-mers based on the created HD k-837 
+mer matrix (-T 0.2). Spades was used to reassemble all HD related paired-end reads of the 838 
+specific isolate. Final outputs were visualized in Geneious, CDS regions of reconstructed HD 839 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+36 
+ 
+alleles were predicted by mapping the CDS of reference HD alleles to reconstructed contigs, 840 
+ORFs were predicted with Geneious.  841 
+Comparison of MAT loci among Pt isolates 842 
+Fully phased genome assemblies of Pt 15 (55), Pt 19NSW04 and Pt 20QLD87 (32) were 843 
+downloaded from NCBI SRA database (URL: https://www.ncbi.nlm.nih.gov/sra), annotation 844 
+of Pt 19NSW04 and Pt 20QLD87 were downloaded from CSIRO Data Access Portal (URL: 845 
+https://data.csiro.au/). CDS and protein data of Pt 19NSW04 and Pt 20QLD87 were generated 846 
+with Gffread (134), MAT genes were identified with blastn 2.12.0 (89) using MAT genes in Pt 847 
+76 as query. Nucmer 3.2.3 was applied to make pair-wise comparisons between Pt isolates, --848 
+maxmatch tag was used to allow identification of maximum hits, macrosynteny plots were 849 
+generated with Matplotlib (114) after removing matches with < 90% identity and shorter than 850 
+1000 bp. Blastn 2.10.0 (89) was used to identify orthologs with at least 70 % identity. 851 
+Microsynteny plots were generated with gggenome2 (115).  852 
+Comparison of expression of MAT genes in asexual reproduction  853 
+RNA-seq reads of rust fungi on infected plants were obtained from NCBI SRA database 854 
+(URL: https://www.ncbi.nlm.nih.gov/sra). The datasets included: RNA-seq data of Pst 87/66 855 
+on infected wheat (PRJEB12497 (74), Pca 12NC29 on Brachypodium distachyon 856 
+(PRJNA398546 (38), Pgt 21-0 on infected wheat (PRJNA415866 (41), Pst 104E  857 
+(PRJNA396589 (48). Raw reads were quality checked with FastQC v0.11.8 (124), 858 
+trimmomatic 0.50 (123) was used to trim low quality reads with parameters: 859 
+ILLUMINACLIP:adapter.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 860 
+MINLEN:36. Kallisto 0.44.0 (135) was then applied to align and count transcripts with -b 100 861 
+parameter for all paired-end reads and -b 50 -l 200 -s 20 --single --single-overhang for single-862 
+end reads. Pst 104E cDNA data was used as reference for Pst 104E infected tissues. Since no 863 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+37 
+ 
+reference genome of Pst 87/66 is available, cDNA data of Pst 134E was used as reference 864 
+instead with HD genes of Pst 87/66 supplemented to obtain better quantification of the 865 
+specific HD alleles. Pgt 21-0 and Pca 12NC29 were used as reference for mapping reads from 866 
+Pgt 21-0 and Pca 12NC29 infected tissues, respectively. Gene names of Pca 12NC29 and Pst 867 
+104E were added with funannotate annotate v 1.8.5 (136, 137) with default parameters. 868 
+Kallisto outputs were imported to EdgeR 3.17 (138) with tximportdata (139) following user 869 
+instruction, followed by normalizing with the TMM method, significant upregulation of MAT 870 
+genes was assessed with the LRT method and ggplot2 (140) was used to visualize the result. 871 
+House keeping genes were identified in each dataset based on the following conditions: p-872 
+value>0.1 and log(FC) <0.5, functional annotations of candidate house keeping genes were 873 
+retrieved from interproscan (137).  874 
+Data Availability 875 
+Analysis code used in this study is available at github repository: 876 
+https://github.com/ZhenyanLuo/codes-used-for-mating-type. Alignments of genealogical 877 
+studies, ds value of gene pairs in studied cereal rust species, CDS of reconstructed HD alleles, 878 
+Pra alleles, TE annotation and classification files are available at Dryad 879 
+(https://doi.org/10.5061/dryad.w0vt4b8zm). 880 
+References 881 
+ 882 
+1. Bachtrog D. A dynamic view of sex chromosome evolution. Current opinion in 883 
+genetics & development. 2006;16(6):578-85. 884 
+2. Jay P, Tezenas E, Véber A, Giraud T. Sheltering of deleterious mutations explains the 885 
+stepwise extension of recombination suppression on sex chromosomes and other supergenes. 886 
+PLoS Biology. 2022;20(7):e3001698. 887 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+38 
+ 
+3. Duhamel M, Carpentier F, Begerow D, Hood ME, Rodríguez de la Vega RC, Giraud 888 
+T. Onset and stepwise extensions of recombination suppression are common in mating/i1type 889 
+chromosomes of Microbotryum anther/i1smut fungi. Journal of Evolutionary Biology. 2022. 890 
+4. Carpentier F, Rodríguez de la Vega RC, Jay P, Duhamel M, Shykoff JA, Perlin MH, 891 
+et al. Tempo of degeneration across independently evolved nonrecombining regions. 892 
+Molecular Biology and Evolution. 2022;39(4):msac060. 893 
+5. Idnurm A, Hood ME, Johannesson H, Giraud T. Contrasted patterns in mating-type 894 
+chromosomes in fungi: hotspots versus coldspots of recombination. Fungal Biology Reviews. 895 
+2015;29(3-4):220-9. 896 
+6. Hartmann FE, Duhamel M, Carpentier F, Hood ME, Foulongne /i1Oriol M, Silar P, et 897 
+al. Recombination suppression and evolutionary strata around mating/i1type loci in fungi: 898 
+documenting patterns and understanding evolutionary and mechanistic causes. New 899 
+Phytologist. 2021;229(5):2470-91. 900 
+7. Bazzicalupo AL, Carpentier F, Otto SP, Giraud T. Little evidence of antagonistic 901 
+selection in the evolutionary strata of fungal mating-type chromosomes (Microbotryum 902 
+lychnidis-dioicae). G3: Genes, Genomes, Genetics. 2019;9(6):1987-98. 903 
+8. Branco S, Badouin H, de la Vega RCR, Gouzy J, Carpentier F, Aguileta G, et al. 904 
+Evolutionary strata on young mating-type chromosomes despite the lack of sexual antagonism. 905 
+Proceedings of the National Academy of Sciences. 2017;114(27):7067-72. 906 
+9. Coelho MA, Bakkeren G, Sun S, Hood ME, Giraud T. Fungal sex: the Basidiomycota. 907 
+The fungal kingdom. 2017:147-75. 908 
+10. Menkis A, Jacobson DJ, Gustafsson T, Johannesson H. The mating-type chromosome 909 
+in the filamentous ascomycete Neurospora tetrasperma represents a model for early evolution 910 
+of sex chromosomes. PLoS Genetics. 2008;4(3):e1000030. 911 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+39 
+ 
+11. Hartmann FE, Ament-Velásquez SL, Vogan AA, Gautier V, Le Prieur S, Berramdane 912 
+M, et al. Size variation of the nonrecombining region on the mating-type chromosomes in the 913 
+fungal Podospora anserina species complex. Molecular biology and evolution. 914 
+2021;38(6):2475-92. 915 
+12. Vittorelli N, Rodríguez de la Vega RC, Snirc A, Levert E, Gautier V, Lalanne C, et al. 916 
+Stepwise recombination suppression around the mating-type locus in an ascomycete fungus 917 
+with self-fertile spores. PLoS Genetics. 2023;19(2):e1010347. 918 
+13. Carpentier F, de la Vega RCR, Branco S, Snirc A, Coelho MA, Hood ME, et al. 919 
+Convergent recombination cessation between mating-type genes and centromeres in selfing 920 
+anther-smut fungi. Genome research. 2019;29(6):944-53. 921 
+14. Aime M, McTaggart A. A higher-rank classification for rust fungi, with notes on 922 
+genera. Fungal systematics and evolution. 2021;7(1):21-47. 923 
+15. Dean R, Van Kan JA, Pretorius ZA, Hammond /i1Kosack KE, Di Pietro A, Spanu PD, 924 
+et al. The Top 10 fungal pathogens in molecular plant pathology. Molecular plant pathology. 925 
+2012;13(4):414-30. 926 
+16. Savary S, Willocquet L, Pethybridge SJ, Esker P, McRoberts N, Nelson A. The global 927 
+burden of pathogens and pests on major food crops. Nature ecology & evolution. 928 
+2019;3(3):430-9. 929 
+17. Fraser JA, Diezmann S, Subaran RL, Allen A, Lengeler KB, Dietrich FS, et al. 930 
+Convergent evolution of chromosomal sex-determining regions in the animal and fungal 931 
+kingdoms. PLoS biology. 2004;2(12):e384. 932 
+18. Cuomo CA, Bakkeren G, Khalil HB, Panwar V, Joly D, Linning R, et al. Comparative 933 
+analysis highlights variable genome content of wheat rusts and divergence of the mating loci. 934 
+G3: Genes, Genomes, Genetics. 2017;7(2):361-76. 935 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+40 
+ 
+19. Wu JQ, Song L, Ding Y, Dong C, Hasan M, Park RF. A chromosome-scale assembly 936 
+of the wheat leaf rust pathogen Puccinia triticina provides insights into structural variations 937 
+and genetic relationships with haplotype resolution. Frontiers in Microbiology. 2021:2180. 938 
+20. Maia TM, Lopes ST, Almeida JMGCF, Rosa LH, Sampaio JP, Gonçalves P, et al. 939 
+Evolution of Mating Systems in Basidiomycetes and the Genetic Architecture Underlying 940 
+Mating-Type Determination in the Yeast Leucosporidium scottii. Genetics. 2015;201(1):75-941 
+89. 942 
+21. Holden S, Bakkeren G, Hubensky J, Bamrah R, Abbasi M, Qutob D, et al. Uncovering 943 
+the history of recombination and population structure in western Canadian stripe rust 944 
+populations through mating type alleles. BMC Biology. 2023;21(1):233. 945 
+22. Badouin H, Hood ME, Gouzy J, Aguileta G, Siguenza S, Perlin MH, et al. Chaos of 946 
+rearrangements in the mating-type chromosomes of the anther-smut fungus Microbotryum 947 
+lychnidis-dioicae. Genetics. 2015;200(4):1275-84. 948 
+23. Petit E, Giraud T, de Vienne DM, Coelho MA, Aguileta G, Amselem J, et al. 949 
+LINKAGE TO THE MATING/i1TYPE LOCUS ACROSS THE GENUS MICROBOTRYUM: 950 
+INSIGHTS INTO NONRECOMBINING CHROMOSOMES. Evolution. 2012;66(11):3519-951 
+33. 952 
+24. Coelho MA, Ianiri G, David-Palma M, Theelen B, Goyal R, Narayanan A, et al. 953 
+Frequent transitions in mating-type locus chromosomal organization in Malassezia and early 954 
+steps in sexual reproduction. Proceedings of the National Academy of Sciences. 955 
+2023;120(32):e2305094120. 956 
+25. Bazzicalupo AL, Carpentier F, Otto SP, Giraud T. Little Evidence of Antagonistic 957 
+Selection in the Evolutionary Strata of Fungal Mating-Type Chromosomes (Microbotryum 958 
+lychnidis-dioicae). G3 Genes|Genomes|Genetics. 2019;9(6):1987-98. 959 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+41 
+ 
+26. Buller AHR. Researches on Fungi, Vol. VII: The Sexual Process in the  Uredinales: 960 
+University of Toronto Press; 1950. 961 
+27. Narisawa K, Yamaoka Y, Katsuya K. Mating type of isolates derived from the 962 
+spermogonial state of Puccinia coronata var. coronata. Mycoscience. 1994;35(2):131-5. 963 
+28. Nemri A, Saunders DG, Anderson C, Upadhyaya NM, Win J, Lawrence G, et al. The 964 
+genome sequence and effector complement of the flax rust pathogen Melampsora lini. 965 
+Frontiers in plant science. 2014;5:98. 966 
+29. Ferrarezi J, McTaggart A, Tobias P, Hayashibara C, Degnan R, Shuey L, et al. 967 
+Austropuccinia psidii uses tetrapolar mating and produces meiotic spores in older infections 968 
+on Eucalyptus grandis. Fungal Genetics and Biology. 2022:103692. 969 
+30. Li F, Upadhyaya NM, Sperschneider J, Matny O, Nguyen-Phuc H, Mago R, et al. 970 
+Emergence of the Ug99 lineage of the wheat stem rust pathogen through somatic 971 
+hybridisation. Nature communications. 2019;10(1):1-15. 972 
+31. Devier B, Aguileta G, Hood ME, Giraud T. Ancient trans-specific polymorphism at 973 
+pheromone receptor genes in basidiomycetes. Genetics. 2009;181(1):209-23. 974 
+32. Sperschneider J, Hewitt T, Lewis DC, Periyannan S, Milgate AW, Hickey LT, et al. 975 
+Nuclear exchange generates population diversity in the wheat leaf rust pathogen Puccinia 976 
+triticina. Nature Microbiology. 2023:1-12. 977 
+33. Kronstad J, Leong S. The b mating-type locus of Ustilago maydis contains variable 978 
+and constant regions. Genes & development. 1990;4(8):1384-95. 979 
+34. Casselton LA, Olesnicky NS. Molecular genetics of mating recognition in 980 
+basidiomycete fungi. Microbiology and molecular biology reviews. 1998;62(1):55-70. 981 
+35. Duplessis S, Hacquard S, Delaruelle C, Tisserant E, Frey P, Martin F, et al. 982 
+Melampsora larici-populina transcript profiling during germination and timecourse infection 983 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+42 
+ 
+of poplar leaves reveals dynamic expression patterns associated with virulence and biotrophy. 984 
+Molecular plant-microbe interactions. 2011;24(7):808-18. 985 
+36. Hood ME, Antonovics J, Koskella B. Shared forces of sex chromosome evolution in 986 
+haploid-mating and diploid-mating organisms: Microbotryum violaceum and other model 987 
+organisms. Genetics. 2004;168(1):141-6. 988 
+37. Duhamel M, Hood ME, Rodríguez de la Vega RC, Giraud T. Dynamics of 989 
+transposable element accumulation in the non-recombining regions of mating-type 990 
+chromosomes in anther-smut fungi. Nature Communications. 2023;14(1):5692. 991 
+38. Miller ME, Zhang Y, Omidvar V, Sperschneider J, Schwessinger B, Raley C, et al. De 992 
+novo assembly and phasing of dikaryotic genomes from two isolates of Puccinia coronata f. 993 
+sp. avenae, the causal agent of oat crown rust. MBio. 2018;9(1):e01650-17. 994 
+39. Henningsen EC, Hewitt T, Dugyala S, Nazareno ES, Gilbert E, Li F, et al. A 995 
+chromosome-level, fully phased genome assembly of the oat crown rust fungus Puccinia 996 
+coronata f. sp. avenae: a resource to enable comparative genomics in the cereal rusts. G3. 997 
+2022;12(8):jkac149. 998 
+40. Miller ME, Nazareno ES, Rottschaefer SM, Riddle J, Dos Santos Pereira D, Li F, et al. 999 
+Increased virulence of Puccinia coronata f. sp. avenae populations through allele frequency 1000 
+changes at multiple putative Avr loci. PLoS genetics. 2020;16(12):e1009291. 1001 
+41. Chen J, Upadhyaya NM, Ortiz D, Sperschneider J, Li F, Bouton C, et al. Loss of 1002 
+AvrSr50 by somatic exchange in stem rust leads to virulence for Sr50 resistance in wheat. 1003 
+Science. 2017;358(6370):1607-10. 1004 
+42. Lewis CM, Persoons A, Bebber DP, Kigathi RN, Maintz J, Findlay K, et al. Potential 1005 
+for re-emergence of wheat stem rust in the United Kingdom. Communications biology. 1006 
+2018;1(1):1-9. 1007 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+43 
+ 
+43. Duan H, Jones AW, Hewitt T, Mackenzie A, Hu Y, Sharp A, et al. Physical separation 1008 
+of haplotypes in dikaryons allows benchmarking of phasing accuracy in Nanopore and HiFi 1009 
+assemblies with Hi-C data. Genome biology. 2022;23(1):84. 1010 
+44. Wu JQ, Dong C, Song L, Park RF. Long-Read–Based de novo Genome Assembly and 1011 
+Comparative genomics of the wheat leaf rust pathogen Puccinia triticina identifies candidates 1012 
+for three avirulence genes. Frontiers in genetics. 2020;11:521. 1013 
+45. Wu JQ, Sakthikumar S, Dong C, Zhang P, Cuomo CA, Park RF. Comparative 1014 
+genomics integrated with association analysis identifies candidate effector genes 1015 
+corresponding to Lr20 in phenotype-paired Puccinia triticina isolates from Australia. 1016 
+Frontiers in plant science. 2017;8:148. 1017 
+46. Fellers JP, Sakthikumar S, He F, McRell K, Bakkeren G, Cuomo CA, et al. Whole-1018 
+genome sequencing of multiple isolates of Puccinia triticina reveals asexual lineages 1019 
+evolving by recurrent mutations. G3. 2021;11(9):jkab219. 1020 
+47. Schwessinger B, Jones A, Albekaa M, Hu Y, Mackenzie A, Tam R, et al. A 1021 
+Chromosome Scale Assembly of an Australian Puccinia striiformis f. sp. tritici Isolate of the 1022 
+PstS1 Lineage. Molecular Plant-Microbe Interactions. 2022;35(3):293-6. 1023 
+48. Schwessinger B, Sperschneider J, Cuddy WS, Garnica DP, Miller ME, Taylor JM, et 1024 
+al. A near-complete haplotype-phased genome of the dikaryotic wheat stripe rust fungus 1025 
+Puccinia striiformis f. sp. tritici reveals high interhaplotype diversity. MBio. 1026 
+2018;9(1):e02275-17. 1027 
+49. Schwessinger B, Chen Y-J, Tien R, Vogt JK, Sperschneider J, Nagar R, et al. Distinct 1028 
+life histories impact dikaryotic genome evolution in the rust fungus Puccinia striiformis 1029 
+causing stripe rust in wheat. Genome biology and evolution. 2020;12(5):597-617. 1030 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+44 
+ 
+50. van Schalkwyk HJ, Adams T, Persoons A, Boshoff WH, Wanyera R, Hovmøller MS, 1031 
+et al. Pathogenomic analyses of Puccinia striiformis f. sp. tritici supports a close genetic 1032 
+relationship between South and East Africa. Plant Pathology. 2022;71(2):279-88. 1033 
+51. Hubbard A, Lewis CM, Yoshida K, Ramirez-Gonzalez RH, de Vallavieille-Pope C, 1034 
+Thomas J, et al. Field pathogenomics reveals the emergence of a diverse wheat yellow rust 1035 
+population. Genome biology. 2015;16(1):1-15. 1036 
+52. Ding Y, Cuddy WS, Wellings CR, Zhang P, Thach T, Hovmøller MS, et al. Incursions 1037 
+of divergent genotypes, evolution of virulence and host jumps shape a continental clonal 1038 
+population of the stripe rust pathogen Puccinia striiformis. Molecular Ecology. 1039 
+2021;30(24):6566-84. 1040 
+53. Upadhyaya NM, Garnica DP, Karaoglu H, Sperschneider J, Nemri A, Xu B, et al. 1041 
+Comparative genomics of Australian isolates of the wheat stem rust pathogen Puccinia 1042 
+graminis f. sp. tritici reveals extensive polymorphism in candidate effector genes. Frontiers in 1043 
+plant science. 2015;5:759. 1044 
+54. Henningsen EC, Hewitt T, Dugyala S, Nazareno E, Gilbert E, Li F, et al. A 1045 
+chromosome-level, fully phased genome assembly of the oat crown rust fungus Puccinia 1046 
+coronata f. sp. avenae: a resource to enable comparative genomics in the cereal rusts. bioRxiv. 1047 
+2022. 1048 
+55. Li C, Qiao L, Lu Y, Xing G, Wang X, Zhang G, et al. Gapless Genome Assembly of 1049 
+Puccinia triticina Provides Insights into Chromosome Evolution in Pucciniales. Microbiology 1050 
+Spectrum. 2023;11(1):e02828-22. 1051 
+56. Schwessinger B, Sperschneider J, Cuddy WS, Garnica DP, Miller ME, Taylor JM, et 1052 
+al. A near-complete haplotype-phased genome of the dikaryotic wheat stripe rust fungus 1053 
+Puccinia striiformis f. sp. tritici reveals high interhaplotype diversity. MBio. 2018;9(1). 1054 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+45 
+ 
+57. Persoons A, Morin E, Delaruelle C, Payen T, Halkett F, Frey P, et al. Patterns of 1055 
+genomic variation in the poplar rust fungus Melampsora larici-populina identify 1056 
+pathogenesis-related factors. Frontiers in plant science. 2014;5:450. 1057 
+58. Raudaskoski M, Kothe E. Basidiomycete mating type genes and pheromone signaling. 1058 
+Eukaryotic cell. 2010;9(6):847. 1059 
+59. van Diepen LTA, Olson Å, Ihrmark K, Stenlid J, James TY. Extensive Trans-Specific 1060 
+Polymorphism at the Mating Type Locus of the Root Decay Fungus Heterobasidion. 1061 
+Molecular Biology and Evolution. 2013;30(10):2286-301. 1062 
+60. Aime MC, Bell CD, Wilson AW. Deconstructing the evolutionary complexity 1063 
+between rust fungi (Pucciniales) and their plant hosts. Studies in Mycology. 2018;89(1):143-1064 
+52. 1065 
+61. Emms DM, Kelly S. STRIDE: species tree root inference from gene duplication 1066 
+events. Molecular biology and evolution. 2017;34(12):3267-78. 1067 
+62. Shimodaira H. An approximately unbiased test of phylogenetic tree selection. 1068 
+Systematic biology. 2002;51(3):492-508. 1069 
+63. Liang J, Li Y, Dodds PN, Figueroa M, Sperschneider J, Han S, et al. Haplotype-1070 
+phased and chromosome-level genome assembly of Puccinia polysora, a giga-scale fungal 1071 
+pathogen causing southern corn rust. Molecular Ecology Resources. 2023;23(3):601-20. 1072 
+64. Sun S, Coelho MA, Heitman J, Nowrousian M. Convergent evolution of linked 1073 
+mating-type loci in basidiomycete fungi. PLoS genetics. 2019;15(9):e1008365. 1074 
+65. Marçais G, Delcher AL, Phillippy AM, Coston R, Salzberg SL, Zimin A. MUMmer4: 1075 
+A fast and versatile genome alignment system. PLoS computational biology. 1076 
+2018;14(1):e1005944. 1077 
+66. Hood ME, Scott M, Hwang M. Breaking linkage between mating compatibility factors: 1078 
+Tetrapolarity in Microbotryum. Evolution. 2015;69(10):2561-72. 1079 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+46 
+ 
+67. Sperschneider J, Jones AW, Nasim J, Xu B, Jacques S, Zhong C, et al. The stem rust 1080 
+fungus Puccinia graminis f. sp. tritici induces centromeric small RNAs during late infection 1081 
+that are associated with genome-wide DNA methylation. BMC biology. 2021;19(1):1-25. 1082 
+68. Durand NC, Robinson JT, Shamim MS, Ma chol I, Mesirov JP, Lander ES, et al. 1083 
+Juicebox provides a visualization system for Hi-C contact maps with unlimited zoom. Cell 1084 
+systems. 2016;3(1):99-101. 1085 
+69. Coelho MA, Sampaio JP, Goncalves P. A deviation from the bipolar-tetrapolar mating 1086 
+paradigm in an early diverged basidiomycete. PLoS genetics. 2010;6(8):e1001052. 1087 
+70. Urban M, Kahmann R, Bölker M. The biallelica mating type locus  maydis: remnants 1088 
+of an additional pheromone gene indicate evolution from a multiallelic ancestor. Molecular 1089 
+and General Genetics MGG. 1996;250(4):414-20. 1090 
+71. Wei K, Aldaimalani R, Mai D, Zinshteyn D, Satyaki P, Blumenstiel JP, et al. 1091 
+Rethinking the “gypsy” retrotransposon: A roadmap for community-driven reconsideration of 1092 
+problematic gene names. 2022. 1093 
+72. Xu Z, Wang H. LTR_FINDER: an efficient tool for the prediction of full-length LTR 1094 
+retrotransposons. Nucleic acids research. 2007;35(suppl_2):W265-W8. 1095 
+73. Zhan G, Guo J, Tian Y, Ji F, Bai X, Zhao J, et al. High-throughput RNA sequencing 1096 
+reveals differences between the transcriptomes of the five spore forms of Puccinia striiformis 1097 
+f. sp. tritici, the wheat stripe rust pathogen. Stress Biology. 2023;3(1):29. 1098 
+74. Dobon A, Bunting DC, Cabrera-Quio LE, Uauy C, Saunders DG. The host-pathogen 1099 
+interaction between wheat and yellow rust induces temporally coordinated waves of gene 1100 
+expression. BMC genomics. 2016;17(1):1-14. 1101 
+75. Au SW, Leng X, Harper JW, Barford D. Implications for the ubiquitination reaction of 1102 
+the anaphase-promoting complex from the crystal structure of the Doc1/Apc10 subunit. 1103 
+Journal of molecular biology. 2002;316(4):955-68. 1104 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+47 
+ 
+76. Andersen GR, Nissen P, Nyborg J. Elongation factors in protein biosynthesis. Trends 1105 
+in biochemical sciences. 2003;28(8):434-41. 1106 
+77. Wirth S, Freihorst D, Krause K, Kothe E. What role might non-mating receptors play 1107 
+in Schizophyllum commune? Journal of Fungi. 2021;7(5):399. 1108 
+78. Hsueh YP, Xue C, Heitman J. A constitutively active GPCR governs morphogenic 1109 
+transitions in Cryptococcus neoformans. The EMBO journal. 2009;28(9):1220-33. 1110 
+79. Zambino P, Groth JV, Lukens L, Garton JR, May G. Variation at the b mating type 1111 
+locus of Ustilago maydis. Phytopathology. 1997;87(12):1233-9. 1112 
+80. Silva J. Alleles at the b incompatibility locus in Polish and North American 1113 
+populations of Ustilago maydis (DC) Corda. Physiological Plant Pathology. 1972;2(4):333-7. 1114 
+81. Metin B, Findley K, Heitman J. The mating type locus ( MAT) and sexual reproduction 1115 
+of Cryptococcus heveanensis: insights into the evolution of sex and sex-determining 1116 
+chromosomal regions in fungi. PLoS Genetics. 2010;6(5):e1000961. 1117 
+82. Bölker M, Urban M, Kahmann R. The a mating type locus of U. maydis specifies cell 1118 
+signaling components. Cell. 1992;68(3):441-50. 1119 
+83. Schirawski J, Heinze B, Wagenknecht M, Kahmann R. Mating type loci of 1120 
+Sporisorium reilianum: novel pattern with three a and multiple b specificities. Eukaryotic cell. 1121 
+2005;4(8):1317-27. 1122 
+84. Fontanillas E, Hood ME, Badouin H, Petit E, Barbe V, Gouzy J, et al. Degeneration of 1123 
+the nonrecombining regions in the mating-type chromosomes of the anther-smut fungi. 1124 
+Molecular biology and evolution. 2015;32(4):928-43. 1125 
+85. Duplessis S, Cuomo CA, Lin Y-C, Aerts A, Tisserant E, Veneault-Fourrey C, et al. 1126 
+Obligate biotrophy features unraveled by the genomic analysis of rust fungi. Proceedings of 1127 
+the National Academy of Sciences. 2011;108(22):9166-71. 1128 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+48 
+ 
+86. Savile DBO. Nuclear structure and behavior in species of the Uredinales. American 1129 
+Journal of Botany. 1939:585-609. 1130 
+87. Park RF, Wellings CR. Somatic hybridization in the Uredinales. Annual review of 1131 
+Phytopathology. 2012;50:219-39. 1132 
+88. Manni M, Berkeley MR, Seppey M, Simão FA, Zdobnov EM. BUSCO update: novel 1133 
+and streamlined workflows along with broader and deeper phylogenetic coverage for scoring 1134 
+of eukaryotic, prokaryotic, and viral genomes. Molecular biology and evolution. 1135 
+2021;38(10):4647-54. 1136 
+89. Johnson M, Zaretskaya I, Raytselis Y, Merezhuk Y, McGinnis S, Madden TL. NCBI 1137 
+BLAST: a better web interface. Nucleic acids research. 2008;36(suppl_2):W5-W9. 1138 
+90. Li H, Durbin R. Fast and accurate short read alignment with Burrows–Wheeler 1139 
+transform. bioinformatics. 2009;25(14):1754-60. 1140 
+91. Geneious Prime 2022.0.2  [Available from: https://www.geneious.com. 1141 
+92. Rice P, Longden I, Bleasby A. EMBOSS: the European molecular biology open 1142 
+software suite. Elsevier current trends; 2000. 1143 
+93. Hao Z, Lv D, Ge Y, Shi J, Weijers D, Yu G, et al. RIdeogram: drawing SVG graphics 1144 
+to visualize and map genome-wide data on the idiograms. PeerJ Computer Science. 1145 
+2020;6:e251. 1146 
+94. Emms DM, Kelly S. OrthoFinder: phylogenetic orthology inference for comparative 1147 
+genomics. Genome biology. 2019;20(1):1-14. 1148 
+95. Price MN, Dehal PS, Arkin AP. FastTree 2–approximately maximum-likelihood trees 1149 
+for large alignments. PloS one. 2010;5(3):e9490. 1150 
+96. Ranwez V, Douzery EJ, Cambon C, Chantret N, Delsuc F. MACSE v2: toolkit for the 1151 
+alignment of coding sequences accounting for frameshifts and stop codons. Molecular biology 1152 
+and evolution. 2018;35(10):2582-4. 1153 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+49 
+ 
+97. Capella-Gutiérrez S, Silla-Martínez JM, Gabaldón T. trimAl: a tool for automated 1154 
+alignment trimming in large-scale phylogenetic analyses. Bioinformatics. 2009;25(15):1972-3. 1155 
+98. Bouckaert R, Heled J, Kühnert D, Vaughan T, Wu C-H, Xie D, et al. BEAST 2: a 1156 
+software platform for Bayesian evolutionary analysis. PLoS computational biology. 1157 
+2014;10(4):e1003537. 1158 
+99. Bouckaert RR, Drummond AJ. bModelTest: Bayesian phylogenetic site model 1159 
+averaging and model comparison. BMC evolutionary biology. 2017;17:1-11. 1160 
+100. Rambaut A, Drummond AJ, Xie D, Baele G, Suchard MA. Posterior summarization in 1161 
+Bayesian phylogenetics using Tracer 1.7. Systematic biology. 2018;67(5):901-4. 1162 
+101. FigTree 2016 [Available from: http://tree.bio.ed.ac.uk/software/figtree/ . 1163 
+102. Minh BQ, Schmidt HA, Chernomor O, Schrempf D, Woodhams MD, Von Haeseler A, 1164 
+et al. IQ-TREE 2: new models and efficient methods for phylogenetic inference in the 1165 
+genomic era. Molecular biology and evolution. 2020;37(5):1530-4. 1166 
+103. Kalyaanamoorthy S, Minh BQ, Wong TKF, von Haeseler A, Jermiin LS. ModelFinder: 1167 
+fast model selection for accurate phylogenetic estimates. Nature Methods. 2017;14(6):587-9. 1168 
+104. HURVICH CM, TSAI C-L. Regression and time series model selection in small 1169 
+samples. Biometrika. 1989;76(2):297-307. 1170 
+105. Minh BQ, Nguyen MAT, Von Haeseler A. Ultrafast approximation for phylogenetic 1171 
+bootstrap. Molecular biology and evolution. 2013;30(5):1188-95. 1172 
+106. Dudchenko O, Batra SS, Omer AD, Nyquist SK, Hoeger M, Durand NC, et al. De 1173 
+novo assembly of the Aedes aegypti genome using Hi-C yields chromosome-length scaffolds. 1174 
+Science. 2017;356(6333):92-5. 1175 
+107. Yow AG, Zhang Y, Bansal K, Eacker SM, Sullivan S, Liachko I, et al. Genome 1176 
+sequence of Monilinia vaccinii-corymbosi sheds light on mummy berry disease infection of 1177 
+blueberry and mating type. G3. 2021;11(2):jkaa052. 1178 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+50 
+ 
+108. Schultz DT, Haddock SH, Bredeson JV, Green RE, Simakov O, Rokhsar DS. Ancient 1179 
+gene linkages support ctenophores as sister to other animals. Nature. 2023:1-8. 1180 
+109. Lechner M, Findeiß S, Steiner L, Marz M, Stadler PF, Prohaska SJ. Proteinortho: 1181 
+detection of (co-) orthologs in large-scale analysis. BMC bioinformatics. 2011;12(1):1-9. 1182 
+110. Edgar RC. MUSCLE: multiple sequence alignment with high accuracy and high 1183 
+throughput. Nucleic Acids Research. 2004;32(5):1792-7. 1184 
+111. Yang Z. PAML 4: phylogenetic analysis by maximum likelihood. Molecular biology 1185 
+and evolution. 2007;24(8):1586-91. 1186 
+112. Quinlan AR, Hall IM. BEDTools: a flexible suite of utilities for comparing genomic 1187 
+features. Bioinformatics. 2010;26(6):841-2. 1188 
+113. Gel B, Serra E. karyoploteR: an R/Bioconductor package to plot customizable 1189 
+genomes displaying arbitrary data. Bioinformatics. 2017;33(19):3088-90. 1190 
+114. Hunter JD. Matplotlib: A 2D graphics environment. Computing in science & 1191 
+engineering. 2007;9(03):90-5. 1192 
+115. Thomas Hackl MJA. gggenomes: A Grammar of Graphics for Comparative Genomics 1193 
+2022 [Available from: https://github.com/thackl/gggenomes. 1194 
+116. Flutre T, Duprat E, Feuillet C, Quesneville H. Considering transposable element 1195 
+diversification in de novo annotation approaches. PloS one. 2011;6(1):e16526. 1196 
+117. Quesneville H, Bergman CM, Andrieu O, Autard D, Nouaud D, Ashburner M, et al. 1197 
+Combined evidence annotation of transposable elements in genome sequences. PLoS Comput 1198 
+Biol. 2005;1(2):e22. 1199 
+118. Bao W, Kojima KK, Kohany O. Repbase Update, a database of repetitive elements in 1200 
+eukaryotic genomes. Mobile Dna. 2015;6(1):11. 1201 
+119. Smit A, Hubley R, Green P. RepeatMasker Open-4.0. 2013–2015. 2015. 1202 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+51 
+ 
+120. Gattiker A, Gasteiger E, Bairoch A. ScanProsite: a reference implementation of a 1203 
+PROSITE scanning tool. Applied bioinformatics. 2002;1(2):107-8. 1204 
+121. Sigrist CJ, De Castro E, Cerutti L, Cuche BA, Hulo N, Bridge A, et al. New and 1205 
+continuing developments at PROSITE. Nucleic acids research. 2012;41(D1):D344-D7. 1206 
+122. Consortium U. UniProt: a worldwide hub of protein knowledge. Nucleic acids 1207 
+research. 2019;47(D1):D506-D15. 1208 
+123. Bolger AM, Lohse M, Usadel B. Trimmomatic: a flexible trimmer for Illumina 1209 
+sequence data. Bioinformatics. 2014;30(15):2114-20. 1210 
+124. Andrews FK, Anne Segonds-Pichon, Laura Biggins, Christel Krueger, Jo 1211 
+Montgomery. FastQC: a quality control tool for high throughput sequence data 2010 1212 
+[Available from: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/. 1213 
+125. Picard toolkit: Broad Institute; 2019 [Available from: 1214 
+https://github.com/broadinstitute/picard. 1215 
+126. Li H, Handsaker B, Wysoker A, Fennell T, Ruan J, Homer N, et al. The sequence 1216 
+alignment/map format and SAMtools. Bioinformatics. 2009;25(16):2078-9. 1217 
+127. Thorvaldsdóttir H, Robinson JT, Mesirov JP. Integrative Genomics Viewer (IGV): 1218 
+high-performance genomics data visualization and exploration. Briefings in bioinformatics. 1219 
+2013;14(2):178-92. 1220 
+128. Okonechnikov K, Conesa A, García-Alcalde F. Qualimap 2: advanced multi-sample 1221 
+quality control for high-throughput sequencing data. Bioinformatics. 2016;32(2):292-4. 1222 
+129. Tange O. GNU parallel 2018: Lulu. com; 2018. 1223 
+130. Garrison E, Marth G. Haplotype-based variant detection from short-read sequencing. 1224 
+arXiv preprint arXiv:12073907. 2012. 1225 
+131. McLaren W, Gil L, Hunt SE, Riat HS, Ritchie GR, Thormann A, et al. The ensembl 1226 
+variant effect predictor. Genome biology. 2016;17(1):1-14. 1227 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+52 
+ 
+132. Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, et al. 1228 
+SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J 1229 
+Comput Biol. 2012;19(5):455-77. 1230 
+133. Mapleson D, Garcia Accinelli G, Kettleborough G, Wright J, Clavijo BJ. KAT: a K-1231 
+mer analysis toolkit to quality control NGS datasets and genome assemblies. Bioinformatics. 1232 
+2017;33(4):574-6. 1233 
+134. Pertea G, Pertea M. GFF utilities: GffRead and GffCompare. F1000Research. 2020;9. 1234 
+135. Bray NL, Pimentel H, Melsted P, Pachter L. Near-optimal probabilistic RNA-seq 1235 
+quantification. Nature biotechnology. 2016;34(5):525-7. 1236 
+136. Jon Palmer JS. nextgenusfs/funannotate: funannotate v1.5.3 Zenodo2019 [Available 1237 
+from: https://doi.org/10.5281/zenodo.2604804. 1238 
+137. Jones P, Binns D, Chang H-Y, Fraser M, Li W, McAnulla C, et al. InterProScan 5: 1239 
+genome-scale protein function classification. Bioinformatics. 2014;30(9):1236-40. 1240 
+138. Robinson MD, McCarthy DJ, Smyth GK. edgeR: a Bioconductor package for 1241 
+differential expression analysis of digital gene expression data. Bioinformatics. 1242 
+2009;26(1):139-40. 1243 
+139. Soneson C, Love MI, Robinson MD. Differential analyses for RNA-seq: transcript-1244 
+level estimates improve gene-level inferences. F1000Research. 2015;4. 1245 
+140. Wickham H. ggplot2: elegant graphics for data analysis: springer; 2016. 1246 
+ 1247 
+Tables 1248 
+Table 1. Cereal Rust Fungi Genomes used in the present study. 1249 
+The table provides information on all genome assemblies used in this study, their total 1250 
+dikaryotic genome assembly size (“Genome size”), and completeness as assessed with 1251 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+53 
+ 
+BUSCO (“BUSCO (%)”). For the “BUSCO (%)” column the first number presents the 1252 
+percentage of complete single BUSCO genes identified. The numbers in the brackets provide 1253 
+the percentage of single copy and of duplicated BUSCO genes in the dikaryotic genome 1254 
+assembly. Additional presented metadata includes species name (“Species”), strain name 1255 
+(“Strain”), source (“Source”), download date in DD/MM/YYYY (“Download date”) and the 1256 
+initial reference (“Citation”). The * genome denotes dikaryotic genome assemblies which are 1257 
+chromosome scale phased genome. NCBI – National Center for Biotechnology information, 1258 
+JGI – Joint Genome Institute, CSIRO – Commonwealth Scientific and Industrial Research 1259 
+Organization.  1260 
+Species Strain Genome 
+size 
+BUSCO (%) Source Download 
+date 
+Citation 
+Puccinia 
+graminis f. sp. 
+tritici 
+Ug99 176.2 
+Mb 
+93.4 [S:7.7, D:85.7] NCBI 26/05/2021 Li et al. 2019 
+21-0* 176.9 
+Mb 
+94.2 [S:8.3, D:85.9] NCBI 26/05/2021 
+Puccinia 
+striiformis f. sp. 
+tritici 
+DK0911 157.8 
+Mb 
+91.1 [S:38.4, D:52.7] JGI 1/06/2021 Schwessinger et al. 2020 
+104E 126.5 
+Mb 
+92.1 [S:7.9, D:84.2] JGI 26/05/2021 Schwessinger et al. 2018 
+134E* 167.7 
+Mb 
+92.6 [S:6.8, D:85.8] Provided 
+by the 
+authors 
+21/06/2021 Schwessinger et al. 2022 
+Puccinia 
+coronata f. sp. 
+avenae 
+ 
+12NC29 105.2 
+Mb 
+89.9 [S:18.1, D:71.8] NCBI 26/05/2021 Miller et al. 2018 
+12SD80 99.2 Mb 90.2 [S:33.1, D:57.1] NCBI 26/05/2021 Miller et al. 2018 
+203* 208.1 
+Mb 
+92.1 [S:6.9, D:85.2] CSIRO 
+data 
+access 
+portal 
+20/06/2022 Henningsen et al. 2022 
+Puccinia triticina 76* 253.5 
+Mb 
+91.0 [S:1.7, D:89.3] Provided 
+by the 
+authors 
+28/05/2021 Duan et al. 2022 
+15* 243.9 
+Mb 
+91.1 [S:1.6, D:89.5] NCBI 02/11/2023 Li et al. 2022 
+19NSW04* 253 Mb 91.2[S:0.9, D:90.3] NCBI 10/10/2023 Sperschneider et al. 2023 
+20QLD87* 248.1 
+Mb 
+91.3[S:1.3, D:90.0] NCBI 10/10/2023 Sperschneider et al. 2023 
+Puccinia 
+polysora f. sp. 
+zea 
+GD1913* 1.7 Gb 91.1 [S:1.4, D:89.7] NCBI 07/14/2023 Liang et al. 2023 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+54 
+ 
+ 1261 
+Table 2. MAT reference genes used as query and outgroups. 1262 
+The table provides gene names (“Gene name”) and gene identifier (“Gene ID”) of MAT genes 1263 
+from Puccinia triticina initially used as query sequences and from Puccinia polysora f. sp. 1264 
+zeae used as outgroups. Additional presented metadata includes species name (“Species”), 1265 
+strain name (“Strain”), source (“Source”), and the initial reference (“Citation”). NCBI – 1266 
+National Center for Biotechnology information. 1267 
+Species Strain Source Gene name Gene ID Citation 
+Puccinia graminis f. sp. 
+tritici 
+isolate CDL 
+75–36-700–
+3 (race 
+SCCL) 
+NCBI & 
+Cuomo et 
+al., 2017 
+bW-HD1 PGTG_05143 Cuomo et al. 
+2017 bE-HD2 PGTG_05144 
+STE3.2-1 PGTG_00333 
+STE3.2-2 PGTG_19559 
+STE3.2-3 PGTG_01392 
+Pgtmfa1 - 
+Pgtmfa2 - 
+Pgtmfa3 - 
+Puccinia triticina isolate  1-1 / 
+race 1 
+(BBBD) 
+NCBI & 
+Cuomo et 
+al., 2017 
+bW-HD1 PTTG_09683   PTTG_27730 Cuomo et al. 
+2017 bE-HD2 PTTG_10928   PTTG_03697 
+STE3.2-1 PTTG_09751 
+STE3.2-2 PTTG_28830 
+STE3.2-3 PTTG_09693 
+Ptmfa1/3 - 
+Ptmfa2 - 
+Puccinia striiformis f. sp. 
+tritici 
+78 NCBI & 
+Cuomo et 
+al., 2017 
+bW-HD1 PSTG_05919 PSTG_18670 Cuomo et al. 
+2017 bE-HD2 PSTG_05918 PSTG_19315 
+STE3.2-1 PSTG_02613 
+STE3.2-2 PSTG_15127 
+STE3.2-3 PSTG_15070 
+Pstmfa1 - 
+Pstmfa2 - 
+Puccinia polysora f. sp. 
+zea 
+GD1913 NCBI bW-HD1 FUNB_006397 Liang et al. 
+2023 bE-HD2 FUNA_006226 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+55 
+ 
+STE3.2-2 FUNA_023003 
+STE3.2-1 FUNA_001167 
+STE3.2-3 FUNA_013409 
+ 1268 
+Figure captions 1269 
+Fig 1. HD genealogies suggest distinct evolutionary histories for bW-HD1 and bE-HD2 in 1270 
+four cereal rust fungi.  1271 
+(A) Species tree of Puccinia polysora f. sp. zeae (Ppz), P. coronata f. sp.  avenae (Pca ), P. 1272 
+graminis f. sp. tritici (Pgt), P. triticina (Pt) and P. striiformis f. sp. tritici (Pst) inferred from 1273 
+2284 single-copy orthogroups. Numbers on nodes represent local support value computed by 1274 
+Fasttree. Puccinia polysora f. sp. zeae (Ppz) has been used for rooting the species tree.  (B) 1275 
+and (C) Bayesian rooted gene tree built from bW-HD1 or bE-HD2 coding-based sequence 1276 
+alignment, respectively. Trees are based on a HKY + G model of molecular evolution. In 1277 
+either case, alleles from the same species are grouped into the same clade. Each node is 1278 
+labelled with its values of posterior probability (PP). PP values above 0.95 are considered to 1279 
+have strong evidence for monophyly of a clade and PP values of identical alleles are not 1280 
+displayed. The scale bar represents the number of nucleotide substitutions per site. * marks an 1281 
+allele with minor variations only outside the variable domain, which means this allele is 1282 
+predicted to be functionally equivalent to its closest neighbor. Alleles of the same species are 1283 
+colored with identical background: Pca (yellow), Pgt (green), Pt (blue), Pst (orange). 1284 
+Fig 2. Pra genealogy displays ancient trans-specific polymorphism in cereal rust fungi.  1285 
+Bayesian gene tree built from Pra (STE3.3-2 and STE3.3-3) coding-based sequence alignment. 1286 
+The tree is based on a TN93 + I model of molecular evolution. The Pra alleles, STE3.2-2 and 1287 
+STE3.2-3, were grouped into two clades by allele identity and not species identity. Each node 1288 
+is labelled with its values of posterior probability (PP). PP values above 0.95 are considered 1289 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+56 
+ 
+as strong evidence for monophyly of a clade and PP values of identical alleles are not 1290 
+displayed. The scale bar represents the number of nucleotide substitutions per site. Species-1291 
+specific background coloring is the same as for Fig 1. 1292 
+Fig 3. Synonymous divergence (d S) values of HD genes but not their immediate 1293 
+neighbors are slightly elevated on chromosome 4.  1294 
+Synonymous divergence values (d S) for all allele pairs are plotted along chromosome 4A for 1295 
+(A) P. coronara f. sp. avenae (“Pca 203”), (B) P. graminis f. sp. tritici (“Pgt 210”), (C) P. 1296 
+triticina (“Pt 76”), and (D) P. striiformis f. sp. tritici (“Pst 134E”). In each panel, the top track 1297 
+shows the dS values (“dS
+”) of allele pairs along chromosome 4. Each dot corresponds to the dS 1298 
+value of a single allele pair. The second and third track shows the averaged TE (“TE”) and 1299 
+gene (“gene”) density along chromosome 4 in 10 kbp-sized windows, respectively. The HD 1300 
+genes (bW-HD1 and bE-HD2) are highlighted with a red line and red shading indicates a 0.4 1301 
+mbp-sized window around the HD locus. Predicted centromeric regions are marked with blue 1302 
+shading. The two lower tracks (d S values and gene locations) provide a detailed zoomed in 1303 
+view of red shaded area around the HD locus. Species-specific background coloring is the 1304 
+same as for Fig 1. 1305 
+Fig 4. HD  loci are partially conserved within species whereas PR loci are highly 1306 
+heterozygous and display strong signals of genomic degeneration.  1307 
+Synteny graphs of HD locus (A) and (B) PR locus including proximal regions in P. coronara 1308 
+f. sp. avenae (“Pca 203”), P. graminis f. sp. tritici (“Pgt 210”), (C) P. triticina (“Pt 76”), and 1309 
+(D) P. striiformis f. sp. tritici (“Pst 134E”). Proximal regions are defined as 40 genes 1310 
+downstream and upstream of HD and Pra genes, respectively. HD loci are relatively syntenic 1311 
+within each dikaryotic genome but less conserved between species.  PR loci display little 1312 
+synteny in Pgt 21-0, Pt 76 and Pst 134E  and show strong signs of transposon accumulation 1313 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+57 
+ 
+(see also S13 Fig). There is very little conservation of the PR loci across species. Red lines 1314 
+between chromosome sections represent gene pairs with identity higher than 70% and grey 1315 
+shades represent conserved nucleotide sequences (>=1000 bp and identity >=90%). For 1316 
+additional annotations please refer to the included legend (“Legend”).  1317 
+Fig 5. PR loci display elevated synonymous divergence (d S) values, accumulation of 1318 
+transposable elements and depletion of genes.  1319 
+Synonymous divergence values (d S) for all allele pairs are plotted along chromosome 9A for 1320 
+(A) P. coronara f. sp. avenae (“Pca 203”), (B) P. graminis f. sp. tritici (“Pgt 210”), (C) P. 1321 
+triticina (“Pt 76”), and (D) P. striiformis f. sp. tritici (“Pst 134E”). In each panel, the top track 1322 
+shows the dS values (“dS”) of allele pairs along chromosome 9. Each dot corresponds to the dS 1323 
+value of a single allele pair. The second and third track shows the averaged TE (“TE”) and 1324 
+gene (“gene”) density along chromosome 9 in 10 kbp-sized windows, respectively. The Pra 1325 
+alleles (STE3.2-2 and STE3.2-3) are highlighted with a red line and red shading indicates a 0.4 1326 
+mbp-sized window around the PR locus. Predicted centromeric regions are marked with blue 1327 
+shading. The two lower tracks (d S values and gene locations) provide a detailed zoomed in 1328 
+view of red shaded area around the PR locus. Species-specific background coloring is the 1329 
+same as for Fig 1. 1330 
+Fig 6. The PR locus shows an STE3.2-3 allele specific accumulation of a unique Ty3-1331 
+transposon family in Puccinia triticina   1332 
+Synteny graphs of (A) STE3.2-2 and (B) STE3.2-3  including proximal regions in four 1333 
+different P. triticina isolates Pt 15, Pt 19NSW04 , Pt 20QLD87, and Pt 76. Both loci are 1334 
+overall syntenic while the STE3.2-3 locus displays an extension of the intergenic distance 1335 
+especially between the pheromone receptor and the two mfa genes. Red lines between 1336 
+chromosome sections represent gene pairs with identity higher than 70% and grey shades 1337 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+58 
+ 
+represent conserved nucleotide sequences (>=1000 bp and identity >=90%). For additional 1338 
+annotations please refer to the included legend (“Legend”). (C) Transposable element 1339 
+coverage at the order level at the STE3.2-3 locus in the four different P. triticina isolates. (D) 1340 
+Structure of a representative Ty3_Pt_ STE3.2-3 copy. LTR – Long Terminal Repeat, RT – 1341 
+Reverse transcriptase, RH – RNAse H, and INT – Integrase. Distributions of (E) percentage 1342 
+identity relative to the consensus sequence and (F) lengths of individual Ty3_Pt_ STE3.2-3 1343 
+insertions at the STE3.2-3 locus in four different P. triticina isolates. 1344 
+Fig 7. MAT gene expression is upregulated in the late stage of asexual infection cycle of 1345 
+the cereal host.  1346 
+(A) Trimmed mean of M-values (TMM)-normalized values of MAT genes in P. coronara f. sp. 1347 
+avenae (“Pca 12NC29”) at 48 and 120 hour post infection (hpi). (B) TMM-normalized values 1348 
+of MAT genes in P. graminis f. sp. tritici (“Pgt 21-0”) at 48, 72, 96, 120, 144 and 168 hpi. (C) 1349 
+TMM-normalized values of MAT  genes in P. striiformis f. sp. tritici (“Pst 87/66”) at 24, 48, 1350 
+72, 120, 168, 216 and 264 hpi. 1351 
+ 1352 
+Supporting information captions 1353 
+Table S1 List of whole genome Sequence Read Archive data used in the present study. 1354 
+The table provides information on all whole genome Sequence Read Archive (SRA) data used 1355 
+in the present study. Metadata includes species abbreviation (“Species”), isolate name 1356 
+(“Isolate”), SRA identifier (“SRA ID”), and the initial reference (“Citation”). Pca - P. 1357 
+coronata f. sp. avenae, Pgt - Puccinia graminis f. sp. tritici, Pt - P. triticina and Pst - P. 1358 
+striiformis f. sp. tritici. 1359 
+Table S2 List of RNAseq Sequence Read Archive data used in the present study. 1360 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+59 
+ 
+The table provides information on all RNAseq Sequence Read Archive (SRA) data used in 1361 
+the present study. Metadata includes species abbreviation (“Species”), isolate name 1362 
+(“Isolate”), timepoint of infection (hpi, hours post infection) or sample type (“Sample Type”), 1363 
+timepoint/status of spores (“Time point/Status”), replicate number (“Replicate”), SRA 1364 
+identifier (“SRA ID”), and the initial reference (“Citation”). Pca - P. coronata f. sp. avenae, 1365 
+Pgt - Puccinia graminis f. sp. tritici, and Pst - P. striiformis f. sp. tritici.  1366 
+S1 Fig. Two unlinked MAT loci suggest tetrapolar mating types in four Puccinia spp . 1367 
+Karyograms of P. coronata f. sp. avenae (“Pca 203”), P. graminis f. sp. tritici (“Pgt 21-0”), 1368 
+P. triticina (“Pt 76”) and P. striiformis f. sp. tritici (“Pst 134 E” ) with the positions of HD, 1369 
+PR and STE3.2-1 loci marked by black arrow heads. HD, PR and STE3.2-1, located on 1370 
+chromosome 4, chromosome 9 and chromosome 1, respectively, suggest tetrapolar mating 1371 
+types in these four species.   1372 
+S2 Fig. Genetic distance between pheromone precursor genes ( mfa) and pheromone 1373 
+receptor (Pra) genes varies from 100 bp to 100 kb. The diagrams display the location of 1374 
+STE3.2-2 and STE3.2-3 and their linked mfa genes on chromosome 9A and 9B in P. coronata 1375 
+f. sp. avenae (“Pca 203”), P. graminis f. sp. tritici (“Pgt 21-0”), P. triticina (“Pt 76”) and P. 1376 
+striiformis f. sp. tritici (“Pst 134 E” ). The grey bar represents chromosome subsections 1377 
+containing the genes of interest with the numbers indicating the absolute location in mega 1378 
+base pairs on chromosome 9A and 9B. The genetic distance between mfa1/mfa3 and STE3.2-3 1379 
+are highly variable between species, whereas STE3.2-2 and mfa2 are tightly linked in all 1380 
+species.  1381 
+S3 Fig. MFA protein alignments indicate mating factor a proteins are overall conserved 1382 
+within species.  (A) Alignment of MFA1 protein sequences from four different rust fungal 1383 
+species. The MFA1, which is linked to STE3.2-3, is mostly conserved within species. Two 1384 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+60 
+ 
+near identical MFA1/3 copies can be identified in four P. triticina isolates. In P. graminis f. 1385 
+sp. tritici MFA1 has four amino acid substitutions in Pgt SCCL  versus Pgt 21-0 .  (B) 1386 
+Alignment of MFA2 protein sequences from four different rust fungal species.  MFA2 is fully 1387 
+conserved within each species. (C) Alignment of MFA3 protein sequences from three P. 1388 
+graminis f. sp. tritici isolates. Mfa3 is only present P. graminis f. sp. tritici in close proximity 1389 
+to STE3.2-3.  1390 
+S4 Fig. Pheromone peptide mating factor a (MFA) proteins group according to their 1391 
+proximate Pra alleles and display strong signals of trans-specific polymorphisms . 1392 
+Maximum likelihood tree of MFA identified in four cereal rust fungi including multiple 1393 
+isolates per species. Tips are labelled with the species abbreviation, protein names, and isolate 1394 
+names are provided in parentheses. Branch support was assessed by 1000 replicates. The scale 1395 
+bar represents 0.4 substitutions per site.  Pca - P. coronata f. sp.  avenae, Pgt - Puccinia 1396 
+graminis f. sp. tritici, Pt - P. triticina and Pst - P. striiformis f. sp. tritici. 1397 
+S5 Fig. Genealogy of STE3.2-1 in rust fungi indicates sequence of STE3.2-1 are 1398 
+conserved within species. Bayesian rooted gene tree built from  STE3.2-1 coding-based 1399 
+sequence alignment from four cereal rust fungi: P. coronata f. sp. avenae (Pca), P. graminis f. 1400 
+sp. tritici (Pgt), P. triticina (Pt) and P. striiformis f. sp. tritici (Pst) and P. polysora f. sp. zeae 1401 
+(Ppz) GD1913 was included as outgroup. Trees are based on a TN93 + I model of molecular 1402 
+evolution. Each node is labelled with its values of posterior probability (PP). PP values above 1403 
+0.95 are considered to have strong evidence for monophyly of a clade and PP values of 1404 
+identical alleles are not displayed. The scale bar represents the number of nucleotide 1405 
+substitutions per site. Alleles of the same species are colored with identical background: Pca 1406 
+(yellow), Pgt (green), Pt (blue), Pst (orange). 1407 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+61 
+ 
+S6 Fig. Whole chromosome alignments of HD  loci containing chromosomes between the 1408 
+two haplotypes of each dikaryotic genome  exhibit slightly reduced synteny around HD 1409 
+locus. The figure shows dots plots of whole chromosome alignments between the two  HD 1410 
+loci containing chromosomes from dikaryotic genome assemblies. Each panel consists of dot 1411 
+plots of the whole chromosome and subset dot plot zooming into the HD locus. The HD locus 1412 
+is labelled and line colors show the nucleotide percentage identity and nucleotide orientation 1413 
+as indicated in the figure legend.  Subfigure A to D show P. coronata f. sp.  avenae (“Pca 1414 
+203”), P. graminis f. sp. tritici (“Pgt 21-0” ), P. triticina (“Pt 76” ) and P. striiformis f. sp. 1415 
+tritici (“Pst 134 E”), respectively.  1416 
+S7 Fig. Allele pairs on chromosomes 4 and 9 are not overall more diverged when 1417 
+compared to other chromosomes. The plots show the distribution of dS values of allele pairs 1418 
+on sister chromosomes in four cereal rust fungal species. Bar plots show the distribution of d S 1419 
+values up to the 99% quantile. Red lines represent threshold of dS values of 95% of all alleles. 1420 
+Blue lines represent threshold of d S values of 90% of all alleles. Black points show d S values 1421 
+of individual allele pairs. HD and STE3 allele pairs are highlighted as red points. Subfigures 1422 
+A to D show P. coronata f. sp. avenae (“Pca 203”), P. graminis f. sp. tritici (“Pgt 21-0”), P. 1423 
+triticina (“Pt 76”) and P. striiformis f. sp. tritici (“Pst 134 E”), respectively.  1424 
+S8 Fig. Hi-C heatmap of P. coronata f. sp. avenae (“Pca 203”) hapA.  1425 
+S9 Fig. Hi-C heatmap of P. coronata f. sp. avenae (“Pca 203”) hapB. 1426 
+S10 Fig. Hi-C heatmap of P. triticina (“Pt 76”) hapA. 1427 
+S11 Fig. Hi-C heatmap of P. triticina (“Pt 76”) hapB. 1428 
+S12 Fig. Coverage of different transposable element orders at the HD, PR, and STE3.2-1 1429 
+locus. The plots show the percentage of nucleotides covered by different transposable element 1430 
+orders at (A) HD locus (B) PR locus (C) STE3.2-1 locus. Each subfigure A to C shows the 1431 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+62 
+ 
+coverage in each haplotype of the dikaryotic genomes of P. coronata f. sp.  avenae (“ Pca 1432 
+203”), P. graminis f. sp. tritici (“Pgt 21-0” ), P. triticina (“Pt 76” ) and P. striiformis f. sp. 1433 
+tritici (“Pst 134 E”). Different TE orders are color coded as shown in the legend. TEs with no 1434 
+assigned class are labelled “Undetermined”. TEs with no assigned order but belonging to 1435 
+Class I (RNA retrotransposons) or Class II (DNA transposons) are labelled “Undetermined 1436 
+Class I” or “Undetermined Class II”, respectively. 1437 
+S13 Fig. Whole chromosome alignments of PR  loci containing chromosomes between 1438 
+two haplotypes of each dikaryotic genome exhibit strong signs of synteny loss. The figure 1439 
+shows dot plots of whole chromosome alignments between the two  PR  loci containing 1440 
+chromosomes from the dikaryotic genome assemblies. Each panel consists of dot plots of the 1441 
+whole chromosome and subset dot plots zooming into the PR locus. The PR locus is labelled 1442 
+and line colors show the nucleotide percentage identity and nucleotide orientation as indicated 1443 
+in the figure legend.  Subfigures A to D show P. coronata f. sp.  avenae (“Pca 203” ), P. 1444 
+graminis f. sp. tritici (“Pgt 21-0”), P. triticina (“Pt 76”) and P. striiformis f. sp. tritici (“Pst 1445 
+134 E”), respectively. 1446 
+S14 Fig. Whole chromosome alignments of STE3.2-1 loci containing chromosomes 1447 
+between two haplotypes of each dikaryotic genome suggest high conservation of STE3.2-1448 
+1. The figure shows dot plots of whole chromosome alignments between the two  STE3.2-1 1449 
+loci containing chromosomes from dikaryotic genome assemblies. Each panel consists of dot 1450 
+plots of the whole chromosome and subset dot plots zooming into the STE3.2-1 locus. The 1451 
+STE3.2-1 locus is labelled and line colors show the nucleotide percentage identity and 1452 
+nucleotide orientation as indicated in the figure legend.  Subfigures A to D show P. coronata f. 1453 
+sp. avenae (“Pca 203” ), P. graminis f. sp. tritici (“Pgt 21-0”), P. triticina (“Pt 76”) and P. 1454 
+striiformis f. sp. tritici (“Pst 134E”), respectively. 1455 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+63 
+ 
+S15 Fig. Synteny analysis of STE3.2-1  loci and their flanking regions reveal no evidence 1456 
+of genetic degeneration. Synteny graphs of the STE3.2-1 locus including proximal regions in 1457 
+(A) P. coronara f. sp. avenae (“Pca 203”), P. graminis f. sp. tritici (“Pgt 21-0”), P. triticina 1458 
+(“Pt 76 ”), and P. striiformis f. sp. tritici (“Pst 134E”). Proximal regions are defined as 40 1459 
+genes downstream and upstream of the STE3.2-1 alleles, respectively. STE3.2-1 loci are 1460 
+highly syntenic within each dikaryotic genome and conserved between species. Red lines 1461 
+between chromosome sections represent gene pairs with sequence identity higher than 70% 1462 
+and grey shades represent conserved nucleotide sequences (>=1000 bp and identity >=90%). 1463 
+For additional annotations please refer to the provided legend (“Legend”).  1464 
+S16 Fig. Synonymous divergence (d S) values between STE3.2-1 alleles along  1465 
+chromosome 1A suggest conservation of this locus. Synonymous divergence values (dS) for 1466 
+all allele pairs are plotted along chromosome 1A for (A) P. coronara f. sp. avenae (“Pca 1467 
+203”), (B) P. graminis f. sp. tritici (“Pgt 21-0”), (C) P. triticina (“Pt 76 ”), and (D) P. 1468 
+striiformis f. sp. tritici (“Pst 134E”). In each panel, the top track shows the dS values (“dS
+”) of 1469 
+allele pairs along chromosome 1. Each dot corresponds to the d S value of a single allele pair. 1470 
+The second and third track show the averaged TE (“TE”) and gene (“gene”) density along 1471 
+chromosome 1 in 10 kbp-sized windows, respectively. The STE3.2-1 alleles are highlighted 1472 
+with a red line and red shading indicates a 0.4 mbp-sized window around the STE3.2-1 locus. 1473 
+Predicted centromeric regions are marked with blue shading. The two lower tracks (d s values 1474 
+and gene locations) provide a detailed zoomed in view of red shaded area around the STE3.2-1475 
+1 locus. Species-specific background coloring is the same as for Fig 1. 1476 
+S17 Fig. IGV screen shots of short read Illumina mapping of various P. coronata f. sp. 1477 
+avenae isolates against the HD locus in the Pca 203 reference. 1478 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+64 
+ 
+(A) shows mapping against the HD locus on chromosome 4A and (B) chromosome 4B, 1479 
+respectively. 1480 
+S18 Fig. IGV screen shot of short read Illumina mapping of various P. graminis f. sp. 1481 
+tritici isolates against the HD locus in the Pgt 21-0 reference. 1482 
+(A) shows mapping against the HD locus on chromosome 4A and (B) chromosome 4B, 1483 
+respectively. 1484 
+S19 Fig. IGV screen shots of short read Illumina mapping of various P. triticina against 1485 
+the HD isolates locus in the Pt 76 reference. 1486 
+(A) shows mapping against the HD locus on chromosome 4A and (B) chromosome 4B, 1487 
+respectively. 1488 
+S20 Fig. IGV screen shots of short read Illumina mapping of various P. striiformis f. sp. 1489 
+tritici isolates against the HD locus in the Pst 134E reference. 1490 
+(A) shows mapping against the HD locus on chromosome 4A and (B) chromosome 4B, 1491 
+respectively. 1492 
+S21 Fig. Nucleotide alignments of the HD gene coding sequence in four cereal rust fungi 1493 
+indicate bW-HD1 and bE-HD2 are multiallelic in each species.  (A) Nucleotide alignment 1494 
+of the de novo reconstructed HD locus from Pca 203 Illumina short read data with the coding 1495 
+sequences of bW-HD1 and bE-HD2 alleles from Pca 203 dikaryotic reference genome.  (B) to 1496 
+(D) multiple sequence alignments of de novo reconstructed HD  gene coding sequences, (E) 1497 
+multiple sequence alignments of Pst bW-HD1 and bE-HD2 alleles (21). In each subfigure (B) 1498 
+to (E), the top two track shows the consensus sequence length and relative sequence identity, 1499 
+respectively. Subfigure (B) to (E) show P. coronata f. sp. avenae (“Pca”), P. graminis f. sp. 1500 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+65 
+ 
+tritici (“Pgt”), P. triticina (“Pt”) and P. striiformis f. sp. tritici (“Pst”), respectively. The bW-1501 
+HD1 and bE-HD2 are numbered in accordance with Fig 1. 1502 
+S22 Fig. IGV screen shots of short read Illumina mapping of various P. coronata f. sp. 1503 
+avenae isolates against the PR locus in the Pca 203 reference. 1504 
+(A) shows mapping against the PR locus on chromosome 9A and (B) chromosome 9B, 1505 
+respectively. 1506 
+S23 Fig. IGV screen shot of short read Illumina mapping of various P. graminis f. sp. 1507 
+tritici isolates against the PR locus in the Pgt 21-0 reference. 1508 
+(A) shows mapping against the PR locus on chromosome 9A and (B) chromosome 9B, 1509 
+respectively. 1510 
+S24 Fig. IGV screen shots of short read Illumina mapping of various P. triticina isolates 1511 
+against the PR locus in the Pt 76 reference. 1512 
+(A) shows mapping against the PR locus on chromosome 9A and (B) chromosome 9B, 1513 
+respectively. 1514 
+S25 Fig. IGV screen shots of short read Illumina mapping of various P. striiformis f. sp. 1515 
+tritici isolates against the PR locus in the Pst 134E reference. 1516 
+(A) shows mapping against the PR locus on chromosome 9A and (B) chromosome 9B, 1517 
+respectively. 1518 
+S26 Fig. Amino acid alignments of STE3.2-2 and STE3.2-3 alleles of four cereal rust 1519 
+fungi. Multiple sequence alignment of de novo reconstructed STE3.2-2 and STE3.2-3 protein 1520 
+sequences. Subfigure contains MSAs; one for STE3.2-2 and one for STE3.2-3. Subfigure A to 1521 
+D show P. coronata f. sp. avenae (“Pca”), P. graminis f. sp. tritici (“Pgt”), P. triticina (“Pt”) 1522 
+and P. striiformis f. sp. tritici (“Pst”), respectively. 1523 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+66 
+ 
+S27 Fig. Amino acid alignments of the three MFA alleles from various P. graminis f. sp. 1524 
+tritici isolates. Amino acid substitutions are highlighted by color.  1525 
+S28 Fig. Whole chromosome alignments of HD genes containing chromosomes between 1526 
+haplotypes of four different P. triticina  isolates. The figure shows dots plots of whole 1527 
+chromosome alignments of HD loci containing chromosomes derived from distinct dikaryotic 1528 
+genomes of four different P. triticina isolates including Pt 15 , Pt 19NSW04, Pt 20QLD87 1529 
+against Pt 76. Each panel consists of a dot plot of the whole chromosome and a subset dot 1530 
+plot zooming into the HD locus. The HD locus is labelled and line colors show the nucleotide 1531 
+percentage identity and nucleotide orientation as indicated in the figure legend.  (A) 1532 
+Comparison of nucleotide sequence of chromosome 4s of Pt 15 and Pt 76. (B) Comparison of 1533 
+nucleotide sequence of chromosome 4s of Pt 19NSW04 and Pt 76 . (C) Comparison of 1534 
+nucleotide sequence of chromosome 4s of Pt 20QLD87 and Pt 76. (D) Comparison of 1535 
+nucleotide sequence of chromosome 4s of Pt 19NSW04 and Pt 20QLD87. 1536 
+S29 Fig. The HD locus is highly conserved in four P. triticina isolates. Synteny graphs of 1537 
+HD loci including proximal regions in the four P. triticina isolates Pt 15, Pt 19NSW04, Pt 1538 
+20QLD87 and Pt 76. Red lines between chromosome sections represent gene pairs with 1539 
+nucleotide sequence identity higher than 70% and grey shades between conserved nucleotide 1540 
+sequences (>=1000 bp and identity >=90%). For additional annotations please refer to the 1541 
+provide legend (“Legend”).  1542 
+S30 Fig. Coverage of different transposable element orders at the HD and STE3.2-2 1543 
+locus in four P. triticina isolates. The plots show the percentage of nucleotides covered by 1544 
+different transposable element orders at the (A) HD locus and (B) STE3.2-2 locus. Each 1545 
+subfigure A and B shows the coverage in each haplotype of the dikaryotic genomes of P. 1546 
+triticina isolates Pt 15, Pt 19NSW04, Pt 20QLD87 and Pt 76. Different TE orders are color 1547 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+67 
+ 
+coded as shown in the legend.  TEs with no assigned class are labelled “Undetermined”. TEs 1548 
+with no assigned order but belonging to Class I (RNA retrotransposons) or Class II (DNA 1549 
+transposons) are labelled “Undetermined Class I” or “Undetermined Class II”, respectively. 1550 
+S31 Fig. Whole chromosome alignments of Pra gene containing chromosomes between 1551 
+haplotypes of four different P. triticina  isolates. The figure shows dot plots of whole 1552 
+chromosome alignments of STE3.2-2 or STE3.2-3 containing chromosomes derived from 1553 
+distinct dikaryotic genomes of four different P. triticina isolates including Pt 15, Pt 19NSW04, 1554 
+Pt 20QLD87 against Pt 76. Each panel consists of a dot plot of the whole chromosome and a 1555 
+subset dot plot zooming into the STE3.2-2 or STE3.2-3 locus. The STE3.2-2 or STE3.2- locus 1556 
+is labelled and line colors show the nucleotide percentage identity and nucleotide orientation 1557 
+as indicated in the figure legend.  (A) Comparison of nucleotide sequence of chromosome 9s 1558 
+containing STE3.2-2 loci (B) Comparison of nucleotide sequence of chromosome 9s 1559 
+containing STE3.2-3. 1560 
+S32. Nucleotide coverage distribution of Ty3_Pt_STE3.2-3 on the chromosomes of four 1561 
+P. triticina isolates 1562 
+The plots show the percentage of nucleotides covered by the transposable element family 1563 
+Ty3_Pt_STE3.2-3 on each chromosome of four P. triticina isolates Pt 15 (A), Pt 19NSW04 1564 
+(B), Pt 20QLD87 (C) and Pt 76 (D). Chromosomes carrying STE3.2-3 are highlighted in red. 1565 
+S33. Schematic illustration of the location of Ty3_Pt_STE3.2-3 copies at the STE3.2-3 1566 
+locus in four P. triticina isolates. 1567 
+S34 Fig. Multidimensional scaling (MDS) plot of RNA dataset used in this study.  MDS 1568 
+plots were made with TMM normalized counts for quality control, each dot represents a 1569 
+single sample, and replicates were color coded as indicated in each subfigure ledgend. (A) 1570 
+MDS plot of TMM-normalized value of Pca at 48 hour post infection (hpi) and 120 hpi. (B) 1571 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+68 
+ 
+MDS plot of TMM-normalized value of  Pgt at 48, 72, 96, 120, 148 and 168 hpi. (C) MDS 1572 
+plot of TMM-normalized value of Pst at 24, 48, 72, 120, 168, 216 and 264 hpi.  (D) MDS plot 1573 
+of TMM-normalized value of  ungerminated spore (US), germinated spores (GS) stages, 144 1574 
+hpi, 216 hpi and haustoria enriched samples (HE) of Pst. 1575 
+S35 Fig. Expression of housekeeping genes in four RNAseq datasets. (A) TMM-1576 
+normalized value of  housekeeping genes in P. coronata f. sp.  avenae (“ Pca 12NC29” ), P. 1577 
+graminis f. sp. tritici (“Pgt 21-0” ), and  P. striiformis f. sp. tritici (“Pst 87/66” and “Pst 1578 
+104E”). (B) Likelihood ratio test (LRT) method was applied to test significant upregulation of 1579 
+housekeeping genes between timepoints, none of the housekeeping genes show significant 1580 
+upregulation between timepoints. red dashed lines indicate logFC=0.5 and logFC=-0.5 1581 
+respectively, stars above or below bars indicate statistically significant differences between 1582 
+the two adjacent time points: * p<0.05, ** p<0.01, ** p<0.001. Genes are labelled with 1583 
+different colors. Transcription elongation factor TFIIS ( TFIIS), Actin-related protein 3 1584 
+(ARP3), Actin/actin-like protein 2  (ACTIN2), Ubiquitin carboxyl-terminal hydrolase 6 1585 
+(UBP6), Conserved oligomeric Golgi complex subunit 3  (COG3), Ctr copper transporter 2 1586 
+(CTR2). 1587 
+S36 Fig. Upregulation of MAT genes in late stages of the asexual life cycle.  Likelihood 1588 
+ratio test (LRT) method was applied to test significant upregulation of MAT genes between 1589 
+timepoints, red dashed lines indicate logFC=0.5 and logFC=-0.5 respectively, stars above or 1590 
+below bars indicate statistically significant differences between the two adjacent time points: 1591 
+*p<0.05, ** p<0.01, *** p<0.001. MAT genes were labelled with different colors. (A) The 1592 
+expression levels of MAT genes in P. coronata f. sp. avenae (“Pca 12NC29”) were compared 1593 
+between 120 hours post infection (hpi) and 48 hpi. (B) The expression levels of MAT genes in 1594 
+P. graminis f. sp. tritici (“Pgt 21-0”) were compared between 72 hpi and 48 hpi, 96 hpi and 1595 
+72 hpi, 120 hpi and 96 hpi, 144 hpi and 120 hpi, 168 hpi and 144 hpi. (C) The expression 1596 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+69 
+ 
+levels of MAT genes in P. striiformis f. sp. tritici (“Pst 87/66”) were compared between 48 1597 
+hpi and 24 hpi, 72 hpi and 48 hpi, 120 hpi and 72 hpi, 168 hpi and 120 hpi, 216 hpi and 168 1598 
+hpi, 264 hpi and 216 hpi. (D) The expression levels of MAT genes in P. striiformis f. sp. tritici 1599 
+(“Pst 104E”) were compared between germinated spores (GS) and ungerminated spores (US), 1600 
+144 hpi and GS, 216 hpi and 144 hpi, haustoria enriched samples (HE) and 216 hpi. 1601 
+S37 Fig. MAT genes are upregulated in the late asexual infection stage of P. striiformis f. 1602 
+sp. tritici (“Pst 104E”). TMM-normalized value of MAT genes in ungerminated spores (US), 1603 
+germinated spores (GS) stages, 144 hpi, 216 hpi and in haustoria enriched samples (HE) of 1604 
+Pst. Genes are labelled with different colors. 1605 
+ 1606 
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint 
+
+.CC-BY 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 8, 2024. ; https://doi.org/10.1101/2023.03.02.530769doi: bioRxiv preprint

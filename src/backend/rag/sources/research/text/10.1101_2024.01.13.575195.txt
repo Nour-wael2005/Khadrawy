@@ -1,0 +1,287 @@
+Genome sequence resources from three isolates of the apple canker pathogen Neonectria ditissima infecting forest trees.
+
+Neonectria ditissima is a generalist ascomycete plant pathogen causing canker diseases on a variety of hardwood tree species and can cross-infect many of them. The fungus enters the plants through wounds throughout the year. N. ditissima is considered a major threat to apple production responsible for the fruit tree canker disease which damages trees and causes rotting of fruits in storage. Nearby forests and shelter belts can serve as source of inoculum for well-managed apple orchards. Thus, knowledge about the N. ditissima isolates infecting different host species is essential for designing integrated pest management strategies. Here, we describe the genomes of three N. ditissima isolates, Nd_iso34, Nd_iso35, and Nd_iso36, infecting European beech, American tulip tree, and American beech, respectively. We obtained genome assemblies of ca. 45 megabases for all isolates, covering 94% of the N. ditissima reference annotation, and 97% of the universal single-copy orthologs (BUSCOs). We conclude that these genome assemblies are a highly relevant resource considering the scarcity of genomic data available for N. ditissima.
+
+1 
+ 
+Genome sequence resources from three isolates of the apple canker 1 
+pathogen Neonectria ditissima infecting forest trees. 2 
+ 3 
+Salim Bourras1*, Heriberto Vélëz1,2,3, Katarina Ihrmark1, Miguel Ángel Corrales Gutiérrez1, 4 
+Malin Elfstrand1, Larisa Garkava-Gustavsson4*, Kerstin Dalman Falk5*. 5 
+ 6 
+1 Department of Forest Mycology and Plant Pathology. Swedish University of Agricultural 7 
+Sciences. Almas allé 5, 750 07 Uppsala, Sweden. 8 
+2 Center for Sustainable Environmental and Ecosystem Research , Department of Biology, 9 
+College of Science, Mathematics and Technology. Wenzhou -Kean University. 88 Daxue Rd, 10 
+Ouhai, Wenzhou, Zhejiang Province 325060, China.  11 
+3The Dorothy and George Hennings College of Science, Mathematics and Technology, 12 
+Department of Biological Sciences, Kean University, 1000 Morris Avenue, Union, New Jersey 13 
+07083, USA 14 
+4 Department of Plant Breeding. Swedish University of Agricultural Sciences. Sundsvägen 10, 15 
+234 22 Alnarp, Sweden. 16 
+5 Department of Molecular Sciences. Swedish University of Agricultural Sciences. Almas allé 17 
+5, 750 07 Uppsala, Sweden. 18 
+ 19 
+*Authors for correspondence 20 
+Salim Bourras 21 
+salim.bourras@slu.se  22 
+Larisa Gustavsson 23 
+larisa.gustavsson@slu.se  24 
+Kerstin Dalman Falk 25 
+kerstin.dalman@avantorsciences.com  26 
+ 27 
+Number of Tables: 2 28 
+Number of Figures: 1 29 
+  30 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for thisthis version posted January 14, 2024. ; https://doi.org/10.1101/2024.01.13.575195doi: bioRxiv preprint 
+
+2 
+ 
+Abstract 31 
+Neonectria ditissima is a generalist ascomycete plant pathogen causing canker diseases on a 32 
+variety of hardwood tree species  and can cross -infect many of them.  The fungus enter s the 33 
+plants through wounds throughout the year . N. ditissima is considered a major threat to apple 34 
+production responsible for the fruit tree canker disease which damages trees and causes rotting 35 
+of fruits in storage. Nearby forests and shelter belts can serve as source of inoculum for well -36 
+managed apple orchards . Thus, knowledge about the N. ditissima isolates infecting different 37 
+host species is essential for designing integrated pest management strategies. Here, we describe 38 
+the genomes of three N. ditissima  isolates, Nd_iso34, Nd_iso35, and Nd_iso36, infecting 39 
+European beech, American tulip tree, and American beech, respectively. We obtained genome 40 
+assemblies of ca. 45 megabases for all isolates, covering 94% of the N. ditissima  reference 41 
+annotation, and 97% of the universal single-copy orthologs (BUSCOs). We conclude that these 42 
+genome assemblies are a highly relevant resource considering the scarcity of genom ic data 43 
+available for N. ditissima. 44 
+  45 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for thisthis version posted January 14, 2024. ; https://doi.org/10.1101/2024.01.13.575195doi: bioRxiv preprint 
+
+3 
+ 
+The fungus, Neonectria ditissima (formerly N. galligena) causes a disease known as European 46 
+canker or fruit tree canker, which is a serious threat to apple production in Sweden and globally 47 
+(Weber, 2014; Garkava-Gustavsson et al., 201 6). N. ditissima is a wound pathogen, able to 48 
+infect trees throughout the year and frui ts in orchards and storage ( Weber, 2014; Holthusen 49 
+and Weber, 2021). The fungus has a wide range of hosts (Flack and Swinburne, 1977; Walter 50 
+et al., 2015). N. ditissima can attack other fruit trees such as pear (Pyrus communis) and quince 51 
+(Cydonia oblonga) (Walter et al., 2015) as well as many different species of forest trees , e.g. 52 
+Acer, Betula, Fagus, Populus, Quercus and Salix (Ward et al., 2010).  Canker damages caused 53 
+by N. ditissima have been recorded on forest trees in Europe  including Austria, Germany, and 54 
+Slovakia (Cech, 2010; Metzler et al. 2002; Mihál, 2011). In North America, N. ditissima is 55 
+known to be associated with Beach Bark Disease  but was also found on yellow birch (Betula 56 
+alleghaniensis), stripped maple ( Acer pensylvanicum) and red maple ( Acer rubrum) (Kasson 57 
+and Livingston, 2009). Hence, N. ditissima also has the propensity to cause damage to Swedish 58 
+and European forestry through the extensive scarring and damage that leads to reductions in 59 
+quality and value of timber (Metzler et al., 2002).  60 
+ 61 
+In this study , we sequenced three isolates, Nd_iso34, Nd_iso35, and Nd_iso36, infecting 62 
+European beech (Fagus sylvatica), American tulip tree (Liriodendron tulipifera), and American 63 
+beech (Fagus grandifolia ), respectively. Fungal cultures were obtained from The 64 
+Centraalbureau voor Schimmelcultures (CBS) and the Fungal Biodiversity Centre  (Royal 65 
+Netherlands Academy of Arts and Sciences, KNAW). Nd_iso34 (syn. CBS 118920, AR 3690, 66 
+BPI 870951 ) was isolated in 2001  from European beech  in Stiavnickey vrchy  (Slovakia). 67 
+Nd_iso35 (syn. CBS 118919, GJS 04-350, BPI 864075) was isolated in 2004 from American 68 
+tulip tree in the Great Smokey Mountains national park (Tennessee, USA). Finally, Nd_iso36 69 
+(syn. CBS 118923, AR 4196, BPI 870950) was isolated in 2005 from American beech near Bass 70 
+Lake (Michigan, USA).  71 
+ 72 
+High molecular weight genomic DNA was extracted from mycelium using the QIAGEN 73 
+Genomic-tips according to the instructions from the manufacturer (QIAGEN, The 74 
+Netherlands). DNA concentration and integrity were evaluated with the Qubit dsDNA 75 
+Quantification Assay Kits  according to the manufacturer ( Invitrogen, USA), and further 76 
+evaluated on 0,8 % agarose gel with Tris-acetate- Ethylenediaminetetraacetic Acid (TAE) buffer 77 
+with DNA quantification standard. Sequencing libraries were prepared from 1µg DNA using 78 
+the TruSeq PCRfree DNA sample preparation kit (cat# FC -121-3001/3002, Illumina Inc.) 79 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for thisthis version posted January 14, 2024. ; https://doi.org/10.1101/2024.01.13.575195doi: bioRxiv preprint 
+
+4 
+ 
+targeting an insert size of 350bp. The library preparation was performed according to the 80 
+manufacturers’ instructions (guide#15036187). Libraries were then applied to  150bp paired-81 
+end sequencing on an Illumina HiSeqX sequencing system at t he SNP&SEQ Technology 82 
+Platform at Uppsala University (Uppsala, Sweden). The quality of the reads was checked using 83 
+FASTQC, and adapters were filtered, and sequences quality trimmed using Trimmomatic v0.39 84 
+with default parameters (Bolger et al., 2014). Paired-end reads were then applied to ABySS, a 85 
+de novo, parallel  assembler, particularly adapted for paired-end sequence s (Simpson et al., 86 
+2009), with default parameter. The resulting genome assemblies ranged from 44.51 Mage bases 87 
+(Mb) to 45.71 Mb, with an N50 ranging from 200’252 to 438’025 bp (see summary in Table 1).  88 
+ 89 
+Gene prediction was carried out on contigs with a minimum size of 1000 bp (Table 1) using 90 
+Funannotate v1.8.15 (Palmer and Stajich, 2020 ). A total of 11’984 (Nd_iso34), 11’890 91 
+(Nd_iso35), and 11’960 (Nd_iso36) high confidence genes were predicted, indicating that ca. 92 
+94% of the reference N. ditissima  genome annotation  (Gómez-Cortecero et al., 2015 ) i s 93 
+covered by our genome assemblies  (Figure 1 A) . Furthermore, protein size distribution was 94 
+consistent over all isolates (Figure 1 B ) further indicating there is no isolate -specific bias in 95 
+gene completeness with respect to differences in assembly (Table 1) (Gómez-Cortecero et al., 96 
+2015). Finally, analysis of universal fungal single-copy orthologs (BUSCOs) (Kim et al., 2023) 97 
+using the Funannotate -annotate pipeline, shows that ca. 97% of the BUSCO terms were 98 
+recovered for isolates (Figure 1 C). We thus conclude that the resulting genome assemblies are 99 
+of very good quality considering the use of short reads for genome sequencing and assembly. 100 
+ 101 
+Further functional annotation of the predicted proteins was performed using a combination of 102 
+Funannotate-annotate v1.8.15, dbCAN (https://bcb.unl.edu/dbCAN2/), signalP v6.0 for signal 103 
+peptide prediction (https://services.healthtech.dtu.dk/services/SignalP-6.0/), and targetP  v.2.0 104 
+for targeting to the mitochondrion ( https://services.healthtech.dtu.dk/services/TargetP-2.0/) 105 
+(see summary in Table 2). Here also, results were consistent among all isolates and within the 106 
+expected range with an average of 4038 protein families (Pfams), 559 Carbohydrate-Active 107 
+enZymes (CAZymes), 965 putative secreted proteins with a predicted signal peptide (signalP), 108 
+and 380 putative mitochondrially targeted proteins (mTP, targetP) (Table 2). We conclude that 109 
+overall, the resulting genome annotations have a high level of completeness, which further 110 
+demonstrates the quality and relevance of these resources for the study of N. ditissima. 111 
+  112 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for thisthis version posted January 14, 2024. ; https://doi.org/10.1101/2024.01.13.575195doi: bioRxiv preprint 
+
+5 
+ 
+Data availability 113 
+Raw Illumina sequencing reads, and draft genome assemblies will be deposited at the European 114 
+Nucleotide Archive (ENA, under project number PRJEB71792. Functional annotation files are 115 
+made available as supplementary files as follows: 116 
+BUSCO annotation files 117 
+- Supplementary file 1: Nd_iso34.annot.busco.txt 118 
+- Supplementary file 2: Nd_iso35.annot.busco.txt 119 
+- Supplementary file 3: Nd_iso36.annot.busco.txt 120 
+Pfam annotation files 121 
+- Supplementary file 4: Nd_iso34.annot.pfam.txt 122 
+- Supplementary file 5: Nd_iso35.annot.pfam.txt 123 
+- Supplementary file 6: Nd_iso36.annot.pfam.txt 124 
+dbCAN annotation files 125 
+- Supplementary file 7: Nd_iso34.annot.dbCAN.txt 126 
+- Supplementary file 8: Nd_iso35.annot.dbCAN.txt 127 
+- Supplementary file 9: Nd_iso36.annot.dbCAN.txt 128 
+ 129 
+Acknowledgement 130 
+We would like to acknowledge the financial support of the Plant Protection Platform of the 131 
+Swedish University of Agricultural Sciences, and the and the Carl Trygger Foundation (grant 132 
+number 21:1171). 133 
+  134 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for thisthis version posted January 14, 2024. ; https://doi.org/10.1101/2024.01.13.575195doi: bioRxiv preprint 
+
+6 
+ 
+Figures 135 
+ 136 
+  137 
+Fig. 1. Genome annotation summary for the Neonectria ditissima isolates Nd_iso34, Nd_iso35, and 138 
+Nd_iso36. 139 
+ 140 
+A, Total number of predicted genes in every genome with the percentage of gene coverage as compared 141 
+to the N. ditissima reference genome indicated as a percentage. B, protein size distribution in bins of 142 
+300 amino acids (aa). C, functional annotation of BUSCOs with the percentage of complete BUSCOs 143 
+indicated. 144 
+  145 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for thisthis version posted January 14, 2024. ; https://doi.org/10.1101/2024.01.13.575195doi: bioRxiv preprint 
+
+7 
+ 
+Tables 146 
+ 147 
+Table 1. Summary of the genome assemblies of the Neonectria ditissima isolates Nd_iso34, Nd_iso35, 148 
+and Nd_iso36. 149 
+ 150 
+ Isolate 
+Number of  
+contigs ≥ 1000 bp  
+N50 contig  
+length (bp) 
+Maximum contig 
+ length (bp) 
+Genome assembly  
+size (Mb) 
+Nd_iso34 463 438 025 1 618 518 44.51 
+Nd_iso35 854 200 252 956 856 45.71 
+Nd_iso36 622 375 853 1 216 142 44.89 
+ 151 
+  152 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for thisthis version posted January 14, 2024. ; https://doi.org/10.1101/2024.01.13.575195doi: bioRxiv preprint 
+
+8 
+ 
+Table 2. Gene functional annotation summary for the Neonectria ditissima isolates Nd_iso34, Nd_iso35, 153 
+and Nd_iso36. 154 
+ 155 
+ Isolate 
+Number of 
+annotated 
+Pfams 1 
+Number of 
+annotated 
+CAZymes 2 
+Number of 
+proteins with 
+signal 3 
+Number of 
+proteins  
+with mTP 4 
+Nd_iso34 4042 554 962 386 
+Nd_iso35 4042 558 955 381 
+Nd_iso36 4032 564 977 373 
+1 Protein families annotated from the Pfam database. 156 
+2 Carbohydrate-Active enZymes annotated from dbCAN. 157 
+3 Proteins with a predicted signal peptide annotated with signalP 6.0. 158 
+4 Protein with a predicted mitochondrial targeting peptide annotated with targetP 2.0 . 159 
+  160 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for thisthis version posted January 14, 2024. ; https://doi.org/10.1101/2024.01.13.575195doi: bioRxiv preprint 
+
+9 
+ 
+References 161 
+Weber, R.W.S. 2014. Biology and control of the apple canker fungus Neonectria ditissima 162 
+(syn. N. galligena) from a Northwestern European perspective. Erwerbs-Obstbau. 56:95-163 
+107 https://doi.org/10.1007/s10341-014-0210-x  164 
+Garkava-Gustavsson, L., Ghasemkhani, M., Zborowska, A., Englund, J.-E., Lateur, M., van 165 
+De Weg, E. 2016. Approaches for evaluation of resistance to European canker (Neonectria 166 
+ditissima) in apple. Acta Hortic. 1127:75-82. 167 
+https://doi.org/10.17660/ActaHortic.2016.1127.14.  168 
+Holthusen, H. H. F., Weber, R.W. S. 2021. Apple blossom-end rot due to Neonectria ditissima 169 
+is initiated by infections at full flowering and incipient petal fall. N. Z. Plant Prot.74:S2-170 
+S8. https://doi.org/10.30843/nzpp.2021.74.11727  171 
+Flack, N., Swinburne, T. 1977. Host range of Nectria galligena Bres. and the pathogenicity of 172 
+some Northern Ireland isolates. Trans. British Myc. Soc. 68:185-192. 173 
+https://doi.org/10.1016/S0007-1536(77)80007-7  174 
+Walter, M., Glaister, M.K., Clarke, N.R., von Lutz, H., Eld, Z., Amponsah, N.T., Shaw, N.F. 175 
+2015. Are shelter belts potential inoculum sources for Neonectria ditissima apple tree 176 
+infections? N. Z. Plant Prot. 68: 227-240. https://doi.org/10.30843/nzpp.2015.68.5797  177 
+Ward, J.S., Anagnostakis, S., Ferrandino, F.J. 2010. Nectria canker incidence on birch (Betula 178 
+Spp.) in connecticut. North. J. Appl. For. 27:85-91. https://doi.org/10.1093/njaf/27.3.85. 179 
+Cech, T.L. 2010. Fungal diseases in Austrian trees. Forstschutz Aktuell. 50:7-10. 180 
+Metzler, B., Meierjohann, E., Kublin, E., von Wühlisch, G. 2002. Spatial dispersal of Nectria 181 
+ditissima canker of beech in an international provenance trial. For. Path. 32:137-144. 182 
+https://doi.org/10.1046/j.1439-0329.2002.00276.x 183 
+Mihál, I. 2011. Occurrence of fungi of the genus Nectria s.l. (Ascomycota, Hypocreales, 184 
+Bionectnaceae, Nectriaceae) in Slovakia. Folia. Oecol. 38: 80-88.  185 
+Kasson, M.T., Livingston, W.H. 2009. Spatial distribution of Neonectria species associated 186 
+with beech bark disease in Northern Maine. Mycologia. 101:190-195. 187 
+https://doi.org/10.3852/08-165  188 
+Barrett, L., Thrall, P., Dodds, P., van der Merwe, M., Linde, C., Lawrence, G., and Burdon, J. 189 
+2009. Diversity and evolution of effector loci in natural populations of the plant pathogen 190 
+Melampsora lini. Mol. Biol. Evol. 26:2499-2513. https://doi.org/10.1093/molbev/msp166 191 
+Bolger, A. M., Lohse, M., Usadel, B. 2014. Trimmomatic: A flexible trimmer for Illumina 192 
+Sequence Data. Bioinformatics. 30:2114-2120. 193 
+https://doi.org/10.1093/bioinformatics/btu170  194 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for thisthis version posted January 14, 2024. ; https://doi.org/10.1101/2024.01.13.575195doi: bioRxiv preprint 
+
+10 
+ 
+Simpson, J.T., Wong, K., Jackman, S.D., Schein, J.E., Jones, S.J., Birol, I. 2009. ABySS: a 195 
+parallel assembler for short read sequence data. Genome Res. 19:1117-1123. 196 
+https://doi.org/10.1101/gr.089532.108  197 
+Gómez-Cortecero, A., Harrison, R.J., Armitage, A.D. 2015. Draft genome sequence of a 198 
+european isolate of the apple canker pathogen Neonectria ditissima. Genome Announc. 199 
+3:e01243-15. https://doi.org/10.1128/genomeA.01243-15 200 
+Palmer, J.M., Stajich, J. 2020. Funannotate v1.8.1: Eukaryotic genome annotation (v1.8.1). 201 
+Zenodo. https://doi.org/10.5281/zenodo.4054262  202 
+Kim, D., Gilchrist, C.L.M., Chun, J., Steinegger, M. 2023. UFCG: database of universal 203 
+fungal core genes and pipeline for genome-wide phylogenetic analysis of fungi. Nucleic 204 
+Acids Res. 6:D777-D784. https://doi.org/10.1093/nar/gkac894  205 
+ 206 
+preprint (which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for thisthis version posted January 14, 2024. ; https://doi.org/10.1101/2024.01.13.575195doi: bioRxiv preprint

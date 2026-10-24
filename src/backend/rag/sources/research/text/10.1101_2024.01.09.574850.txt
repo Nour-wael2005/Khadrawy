@@ -1,0 +1,856 @@
+Survey of the wheat mycobiome associated with leaf blotch and head blight diseases in Sweden
+
+Increasing the durability of crop resistance to plant pathogens has become a major concern in plant pathology. There are 32 diseases of agronomical importance in wheat, which makes disease management in this crop of worldwide importance extremely challenging. Two important groups of wheat pathogens driving the consumption of chemical fungicides in Sweden and worldwide are those causing head blight diseases and leaf blotch diseases. Swedish fields are regularly infested with head blight diseases typically driven by a complex of Fusarium and non-fusarium taxa including F. graminearum, F. culmorum, while leaf blotches are typically caused by Zymoseptoria tritici, Pyrenophora tritici-repentis, and Parastagonospora nodorum. In this work, we present a survey of the larger diversity of taxa associated with head blight and leaf blotch diseases in Sweden, with the primary aim to assess the usefulness of such an approach to develop new understanding and tools for disease diagnostics and management sensu lato. Here, we analyze nearly a thousand isolates collected from wheat fields across eight counties in Sweden and report the identification of pathogenic and non-pathogenic taxa as well as candidate biological control agents associated with head blight and leaf blotch diseases. We argue that such surveys represent an important tool for improving disease diagnostics, disease forecasting, and integrated management in wheat.
+
+Survey of the wheat mycobiome associated with leaf blotch and head 
+blight diseases in Sweden 
+Harleen Kaur 1,*, Elisa Vilvert 1,*, Miguel Ángel Corrales Gutiérrez 1, Jiasui Zhan 1, Dimitar 1 
+Douchkov 2, Francesca Desiderio 3, Heriberto Vélëz 1,4, Salim Bourras 1. 2 
+1 Department of Forest Mycology and Plant Pathology. Swedish University of Agricultural Sciences. 3 
+Almas Allé 5, 750 07, Uppsala, Sweden. 4 
+2 Leibniz-Institute of Plant Genetics and Crop Plant Research, 06466-Gatersleben, Germany. 5 
+3 Council for Agricultural Research and Economics (CREA) - Research Centre for Genomics and 6 
+Bioinformatics, Fiorenzuola d’Arda, Italy 7 
+4 Current address: College of Science, Mathematics and Technology. Wenzhou-Kean University. 88 8 
+Daxue Rd, Ouhai, Wenzhou, Zhejiang Province 325060, China. 9 
+Institute X, Department X, Organization X, City X, State XX (only USA, Canada and Australia), 10 
+Country 11 
+2Laboratory X, Institute X, Department X, Organization X, City X, State XX (only USA, Canada and 12 
+Australia), Country 13 
+* Correspondence:  14 
+Dr. Heriberto Vélëz  15 
+hvelez@kean.edu  16 
+Prof. Dr. Salim Bourras 17 
+salim.bourras@slu.se  18 
+ 19 
+Keywords: wheat, Fusarium head blight, FHB, leaf botch, mycobiome 20 
+  21 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+2 
+Abstract 22 
+Increasing the durability of crop resistance to plant pathogens has become a major concern in plant 23 
+pathology. There are 32 diseases of agronomical importance in wheat, which makes disease 24 
+management in this crop of worldwide importance extremely challenging. Two important groups of 25 
+wheat pathogens driving the consumption of chemical fungicides in Sweden and worldwide are those 26 
+causing head blight diseases and leaf blotch diseases. Swedish fields are regularly infested with head 27 
+blight diseases typically driven by a complex of Fusarium and non -fusarium taxa including F. 28 
+graminearum, F. culmorum , while leaf blotches are typically caused by Zymoseptoria tritici , 29 
+Pyrenophora tritici-repentis, and Parastagonospora nodorum. In this work, we present a survey of the 30 
+larger diversity of taxa associated with head blight and leaf blotch diseases in Sweden, with the primary 31 
+aim to assess the usefulness of such an approach to develop new understanding and tool s for disease 32 
+diagnostics and management sensu lato. Here, we analyze nearly a thousand isolates collected from 33 
+wheat fields across eight counties in Sweden and report the identification of pathogenic and non -34 
+pathogenic taxa as well as candidate biological control agents associated with head blight and leaf 35 
+blotch diseases. We argue that such surveys represent an important tool for improving disease 36 
+diagnostics, disease forecasting, and integrated management in wheat. 37 
+  38 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+3 
+Introduction 39 
+Disease identification in the field can be very challenging , considering the complexity and the 40 
+convergence of symptoms caused by different pathogen species. For diseases typically caused by a 41 
+complex such as Fusarium Head Blight (FHB), several fungal species can be implicated. For instance, 42 
+there are 17 Fusarium sp. and non -Fusarium species implicated in FHB. Of these, F. graminearum 43 
+and F. culmorum are often presented as the most important drivers of the disease, with F. graminearum 44 
+often being the most predominant species (Karlsson et al., 2021). The composition of the complex 45 
+can significantly vary among countries depending on the varieties grown in the field, agricultural 46 
+practices, or climate (Karlsson et al., 2021). For instance, a field monitoring study conducted by Xu 47 
+et al. (2005) in four European countries (Hungary, Ireland, Italy, and the UK), it was shown that FHB 48 
+was frequently associated with F. graminearum and F. poae in Italy and Hungary  but not in Ireland 49 
+and the UK , while F. culmorum  was rarely detected except in Ireland  (Xu et al., 2005). This 50 
+demonstrates the importance of regular ly monitoring FHB for the correct identification of the causal 51 
+agents and proper assessing the efficiency of management strategies.  52 
+ 53 
+Other prominent examples of phenotypic complexity are leaf blotch diseases caused by Zymoseptoria 54 
+tritici, Pyrenophora tritici-repentis, and Parastagonospora nodorum. All pathogens cause convergent 55 
+disease symptoms that can be confounded with each other. Actually, the three pathogen species were 56 
+historically confounded as one species, then Z. tritici and P. nodorum were referred to as the Septoria 57 
+blotch complex or Septoria complex due to frequent co-occurrence of the two species and the similarity 58 
+of symptoms. From a resistance breeding perspective, the distinction between those three species is 59 
+crucial since it was shown that the host resistance is genetically different (i.e. , requires different 60 
+resistance genes, resistance mechanisms, and breeding strategies) (Brown et al., 2015). This further 61 
+demonstrates the importance of monitoring and precise disease diagnostics as a tool for disease 62 
+management. Furthermore, leaf blotch diseases in wheat are still largely controlled with fungicides, 63 
+leading to the rapid development of fungicide resistance in pathogen populations across Europe  64 
+(Pereira et al., 2020; Justesen et al., 2021; Jørgensen et al., 2021, Jørgensen et al., 2022) Thus, 65 
+surveys are essential for the management of fungicide resistance and further highlight the importance 66 
+of continuous isolation and characterization of pathogen populations from the field.  67 
+ 68 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+4 
+One major challenge for disease diagnosis in wheat is the recurrent emergence of hypervirulent 69 
+pathogen races, with one prominent example being the stem UG99 from the wheat pathogen Puccinia 70 
+graminis f. sp. tritici, that was responsible for a global pandemic of stem rust in wheat  (Singh et al., 71 
+2011). From a phenotypic perspective, it is impossible to distinguish the stem rust symptoms caused 72 
+by the UG99 race from any other race, thus highlighting the importance of molecular race 73 
+characterization for proper monitoring and resistance breeding (Patpour et al., 2022). A similar 74 
+challenge is imposed by Blumeria graminis f.sp. triticale (B.g. triticale), a new wheat pathogen that 75 
+emerged from the hybridization of wheat powdery mildew (B.g. tritici) and rye powdery mildew (B.g. 76 
+secalis) (Menardo et al., 2016). B.g. triticale is a new pathogen with an expanded host range that can 77 
+not only infect the Triticale crop but also wheat, causing symptoms that are indistinguishable from the 78 
+native wheat powdery mildew species B.g. tritici  (Menardo et al., 2016) These examples further 79 
+demonstrate the importance of monitoring and the molecular identification of the causal agent as a tool 80 
+for the surveillance of emerging and re-emerging diseases.  81 
+ 82 
+The wheat mycobiome has been shown to be an important source of beneficial fungal endophytes with 83 
+promising biological control properties. Such antagonists often occur in the same ecological 84 
+niches/tissues as their ‘target’ pathogen species and have thus been isolated from various organs, 85 
+including roots, leaves, seeds, or ears  (Huang & Pang, 2017; Yue et al., 2018; Rojas et al., 2020). 86 
+Considering the genetic diversity of the endophytic taxa inhabiting wheat, only a fraction of the wheat 87 
+mycobiome has been characterized for its biological control properties. Such work is mainly restricted 88 
+by the tedious initial isolation and molecular characterization of hundreds (if not thousands) of fungal 89 
+taxa. We, therefore, argue that surveys for diseases could be coupled with surveys for biological control 90 
+agents, taking advantage of the availability of host tissues where both pathogens and potential 91 
+antagonists can be isolated. In this study, we aimed to provide an experimental proof-of-concept for 92 
+the possible uses of disease sampling and monitoring campaigns for constructing a wheat mycobiome 93 
+library that can be used  to understand and monitor wheat head blight and leaf blotch diseases in 94 
+Sweden. In particular, we assess if such a library can inform on s hifts in pathogen populations and 95 
+possibly lead to the identification  of potential emerging diseases  and candidate biological control 96 
+agents. 97 
+  98 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+5 
+Materials and methods 99 
+Sample collection and handling 100 
+A survey of wheat diseases was conducted in collaboration with the plant protection extension services 101 
+of the Swedish Board of Agriculture. In 2020, spikes were collected from spring wheat varieties 102 
+cultivated in Sweden and grown in a small propagation plot north of Stockholm. The plot consisted of 103 
+the six Spring wheat varieties: Alderon, Dacke, Dala, Happy, Rohan, Stanley ; two spring wheat 104 
+genotypes used as scientific standards: Bobwhite and Fielder; and one triticale genotype. In 2021 and 105 
+2023, spike and leaf samples were collected by field pathologists from the plant protection extension 106 
+services from eight counties across Sweden: Norrbotten, Uppsala, Stockholm, Södermanlands, 107 
+Östergötland, Västra Götaland , Gottland, and Skåna (Figure 1 A ). Samples were typically shipped  108 
+within 24 hours in glycine bags and immediately processed or stored at 4°C in dry storage until further 109 
+processing.  110 
+ 111 
+Media preparation for isolation and long-term conservation 112 
+Two different media were used for pathogen isolation, purification, and long -term storage. Potato 113 
+dextrose agar (PDA) was prepared from dehydrated pre -mixed media from MP Biomedicals (USA) 114 
+according to the manufacturer’s instructions. Yeast malt sucrose (YMS) agar medium was prepared by 115 
+mixing solve 4 g yeast extract, 4 g malt extract, and 4 g sucrose, and 16 g agar in 1000 ml milliQ water, 116 
+then autoclaving for 5 min at 121°C. For mid-term storage, isolates were kept as slow-growing cultures 117 
+on half-strength PDA or YMS agar in small glass vials and stored in the dark at 4°C. For long -term 118 
+storage, three to four ca, 5mm mycelial plugs were cut from a growing colon, placed in a 2ml cryotube 119 
+containing 30% glycerol, and stored at -80°C. For Z. tritici, long-term storage vials were prepared from 120 
+liquid cultures as previously described by Fagundes and collaborators (Fagundes et al., 2020). 121 
+ 122 
+Isolation and purification of fungal colonies from spikes and leaves 123 
+Seeds and glumes were manually separated from full spikes and surface sterilized under a sterile hood 124 
+for one minute in 1% sodium hypochlorite, followed by 30 seconds in 70% ethanol, and washed twice 125 
+for 30 sec onds in autoclaved Milli-Q water. Individual seeds were placed in Petri plates containing 126 
+fungal culture media amended with 50 µg/ml of Kanamycin.  For leaf segments a square of ca 5mm 127 
+width was dissected around blotch symptoms typically consisting of necrotic spot often surrounded by 128 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+6 
+a chlorotic ring. Segments were surface sterilized under a sterile hood for 30 seconds in s odium 129 
+hypochlorite, followed by 30 seconds in 70% ethanol, and washed twice for 30 seconds in autoclaved 130 
+Milli-Q water. Three samples from the same leaf were placed in Petri plates containing fungal culture 131 
+media amended with 50 µg/ml of Kanamycin. Alternatively, samples were also simply washed in Milli-132 
+Q water and further processed into plating. All plates were incubated at 20℃ until colonies were visible 133 
+(usually around 5 to 7 days). Individual colonies were picked and transferred to new plates and 134 
+incubated at 20℃. The process was repeated until a single pure colony was obtained.  For the specific 135 
+case of Z. tritici, leaf segments harboring pycnidia were incubated at 18°C in a humid chamber 136 
+consisting of a Petri dish supplemented with a sterile absorbent paper disk soaked with sterile water. 137 
+Plates were inspected every day under a binocular to search for bursting pycnidia where mucilage had 138 
+been ejected. In such a case, the pycnidium was carefully fetched using a sterile needle under a 139 
+binocular placed inside a sterile hood and transferred into a Petri dish with YMS agar, supplemented 140 
+with 50 µg/ml of Kanamycin. 141 
+   142 
+DNA extraction and genotyping by fragment sequencing 143 
+A modified cetyltrimethylammonium bromide (CTAB) based DNA extraction method  was used to 144 
+extract DNA of fungal isolates . Briefly, mycelium plugs were used to inoculate a liquid medium 145 
+containing malt extracts and vitamins (MEV). Cultures were incubated with ca. 150rpm shaking in the 146 
+dark at 25℃ for two weeks. Then, mycelium was harvested, homogenized with a CTAB buffer (3% 147 
+CTAB; 150 mM TRIS-HCl; 2.6 M NaCl; 20 mM EDTA), and incubated at 65℃ for 30 min inside a 148 
+water bath. The samples were centrifuged at 10’000 g for 10 min and the supernatant was transferred 149 
+to a new tube  supplemented with an equal volume of chloroform . After a second centrifugation at 150 
+10’000 g for 10 min , the supernatant was transferred to a new tube , an equal amount of isopropanol 151 
+was added, and the mix was incubated at -20℃ for a few minutes. A final centrifugation at 10’000 g 152 
+for 10 min resulted in the deposition of a DNA pellet, which was washed using 70% ethanol  and 153 
+resuspended in TE buffer. In addition, another DNA extraction method was used to extract the DNA 154 
+of the fungal isolates. First, mycelium plugs from the isolates were cultured in falcon tubes containing 155 
+10 ml of YMS liquid medium and incubated for 7 -15 days at 150 rpm and 25 °C in dark. Then, the 156 
+mycelium was harvested, freeze-dried, and subjected to genomic DNA extraction using the Nucleo 157 
+Mag Plant kit (Macherey-Nagel GmbH &Co. KG, Germany) in the automated nucleic acid extractor 158 
+Maelstrom 4800 (TANBead Taiwan Advanced Nanotech Inc., Taiwan). 159 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+7 
+ 160 
+Identification of pathogen species was carried out by Polymerase Chain Reaction (PCR) of the genomic 161 
+DNA followed by amplicon sequencing of conserved nuclear locus, internal transcribed spacer (ITS) 162 
+rDNA. For ITS PCR, primer pair ITS1 (5’- TCCGTAGGTGAACCTGCGG-3’) and ITS4  (5- 163 
+TCCTCCGCTTATTGATATGC-3’) were used for genotyping (White T.J., 1990). PCR amplification 164 
+was followed by PCR clean -up using exonuclease  kit (Thermo Fisher Scientific)  according to the 165 
+manufacturer’s instructions. Amplicons were subsequently sent for fragment sequencing at Macrogen 166 
+Europe (The Netherlands, https://www.macrogen-europe.com/). DNA sequences were manually 167 
+curated and analyzed for sequence homology to fungal sequences deposited at the National Center for 168 
+Biotechnology Information  (NCBI) using the BLASTn search tool. Isolates used for leaf infection 169 
+assays were also tested with F. graminearum  marker GOFW (5’-170 
+ACCTCTGTTGTTCTTCCAGACGG-3’) GORV (5’- CTGGTCAGTATTAACCGTGTGTG-3’) (de 171 
+Biazio et al., 2008), and for F. culmorum with Fc03 (5’-TTCTTGCTAGGGTTGAGGATG-3’) Fc02 172 
+(5’-GACCTTGACTTTGAGCTTCTTG-3’) (Astrid Bauer and Seigner, 2015). 173 
+ 174 
+Plant cultivation and infection assays 175 
+Wheat plants were grown in the phytotron (controlled climate chambers) for three to four weeks at 176 
+20℃, 70% relative humidity and 300µMOL light intensity.  The inoculum was composed of isolate 177 
+HK48 (Fusarium graminearum), HK50 ( Fusarium culmorum). The isolates were incubated for two 178 
+weeks at 25℃ and constant darkness on OMA. The conidia were scraped from the colony surface and 179 
+resuspended in sterile water. The inoculum cell density was adjusted to 250 spores per µl using water. 180 
+Leaf inoculation was based on a protocol originally developed at the Leibniz Institute of Plant Genetics 181 
+and Crop Plant Research  and adapted to our conditions . Three- to four-weeks-old wheat leaves were 182 
+randomly selected and cut into 4 cm length s. A hole was punctured in the middle of the leaf segment 183 
+and inoculated with a 30 µl spore suspension. Three biological replicates consisting of each of two 184 
+technical replicates were i noculated with either F. graminearum or F. culmorum. A total of 360 leaf 185 
+segments were placed in water agar and incubated in phytotron for four days. The necrosis was 186 
+observed in each of the 360 leaf segments and scored visually. 187 
+ 188 
+Image analysis and morphotyping 189 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+8 
+Isolate pictures were analyzed using the open-source Fiji from ImageJ  (Schindelin et al., 2012). To 190 
+minimize noise from the background, the region of interest (ROI) was defined manually with the circle 191 
+tool and added to the ROI manager (“Analyze/Tools/ROI manager/Add” and “Edit/Clear outside”). 192 
+Once the ROI was defined, general color data was extracted (“Analyzed/color histogram”). After this 193 
+first step, the image was split into three different channels (blue, green, and red), and the different 194 
+features of interest were extracted for each channel (“ROI manager/Measure”). To proceed with texture 195 
+analysis of each channel image, we analyze d the image with the GLCM texture macro, defining the 196 
+size of the step in pixels as 1 and the direction of the step as 0 degrees (“Plugins/GLCM texture”). 197 
+Finally, the image type  was changed to 32-bit (“Image/Type/32-bit”) to perform the last step of the 198 
+analysis. We selected SurfCharJ1q macro (“Plugins/ SurfCharJ1q”) to analyze roughness features. At 199 
+the end of the analysis, each sample had 90 different variables to be studied. 200 
+ 201 
+Statistical analysis 202 
+All statistical analyses were performed with R (version 4.2.2.) in Rstudio environment (R Core Team, 203 
+2021). The packages used for the analys es were: caret, cluster, corrplot, datawizard, factoextra, 204 
+faraway, readxl,  and stats. Data collected from ImageJ was normalized throughout the Z-scoring 205 
+transformation. After data transformation , a linear model was adapted to analyze the putative 206 
+correlation among the studied variables. Variables without changes among samples or with a 207 
+correlation coefficient above 0.9 were removed. After this first filtering  step, we performed a second 208 
+selection, deleting variables with the highest correlation coefficients and variance inflation factors 209 
+(VIF) values. Principal Component Analysis (PCA) was performed with the filtered and normalized 210 
+data. To perform clustering analysis, agglomerative nesting (AGNES) and divisive analysis (DIANA) 211 
+algorithms were applied for hierarchical clustering over our filtered data. Finally, kmeans and medoids 212 
+analysis was performed with a predefined number of clusters of 2. Kmeans analysis was performed 213 
+with Hartigan and Wong algorithm and Euclidean distance was selected for medoids analysis. The 214 
+aggregation level of each cluster was measured throughout their silhouette value. 215 
+ 216 
+  217 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+9 
+Results 218 
+Overall diversity of the wheat mycobiome library 219 
+In this study, hundreds of colonies were isolated from spikes and leaves collected over three field 220 
+campaigns in eight counties across Sweden ( Figure 1A). Of these, several isolates did not make it to 221 
+the final set due to practical issues with growth, bacterial contaminations, failure of the genotyping at 222 
+the PCR or the fragment-sequencing step. Still, we were able to recover a final set of 940 successfully 223 
+genotyped samples which was the basis for the following analyzes. First, we concatenated all the 224 
+genotypic data and evaluated the overall diversity of the resulting fungal collection  in terms of genus 225 
+diversity (Figure 1B ). Here , it is important to read the following primarily in terms of qualitative 226 
+diversity, considering the inherent bias due to the isolation method, and where abundance is primarily 227 
+meant in terms of frequency of isolation. We were able to recover taxa from 14 different genera with 228 
+a minimum of two representative (i.e. independently recovered isolates). Of these, the most abundant 229 
+genera included Fusarium sp., the ubiquitous Alternaria sp., and to a lesser extent Zymoseptoria sp., 230 
+Pyrenophora sp., Microdochium sp., and Parastagonospora sp., which is consistent with the fact that 231 
+the sampling was mainly targeted to FHB, Leaf Blotch diseases of wheat. We therefore conclude that 232 
+the resulting isolate library is relevant to the diseases covered by the survey.  233 
+ 234 
+We then assessed the species diversity of the two most abundant taxa , namely, Fusarium sp. and 235 
+Alternaria sp (Figure 1C, 1D). We found that the most abundant Alternaria species were A. infectoria, 236 
+and A. alternata, which are commonly associated with head diseases such as the wheat black point , 237 
+and also to mycotoxin production (DeMers M., 2022). (Figure 1C). For Fusarium sp., we were able 238 
+to recover a diversity of taxa typically associated with FHB in wheat, with the most common species 239 
+including F. culmorum, F. graminearum, F. poae, and F. avenaceum (Figure 1D). We conclude that 240 
+the collected data indicate a large diversity of taxa typically implicated in head diseases of wheat 241 
+present in Swedish wheat fields, representing a potential risk for disease outbreaks. 242 
+ 243 
+Finally, we assessed the overall diversity of the library in terms of the representation of disease-causing 244 
+agents as well as potential antagonists potentially corresponding to candidate biological control agents. 245 
+We reasoned that biological control agents often co -exist with their targets in the same ecological 246 
+niches and may thus be co -isolated from the same tissues. The library contained 23 different fungal 247 
+taxa commonly implicated in wheat diseases affecting the seeds, the leaves, and the spikes ; which is 248 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+10 
+consistent with the wheat organs/tissues surveyed in this study (Table 1A, 1B). We also note that head 249 
+blight and leaf blotch diseases are well represented in this list which is again in line with the aim of 250 
+this survey. Of these, two species, Nigrospora oryzae  and Stemphylium vesicarium , have been 251 
+described as potentially new wheat pathogens  (Liu et al., 2021, Mohamed et al., 2022), which we 252 
+have classified as candidate emerging diseases for surveillance ( Table 1B). We also found eight taxa 253 
+that may represent potential biological control agents which were assigned based on previous studies 254 
+(Table 1C). We argue that such isolates represent an added value for the survey aiding the identification 255 
+of potentially beneficial microorganisms that could be evaluated for their biological control properties. 256 
+ 257 
+Inventory of pathogenic and endophytic isolates associated with Leaf Blotch in Sweden. 258 
+For the leaf mycobiome associated with Leaf Blotch diseases, we recovered isolates from typical blotch 259 
+symptoms as well as from symptomless tissues. We deduced that symptomless tissues may be the 260 
+habitat for endophytic fungi that could be antagonistic to the pathogenic taxa  or harbor  pathogens 261 
+surviving as silent endophytes.  262 
+ 263 
+Overall, Alternaria species dominated the infection, which is consistent with the fact that they are 264 
+known to be ubiquitously found as weak pathogens or saprophytes on different plant tissue ( Figure 265 
+2A). Alternaria sp. apart, the most frequently isolated species were Zymoseptoria tritici, Pyrenophora 266 
+tritici-repentis, and Parastagonospora nodorum, all of which being prominent causal agents of blotch 267 
+diseases in wheat. We here conclude that the collection isolated from leave does represent the diseases 268 
+targeted by the survey. We then differentiated the isolates recovered from typical blotch symptoms 269 
+(Figure 2B), from those recovered from symptomless tissues (Figure 2C). Alternaria sp. apart, Z. tritici, 270 
+P. tritici-repentis, and P. nodorum were the most frequently isolated species from blotch symptoms. 271 
+ 272 
+Interestingly, we have also isolated taxa typically implicated in FHB , including F. culmorum , F. 273 
+graminearum, and Microdochium nivale . In comparison, the most frequently isolated taxa from 274 
+asymptomatic tissues apart from Alternaria sp.  (i.e. surviving as silent endophytes) were P. tritici-275 
+repentis, and P. nodorum, but also Z. tritici, and M. nivale. This data indicate that members of the FHB 276 
+complex can  possibly survive as silent endophytes in the leaves and potentially cause blotch -like 277 
+symptoms that can be confound with the typical blotch pathogens Z. tritici, P. tritici-repentis, and P. 278 
+nodorum.  279 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+11 
+ 280 
+We also tested the capacity of F. culmorum, F. graminearum to cause blotch-like symptoms on wheat 281 
+leaves. To do so, we performed point inoculation of leaf segments harvested at the seedling stage and 282 
+visually assessed the development of necrotic lesions (see Methods). We inoculated 30 commercial 283 
+spring wheat cultivars commonly grown in Sweden ( Figure 2 D, 2E ). We found that F. culmorum 284 
+caused necrotic lesions on at least 5 out of the 30 commercial cultivars tested  (Figure 2D), while F. 285 
+graminearum caused necrotic lesions on 15 commercial cultivars (Figure 2 E). These results 286 
+substantiate the hypothesis that F. graminearum and F. culmorum can potentially cause leaf blotch -287 
+like symptoms in Swedish fields on several of the commonly grown spring wheat varieties. 288 
+ 289 
+Inventory of pathogenic and endophytic isolates associated with FHB in Sweden 290 
+For the spike mycobiome, we recovered isolates from seeds as well as from glumes and searched for 291 
+both pathogenic and non-pathogenic taxa. Our reasoning was that glumes may offer a secondary habitat 292 
+for wheat ear pathogens or potential antagonist s competing for the same ecological niche in the seed 293 
+vicinity. In contrast to the leaf mycobiome, Fusarium species dominated over Alternaria sp., including 294 
+the two most important causal agents of FHB, namely F. culmorum and F. graminearum (Figure 3A). 295 
+In addition, several typical members of the FHB complex were isolated, including F. poae , F. 296 
+avenaceum, F. equiseti, and M. nivale. We then investigated the differences in the qualitative diversity 297 
+between the taxa recovered from seeds vs. glumes (Figure 3B, 3C). Interestingly, the less pathogenic 298 
+taxa F. poae  and F. avenaceum  were mainly  isolated from seeds  (Figure 3B ), while the more 299 
+pathogenic taxa F. graminearum and F. culmorum were isolated from both seed compartments but 300 
+dominated in the glumes ( Figure 3C). This data suggests  that Fusarium species implicated in FHB 301 
+fully occupy the seed habitat, with the glumes possibly acting as a secondary niche where pathogenic 302 
+taxa seem to outcompete other fungal taxa, such as Alternaria sp which has been isolated ubiquitously 303 
+from all tissues analyzed in this study except glumes. 304 
+ 305 
+We then expanded this analysis to possible differences between cultivars. We used a subset of samples 306 
+recovered from a small propagation plot, where isolations were exclusively carried out with seeds. 307 
+First, we concatenated the data by cultivar and genus/species with at least two representatives (Figure 308 
+3D), and then we grouped the species  into representative s of common head diseases ( Figure 3E ). 309 
+Additionally, we also included isolates from Epicoccum sp. which we could isolate from leaves, but 310 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+12 
+also and mostly from seeds. Our reasoning was that Epicoccum sp. had been previously described as 311 
+being associated with FHB; however, while a role as a possible antagonist/biocontrol agent has been 312 
+suggested (Karlsson et al., 2021), its contribution to the FHB complex is still poorly understood. We 313 
+found that Alternaria sp. could be isolated from most, if not all, cultivars, which is consistent with their 314 
+characteristic as ubiquitous plant-associated fungi, sometimes acting as weak pathogens. However, the 315 
+distribution of Fusarium sp. and Epicoccum sp. was more scattered across cultivars (Figure 3E). When 316 
+grouped by common diseases, the results suggested that head mold disease seem s to be a more 317 
+ubiquitous risk factor than head blight, although members of the FHB complex still infected 6 out of 9 318 
+tested cultivars.  319 
+ 320 
+We finally investigated the specific case of FHB-infected ears (Figure 3F) and leaves with typical 321 
+blotch symptoms that were collected from the most northern location in our study: Piteå ( Norrbotten 322 
+county, Figure 1A). Interestingly, we mostly recovered M. nivale from the leaf blotch symptoms and 323 
+F. avenaceum and M. nivale from the FHB-infected ears (Figure 3G). These results suggest that in 324 
+these northern latitudes, blotch symptoms are probably cased by M. nivale, which is the common agent 325 
+of the Snow Mold  disease of wheat, while FHB is possibly caused by the weaker pathogens F. 326 
+avenaceum and M. nivale. We conclude that such observations demonstrate the usefulness of such 327 
+surveys to shed light on possible changes in the disease landscape and alert on the possible re -328 
+emergence of diseases. 329 
+ 330 
+Morphotyping of Fusarium sp. and Epicoccum sp. isolates 331 
+In a last series of analyses, we took advantage of the library to explore the possibilities of morphotyping 332 
+to rapidly sort and identify fungal species, with the prominent addition of modern image analysis 333 
+technologies. We inferred that the capacity to rapidly sort and classify fungal taxa as soon as they are 334 
+available as colonies growing on a plate will be a handy tool to accelerate and scale up the diagnostics, 335 
+which would also allow us to target specific taxa or specific morphotypes. To do so, we aimed to 336 
+provide a proof-of-concept using Fusarium sp. and Epicoccum sp. as targe taxa to differentiate solely 337 
+using imaging. 338 
+ 339 
+A pipeline was designed to extract different image attributes from the isolate pictures using advanced 340 
+functions in the imageJ image analysis suite (see Methods). A Principal Component Analysis ( PCA) 341 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+13 
+showed that although the subset of selected image variables still show s some level of correlation  342 
+(Figure 4A), they can still explain 56.7 % of the observed variability (Figure 4B). The image features 343 
+with the highest contribution to the ‘Dimension 1’ is the mean blue channel, and the blue and green 344 
+intensity density (Figure 4C), meanwhile the highest contributors to ‘Dimension 2’ are the minimum 345 
+green intensity and the FAD values for red, blue, and green (Figure 4D). These results suggest that the 346 
+selected characteristics could represent a balanced mathematical description of the distribution of our 347 
+samples. However,  we cannot exclude further optimization considering the  inherent correlation 348 
+between some visual features (such as color) and the fact that some image features contribute more to 349 
+the total variability. Finally, with this still basic analysis, we could delineate  two clear but slightly 350 
+overlapped clusters (Figure 4B) differentiating Fusarium sp. from Epiccocum sp. isolates. In order to 351 
+improve the  clustering of our data, we applied Agglomerative Nesting (AGNES) ( Figure 4E) and 352 
+Divisive Analysis Clustering (DIANA) (Figure 4F) algorithms (see Methods). The AGNES algorithm 353 
+resulted in a dendrogram with an agglomerative coefficient of 0.78; meanwhile, the DIANA algorithm 354 
+gave a higher value of 0.82, suggesting a solid clustering structure in our sample distribution. Although 355 
+the clustering does not differentiate between different Fusarium sp. species, the distribution shows that 356 
+we can reasonably differentiate between  the genus  Epicoccum sp. and Fusarium sp. with only  six 357 
+miscalls. 358 
+ 359 
+Considering the quality of the data, we aimed at further clustering using K-means (Figure 5A) and 360 
+Partition Around Medoids (PAM) algorithms (Figure 5B), and calculated the average silhouette value 361 
+for each cluster created ( Figure 5C, 5D). Although the global accuracy increased was improved  to 362 
+0.918 (K-means) and 0.904 (PAM), we still had 6 miscalls with the K-means and 7 with the PAM, 363 
+which is consistent with the average silhouette value of 0.32 for the K-means clusters (Figure 5C) and 364 
+0.3 for the PAM clusters ( Figure 5D). Interestingly , it seems that algorithms find  it harder to 365 
+differentiate some Epicoccum sp. isolates from Fusarium sp. (K-means: 0.739, PAM: 0.739) while the 366 
+sensitivity for Fusarium (i.e. the capacity to properly identify Fusarium sp.) is higher in comparison 367 
+to Epiccocum (K-means: 0.980, PAM: 0.961. Therefore, despite the small dataset used in this analysis, 368 
+we could still provide proof of principle that imaging is a promising tool for advanced morphotyping 369 
+and the identification of specific fungi relevant to wheat.  370 
+  371 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+14 
+Discussion 372 
+Wheat pathogens occupy a variety of tissues and niches 373 
+In this study, we recovered typical wheat pathogens implicated in head blight and leaf blotch diseases 374 
+from a variety of tissues, including seeds, glumes, symptomatic leaf tissues, and asymptomatic leaves. 375 
+We had cases where Fusarium taxa typically implicated in FHB were isolated from blotch symptoms 376 
+in the leaves and other cases where typical blotch pathogens such as P. tritici-repentis, and P. nodorum 377 
+were isolated from wheat ears. Furthermore, typical leaf pathogens were also isolated as silent 378 
+endophytes from asymptomatic tissues. Fusarium species are well known as ubiquitous plant 379 
+colonizers that can survive in a variety of plant tissues and also in the soil  (Karlsson et al., 2021). In 380 
+disease complex es such as FHB , where 17 different Fusarium and non -Fusarium taxa can be 381 
+implicated, the role of such secondary niches is poorly understood  (Karlsson et al., 2021). From a 382 
+population perspective, the capacity of pathogens to survive in tissues or organs that are not their 383 
+primary habitat may increase the fitness of the pathogen population in the field by maintaining living 384 
+inoculum, throughout the field seasons and particularly when conditions are unfavorable. This was, for 385 
+instance, observed in the case of Z. tritici, where it was shown that avirulent isolates can still survive 386 
+and mate on resistant wheat hosts as symptomless endophytes or epiphytes (Fones et al., 2023), thus 387 
+contributing to pathogen fitness and adaptation through the maintenance of genetic diversity in the 388 
+field population. It was also shown that Z. tritici can induce systemic responses leading to whole plant 389 
+metabolic changes leading to increased susceptibility to secondary infection with a non -adapted 390 
+pathogen (Seybold et al., 2020). This is major because such mechanisms could also occur among 391 
+different isolates of the same pathogen population or different species of a disease complex, thus 392 
+providing a possible explanation for the functional relevance of secondary niches and the ubiquitous 393 
+nature of the taxa implicated in FHB. 394 
+ 395 
+The wheat mycobiome as a source for candidate biological control agents 396 
+Microbial biological control agents are considered an important tool to reduce chemical inputs in crop 397 
+disease management. A variety of microbial agents with antagonistic properties against plant pathogens 398 
+has been described, and variety of mode of action underlying such effect has been reported including 399 
+antibiosis, parasitism, niche competition, or resistance priming in the host  (Köhl et al., 2019). 400 
+Microbial biological control agents that correspond to naturally occurring competitors are commonly 401 
+found in the same ecological niches as their target pests. In this study, several candidate biological 402 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+15 
+control agents have been identified ( Table 1 C). For instance, strains of Alternaria alternata and 403 
+Cladosporium cladosporioides have been described as hyperparasite of the wheat stripe rust pathogen 404 
+Puccinia striiformis f. sp. tritici, (Zheng et al., 2017; Zhang et al., 2022). Similarly, E. nigrum has 405 
+been shown to a promising biological control agent against wheat stripe rust as well as F. graminearum 406 
+hile Aureobasidium pullulans and Meyerozyma guilliermondii has been described as biological control 407 
+agents against post-harvest Fusarium crown rot diseases, respectively (El-Sharkawy et al, 2023; 408 
+Wachowska et al., 2016; Kthiri et al., 2021). These results further demonstrate the usefulness of such 409 
+surveys in the broader context of IPM, by facilitating the identification of relevant candidate biological 410 
+control agents better adapted to the Swedish conditions. 411 
+ 412 
+Wheat disease diagnostics and its importance for management 413 
+The beneficial vs. pathogenic lifestyle of a plant colonizing fungus can be determined mainly by the 414 
+host and the ecological niches it occupies. For instance, the biological control fungus Clonostachys 415 
+rosea, a naturally occurring root endophyte, has been shown to be effective against several foliar plant 416 
+pathogens. However, C. rosea has also been reported as the causal agent of root  rot, crown rot, and  417 
+wilt-type diseases in garlic, faba bean, avocado, strawberry, sugar beet, and medicinal plants such as 418 
+Angelica sinensis and Astragalus mongholicus (Ma et al., 2020; Qi et al., 2022; Diaz et al., 2022; 419 
+Afshari et al., 2017; Coyotl-Pérez et al., 2007; Zhang et al., 2022; Haque and Parvin, 2020, 420 
+Farhaoui et al., 2023). Similarly, E. nigrum has been described as a potent biological control agent 421 
+against wheat stripe rust . However, E. nigrum is also the causal agent of the brown spot disease  in 422 
+Solanaceae (Jin et al., 2023). These reports highlight the importance of continuous monitoring of field 423 
+populations and careful, systematic identification of the causal agents for identifying potential lifestyle 424 
+shifts in microbial populations.  425 
+ 426 
+Shifts from a beneficial endophytic lifestyle to pathogenicity through host switch, niche displacement, 427 
+and changes in the microbiome  have been well documented for several prominent diseases such as 428 
+Diplodia sapinea, the causal agent of diplodia tip blight in Scots pine, and Sarocladium oryzae the 429 
+causal agent of rice sheet rot  (Blumenstein et al., 2022; Peeters et al., 2021). Therefore, the 430 
+designation of beneficial endophyte/ candidate biological control agents must be taken within the 431 
+context of the actual contribution of the species to the wheat mycobiome, meaning that both disease-432 
+suppressing antagonistic and disease-promoting synergistic properties must be tested. This is directly 433 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+16 
+relevant to taxa such as Epicoccum sp. and Alternaria sp., considering their frequent association with 434 
+FHB and our poor understanding of how such mycobiome is assembled (Karlsson et al., 2021; Schiro 435 
+et al., 2018; Nazabanita et al., 2022; Rojas et al., 2020). 436 
+ 437 
+In this context, changes in the composition of the disease complex are also relevant, with the example 438 
+of FHB from Piteå, which seems to be caused by F. avenaceum and M. nivale (Figure 3F, 3G) and not 439 
+by F. graminearum and F. culorum as in the majority of the FHB tested samples (Figure 3A, 3B, 3C). 440 
+In contrast, we also recovered those typical FHB causal agents, F. graminearum and F. culorum, from 441 
+typical necrotic and chlorotic symptoms reminiscent of septoria leaf blotch diseases. These results 442 
+highlight the complexity of the wheat mycobiome and the limits of visual scoring considering the 443 
+complexity and often the convergence of disease symptoms ca used by yet phylogenetically distant 444 
+taxa. We argue that such observation s further highlight the importance of field surveys as a tool for 445 
+continuous identification and re-identification of the actual disease-causing agents present in the field. 446 
+ 447 
+A basis for targeted monitoring of potentially emerging wheat diseases 448 
+The emergence of new diseases leading to global epidemics is relatively common in wheat, with stem 449 
+rust and wheat blast being two prominent examples. Wheat has also been the host for the emergence 450 
+of two new pathogens that did not existence before namely triticale powdery mildew and wheat blast. 451 
+Arguably, the large reservoir of wheat pathogens present in the agro-ecosystem is a challenge requiring 452 
+continuous monitoring for early detection of potentially new, emerging diseases. In this context, two 453 
+taxa identified in our survey are of particular interest: N. oryzae, and S. vesicarium (Table 1B). N. 454 
+oryzae is an ascomycete fungal pathogen and the causal agent of p anicle branch rot disease on rice 455 
+(Oryza sativa ) (Liu et al., 2021) In 2016, N. oryzae was reported to cause black lesions on the 456 
+hypocotyls of wheat seedlings in Kazakhstan, suggesting that some isolates of N. oryzae  (a rice 457 
+pathogen) may have adapted to be pathogens on wheat, which is reminiscent of the emergence of wheat 458 
+blast (Eken et al., 2016). Smilarly, S. vesicarium has been reported to cause leaf spot s on wheat in 459 
+Egypt (Mohamed et al., 2022), and to our knowledge, these pathogens have never been described in 460 
+Sweden before. We conclude that such results further highlight the relevance of this work since we can 461 
+now provide a rational basis for risk assessment and targeted disease monitoring of critical pathogens 462 
+in Swedish wheat fields. 463 
+ 464 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+17 
+Author Contributions 465 
+SB and HV led the research. SB, HZ, and JZ designed the research and developed the library. HK, EV, 466 
+MACG, HV, SB did laboratory experiments. HK, MACG, SB, DD, and FD developed infection assays. 467 
+MACG and SB developed the morphotyping. HK, EV, HV, and SB analyzed the genotyping data. 468 
+MACG performed statistical analyzes. MACG and SB edited the figures. 469 
+ 470 
+Funding 471 
+This was supported by funding from the Swedish Research Council for Sustainable Development 472 
+FORMAS (grant number 2020-01007) and the Carl Trygger Foundation (grant number 21:1171). 473 
+Acknowledgments 474 
+We would like to acknowledge the support of the Plant Protection Extensions ‘Växtskyddscentralerna’ 475 
+of the Swedish Board of Agriculture ‘Jordbruksverket’ (https://jordbruksverket.se/) with field sampling 476 
+across Sweden. We would like to thank Anders Lindgren, Lina Norrlund, and Elizabeth Lovetta for 477 
+supporting and coordinating sample collection and shipment. We thank Eula Gems Oreiro , Björn 478 
+Andersson from the Department of Forest Mycology and Plant Pathology (SLU) for their help handling 479 
+blotch infected samples and their contribution to maintaining the library. We also thank Fredric 480 
+Hedlund and Ayano Tanaka  for their technical assistance with the growth facilities and the SLU 481 
+BioCentrum. We finally thank Katarina Ihrmark and Maria Jonsson for their technical assistance. 482 
+ 483 
+  484 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+18 
+Figures 485 
+ 486 
+ 487 
+Figure 1. Summary and overall diversity of the wheat mycobiome library 488 
+(A) Geographical origin of the samples. (B) Overall diversity of the fungal genera represented in the library. (C) 489 
+Analysis of species diversity of Alternaria sp. (D) Analysis of species diversity of Fusarium sp. 490 
+  491 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+19 
+ 492 
+Figure 2. Summary of the wheat leaf mycobiome 493 
+(A) Overall diversity of the fungal taxa isolated from leaf tissues. (B) Summary of the fungal taxa recovered from 494 
+tissues with typical leaf blotch symptoms. (C) Summary of the fungal taxa recovered from asymptomatic tissues 495 
+from leaf blotch infected material. (D) Point leaf inoculations of different spring wheat commercial cultivars with 496 
+Fusarium culmorum (see Methods). (E) Point leaf inoculations of different spring wheat commercial cultivars 497 
+with Fusarium graminearum (see Methods).  498 
+  499 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+20 
+ 500 
+Figure 3. Summary of the wheat head mycobiome 501 
+(A) Overall diversity of the fungal taxa isolated from spikes. (B) Summary of the fungal taxa recovered from 502 
+seeds. (C) Summary of the fungal taxa recovered from glume tissues. (D) Analysis of possible association 503 
+between fungal taxa and wheat cultivars. (E) Analysis of possible association between common head diseases 504 
+and wheat cultivars. (F) Photograph of typical Fusarium Head Blight symptoms on a wheat spike collected from 505 
+the most northern location in our survey: Piteå. (G) Summary of the fungal taxa isolated from typical leaf blotch 506 
+and head blight symptoms from samples collected in Piteå. 507 
+  508 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+21 
+ 509 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+22 
+Figure 4. Feature extraction for morphotyping and dendrogram classification  510 
+(A) Correlation matrix of selected variables for image analysis of Epicoccum sp. and Fusarium sp. blue color 511 
+(values close to 1) indicates positive correlation meanwhile red color indicates negative correlation. (B) Principal 512 
+component analysis plot of visual data extracted from Epicoccum sp. and Fusarium sp. Isolate images. The 513 
+color yellow represents Epicoccum sp. isolates and the red color represents Fusarium sp. isolates. Circles 514 
+represent putative clusters. Dimension 1 and dimension 2 separate isolates based in the values of 24 different 515 
+visual characteristics. (C) Weights of the main explanatory variables for the first PCA dimension. (D) Weights of 516 
+the main explanatory variables for the second PCA dimension. (E) Dendrogram clustered by AGNES algorithm 517 
+built with Unweighted Pair Group Method with Arithmetic Mean (UPGMA). (F) Dendrogram clustered by the 518 
+DIANA algorithm. The yellow color represents Epicoccum sp. isolates, and the red color indicates Fusarium sp. 519 
+isolates.  520 
+  521 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+23 
+ 522 
+Figure 5. K-mean and PAM clustering of Epicoccum sp. and Fusarium sp. isolates 523 
+(A) Cluster analysis performed by K -means algorithm. The pre -selected number of clusters was defined as 2. 524 
+Yellow represents the putative cluster for Epicoccum sp. isolates and red color represents the putative cluster 525 
+for Fusarium sp. (B) Cluster analysis performed by PAM algorithm. The number of clusters was predefined as 526 
+2. Yellow area represents Epicoccum sp. isolates and the red area shows Fusarium sp. (C) Silhouette values 527 
+for each isolate and average silhouette from cluster analysis with the  K-means algorithm. (D) Silhouette values 528 
+for each isolate and average silhouette from cluster analysis with the PAM algorithm. In (C) and (D) s amples 529 
+aggregated as Epicoccum sp. are represented with yellow bars meanwhile samples aggregated as Fusarium 530 
+sp. are represented as red bars. 531 
+  532 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+24 
+Tables 533 
+Table 1. Summary of possible contributions of different taxa to the wheat mycobiome. 534 
+Species Predicted contribution Reference 
+A. Common wheat pathogens   
+Alternaria alternata Black point Somma et al. (2019) 
+Alternaria arborescens Seed pathogen Perello et al. (2016) 
+Alternaria infectoria Black point Somma et al. (2019) 
+Alternaria tenuissima Black point Disalov et al. (2015) 
+Fusarium acuminatum Root rot  Mergoum et al. (1998) 
+Fusarium armeniacum Head blight Krone et al. (2021) 
+Fusarium avenaceum Head blight Karlsson et al. (2021) 
+Fusarium cerealis Head blight Leyva-Mir et al. (2022) 
+Fusarium culmorum Head blight Karlsson et al. (2021) 
+Fusarium equiseti Head blight Leyva-Mir et al. (2022) 
+Fusarium graminearum Head blight Karlsson et al. (2021) 
+Fusarium oxysporum Wilt Naguib et al. (2018) 
+Fusarium poae Head blight Karlsson et al. (2021) 
+Fusarium pseudograminearum Crown rot Kazan et al. (2017) 
+Fusarium redolens Crown rot Bozoglu et al. (2021) 
+Fusarium reticulatum Head blight Karlsson et al. (2021) 
+Fusarium sporotrichioides Head blight Karlsson et al. (2021) 
+Microdochium nivale Fusarium Head Blight Karlsson et al. (2021) 
+Nigrospora oryzae Seed pathogen  Eken et al. (2016) 
+Parastagonospora nodorum Septoria nodorum blotch Bertazzoni et al. (2021) 
+Pyrenophora tritici-repentis Tan spot Moolhuijzen et al. (2022) 
+Stemphylium vesicarium Leaf spot Farag et al. (2022) 
+Zymoseptoria tritici Septoria tritici blotch Goodwin et al. (2011) 
+   
+B. Potentially emerging diseases   
+Nigrospora oryzae Seed pathogen  Eken et al. (2016) 
+Stemphylium vesicarium Leaf spot Farag et al. (2022) 
+   
+C. Candidate biological control agents   
+Alternaria alternata Beneficial | Antagonist Zheng et al. (2017) 
+Alternaria infectoria Beneficial | Antagonist Shabana et al. (2010) 
+Aureobasidium pullulans Beneficial | Antagonist Wachowska et al. (2014) 
+Cladosporium cladosporioides Beneficial | Antagonist Zhang et al. (2022) 
+Cladosporium oxysporum Beneficial | Antagonist Tyagi et al. (2023) 
+Epicoccum nigrum Beneficial | Antagonist Ogorek et al. (2011) 
+Meyerozyma guilliermondii Beneficial | Antagonist Kthiri et al. (2021) 
+Penicillium chrysogenum Beneficial | Antagonist Barna et al. (2008) 
+ 535 
+  536 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+25 
+References 537 
+Karlsson, I., Persson, P., Friberg, H. (2021). Fusarium head blight from a microbiome perspective. 538 
+Front. Microbiol. 12, 628373. doi: 10.3389/fmicb.2021.628373. 539 
+Xu, X.M., Parry, D.W., Nicholson, P. et al. (2005). Predominance and association of pathogenic 540 
+fungi causing Fusarium ear blightin wheat in four European countries. Eur. J. Plant Pathol 112, 541 
+143–154. doi: 10.1007/s10658-005-2446-7 542 
+Brown, J. K., Chartrain, L., Lasserre-Zuber, P., Saintenac, C. (2015) Genetics of resistance to 543 
+Zymoseptoria tritici and applications to wheat breeding. Fungal Genet. Biol. 79, 33-41. doi: 544 
+10.1016/j.fgb.2015.04.017. 545 
+Pereira, D., McDonald, B. A., Croll, D. (2020) The genetic architecture of emerging fungicide 546 
+resistance in populations of a global wheat pathogen. Genome Biology and Evolution, 12,  2231-547 
+2244, doi: 10.1093/gbe/evaa203 548 
+Justesen, A.F., Corsi, B., Ficke, A. et al. (2021) Hidden in plain sight: a molecular field survey of 549 
+three wheat leaf blotch fungal diseases in North-Western Europe shows co-infection is 550 
+widespread. Eur. J. Plant Pathol. 160, 949–962. doi: 10.1007/s10658-021-02298-5 551 
+Jørgensen, L.N., Matzen, N., Heick, T.M. et al. (2018). Decreasing azole sensitivity of Z. tritici in 552 
+Europe contributes to reduced and varying field efficacy. J. Plant Dis. Prot. 128, 287-301. doi: 553 
+10.1007/s41348-020-00372-4 554 
+Jørgensen, L.N., Matzen, N., Heick, T.M., O’Driscoll, A., Clark, B., Waite, K., Blake, J., Glazek, M., 555 
+Maumene, C., Couleaud, G., Rodemann, B., Weigand, S., Bataille, C. R. B., Hellin, P., Kildea, S. 556 
+and Stammler, G. (2022) Shifting sensitivity of septoria tritici blotch compromises field 557 
+performance and yield of main fungicides in Europe. Front. Plant Sci. 13:1060428. doi: 558 
+10.3389/fpls.2022.1060428. 559 
+Singh, r. V., Hodson, D. P., Huerta-Espino, J., Jin, Y., Bhavani, S., Njau, P., Herrera-Foessel, S., 560 
+Singh, P. K., Singh, S., Govindan, V. (2011). Annu. Rev. of Phytopathol. 49, 465-481. doi: 561 
+10.1146/annurev-phyto-072910-095423 562 
+Patpour, M., Hovmøller, M.S., Rodriguez-Algaba, J., Randazzo, B., Villegas, D., Shamanin, V.P., 563 
+Berlin, A., Flath, K., Czembor, P., Hanzalova, A., Sliková, S., Skolotneva, E.S., Jin, Y., Szabo, L., 564 
+Meyer, K.J.G., Valade, R., Thach, T., Hansen, J.G. and Justesen, A.F. (2022) Wheat stem rust 565 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+26 
+back in europe: diversity, prevalence and impact on host resistance. Front. Plant Sci. 13:882440. 566 
+doi: 10.3389/fpls.2022.882440  567 
+Menardo, F., Praz, C., Wyder, S. et al. (2016) Hybridization of powdery mildew strains gives rise to 568 
+pathogens on novel agricultural crop species. Nat. Genet. 48, 201-205. doi: 10.1038/ng.3485. 569 
+Huang, S., Pang, F. (2017). Biocontrol agents for controlling wheat rust. In: Periyannan, S. (eds) 570 
+Wheat rust diseases. Methods Mol. Biol. 1659. Humana Press, New York, NY. doi: 10.1007/978-571 
+1-4939-7249-4-24 572 
+Yue, H.M., Wang, M., Gong, W-F., Zhang, L-Q. (2018) The screening and identification of the 573 
+biological control fungi Chaetomium spp. against wheat common root rot, FEMS Microbiol. 574 
+Letters. 365, fny242. doi: 10.1093/femsle/fny242 575 
+Rojas, E.C:, Jensen, B:, Jørgensen, H.J.L. Latz, M.A.C., Esteban, P., Ding, Y., Collinge, D.B. (2020). 576 
+Selection of fungal endophytes with biocontrol potential against Fusarium head blight in wheat. 577 
+Biological Control, 144, 104222. doi: 10.1016/j.biocontrol.2020.104222. 578 
+Fagundes, W. C.; Haueisen, J., Stukenbrock, E.H. (2020). Dissecting the biology of the fungal wheat 579 
+pathogen Zymoseptoria tritici: a laboratory workflow. Curr. Protocols in Microbiol. 59, e128. doi: 580 
+10.1002/cpmc.128 581 
+White, T.J. (1990) Amplification and direct sequencing of fungal ribosomal RNA genes for 582 
+phylogenetics. In: PCR Protocols, a Guide to Methods and Applications, 315-322. 583 
+doi:10.1016/B978-0-12-372180-8.50042-1 584 
+de Biazio, G.R., Leite, G.G., Tessmann, D.J., Barbosa-Tessmann, I.P. (2008) A new PCR approach 585 
+for the identification of Fusarium graminearum. Braz. J. Microbiol. 39, 554-60. doi: 586 
+10.1590/S1517-838220080003000028.  587 
+Astrid Bauer, R.S., Seigner, L. (2015). Detection, identification and quantification of Fusarium 588 
+graminearum and Fusarium culmorum in wheat kernels by PCR techniques. Jour. Plant Pathol. 589 
+Microbiol. 6, 7. doi: 10.4172/2157-7471.1000287 590 
+Schindelin, J., Arganda-Carreras, I., Frise, E. et al. (2012) Fiji: an open-source platform for 591 
+biological-image analysis. Nat Methods 9, 676–682. doi: 10.1038/nmeth.2019 592 
+R Core Team (2021). R: A language and environment for statistical computing. R Foundation for 593 
+Statistical Computing, Vienna, Austria.  URL https://www.R-project.org/ 594 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+27 
+DeMers M. (2022) Alternaria alternata as endophyte and pathogen. Microbiol. 168, 001153. doi: 595 
+10.1099/mic.0.001153 596 
+Liu, L., Zhao, K., Zhao, Y., Zhang, Y., Fu, Q., Shiwen, H. (2021) Nigrospora oryzae causing panicle 597 
+branch rot disease on Oryza sativa (rice). Plant Dis. 105, doi: 10.1094/PDIS-11-20-2423-PDN. 598 
+Mohamed, M.E. (2022) Detection and molecular diagnosis of Stemphylium vesicarium isolated from 599 
+wheat spikes. Egypt. Jour. Phytopath. 50, 63-68. doi: 10.21608/ejp.2022.166572.1072. 600 
+Fones, H.N., Soanes, D., Gurr, S.J. (2023) Epiphytic proliferation of Zymoseptoria tritici isolates on 601 
+resistant wheat leaves. Fung. Genet. Biol. 168,  103822. doi: 10.1016/j.fgb.2023.103822. 602 
+Seybold, H., Demetrowitsch, T.J., Hassani, M.A. et al. (2020) A fungal pathogen induces systemic 603 
+susceptibility and systemic shifts in wheat metabolome and microbiome composition. Nat. 604 
+Commun. 11, 1910. doi: 10.1038/s41467-020-15633-x 605 
+Köhl, J., Kolnaar, R. and Ravensberg, W.J. (2019) Mode of action of microbial biological control 606 
+agents against plant diseases: relevance beyond efficacy. Front. Plant Sci. 10:845. doi: 607 
+10.3389/fpls.2019.00845 608 
+Zheng, L., Zhao, J., Liang, X., Zhan, G., Jiang, S. and Kang, Z. (2017) Identification of a novel 609 
+Alternaria alternata strain able to hyperparasitize Puccinia striiformis f. sp. tritici, the causal 610 
+agent of wheat stripe rust. Front. Microbiol. 8:71. doi: 10.3389/fmicb.2017.00071 611 
+Zhang, H., He, M., Fan, X., Dai, L., Zhang, S., Hu, Z., Wang, N. (2022) Isolation, identification and 612 
+hyperparasitism of a novel Cladosporium cladosporioides isolate hyperparasitic to Puccinia 613 
+striiformis f. sp. tritici, the wheat stripe rust pathogen. Biology 11, 892. doi: 614 
+10.3390/biology11060892. 615 
+El-Sharkawy, H.H.A., Rashad, Y.M., Elazab, N.T. (2023) Biocontrol potential of the endophytic 616 
+Epicoccum nigrum HE20 against stripe rust of wheat. Pestic. Biochem. Physiol. 194, 05517. doi: 617 
+10.1016/j.pestbp.2023.105517 618 
+Wachowska, U., Głowacka, K., Mikołajczyk, W. et al. (2016) Biofilm of Aureobasidium pullulans 619 
+var. pullulans on winter wheat kernels and its effect on other microorganisms. Microbiol. 85, 523–620 
+530. doi: 10.1134/S0026261716050192 621 
+Kthiri, Z., Jabeur, M. B., Chairi, F., López-Cristoffanini, C., López-Carbonell, M., Serret, M. D., 622 
+Araus, J. L., Karmous, C., Hamada, W. (2021) Exploring the potential of Meyerozyma 623 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+28 
+guilliermondii on physiological performances and defense response against Fusarium crown rot on 624 
+durum wheat. Pathogens 10, 52. doi: 10.3390/pathogens10010052 625 
+Ma, H., Duan, X., Xu, W., Ma, G., Ma, W., Qi, H. (2022) Root rot of Angelica sinensis caused by 626 
+Clonostachys rosea and Fusarium acuminatum in China. Plant Dis. 106:8, 2264. doi: 627 
+10.1094/PDIS-12-21-2665-PDN 628 
+Hexing Qi, Xiaoming Duan, Wenhua Xu, Yuantao Zhou, Haixia Ma, Weili Ma, and Guihua Ma 629 
+(2022) First report disease of Clonostachys rosea causing root rot on Astragalus membranaceus in 630 
+China. Plant Dis. 106, 6. doi: 10.1094/PDIS-07-21-1511-PDN 631 
+Diaz, R., Chavez, E.C., Delgado Ortiz, J.C., Velazquez, J.J., Roque, A., Ochoa, Y.M. (2022) First 632 
+report of Clonostachys rosea causing root rot on garlic in Mexico. Plant Dis. 106:11 doi: 633 
+10.1094/PDIS-12-21-2658-PDN.  634 
+Afshari, N., Hemmati, R. (2017) First report of the occurrence and pathogenicity of Clonostachys 635 
+rosea on faba bean. Australasian Plant Pathol. 46, 231-234 doi:10.1007/s13313-017-0482-3 636 
+Coyotl-Pérez, W.A., Romero-Arenas, O., Mosso-González, C., Pacheco-Hernández, Y., Rivera-Tapia 637 
+J.A., Villa-Ruano, N. (2022) First report of Clonostachys rosea associated with avocado fruit rot 638 
+in Puebla, Mexico. Rev. Mex. Phytopathol 40, 298-307. doi: 10.18781/r.mex.fit.2203-5 639 
+Zhang, Y., Yu, H., Hu, M., Wu, J., Zhang, C. (2022) Fungal pathogens associated with strawberry 640 
+crown rot disease in china. J. Fungi 8, 1161. doi:10.3390/jof8111161 641 
+Haque, M.E. and Parvin, M.S. (2020) First report of Clonostachys rosea causing root rot of Beta 642 
+vulgaris in North Dakota, USA. New Disease Reports, 42, 21-21. doi: 10.5197/j.2044-643 
+0588.2020.042.021. 644 
+Farhaoui, A., Tahiri, A., Radouane, N., Khadiri, M., Amiri, S., El Alami, N. et al. (2023) First report 645 
+of Clonostachys rosea causing sugar beet root rot in Morocco. New Disease Reports, 48, e12235. 646 
+doi: 10.1002/ndr2.12235 647 
+Jin, M., Yang, C., Wang, Y., Wei, L. & Osei, R. (2023) Isolation and identification of Epicoccum 648 
+nigrum as the causal agent of brown spot disease in Solanum tuberosum in China. Plant Pathol. 649 
+72, 829-838. doi: 10.1111/ppa.13696. 650 
+Blumenstein, K., Bußkamp, J., Langer, G.J., Terhonen, E. (2022) Diplodia tip blight pathogen's 651 
+virulence empowered through host switch. Front. Fungal Biol. 3: 939007. doi: 652 
+10.3389/ffunb.2022.939007 653 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint 
+
+ 
+29 
+Peeters, K.J., Audenaert, K., Höfte, M. (2021) Survival of the fittest: how the rice microbial 654 
+community forces Sarocladium oryzae into pathogenicity. FEMS Microbiol. Ecol. 97:fiaa253. doi: 655 
+10.1093/femsec/fiaa253 656 
+Schiro, G., Verch, G., Grimm, V., Müller, M.E.H. (2018) Alternaria and Fusarium fungi: differences 657 
+in distribution and spore deposition in a topographically heterogeneous wheat field. J. Fungi 4:63. 658 
+doi: 10.3390/jof4020063. 659 
+Nzabanita, C., Zhang, L., Zhao, H., Wang, Y., Wang, Y., Sun, M., Wang, S., Guo, L. (2022) Fungal 660 
+endophyte Epicoccum nigrum 38L1 inhibits in vitro and in vivo the pathogenic fungus Fusarium 661 
+graminearum. Biological Control 174: 397-408. doi: 10.1016/j.biocontrol.2022.105010. 662 
+Rojas, E.C., Sapkota, R., Jensen, B., Jørgensen, H.J.L., Henriksson, T., Jørgensen, L.N., Nicolaisen, 663 
+M., Collinge, D.B. (2020) Fusarium head blight modifies fungal endophytic communities during 664 
+infection of wheat spikes. Microb. Ecol. 79:397-408. doi: 10.1007/s00248-019-01426-3 665 
+Eken, C., Spanbayev, A., Tulegenova Z., Yechshzhanov, T. (2016) First report of Nigrospora oryzae 666 
+on wheat in Kazakhstan. Plant Dis. 4:861-861. doi: 10.1094/PDIS-08-15-0915-PDN. 667 
+ 668 
+ 669 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.09.574850doi: bioRxiv preprint

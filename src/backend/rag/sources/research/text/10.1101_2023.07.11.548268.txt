@@ -1,0 +1,1617 @@
+Polygenic architecture of flowering time and its relationship with local environments in the grass Brachypodium distachyon.
+
+Synchronizing the timing of reproduction with the environment is crucial in the wild. Among the multiple mechanisms annual plants evolved to sense their environment, the requirement of cold-mediated vernalization is a major process that prevents individuals from flowering during winter. In many annual plants including crops, both a long and short vernalization requirement can be observed within species, resulting in so-called early-(spring) and late (winter)-flowering genotypes. Here, using the grass model Brachypodium distachyon, we explored the link between flowering time-related trait (vernalization requirement and flowering time), environmental variation, and diversity at flowering-time genes by combining measurements under greenhouse and outdoor conditions. These experiments confirmed that B. distachyon natural accessions display large differences regarding vernalization requirements and ultimately flowering time. We underline significant, albeit quantitative effects of current environmental conditions on flowering time-related traits. While disentangling the confounding effects of population structure on flowering time-related traits remains challenging, population genomics analyses indicate that well-characterized flowering-time genes may contribute significantly to flowering time variation and display signs of polygenic selection. Flowering-time genes, however, do not colocalize with GWAs peaks obtained with outdoor measurements, suggesting that additional genetic factors contribute to flowering time variation in the wild. Altogether, our study fosters our understanding of the polygenic architecture of flowering time in a natural grass system and opens new avenues of research to investigate the gene-by-environment interaction at play for this trait.
+
+Article SummarySynchronizing the timing of reproduction with the environment is crucial in the wild. We used here the model Brachypodium distachyon to expand our knowledge on the adaptive potential and polygenic architecture of flowering time in wild grasses. While genetic factors play an important role in flowering time variation in our species, we showed that flowering time correlates with environmental variables and is therefore a locally adapted trait.
+
+1 
+ 
+Polygenic architecture of flowering time and its relationship 1 
+with local environments in the grass Brachypodium distach-2 
+yon. 3 
+Nikolaos Minadakis1, Lars Kaderli1, Robert Horvath1, Yann Bourgeois2, Wenbo Xu1, 4 
+Michael Thieme1, Daniel P. Woods3,4 and Anne C. Roulin1* 5 
+1 Dept. of Plant and Microbial Biology, University of Zürich, Zollikerstr. 107, 8008 Zürich, Switzerland. 6 
+2 DIADE, University of Montpellier, CIRAD, IRD, Montpellier, France. 7 
+3 Department of Plant Sciences, University of California-Davis, 104 Robbins Hall Davis, CA 95616. 8 
+4 Howard Hughes Medical Institute, Chevy Chase, Maryland, United States of America. 9 
+ 10 
+* Corresponding author: anne.roulin@botinst.uzh.ch 11 
+ 12 
+Abstract  13 
+Synchronizing the timing of reproduction with the environment is crucial in the wild. 14 
+Among the multiple mechanisms annual plants evolved to sense their environment, 15 
+the requirement of cold -mediated vernalization is a major process that prevents 16 
+individuals from flowering during winter. In many annual plants including crops, both 17 
+a long and short vernalization requirement can be observed within species, resulting 18 
+in so-called early-(spring) and late (winter)-flowering genotypes. Here, using the grass 19 
+model Brachypodium distachyon, we explored the link between flowering time-related 20 
+trait ( vernalization requirement  and flowering time ), environmental variation, and 21 
+diversity at flowering-time genes by combining measurements under greenhouse and 22 
+outdoor conditions. These experiments confirmed that B. distachyon natural 23 
+accessions display large differences regarding vernalization requirements and 24 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+2 
+ 
+ultimately flowering time. We underline significant, albeit quantitative effects of 25 
+current environmental conditions on flowering time-related traits. While disentangling 26 
+the confounding effects of population structure on flowering time -related traits 27 
+remains challenging, p opulation genomics analyses indicate that well -characterized 28 
+flowering-time genes may contribute significantly to flowering time variation and 29 
+display signs of polygenic selection. Flowering-time genes, however, do not colocalize 30 
+with GWAs peaks obtained with outdoor measurements, suggesting that additional 31 
+genetic factors contribute to flowering time variation in the wild. Altogether, our study 32 
+fosters our understanding of the polygenic architecture of flowering time in a natural 33 
+grass system and opens new avenues of research to investigate the gene -by-34 
+environment interaction at play for this trait. 35 
+Key words: Flowering time, adaptation, vernalization, B. distachyon, grasses, polygenic 36 
+selection. 37 
+ 38 
+Article Summary  39 
+Synchronizing the timing of reproduction with the environment is crucial in the wild. 40 
+We used here the model Brachypodium distachyon to expand our knowledge on the 41 
+adaptive potential and polygenic architecture of flowering time in wild grasses.  While 42 
+genetic factors play an important role in flowering time variation in our species, we 43 
+showed that flowering time correlates with environmental variables and is therefore a 44 
+locally adapted trait.   45 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+3 
+ 
+Introduction  46 
+The induction of reproduction is a critical fitness -related trait in the wild (Gaudinier 47 
+and Blackman 2020), as a failure to produce offspring during the growing season may 48 
+lead to  the extinction of the individual’s genotype . In many annual plant species 49 
+adapted to temperate climates, plantlets establish themselves in the fall and overwin-50 
+ter before flowering and producing seeds in more favorable spring conditions 51 
+(Chouard 1960; Blackman 2017). Vernalization, the prolonged exposure to cold neces-52 
+sary to render plants competent to flower (Chouard 1960), is hence a key component 53 
+of plant reproduction as it prevents individuals from flowering prior to winter. The 54 
+adaptive potential and the genetic architecture of flowering time has been studied in 55 
+an unrivaled manner in Arabidopsis thaliana (for review Andrés and Coupland 2012; 56 
+Blümel et al. 2015; Takou et al. 2019) due to the broad geographical distribution of the 57 
+species and large genomic resources developed by the community (but see Hall et al. 58 
+2006; Monnahan and Kelly 2017; Yan et al. 2021  for works on other Brassicaceae and 59 
+Mimulus guttatus). Vernalization is yet controlled by different genes in different plant 60 
+groups and likely evolved independently multiple times during flowering plant diver-61 
+sification (Ream et al. 2012; Bouché et al., 2017; Raissig and Woods 2022) . Moreover, 62 
+specific crop flowering-time genes (e.g. ID1 in maize) are for instance lacking homo-63 
+logs in A. thaliana (Blümel, Dally, and Jung 2015). As a wild monocot, the model for the 64 
+temperate grasses Brachypodium distachyon constitute a prime system to study the  65 
+evolution of flowering-time genes. In this context, we made use of the diversity panel 66 
+developed for this species (Gordon et al. 2017; Gordon et al. 2020; Skalska et al. 2020; 67 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+4 
+ 
+Stritt et al. 2022, Minadakis et al. 2023)  to expand our knowledge on the adaptive 68 
+potential and polygenic architecture of flowering time in grasses. 69 
+Initially established as a model for bioenergy crops (International Brachypodium 70 
+Initiative 2010) , the grass species B. distachyon has more recently become a prime 71 
+model for developmental biology (Woods et al. 2017a; Woods et al. 2019; Nunes et al. 72 
+2020; Hasterok et al. 2022; Raissig and Woods 2022; Zhang et al. 2022; Slawinska et al. 73 
+2023), evolutionary genomics (Bourgeois et al. 2018; Gordon et al. 2020; Gordon, 74 
+Contreras-moreira, et al. 2017; Stritt et al. 2018; 2020; Eichten et al. 2016) and molecular 75 
+ecology (Del'Acqua et al. 2014; Wilson et al. 2019; Skalska et al. 2020; Stritt et al. 2022; 76 
+Minadakis et al. 2023) . In addition to a chromosome-level genome assembly of 272 77 
+Mb (International Brachypodium Initiative 2010) , a diversity panel composed of 332 78 
+accessions spanning from Spain to Iraq has been sequenced (Gordon et al. 2017; 79 
+Gordon et al. 2020; Skalska et al. 2020; Stritt et al. 2022, Minadakis et al. 2023), opening 80 
+new avenues of research in this system (Minadakis et al. 2023). We previously showed 81 
+that B. distachyon  accessions cluster into three main genetic lineages (A, B and C), 82 
+which further divide into five main genetic clades: the ancestral C clade in Italy and 83 
+Balkans, the B_West clade in Spain and France, the B_East clade spanning from Turkey 84 
+to Caucasus and Iraq, the A_Italia clade in Italy as well as the A_East clade in Turkey 85 
+and Greece (Stritt et al. 2022, Minadakis et al. 2023). These natural accessions are found 86 
+in diverse habitats (Bourgeois et al. 2018; Minadakis et al. 2023) making B. distachyon 87 
+an ideal model to investigate how genetic and environmental factors interact to shape 88 
+traits. 89 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+5 
+ 
+B. distachyon accessions display large phenotypic variation with regard to flowering 90 
+time (e.g. Ream et al. 2014; Gordon et al. 2017; Woods et al., 2019; Sharma et al. 2017), 91 
+with some accessions requiring little to no vernalization to flower rapidly (early flow-92 
+ering accessions) in certain photoperiods, while other accessions require a few weeks 93 
+to several months of vernalization in order to flower (late flowering accessions) (Ream 94 
+et al., 2014; Gordon et al., 2017; Woods et al., 2019). These flowering differences have 95 
+been described as potentially adaptive and responsible for population distribution ac-96 
+cording to climate variation (Gordon et al. 2017; Woods et al. 2019; Skalska et al. 2020). 97 
+However, the extent to which variation in vernalization requirement and ultimately 98 
+flowering time correlates with local environmental conditions has yet to be formally 99 
+tested in this species. For instance, whether late -flowering genotypes, which require 100 
+long vernalization treatments, have been selected to complete their life cycle at a 101 
+slower rate to overcome harsher or longer winter, as observed in Swedish populations 102 
+of A. thaliana (Ågren et al. 2017), remains an open question.  103 
+In a Mediterranean species like B. distachyon, not all accessions might be exposed 104 
+to harsh winter and short cold periods might be sufficient to allow permissive flowering 105 
+in the wild. In this study, we hence decomposed flowering time into  four flowering 106 
+time-related traits: the minimum threshold duration (MTD) of vernalization necessary 107 
+to be permissive for flowering, the number of day to flower when MTD is received, the 108 
+saturating threshold duration of vernalization above which no further reduction in 109 
+flowering time is gained and the fastest time for a given accession to flower from the 110 
+day plants after vernalization saturation. W e combined measurements under 111 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+6 
+ 
+greenhouse and outdoor conditions and asked i) Do flowering time-related traits cor-112 
+relate with environmental variables and show signs of local adaptation? ii) What is the 113 
+respective contribution of flowering time genes to flowering time -related trait varia-114 
+tion? iii) Are known flowering -time genes contributing to flowering time variation in 115 
+the wild? 116 
+ 117 
+Materials and Methods  118 
+Biological materials and genomic resources  119 
+The Brachypodium distachyon diversity panel is composed of 332 natural accessions 120 
+for which whole -genome sequencing data are publicly available (Gordon et al. 2020; 121 
+Gordon, Contreras-moreira, et al. 2017; Skalska et al. 2020; Stritt et al. 2022) . For the 122 
+flowering time experiment, we selected a subset of 61 accessions representing all five 123 
+genetic clades as first described by Stritt et al. 2022 and occurring along latitudinal 124 
+gradiants. Maps were drawn QGIS (version 3.16). 125 
+We also made use of the raw vcf produced by Minadakis et al. (2023) for the entire 126 
+diversity panel. We used vcftools (Danecek et al. 2011) to apply the following filtering 127 
+criteria: --max-alleles 2 --max-missing-count 200 --minQ 20. We further filtered het-128 
+erozygous SNPs as those have been shown to result from duplicated sequenced and 129 
+be mostly artifactual in selfing species (Stritt et al. 2022) . All the analyses were per-130 
+formed on version3 of the B. distachyon  genome (https://phytozome -131 
+next.jgi.doe.gov). 132 
+ 133 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+7 
+ 
+Flowering time -related trait  measurement s 134 
+We performed an experiment in controled conditions from October 2021 until May 135 
+2022 in order to test the flowering phenology of the five genetic clades of 136 
+Brachypodium distachyon. Twelve accessions per genetic clade were selected, in addi-137 
+tion to the reference accession Bd21. All accessions were treated with five vernalization 138 
+periods spanning from 2 to 10 weeks, with three replicates per treatment and per 139 
+accession. Seeds were stratified for at least two weeks before the experiment, and then 140 
+sowed in pots that were placed in greenhouse conditions (16 h day at 20°C and 8 h 141 
+dark at 18°C with a light intensity of 200 µMol/m2/s ). We distributed the replicates 142 
+randomly across trays  to minimize bias due to position effects. Three weeks after 143 
+germination the plants were transfered to a cooling chamber (constant temperature 144 
+at 4°C, 8h light 80 µMol/m2/s, and 16 h dark) for 2, 4, 6, 8, and 10 weeks. At the end 145 
+of the vernalization treatment, plants were moved back to the greenhouse. 146 
+Flowering time was measured as the number of days after return to greenhouse to 147 
+the first day of spike emergence which is consistent with stage 50 of the Zadoks scale 148 
+that was used in (Ream et al. 2014). Measurements were taken every two days until the 149 
+end of the experiment in May.  During the experiments, trays were permuted on the 150 
+table to further limit position effects.  151 
+We then extracted from this experiment four flowering time -related traits: i)  the 152 
+minimum threshold duration of vernalization necessary to be permissive for flowering, 153 
+ii) the number of day to flower when the minimum threshold is received, iii) the satu-154 
+rating threshold duration of vernalization above which no further reduction in 155 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+8 
+ 
+flowering time is gained and, iv) the fastest time for a given accession to flower from 156 
+the day plants were moved to the vernalization chamber, i.e. the number of day to 157 
+flower when vernalization saturation is received. This latter trait is classically used as a 158 
+measure of flowering time in B. distachyon studies. Results were plotted in R version 159 
+4.0.2 (R Core Team, 2018) with the package ggplot2 (Wickham 2016). 160 
+ 161 
+Extraction of current and past bioclimatic variables  162 
+Raster maps for current monthly solar radiation and altitude were retrieved from 163 
+worldclim (https://www.worldclim.org). In addition, raster maps for monthly Global 164 
+Aridity Index (GAI) were obtained from https://cgiarcsi.community/data/global -arid-165 
+ity-and-pet-database/. Bioclimatic variables were then extracted using the R packages 166 
+raster (v.3.5-2, Hijmans & van Etten, 2012) and rgdal (v.1.5 -27, Keitt et al., 2010) for 167 
+each of the 332 accessions. For solar radiation and GAI, data were also average over 168 
+spring months (April to June).  169 
+For paleo-bioclimatic variables, we used the niche suitability projections for the last 170 
+glacial maximum (LGM) computed by Minadakis et al (2022). For each genetic clade, 171 
+we extracted the coordinates of a set of 200 random points per clade in highly suitable 172 
+habitats (>0.85) with the raster package function rasterToPoints. We retrieved raster 173 
+maps for LGM from https://www.worldclim.org/data/v1.4/paleo1.4.html and extracted 174 
+the 19 paleo-bioclimatic variables for the corresponding sites as described above.  175 
+ 176 
+ 177 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+9 
+ 
+Redundancy analysis (RDA)  178 
+We extracted the 19 classical bioclimatic variables as well as elevation, aridity and solar 179 
+radiation in spring for the 56 accessions for which flowering time -related trait were 180 
+measured. We performed a principal component analysis (PCA) with the R base func-181 
+tion prcomp using the resulting 22 variables.  182 
+Association between flowering time-related traits, bioclimatic variables and genetic 183 
+cluster of origin were tested with redundancy analysis (RDA) using the R package Ve-184 
+gan 2.6-4 (O'Hara et al. 2022) following (Capblancq and Forester 2023). RDA computes 185 
+axes that are linear combinations of the explanatory variables. In other words, this 186 
+method seeks, in successive order, a series of linear combinations of the explanatory 187 
+variables that best explain the variation of the response matrix (Borcard, Gillet and 188 
+Legendre 2018). It is therefore especially suited when explanatory variables are corre-189 
+lated. 190 
+To identify which variable influence flowering time -related traits, we opted for a 191 
+forward selection approach (Capblancq and Forester 2023) and first ran empty models 192 
+where the respective flowering time-related trait were treated independently as a re-193 
+sponse variable and explained by a fixed intercept alone. We then ran additional mod-194 
+els where each flowering time-related traits were treated independently as a response 195 
+variable while the cluster of origin, the 22 environmental variables mentioned above  196 
+or both the cluster of origin and the 22 environmental variables were successively en-197 
+tered as explanatory variables. These full models were compared to their respective 198 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+10 
+ 
+empty models with the Vegan ordiR2step function (Capblancq and Forester 2023) and 199 
+the following parameters: permutations = 1000, R2scope = T, Pin = 0.01.   200 
+We also tested for associations between flowering time and SNPs in known flower-201 
+ing-time genes using RDA. To do so, we first extracted and converted the SNPs located 202 
+in flowering -time genes as a dataframe with vcftools -- bed --extract-FORMAT-info 203 
+GT, where the bed file contained the position of flowering-time genes. We first fitted 204 
+simple models where each flowering time-related traits were treated independently as 205 
+a response variable and all SNPs individually as explanatory variables. here again, we 206 
+compared those models with their respective empty models with the Vegan 207 
+ordiR2step function. For data visualization, the SNPs were pruned to remove SNPs in 208 
+perfect linkage disequilibrium within each gene with plink (Purcell et al. 2007) with the 209 
+following paramters --indep-pairwise 50 5 1. We kept one focal SNP per gene display-210 
+ing the strongest association with one of the flowering time -related traits for further 211 
+analysis. In a second step, we fitted models where all focal SNPs were  treated as ex-212 
+planatory variables together. We eventually fitted full model where the cluster of origin 213 
+together with all focal SNPs and bioclimatic variable associated with the given flower-214 
+ing time -related trait were treated as explanatory variables. All the plots were pro-215 
+duced with the R package ggplot2. 216 
+ 217 
+FST calculation  218 
+Single SNP F ST between accessions of the A and B lineages were calculated with 219 
+vcftools (Danecek et al. 2011). To account for shifts in the observed F ST values caused 220 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+11 
+ 
+by the population structure of B. distachyon, the expected FST distribution under neu-221 
+tral evolution was also estimated using forward simulations run in SLiM version 3.4 222 
+(Haller and Messer 2019). The population structure, effective population sizes and time 223 
+of divergences between lineages of B. distachyon during its evolution were modeled 224 
+in SLiM based on the results of Minadakis et al. (2023). No migration between the 225 
+different populations in the simulations was allowed, as a lack of interbreeding be-226 
+tween the distinct B. distachyon clades was reported (Stritt et al. 2022). The simulation, 227 
+was run 100 times and single SNP FST were calculated for each simulation to generate 228 
+the expected FST distribution under neutrality.  229 
+ 230 
+Linkage disequilibrium analyses  231 
+To plot linkage disequilibrium (LD) decay, we first thinned the vcf with vcftools --thin 232 
+20000 to keep one SNP every 20 kilobases (kb). Intrachromosomal LD (r 2) was calcu-233 
+lated with vcftools --geno-r2. We repeated this step by further filtering the vcf for a 234 
+minimum allele frequency of 0.05 with vcftools -- maf 0.05.  For both outputs, we vis-235 
+ualized LD decay by plotting r2 and its 95 CI as a function of the physical distance 236 
+between SNPs with the R package ggplot2. LD between focal SNPs in flowering -time 237 
+genes was calculated separately with vcftools –geno-r2 and added to the LD decay 238 
+plot for comparison. LD plots for focal SNPs were produced with the R package gaston 239 
+(Pedry and Dandine-Roulland 2020). 240 
+Inter-chromosomal LD (r2) was calculated with vcftools --interchrom-geno-r2 for a 241 
+subset of 100,000 loci selected randomly in the genome. We then re -sampled 50,000 242 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+12 
+ 
+times different combination of loci and calculated the mean LD each time. This allowed 243 
+us to further calculate the CI around the mean and compare our real data to this dis-244 
+tribution.  245 
+ 246 
+Scans of selection  247 
+The XTX analysis was performed with BayPass v2.3 using the five genetic clades or three 248 
+genetic lineages as populations (Gautier 2015). We generated the input file by using 249 
+vcftools --count to calculate the allele frequency of each SNP present in our vcf (no 250 
+filtering on minor minimum allele frequency). We then ran Baypass on our actual da-251 
+taset with the following parameters: -pilotlength 500 -npilot 15 -burnin 2500 -nthreads 252 
+6. To calibrate the XTX and define a threshold of significance for differentiated SNPs, 253 
+we then used the simulate.baypass function from baypass_utils (Gautier et al. 2015) to 254 
+generate a pseudo-observed dataset (POD) of 100,000 loci based on the co -variance 255 
+matrix computed with our real dataset. We then ran Baypass on the POD with the 256 
+parameters described above. We used the 0.99 quantile of the XTX calculated for the 257 
+POD as a threshold of significance for the real dataset. Integrated Haplotype Scores 258 
+(IHS) were also computed for accessions of the A and B lineages separately with the R 259 
+package Rehh 3.1 (Gautier et al. 2017) 260 
+ 261 
+ 262 
+ 263 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+13 
+ 
+Functional effect and age estimates of variants  264 
+The functional effect of variants was annotated using SnpEff version 5.0e (Cingolani et 265 
+al. 2012)  using default parameters and the provided database for  Brachypodium 266 
+distachyon.  267 
+The age of each single SNP was computed with GEVA (Albers and McVean 2020) to 268 
+estimate the average SNP age for each annotated gene (https://phytozome-269 
+next.jgi.doe.gov) in the derived A and B genetic lineages as well as in the five genetic 270 
+clades. All private SNPs to the combined A and B lineages were polarized using the 271 
+ancestral C lineage using custom R scripts. GEVA was run on the five main scaffolds 272 
+(corresponding to the five chromosomes) using the genetic map produced by (Huo et 273 
+al. 2011) and the polarized SNP dataset. 274 
+ 275 
+Genome -wide association analysis  276 
+We further used the flowering time measurements performed outdoor in Zurich in 277 
+2017 (Stritt et al. 2022) . We extracted the 19 classical bioclimatic variables as well as 278 
+altitude, aridity and solar radiation for the 332 accessions as well as a site in Zurich (lat 279 
+= 43.73693085, lon = 3.69295907) and performed a principal component analysis 280 
+(PCA) as described above. Linear-mixed model analyses were performed as described 281 
+above for the greenhouse experiment. 282 
+To identify loci associated with flowering time variation, we performed a genome -283 
+wide association analysis with GEMMA (Zhou and Stephens 2012). Due to population 284 
+structure, we corrected  the analysis by  a centered relatedness matrix , first produced 285 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+14 
+ 
+with the option -gk 1. Association tests were performed using the option -maf 0.05 to 286 
+exclude SNPs with minor allele frequency with values less than 0.05. Regions were con-287 
+sidered significantly associated if displaying at least four markers above FDR threshold 288 
+in 8Kb windows (overlap of 4Kb). Upset plots were drawn with the R package UpSetR 289 
+(Gehlenborg 2019). 290 
+ 291 
+Overlaps with Environmental association analyses  292 
+We made use of the environmental association analyses performed by Minadakis et al. 293 
+(2023) to assess whether flowering -time genes and the candidate gene identified by 294 
+the GWAs were associated with current environmental variables. Upset plots were 295 
+drawn in R with the R package UpSetR (Gehlenborg 2019). 296 
+ 297 
+Gene duplication  298 
+We checked for potential gene duplication with detettore 299 
+(https://github.com/cstritt/detettore), a program developed to study structural varia-300 
+tion based on short-read sequences (Stritt 2021). We also calculated the proportion of 301 
+heterozygous sites over the 22 flowering -time genes and 332 accessions, using the 302 
+raw vcf produced by Minadakis et al. (2023) not filtered for heterozygous SNPs but 303 
+with the following criteria: --max-alleles 2 --max-missing-count 200 --minQ  304 
+ 305 
+ 306 
+ 307 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+15 
+ 
+Results  308 
+Flowering time measurements under greenhouse conditions  309 
+We selected 61 accessions (Figure 1A) from the B. distachyon diversity panel (Minada-310 
+kis et al. 2023) for our flowering time experiment. Those accessions were chosen to 311 
+represent all five genetic clades and occur, when possible, along latitudinal gradients. 312 
+Briefly, we submitted plants to five vernalization treatments (2, 4, 6, 8 or 10 weeks at 313 
+4°C) with three replicates each and measured how long plants took to flower after the 314 
+return to warm conditions (Figure S1, Table S1 for the raw data). For five out of the 61 315 
+accessions (Veg12 from A_East; Ren4, Lb1, Lb23 and Cm7 from A_Italia), none of the 316 
+replicates flowered by the end of the experiment (Figure 1a, Figure S1) despite normal 317 
+growth. All subsequent analyses were hence performed on the 56 accessions for which 318 
+flowering time data were collected.  319 
+However, B. distachyon accessions span a large range of habitats (Minadakis et al. 320 
+2023). While some accessions of the diversity panel can experience up to -11 °C as a 321 
+minimum temperature during the coldest months (Bio6), the mean temperature during 322 
+the coldest quarters (Bio11) is above 4  °C for a large number of accessions (Table S2, 323 
+Figure S2). As such, not all accessions may experience long vernalization at 4 °C in the 324 
+wild. We thus extracted four traits link to vernalization requirements and in fine flow-325 
+ering time (Table S3) for further analyses : i) the minimum threshold duration of ver-326 
+nalization necessary to be permissive for flowering  (hereafter MTD), ii) the number of 327 
+day to flower when MTD is received  (hereafter day to flower after MTD) , iii) the satu-328 
+rating threshold duration of vernalization above which no further reduction in 329 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+16 
+ 
+flowering time is gained (hereafter vernalization saturation) and, iv) the fastest time for 330 
+a given accession to flower from the day plants were moved to the vernalization cham-331 
+ber, i.e. the number of day to flower when vernalization saturation is received (hereaf-332 
+ter day to flower after vernalization saturation). Note that all plants germinated within 333 
+5 days and germination time was therefore not included for further analyses.  334 
+Flowering-related traits show significant albeit moderate correlation among each 335 
+other (Figure 1b) and, with the exception of day to flower after MTD, a partitioning of 336 
+the phenotypes per genetic clades  (Figure 1c and Table S 4 for P-values). Accessions 337 
+from the C, B_East and B_West clades show a significantly reduced MTD compared to 338 
+accessions from the A_East and A_Italia clades. Accessions from the B_East and B_West 339 
+Fig. 1: Geographical origins of the samples used for greenhouse experiment and flowering time -related trait 
+variation.  (a) Map displaying the location of a given accession as well as their genetic clade of origin (C in yellow, 
+A_East in magenta; A_Italy in turquoise; B_East in green and B_West in dark blue). Accessions that did not flower by 
+the end of the experiment are depic ted in black. (b) Correlogram of the four flowering time -related traits among 
+accessions (Pearson correlation assuming linear relashionshi p). DFT: day to flower; MTD: minimum threshold 
+duration of vernalization (c) Schematic phylogeny and distribution of the four flowering time-related traits.  
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+17 
+ 
+also tend to show a shorter saturating threshold duration of vernalization  compared 340 
+to accessions from the three other clades (Figure 1c and Table S 4). Eventually, acces-341 
+sions from the C, B_East and B_West clades flower significantly faster when vernaliza-342 
+tion is saturated (Figure 1b and Table S4). Altogether, these results reflect that acces-343 
+sions from the A lineage display overall a longer life cycle (late -flowering genotypes) 344 
+than the ones from the B and C lineages (early -flowering genotypes) due to longer 345 
+vernalization time requirements but longer time to flower after the return to warm 346 
+conditions (Figure S1). 347 
+ 348 
+Association between flowering time -related traits  and bioclimatic variables.  349 
+To test whether flowering time -related traits  correlate with environmental variation, 350 
+we extracted the 19 classical worldclim bioclimatic variables (Bio1 to Bio19) as well as 351 
+solar radiation in spring, global aridity index in spring and altitude for each locality and 352 
+performed a PCA with the resulting 22 variables  (Table S3). The first two axes of the 353 
+PCA explained together about 58% of the variation among our samples, indicating that 354 
+our set of selected accessions occur in different environmental conditions.  355 
+ We have previously shown that the five B. distachyon occur in different ecological 356 
+niches (Minadakis et al. 2023) leading to a confounding effect of population structure 357 
+and environmental variation. As mentioned above, we also observed in the current 358 
+study some partitioning of the phenotypes per genetic clades for the flowering time -359 
+related traits we investigated. Eventually, most bioclimatic variables display correlation 360 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+18 
+ 
+among each other in our system (Minadakis et al. 2023, Figure S3). We therefore used 361 
+a redundancy analysis (RDA)  to test for associations between flowering time -related 362 
+traits and bioclimatics variables , as this approach typically accounts for confounding 363 
+factors by maximizing the genetic variance explained by a set of environmental pre-364 
+dictors.  365 
+Specifically, to model the relationships among flowering time traits, bioclimatic var-366 
+iable and population structure, we fitted models where flowering time -related traits 367 
+were independently entered as response variable while the  cluster of origin 368 
+(model = cluster alone), the 22 environmental variables (model = all bioclimatic varia-369 
+bles) or both the cluster of origin and the 22 bioclimatic variables (model = cluster + 370 
+all bioclimatic variables) were successively entered as explanatory variables. We com-371 
+pared those full-models to empty models where the respective flowering time-related 372 
+trait was explained by a fixed intercept alone (Capblancq and Forester 2023).   373 
+Consistent with the phenotype distributions (Figure 1b), the genetic cluster of origin 374 
+alone contribute to MTD (R2 = 0.25), day to flower after vernalization saturation (R2 = 375 
+0.44) and vernalization saturation (R2 = 0.1) but not to day to flower after MTD (Table1). 376 
+We found that a large part of the variance in flowering time-related traits is explained 377 
+by bioclimatic variables (precipitation levels and temperature) linked to warm months 378 
+but only marginally by elevation or variables linked to cold month (e.g. bio19; Table 1) 379 
+when the models did not include the cluster of origin. Eventually, environmental (bio-380 
+climatic variables) still explained a significant part of the variance in flowering time-381 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+19 
+ 
+related traits (Table 1) even in the full model including also the genetic clade of origin 382 
+(model clutser + all bioclimatic variables). This  indicates that flowering time -related 383 
+bio18 : Precipitation of Warmest Quarter ; bio9: Mean Temperature of Driest Quarter; 
+bio5: Max Temperature of Warmest Month ; bio13: Precipitation of Wettest Month ; 
+bio16: Precipitation of Wettest quarter; bio12 : Annual Precipitation ; bio19  : 
+Precipitation of Coldest Quarter . We only display predictors that increase the 
+cumulative R 2 by more than 0.03 while “all variable” display the cumulative R 2 
+explained by all significant predictors together. 
+Table1: RDA output for each flowering time -related trait and outdoor ex-
+periment  
+ 
+Trait Model Variable Cumulative 
+R2adj AIC F P-value
+cluster alone cluster 0.25 248.18 11.35 0.002
+bio18 0.18 256.40 28.29 0.002
+bio16 0.22 250.64 7.81 0.006
+bio13 0.28 243.22 9.47 0.004
+all variables 0.45
+cluster 0.25 248.18 11.35 0.002
+bio18 0.42 218.35 34.53 0.002
+elevation 0.46 210.31 9.88 0.002
+all variables 0.58
+cluster alone cluster - - - NS
+aridity_spring 0.26 15.07 45.31 0.002
+bio9 0.30 10.32 6.77 0.006
+bio5 0.33 5.08 7.21 0.01
+bio18 0.37 -0.46 7.46 0.006
+all variables 0.52
+cluster alone cluster 0.10 126.14 4.31 0.004
+aridity_spring 0.22 105.17 35.61 0.002
+elevation 0.27 98.59 8.66 0.004
+all variables 0.42
+aridity_spring 0.22 105.17 35.61 0.002
+elevation 0.27 98.59 8.66 0.006
+all variables 0.44
+cluster alone cluster 0.44 108.19 25.53 0.002
+aridity_spring 0.31 132.17 56.02 0.002
+bio16 0.39 116.82 18.17 0.002
+all variables 0.54
+cluster 0.44 108.19 25.53 0.002
+aridity_spring 0.60 68.74 46.84 0.002
+bio13 0.65 51.19 19.98 0.002
+bio16 0.68 42.35 10.60 0.002
+srad_spring 0.69 37.56 6.47 0.004
+all variables 0.78
+cluster alone cluster 0.38 2347.00 93.32 0.002
+bio18 0.42 2309.20 428.44 0.002
+bio12 0.45 2276.00 36.18 0.002
+bio19 0.51 2214.60 66.43 0.002
+all variables 0.60
+bio18 0.42 2309.20 428.44 0.002
+cluster 0.48 2243.40 19.46 0.002
+bio12 0.53 2188.60 58.93 0.002
+bio19 0.56 2146.50 45.21 0.002
+all variables 0.66
+All bioclim 
+variables
+Day to flower after 
+veranlization saturation
+Cluster + all 
+bioclim 
+variables
+Day to flower (outdoor 
+experiment)Cluster + all 
+bioclim 
+variables
+All bioclim 
+variables
+All bioclim 
+variables
+Day to flower 
+after MTD
+All bioclim 
+variables
+Vernalization 
+saturationCluster + all 
+bioclim 
+variables
+Cluster + all 
+bioclim 
+variables
+MTD
+All bioclim 
+variables
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+20 
+ 
+traits, when measured under greenhouse conditions, are significantly shaped by the 384 
+current environmental conditions we tested in B. distachyon and are locally adapted 385 
+trait.  386 
+Note that variable selection optimizes the variance explained by explanatory varia-387 
+bles but does not necessarily identify the ecological drivers of phenotypic variation. In 388 
+our system, where bioclimatic variables are highly correlated with each other and 389 
+sometimes with the genetic clade of origin (Figure S2), while one variable may maxim-390 
+ize the variance, another one maybe  the mechanistic driver of variation  (Capblancq 391 
+and Forester 2023). As such, it remains difficult to disentangle the effect of the cluster 392 
+of origin from the effect of the environment for MTD and day to flower after vernali-393 
+zation saturation (Table 1) and to estimate the actual part of the variance explained by 394 
+the environment for those two traits. 395 
+It is yet clear  that accessions from more arid environments tend to flower faster 396 
+once vernalization saturation has been reached. Indeed, kendall rank correlations be-397 
+tween flowering time and aridity in spring  or annual precipitation levels (bio12)  for 398 
+instance show a significant (P-value = 7.143e-06 and 4.982e-11 respectively) but only 399 
+partial correlations (Tau = -0.25 and 0.36 respectively), implying that while local envi-400 
+ronment are driving flowering time variation  and flowering time-related trait at large 401 
+(Table 1), it only partly explains the early/late-flowering partitioning of the phenotypes 402 
+we observe among genetic lineages (Figure 1c).  403 
+ 404 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+21 
+ 
+Contribution of flowering time genes to flowering time -related trait  variation  405 
+The genetic basis of flowering time has been extensively characterized at the molecular 406 
+level in B. distachyon (e.g. Raissig and Woods, 2022; Woods et al., 2023) . In a second 407 
+step, we also aimed to assess the contribution of genetic factors to flowering time -408 
+related traits. Due to our relatively small sample size (56 accessions with phenotypes), 409 
+we opted for a targeted approach rather than a classical GWAs and selected 22 flow-410 
+ering-time genes (Table S 5) molecularly characterized and described as impacting 411 
+flowering time in our study system (Higgins et al. 2010; Wu et al. 2013; Woods et al. 412 
+2014; Sharma et al. 2017; Woods et al. 2017a,b; Lomax et al. 2018; Qin et al. 2019; Woods 413 
+et al. 2019; Cao et al. 2020; Kennedy and Geuten 2020; Woods et al. 2020).  414 
+Using the SNP calling performed by Minadakis et al. (2023), we extracted 502 SNPs 415 
+across these 22 flowering-time genes and 56 accessions and performed stepwise RDA. 416 
+We first fitted models where flowering time-related traits were independently entered 417 
+as response variable and each of the 502 SNPs were entered independently as explan-418 
+atory variables. Here again, those models were compared to empty models where the 419 
+respective flowering time -related trait was explained by a fixed intercept  alone. 302 420 
+SNPs across 20 flowering-time genes were significantly associated with at least one of 421 
+the four flowering time -related traits (Table S 6). Due to linkage disequilibrium over 422 
+short distances (Figure S4a), many SNPs gave precisely the same signal of association 423 
+within a given gene (Table S6). We thus pruned our dataset. Overall, the resulting 143 424 
+SNPs show a strong association with day to flower after vernalization saturation and 425 
+MTD but very mild association with the two other traits (Figure 2a) . Individual SNP 426 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+22 
+ 
+explained as much as 42% of the variance in day to flower after vernalization saturation 427 
+(Table S6 and Figure 2b). SNPs in VERNALIZATION1 (VRN1), FLOWERING LOCUS T -428 
+LIKE 1 and 10 (FTL1 and FTL10) and POLD3 show the strongest association with day to 429 
+flower after vernalization saturation and MTD (Figure 2a and b).  Interestingly, VRN1 430 
+and VERNALIZATION2 (VRN2), two genes known to play a role in vernalization require-431 
+ment, show a stronger association with MTD than with vernalization saturation (Figure 432 
+2a). 433 
+Fig. 2: Association between SNPs in flowering-time genes and flowering time-related traits. (a) RDA output for the 
+143 pruned SNPs. (b). For each gene, the boxplots contrast the effect of the reference (Bd21) and alternative alleles 
+on day to flower after vernalization saturation for the SNP showing the strongest association with the trait. The 
+color code is the same as in Figures 1. 
+ 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+23 
+ 
+Because SNPs in flowering-time genes show a marginal association with vernaliza-434 
+tion saturation and day to flower after MTD, we focused on day to flower after vernal-435 
+ization saturation and MTD for the rest of the analysis. To further disentangle the os-436 
+tensible confounding effect of population structure (Figure 2b), SNPs in flowering-time 437 
+genes and environmental variables on day to flower after vernalization saturation and 438 
+MTD, we fitted additional models that included the phenotype as a response variable 439 
+and i) the cluster of origin alone (model = cluster alone), ii) all the 20 SNPs (1 SNP per 440 
+gene, figure S 4b) showing the strongest association with either day to flower after 441 
+vernalization saturation or MTD (model = All SNPs) and, iii) the cluster of origin, all the 442 
+20 SNPs and the environmental variables associated with each respective trait ( as 443 
+shown in Table1) as explanatory variables  (model = cluster + all SNPs + envt.) . We 444 
+compared these models successively with the empty model as previously described. 445 
+ For both traits, single SNPs (e.g. Bd1_5866489 in VRN1 for day to flower after ver-446 
+nalization saturation and Bd2_5415945 in FTL1 for MTD) gave separately identical or 447 
+similar association as the cluster of origin alone (Table 2). This results in a reduced or 448 
+null cluster effect in the full model compared the one of single SNPs (Table 2). Note 449 
+that the variance explained by a given SNP (e.g. Bd1_5866489 in VRN1) differ from the 450 
+one obtained above (Figure 2b). RDA do not allow missing value and the models with 451 
+20 SNPs (Table2) are therefore based on a slightly different sample size than the model 452 
+performed with single SNP (Figure 2b) which results in different R2 estimates.  453 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+24 
+ 
+As mentioned above, RDA optimize the variance explained but do not allow to iden-454 
+tify the mechanistic driver of variation . Considering the allele distribution of SNPs in 455 
+flowering time-genes across genetic cluster (Figure 2a), disentangling and quantifying 456 
+the effect of population structure from the one of  genetic factors or single gene re-457 
+mains therefore challenging for most SNPs in flowering time-genes.   458 
+ 459 
+Differentiation of flowering time genes  460 
+Most SNPs in flowering -time genes nonetheless appear to be highly differentiated 461 
+among genetic clades. This could result from two processes. On the one hand, B. dis-462 
+tachyon populations underwent bottlenecks during the last glaciation (Minadakis et al. 463 
+2023), which may have led to reduced genetic diversity and highly differentiated alleles 464 
+among genetic lineages/clades genome -wide (neutral scenario). On the other hand,  465 
+Table 2: Output of the RDA between flowering time -related trait , SNPs in 
+flowering time genes  and bioclimatic variables  
+Trait Model Variable Cumulative 
+R2adj AIC F P-value
+cluster alone cluster 0.56 10.72 26.44 0.002
+Bd1_5866489 0.56 7.58 103.39 0.002
+Bd3_8185926 0.58 4.51 5.04 0.01
+all variables 0.68
+Bd1_5866489 0.56 7.58 103.39 0.002
+aridity_spring 0.65 -10.08 21.41 0.002
+bio13 0.69 -18.38 10.44 0.002
+Bd2_5415945 0.72 -25.66 9.22 0.002
+Bd4_41691478 0.75 -35.32 11.62 0.004
+0.87
+cluster alone cluster 0.32 132.53 10.57 0.002
+Bd2_5415945 0.37 123.86 48.04 0.002
+all variables 0.57
+Bd2_5415945 0.37 123.86 48.04 0.002
+bio18 0.46 112.20 14.32 0.002
+cluster 0.52 105.56 3.66 0.008
+Bd3_8185926 0.57 98.44 8.71 0.006
+all variables 0.61
+All SNPs
+Flowering time after 
+vernalization saturationMTDCluster + SNPs + 
+elevation + 
+bio18
+All SNPs
+Cluster + SNPs + 
+aridity_spring + 
+bio13
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+25 
+ 
+flowering-time genes might be under positive selection and therefore highly differen-466 
+tiated among genetic clades (selection scenario). 467 
+To first assess the extent to which our SNPs of interest are more differentiated com-468 
+pared to genome-wide levels, we computed single SNP F ST. To limit the number of 469 
+comparison and considering the partitioning of the reference and alternative alleles 470 
+among accessions in the flowering-time genes (Figure 2b), we only computed FST be-471 
+tween accessions of the A and B lineages. We found that the large majority of SNPs 472 
+significantly associated with flowering time are above the 3rd quartile of the genome-473 
+wide distribution or even belong to the top 5% outliers (Figure 3a). Hence, with the 474 
+exception of SNPs in EARLY FLOWERING 3  (ELF3), FD, and FD1, all flowering-time 475 
+genes harbor SNPs that tend to be more differentiated than the rest of the genome.  476 
+To gain power for our analyses, we further made use of the B. distachyon diversity 477 
+panel composed of 332 natural accessions (Minadakis et al. 2023, Figure 4a) and found 478 
+very similar levels of allele differentiation at flowering-time genes (Figure S4c). These 479 
+results are in line with a forward simulation we performed under a neutral scenario 480 
+using the demographic estimates computed by Minadakis et al. (2023). The F ST distri-481 
+bution calculated between the simulated A and B lineages, as the distribution obtained 482 
+with the real data, is indeed largely shifted towards low values (Figure 3b). These latter 483 
+results demonstrate that bottlenecks did not lead to elevated genetic differentiation 484 
+at the genome-wide level. As such, the high FST value we observed suggest that most 485 
+flowering-time genes are under selection. 486 
+ 487 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+26 
+ 
+ Genome -wide scans of positive selection  488 
+To properly test for positive selection while accounting for the structure and demo-489 
+graphic history of our populations, we computed XTX statistics, a measure comparable 490 
+to single SNP FST that accounts for the neutral covariance structure across populations. 491 
+In brief, we computed XTX with our actual SNP dataset over the entire diversity panel 492 
+Fig. 3: Flowering-time gene differentiation (a) Top: Single SNP FST computed for the 56 accessions of the A and B 
+lineages (dashed line = 5% outliers); bottom: single SNP XTX computed at the genetic clade level (dashed line = 
+1% POD threshold). (b) Distribution of FST calculated between the A and B lineage with real and forward-simulated 
+data under a neutral scenario. (c) Upset plot displaying the overlap between gene sets identified with the GEAs 
+performed by Minadakis et al. (2023) for 23 bioclimatic variables and flowering-time genes. 
+ 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+27 
+ 
+using the five genetic clades as focal populations. We then simulated a pseudo -ob-493 
+served dataset (POD) of 100,000 SNPs under the demographic model inferred from 494 
+the covariance matrix of the actual SNP dataset. XTX statistics were then computed for 495 
+the POD to determine the probability of neutrality for each SNP. The threshold of sig-496 
+nificance was thus set to 11.2, a value slightly lower than the 1% outlier threshold 497 
+(13.6). Many flowering-time genes display SNPs more differentiated than expected un-498 
+der a neutral scenario (Figure 3b) suggesting that those genes have evolved under 499 
+positive selection. Nine flowering-time genes PHYTOCHROME C (PHYC), VRN1, CON-500 
+STANS 1 and 2 (CO1 and CO2), POLD3, FTL1, FTL10, FTL9 andVRN2 display extremely 501 
+differentiated SNPs (XTX > 15) both in the subset of accessions (Figure 3a) and in the 502 
+entire diversity panel (Figure S 4c). We also tested for extended haplotypes and foot-503 
+print of selective sweeps with the integrated Haplotype Score (iHS). However, none of 504 
+those highly flowering-time genes are located in regions displaying significantly longer 505 
+haplotypes (Figure S5). 506 
+We ran SnpEff to test which SNPs in flowering-time genes are more likely to have a 507 
+functional impact. Only few SNPs in CO2, ES43, and Photoperiod-H1 (PPD1) were cat-508 
+egorized as variants with high impact while the large majority of SNPs in other genes 509 
+were categorized as variants with moderate and low effect (Figure S 6), rendering the 510 
+identification of the potential targets of selection challenging for most of our genes of 511 
+interest.  512 
+In order to characterize which environmental factors might have shaped diversity at 513 
+flowering-time genes, we eventually made use of genotype -environment association 514 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+28 
+ 
+(GEA) analyses performed by Minadakis et al. (2023) with bioclimatic variables associ-515 
+ated to precipitation levels, temperature or elevation. We found that only one of the 516 
+22 flowering-time genes (Bradi2g59119, ODDSOC2-like) showed an overlap with the 517 
+gene sets significantly associated with current bioclimatic variables (Figure 3c).  518 
+Yet, the GEAs performed by Minadakis et al. corrected for population structure and 519 
+can hence result in false negative since the genetic clades occupy different ecological 520 
+niches. We indeed found significant associations between SNPs at flowering-time gene 521 
+and bioclimatic variables such as Bio14 (Precipitation of driest quarter) and aridity lev-522 
+els in spring, when not accounting for population structure (Kendall correlation; Figure 523 
+S7a), indicating that the confounding effect of population structure and adaptation at 524 
+a regional scale may mask the significant effect of the environment on flowering-time 525 
+genes diversity.  526 
+ 527 
+Potential adaptation to past climatic conditions  528 
+We estimated the age of flowering-time alleles and found that those arose relatively 529 
+recently between 9,000 to 38,000 years ago (Table S 7) as most alleles in our system 530 
+(Minadakis et al. 2023). We speculated that variation in flowering time could also re-531 
+flect adaptation to recent past conditions, potentially to the last glacial maximum 532 
+(LGM) 22,000 years ago. We therefore tested whether the delay in flowering time we 533 
+observed in accessions from the A_East and A_Italia clades could result from an adap-534 
+tation to past colder climates. To do so, we used the niche suitability projections under 535 
+LGM conditions computed by Minadakis et al (2023). We selected a set of 200 random 536 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+29 
+ 
+points per clade in highly suitable habitats and extracted the 19 LGM bioclimatic vari-537 
+ables for the corresponding sites. The PCA performed with these 19 LGM bioclimatic 538 
+variables do not allow us to separate the five genetic clades. Altogether, accessions 539 
+from the A_East and A_Italia clades neither occurred in colder nor in wetter environ-540 
+ments than the B_East, B_West and C accessions (Figure S 8) which suggests that the 541 
+extended vernalization requirement and delay in flowering we observed for the A_East 542 
+and A_Italia accessions were not selected during LGM.  543 
+ 544 
+ 545 
+Long-range linkage disequilibrium among flowering -time genes  546 
+A striking pattern eventually emerges from the former analyses. The fact that the flow-547 
+ering-time genes gave nearly identical signals with regard to their association with 548 
+flowering time suggests, as displayed in Figure 2b, that SNPs at flowering -time genes 549 
+harbor similar allele frequencies. These similar allele frequencies indicate that some 550 
+flowering-time genes might be co-selected (polygenic selection) and remain in strong 551 
+linkage disequilibrium despite the large physical distances that separate them  (Zan 552 
+and Carlborg 2019; Gupta et al. 2023). 553 
+To formerly test this hypothesis, we computed LD among the 20 focal SNPs used 554 
+for the RDA analyses. LD computed among pairs of focal SNPs in the 56 selected ac-555 
+cessions as well as in the entire diversity panel show a similar pattern: many flowering-556 
+time genes display high LD despite the large distances that separate them on a given 557 
+chromosome (Figure 4b). This is especially true for  flowering-time genes located on 558 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+30 
+ 
+chromosome 1 and 2 (Bd1 and Bd2), which are found in much higher LD than expected 559 
+considering the 95% confidence interval (CI) of the genome-wide LD-decay (Figure 4c).  560 
+Strikingly, we also found very high LD among flowering time-genes located on dif-561 
+ferent chromosomes both in the selected accessions and entire diversity panel (Figure 562 
+4b). Located on chromosome 1, VRN1 for instance, is in strong LD with eight other 563 
+Fig.4 Linkage disequilibrium (LD) in the flowering time pathway a) Map displaying the locality of the 332 sequenced 
+accessions composing the diversity panel b) LD among flowering-time genes in the selected accessions and diver-
+sity panel. For the diversity panel, the black lines delimit the focal genes used for the interchromosomal LD analysis. 
+c) LD decay computed over the entire diversity panel. The orange and grey lines display the 95% CI of the LD decay 
+calculated with or without filtering for a minimum allele frequency (maf) respectively. Dots display LD between pairs 
+of flowering-time genes located on the same chromosome d) Distribution of LD among loci located on dif ferent 
+chromosomes. The violin plots display the means of LD calculated among eight, ten, eleven and 13 loci. Numbers 
+in square brackets indicate the confidence interval around the mean. 
+ 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+31 
+ 
+genes located on chromosome 2 (POLD3, LD = 0.84; FTL9, LD = 0.45, FTL1, LD = 0.76; 564 
+FTL10, LD = 0.83), chromosome 3 (VRN2, LD = 0.65; CO2, LD = 0.55, BdFT6, LD = 0.54) 565 
+and chromosome 4 ( BdFT4, LD = 0.71) . To test to what extent this long -range LD 566 
+among the 14 focal flowering -time genes deviates from genome -wide patterns, we 567 
+computed LD for a subset of 50,000 random pairs of genic loci located on different 568 
+chromosomes across the genome. This allowed us to estimate the average inter-chro-569 
+mosomal LD among loci (Figure 4d). For each combination, the inter-chromosomal LD 570 
+we observed among eight  loci (for focal flowering -time genes located on chromo-571 
+somes 1), ten loci (for focal flowering-time genes located on chromosomes 2), eleven 572 
+loci (for focal flowering -time genes located on chromosomes) and 13  loci (for focal 573 
+flowering-time genes located on chromosomes 4) was largely outside the CI calculated 574 
+with random genic loci (Figure 4d).  575 
+Note that FRUITFULL-like (FUL2) and PPD1 are the only genes displaying putative 576 
+footprint of insertion polymorphisms in the diversity panel (Table S5). Furthermore, in 577 
+a selfing species like B. distachyon, heterozygous SNPs are hallmarks of gene duplica-578 
+tion (Jaegle et al. 2023; Stritt et al. 2022). Using a vcf file not filtered for heterozygous 579 
+SNPs, we found that only 0.6% of the SNPs located in flowering-time genes are heter-580 
+ozygous across the 332 accessions. These results imply that flowering-time genes are 581 
+occurring in single copy and that structural rearrangements or duplications did not 582 
+alter their position in non -reference genomes. Taken together, these results indicate 583 
+that the long -range LD among flowering-time genes as well as their differentiation 584 
+levels deviate from genome -wide patterns and are difficult to explain by the 585 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+32 
+ 
+demographic history of the population alone. We hence conclude that 14 flowering-586 
+time genes (Figure 4d) are co-evolving and undergo polygenic selection. 587 
+ 588 
+Genome -wide association for flowering time variation measured in outdoor 589 
+conditions  590 
+Greenhouse conditions are far from any natural optimum and may obscure association 591 
+with relevant environmental cues, while taking an environment closer to the natural 592 
+conditions encountered by of one or several clade s acts as a useful pivot to contrast 593 
+clades. Hence, we eventually made use of flowering time data we collected for a subset 594 
+of 131 accessions (Stritt et al. 2022) in Zürich, Switzerland, to assess flowering time 595 
+variation in semi-natural conditions. While B. distachyon do not occur at such latitudes 596 
+(Minadakis et al. 2023), a PCA performed with the 22 bioclimatic variables on our 332 597 
+natural accessions and including a site in Zurich shows that the environmental 598 
+conditions in Zürich are not different from the ones encountered by ABR9 for instance 599 
+(Figure 5 a, Table S 2 for bioclimatic data ). While other biotic (vegetation type and 600 
+density) and abiotic (soil characteristic) factors are certainly preventing the species 601 
+from occurring in northern latitude, Zürich harbours climatic conditions similar to ones 602 
+encountered by the species at the northern margin of its natural distribution, making 603 
+it a valid experimental site to study flowering time in B. distachyon. 604 
+In brief, we planted seeds for 131 accessions (Figure 5 b) outdoors in November 605 
+2017, in the Botanical Garden of Zurich, Switzerland, with six replicates per accession 606 
+and recorded flowering time in spring. 31 of the accessions used in the greenhouse 607 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+33 
+ 
+experiment are used in the outdoor experiment , including four ( Ren4, Lb1, Lb23 and 608 
+Cm7) of the five accessions that did not flower by the end of the experiment. All plants 609 
+flowered within 20 days in April (Figure 5 c). Flowering time for plants from the B_East 610 
+and C clades were not significantly different (Kruskal -Wallis test, P -value = 0.96) but 611 
+those accessions flowered significantly faster than accessions from the other clades 612 
+(Kruskal-Wallis test, all P-values < 0.01). Plants from the A_Italia and B_West flowered 613 
+significantly later than plants from the other clades (Kruskal -Wallis test, all P-values < 614 
+0.02) but were not significantly different from each other (P-value = 0.06).  As such, the 615 
+data collected outdoor contrasts with the ones collected in the greenhouse.  616 
+Fig. 5: Genome-wide association analysis with flowering time (outdoor experiment) a) PCA performed with 19 clas-
+sical wordlclim variables combined to solar radiation in spring, global aridity in spring and altitude for the 332 
+accessions of the diversity panel and a locality in Zurich b) Geographical origin of the 131 accessions used for the 
+experiment c) Flowering time per cluster (displaying replicates) d) Manhattan plot displaying the association be-
+tween SNPs and flowering time. The red and dark dots display SNPs located into AFT - or other flowering -time 
+genes respectively. The dashed line corresponds to FDR threshold of significance e) XTX values for the top GWAs 
+SNP on chromosome 2 (Bd2).  
+ 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+34 
+ 
+As for the greenhouse experiment, we used RDA to fit models where flowering-time 617 
+was independently entered as a response variable while the cluster of origin 618 
+(model = cluster alone), the 22 environmental variables (model = all bioclimatic varia-619 
+bles) or both the cluster of origin and the 22 bioclimatic variables (model = cluster + 620 
+all bioclimatic variables) were successively entered as explanatory variables. We com-621 
+pared those full -models to empty models where flowering-time was explained by a 622 
+fixed intercept alone (Capblancq and Forester 2023). We found that a large part of the 623 
+variance in flowering-time is explained by bioclimatic variables linked to precipitation 624 
+levels in warm months whether the models did or did not include the cluster of origin 625 
+(e.g. bio18 and bio12; Table 1).  626 
+A genome -wide association analysis (GWAs) performed with GEMMA (Zhou and 627 
+Stephens 2012) on the 131 accessions and 2,266,225 filtered SNPs (Figure S9 for marker 628 
+density) identified one significant peak which does not overlap with any of the 22 629 
+flowering-time genes we studied above (Figure 5 d).  We also made use of the GEAs 630 
+performed by Minadakis et al. (2023) and found that the gene underlying the peak 631 
+(Bradi2g11490, a carbohydrate-binding-like gene) does not overlap with the gene sets 632 
+significantly associated with current bioclimatic variables. Yet, similarly to what we 633 
+found for the AFT-genes, we found significant associations (Figure S7b) between SNPs 634 
+at the GWAs peak and bioclimatic variables, especially with Bio14 635 
+(Precipitation_of_Driest_Month), when not taking into account population structure. 636 
+Consistent with selection by the environment, the top GWAs SNP constitutes also an 637 
+XTX outlier (Figure 5e).  638 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+35 
+ 
+Discussion  639 
+Flowering time -related traits and adaptation to local climate  640 
+Flowering time has been shown to play an important role in local adaptation across 641 
+many plant systems including crops (Izawa 2007; Anderson et al. 2012; Anderson, et 642 
+al. 2013; Ågren et al. 2017; Navarro et al. 2017; Wadgymar et al. 2017; Takou et al. 2019; 643 
+Qian et al. 2020; Yan et al. 2021) . In B. distachyon , flowering time has been mainly 644 
+studied from a molecular viewpoint, clarifying the role of specific genes in sensing 645 
+environmental variation such as day -length and temperature ( Ream et al. 2012; 646 
+Ruelens et al. 2013; Ream et al. 2014; Woods et al. 2014; Woods et al. 2017 a,b; Lomax 647 
+et al. 2018; Cao et al. 2020; Kennedy and Geuten 2020; Woods et al. 2020; Bouché et 648 
+al. 2022; Raissig and Woods 2022). While those studies underline the complex archi-649 
+tecture of flowering-time and revealed large variation regarding vernalization require-650 
+ment among natural accessions for instance, they provide little information with regard 651 
+to adaptation.  652 
+In fact, t he wide range of vernalization requirement observed in B. distachyon 653 
+suggests that local adaptation of flowering time could take place through distinct de-654 
+velopmental thresholds (i.e the accumulated amount of ‘developmental time’ required 655 
+for a given developmental stage to allow a transition to the next developmental stage 656 
+see Donohue et al. 2014 ) among accessions. Indeed, in a widespread Mediterranean 657 
+species like B. distachyon, not all accessions are exposed to long and harsh winter (Fig-658 
+ure S2). The expression of traits such as the minimum duration of vernalization neces-659 
+sary to permit flowering might be contributing in fine to flowering time variation in 660 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+36 
+ 
+the wild and be especially relevant to investigate in the context of local adaption. We 661 
+indeed observed a significant albeit partial correlations among the four flowering time-662 
+related traits we investigated (Figure 1b) indicating that these traits constitute different 663 
+components of flowering time.  664 
+Estimating the effect of the environment remains a challenge in such structured 665 
+populations. Yet, we show a significant association between flowering time -related 666 
+traits and bioclimatic variables in addition to the cluster effect, indicating that flower-667 
+ing time-related traits are locally adapted trait in our system. Because bioclimatic var-668 
+iables are largely correlated among each other’s, pinpointing the selective constraints 669 
+acting on flowering time -related traits is equally difficult  (Capblancq and Forester 670 
+2023). Our RDA analyses, however, point at bioclimatic variables which are biologically 671 
+meaningful as linked to aridity levels in warm months. As such, precipitation levels and 672 
+hence water limitation seem especially important for flowering time -related traits as 673 
+already shown for broader fitness effects in our species (Des Marais et al. 2017). In our 674 
+system, MTD and day to flower after MTD have never been investigated. It is therefore 675 
+very interesting to see that those two traits also display signs of local adaptation. Our 676 
+results therefore advocat e for a complex adaptation of flowering time and suggest 677 
+that vernalization saturation might not be necessary in the wild to synchronize flower-678 
+ing time with the environment.  679 
+ 680 
+ 681 
+ 682 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+37 
+ 
+Early- and late -flowering genotypes are unlikely driven by adaptation  683 
+The greenhouse experiment further confirms that B. distachyon natural accessions 684 
+vary greatly regarding their vernalization saturation requirement and ultimately flow-685 
+ering time and can be broadly grouped into early- and late-flowering genotypes (Fig-686 
+ure S1 and Figure 1, but see Ream et al., 2014; Gordon, et al. 2017  for a finer classifi-687 
+cation scheme). Despite within clade variation regarding flowering time after vernali-688 
+zation saturation (Figure 1c), accessions from the A lineage (A_East and A_Italia) display 689 
+a large delay in flowering compared to accessions from the B (B_East and B_West) and 690 
+C lineage, which typically result from longer vernalization saturation requirements. This 691 
+pattern has been suggested to be a sign of adaptation at a regional scale in Turkey 692 
+(Skalska et al. 2020) and could be interpreted as a footprint of diversifying selection at 693 
+the genetic clade level. Based on this hypothesis, accessions from the A_East and A_Ita-694 
+lia clades may display a delay in flowering as globally adapted to colder and less arid 695 
+environmental conditions, as shown for instance in A. thaliana (Ågren and Schemske 696 
+2012). Yet, our results do not fully support this scenario, as we only find partial corre-697 
+lations between the partitioning of the phenotypes and the bioclimatic variables asso-698 
+ciated with flowering time (Figure 1 and Figure S 3). Our niche modelling projections 699 
+for the last glacial maximum (Minadakis et al. 2023), do not further support an adap-700 
+tation to the last glacial maximum conditions (Figure S 8). As such, the partitioning of 701 
+the early vs. late flowering accessions remains difficult to explain with an “adaptive” 702 
+scenario. In summary, we conclude that local environmental conditions are partly 703 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+38 
+ 
+driving flowering time variation within genetic clades but not the early- and late-flow-704 
+ering partitioning of the phenotypes we observed among clades in the greenhouse. 705 
+We have not tested different combinations of vernalization temperature and length. 706 
+In A. thaliana for instance, natural ecotypes have characteristic vernalization tempera-707 
+ture profiles and vernalization temperature ranges from 0 to 14 °C (Duncan et al. 2015). 708 
+While B. distachyon does not occur in a wide range of latitude as A. thaliana, it is clear 709 
+that interactions between vernalization temperature and length are likely to play a role 710 
+as well. As already shown by Stritt et al. (2022)  with a smaller subset of accessions, 711 
+variation in flowering time is for instance largely attenuated in outdoor conditions and 712 
+although significant differences are observed among genetic clades, all plants flowered 713 
+within 20 days when grown outdoors in Zürich (Figure 5 c), including the four acces-714 
+sions that did not flower with the greenhouse experiment. Hence, greenhouse experi-715 
+ments, as largely performed in B. distachyon (Ream et al. 2014; Gordon, et al. 2017; 716 
+Sharma, et al. 2017) may only weakly capture how accessions behave in the wild.  717 
+ 718 
+Flowering -time genes and flowering time -related traits   719 
+We also selected 22 flowering-time genes known to play a major role in vernalization- 720 
+(e.g., VRN1, POLD3) or photoperiod -sensing (e.g. PPD1, PHYC) to characterize the 721 
+magnitude of their allelic effects on flowering time-related traits. We found that SNPs 722 
+in those 22 genes display relatively large association with the number of days to flower 723 
+after vernalization saturation and to some extent with MTD or vernalization saturation 724 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+39 
+ 
+but only poorly with the number of days to flower after MTD (Figure 2a). Interestingly, 725 
+genes known to play a role in cold -mediated vernalization such as VRN1 or POLD3 726 
+(Raissig and Woods 2022) show a larger association with MTD than with vernalization 727 
+saturation, suggesting that those genes are important for cold perception regardless 728 
+of its length.  729 
+Here again, our RDA analyses show that disentangling the effect of the cluster of 730 
+origin from the one of single SNPs is challenging. We indeed observed a strong parti-731 
+tioning of the reference and alternative alleles in flowering-time genes among genetic 732 
+clades and lineages (Figure 2b).  The high genetic differentiation of flowering -time 733 
+genes between the A and B lineages (Figure 2b) could result from the recent bottle-734 
+necks experienced by B. distachyon in the recent past (Stritt et al. 2018; Minadakis et 735 
+al. 2023)  and produce spurious association with flowering -time related traits . Three 736 
+lines of evidence rule out this demographic scenario.  737 
+First, our 22 candidate genes have been shown to play an important role in photo-738 
+period sensing, vernalization and in fine in flowering variation among diverse B. dis-739 
+tachyon accessions not only by sequence homolgy but also via molecular, biochemical, 740 
+and genetic methods (Wu et al. 2013; Ream et al. 2014, Woods et al. 2014, Woods et 741 
+al. 2017a , Woods et al. 2017 b , Lomax et al. 2018; Qin et al. 2019 , Woods et al. 2019 , 742 
+Woods et al. 2020 , Raissig and Woods 2022, Bouché et al. 2022; Alvarez et al. 2023; 743 
+Woods et al. 2023). It is therefore legitimate to assume that they might play a role in 744 
+regulating flowering time-related traits in genetically diverse accessions as well.  745 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+40 
+ 
+Second, FST analyses performed with our real - as well as forward -simulated data 746 
+show that the population size reduction experienced by B. distachyon did not lead to 747 
+genome-wide highly differentiated alleles and SNPs at flowering-time gene constitute 748 
+clear FST outliers. The XTX analysis we performed with the five genetic clades as focal 749 
+populations also shows that most of the flowering-time genes harbor SNPs above the 750 
+threshold of significance, POLD3 and CO1 presenting more extreme outliers. This foot-751 
+print of positive selection (Gautier 2015) is yet not accompanied by extended haplo-752 
+types around our candidate genes (except for CO2) which implies that the initial selec-753 
+tive sweeps may have eroded with time and that selection did not occur in a recent 754 
+past. Flowering-time gene are yet not colocalizing with regions we previously identi-755 
+fied with GEA analyses (Figure 3c). Thus, although we find evidence of positive selec-756 
+tion at single flowering -time genes, the selective constraint at play remains yet to be 757 
+identified. It is yet essential to keep in mind that GEA performed in species with strong 758 
+population structure can lead to high rate of false negatives as they typically include 759 
+structure correction (Lottheros 2023; Booker et al. 2023). We did find significant asso-760 
+ciations between bioclimatic variables and SNPs at flowering -time genes when not 761 
+correcting for population structure (Figure S6). Common garden experiments will thus 762 
+be key to test the effect of genotype-by-environment interactions in our system. 763 
+Third, we highlighted a striking pattern of long-range linkage disequilibrium (LD), 764 
+both intra- and inter-chromosomal, among 14 flowering -time genes associated with 765 
+flowering time variation under greenhouse conditions (Figure 4). Polygenic selection 766 
+is expected to result in LD between regions under selection (Gupta et al. 2023; Yeaman 767 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+41 
+ 
+et al. 2016; 2018) but only few cases have been reported so far in plants and animals 768 
+(Hohenlohe et al. 2012; Yeaman et al. 2016; Gupta et al. 2023; Park 2019) . In A. thali-769 
+ana, Zan and Carlborg (2019)  also identified long -range LD among four clusters of 770 
+flowering-time genes. We demonstrated that the levels of long -range LD (intra - and 771 
+inter-chromosomal) we observed among 14 flowering -time genes (Figure 4) are not 772 
+observed among random genic loci in the genome. As flowering -time genes do not 773 
+display signs of duplication or insertion polymorphisms, we imply that structural rear-774 
+rangements did not bring flowering-time gene physically together in non -reference 775 
+accessions. We therefore believe that we present clear evidence for polygenic selection 776 
+on key genes involved in the flowering pathway. Expression analyses further support 777 
+the functional connection among these loci in B. distachyon and grasses in general. 778 
+For example, VRN1 and FTL1 are expressed in a positive feedback loop, which over-779 
+comes the flowering repression of VRN2 (Ream et al. 2014; Woods et al. 2016; Woods 780 
+et al. 2017b). Additionally, there is an intricate connection between many of these flow-781 
+ering-time genes both transcriptionally and at the protein level. For example, among 782 
+the pairwise interactions tested between PHYC, PHYB, ELF3, PPD1, VRN2, CO1, and 783 
+CO2 more than 80% showed positive interactions in yeast two hybrid assays some of 784 
+which have been verified in planta (Shaw et al. 2020; Alvarez et al. 2023) .  Thus, many 785 
+flowering-time genes in LD can interact at multiple levels.  786 
+Altogether, this set of analyses show that the association between flowering-time 787 
+genes and flowering time -related traits, especially days to flower after vernalization 788 
+saturation, is a result of selection and unlikely due to population structure . 789 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+42 
+ 
+Interestingly, while pold3 and elf3 loss of function mutants flower faster than the 790 
+wildtype (Bouché et al. 2022;. Woods et al. 2020) , their contribution to flowering time 791 
+after vernalization saturation for instance (39% and 15% respectively) differ drastically. 792 
+This discrepancy might be due to the fact that mutants used to characterize gene func-793 
+tions usually harbor mutations with deleterious or large effect size (loss of function). 794 
+In contrast, our natural flowering -time gene variants are mostly predicted as having 795 
+low to moderate suggesting that they modulate flowering time -related traits quanti-796 
+tatively. As such, one should remain cautious while extrapolating the effect of flower-797 
+ing-time variants from mutant-based experiments. 798 
+ 799 
+GWAs detect additional candidate genes for flowering time  800 
+None of the flowering -time genes co -localize with the GWAs candidate identified 801 
+with the outdoor experiment (Figure 5d). It is clear that the partitioning of the refer-802 
+ence and alternative variants at flowering-time genes (Figure 2a) largely dimmish our 803 
+detection power  as we applied a correction for population structure. Yet, w hile we 804 
+should extend our common garden experiment to a larger number of sites, our results 805 
+are in line with a previous studies in A. thaliana which, by using natural accessions and 806 
+RILs, found that flowering time variation scored in the field experiment poorly corre-807 
+lated with the flowering time variation obtained under greenhouse conditions (Wilczek 808 
+et al. 2010; Brachi et al. 2010; Malmberg et al. 2005; Weinig et al. 2002) . As a conse-809 
+quence, a limited overlap is observed between the genomic regions detected in field 810 
+experiments and those detected under greenhouse conditions (Brachi et al. 2010) . 811 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+43 
+ 
+Flowering time has a complex polygenic architecture (Buckler 2009; Brachi et al. 2010; 812 
+Navarro et al. 2017; Zan and Carlborg 2019; Gaudinier and Blackman 2020)  and the 813 
+use of EMS-induced mutants suggested that many additional genes might play a role 814 
+in shaping this trait in B. distachyon (Raissig and Woods 2022), some of which are not 815 
+described or only play a minor role in flowering time in other plant models (Woods et 816 
+al. 2020). In addition, alleles may affect phenotypes only in specific populations (Yan 817 
+et al. 2021; Gloss et al. 2022; Zan and Carlborg 2019)  or seasons (Weinig et al. 2002; 818 
+Gould and Stinchcombe 2017). Taking into account the polygenic architecture, gene -819 
+by-environment association and phenotypic plasticity (Gaudinier and Blackman 2020; 820 
+Yan et al. 2021)  will therefore be essential to better capture the adaptive potential of 821 
+flowering time and flowering-time genes in natural populations of B.  distachyon. Alt-822 
+hough flowering-time genes are undoubtedly essential in the perception of environ-823 
+mental cues and overwintering (for review Raissig and Woods 2022), our results show 824 
+that the effect of their variants in the wild are more difficult to predict and that addi-825 
+tional genes may be at play.  826 
+ 827 
+Conclusion and perspectives  828 
+Our results suggest that i) flowering time -related traits are a locally adapted trait in 829 
+B. distachyon but ii) part of the variation in those traits  can be explained by the 830 
+environment and by SN Ps in key flowering -time genes and, iii) key flowering -time 831 
+genes are co-evolving but their effect in the wild remains to be clarified. In the face of 832 
+global warming, plant phenology has recently advanced significantly (e.g. Anderson et 833 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+44 
+ 
+al. 2012). Investigating the polygenetic architecture of flowering time therefore 834 
+remains a timely question. Polygenic selection,  epistatic and pleiotropic effects might 835 
+limit the evolution of traits (Yan et al. 2021; Yeaman 2022) and future experiments in 836 
+B. distachyon should focus on disentangling these effects. Mimicking the combination 837 
+of the various clues that trigger flowering is yet impractical under greenhouse 838 
+conditions and common garden experiments will thus be essential to place flowering 839 
+time in a natural context in this system . We, however, know relatively little about the 840 
+basic ecology of B. distachyon. Fundamental questions now need to be addressed to 841 
+more broadly characterize the process of local adaptation in this species. These 842 
+include: when are plants emerging in the wild?; how plastic are flowering time and 843 
+phenotypes in general?; and what is the contribution of seed banks to the effective 844 
+population size and hence selection strength?  Answering these will undoubtedly 845 
+represent remarkable progress in our understanding of B. distachyon’s ecology.  846 
+ 847 
+ 848 
+Author contribution  849 
+NM conceived the study, performed the greenhouse experiment, contributed to the 850 
+analysis and the writing of the manuscript. MT collected samples, contributed to the 851 
+analysis. WX, RH and LK contributed to the analysis. DPW contributed with the writing 852 
+of the manuscript. ACR conceived the study, contributed to the analysis and with the 853 
+writing of the manuscript. 854 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+45 
+ 
+Data availability  855 
+Seeds will be distributed through GRIN (https://www.ars-grin.gov). Accession numbers 856 
+for sequencing data can be found in (Gordon et al. 2017; Gordon et al. 2020; Skalska 857 
+et al. 2020; Stritt et al. 2022; Minadakis et al. 2023). The raw data of the flowering time 858 
+measurements are available in the supplementary materials.  Bioclimatic variable can 859 
+be downloaded at https://www.worldclim.org/data/bioclim.html and extracted using 860 
+the R code “download_worldclim2.1.R” provided by Minadakis et al. 2023 ( https://ze-861 
+nodo.org/records/8354318). RDA analyses were adapted from the detailed scripts pro-862 
+vided by Capblancq and Forester (2023; https://github.com/Capblancq/RDA-land-863 
+scape-genomics/tree/main) 864 
+ 865 
+Acknowledgments  866 
+We would like to thank the Swiss National Science foundation (project 867 
+31003A_182785) and the Research Priority Program Evolution in action from the Uni-868 
+versity of Zurich for their generous funding. The authors are grateful to Beat Keller and 869 
+Ueli Grossniklaus for providing space for the flowering time experiments as well as the 870 
+Amasino lab, Sam Yeaman  and Dieter Ebert for stimulating discussion on flowering 871 
+time and polygenic selection.  We eventually would like to thank the two anonymous 872 
+reviewers for their time and very constructive comments.  873 
+ 874 
+ 875 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+46 
+ 
+Supplementary Materials  876 
+The supplementary materials consist in nine figures (File Supplementary figures) and 877 
+seven tables. 878 
+Table S1: Raw results of the flowering time experiment.  879 
+Table S2: Bioclimatic variable extracted for the 332 accessions of the diversity panel  880 
+Table S 3: Flowering time -related traits extracted from the greenhouse experiment  881 
+Table S4: Differences in flowering time -related traits  among the five genetic clades.  882 
+Table S 5: Flowering time gene position and ID.  883 
+Table S 6: RDA output for the four flowering time -related traits again the 502 SNPs . 884 
+Table S 7: Flowering -time gene age estimates.  885 
+  886 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+47 
+ 
+References  887 
+Ågren J, Oakley CG, Lundemo S, Schemske DW. 2017. Adaptive divergence in flowering 888 
+time among natural populations of Arabidopsis thaliana: Estimates of selection and 889 
+QTL mapping. Evolution. 71:550–564. 890 
+Ågren J, Schemske DW. 2012. Reciprocal transplants demonstrate strong adaptive 891 
+differentiation of the model organism Arabidopsis thaliana in its native range. New 892 
+Phytol. 194:1112–1122. 893 
+Albers PK, McVean G. 2020. Dating genomic variants and shared ancestry in 894 
+population-scale sequencing data. PLoS Biol. 18:1–26. 895 
+Alvarez MA, Li C, Lin H, Joe A, Padilla M, Woods DP, Dubcovsky J. 2023. EARLY 896 
+FLOWERING 3 interactions with PHYTOCHROME B and PHOTOPERIOD1 are critical 897 
+for the photoperiodic regulation of wheat heading time. PLOS Genet. 19(5): 898 
+e1010655. 899 
+Anderson JT, Inouye DW, McKinney AM, Colautti RI, Mitchell-Olds T. 2012. Phenotypic 900 
+plasticity and adaptive evolution contribute to advancing flowering phenology in 901 
+response to climate change. Proc. R. Soc. B Biol. Sci. 279:3843–3852. 902 
+Anderson JT, Lee  CR, Rushworth  C, Colautti  R  and Mitchell -Olds T. 2013. Genetic 903 
+tradeoffs and conditional neutrality contribute to local adaptation. Mol Ecol 22:699–904 
+708. 905 
+Andrés F, Coupland G. 2012. The genetic basis of flowering responses to seasonal cues. 906 
+Nature Reviews Genetics. 13, 627–639. 907 
+Bettgenhaeuser J, Corke FMK, Opanowicz M, Green P, Hernández-Pinzón I, Doonan JH, 908 
+Moscou MJ. 2017. Natural variation in brachypodium links vernalization and 909 
+flowering time loci as major flowering determinants. Plant Physiol. 173:256–268. 910 
+Blackman BK. 2017. Changing responses to changing seasons: Natural variation in the 911 
+plasticity of flowering time. Plant Physiol. 173:16–26. 912 
+Blümel M, Dally N, Jung C. 2015. Flowering time regulation in crops-what did we learn 913 
+from Arabidopsis? Curr. Opin. Biotechnol. 32:121–129. 914 
+Booker TR, Yeaman S, Whiting JR, Whitlock MC. 2023.  The WZA  : A window -based 915 
+method for characterizing genotype –environment associations. Mol. Ecol. 916 
+Resour.00 : 1–16. 917 
+Borcard D, Gillet F,  Legendre P. (2018). Numerical ecology with R (2nd ed.).  Springer 918 
+International Publishing AG, part of Springer . https://doi.org/10.1007/978-3-319-919 
+71404-2  920 
+Bouché F, Woods DP, Linden J, Li W, Mayer KS, Amasino RM, Périlleux C. 2022. EARLY 921 
+FLOWERING 3 and Photoperiod Sensing in Brachypodium distachyon. Front. Plant 922 
+Sci. 12:1–14. 923 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+48 
+ 
+Bourgeois Y, Stritt C, Walser JC, Gordon SP, Vogel JP, Roulin AC. 2018. Genome -wide 924 
+scans of selection highlight the impact of biotic and abiotic constraints in natural 925 
+populations of the model grass Brachypodium distachyon. Plant J. 96:438–451. 926 
+Brachi B, Faure N, Horton M, Flahauw E, Vazquez A, Nordborg M, Bergelson J, Cuguen 927 
+J, Roux F. 2010. Linkage and association mapping of Arabidopsis thaliana flowering 928 
+time in nature. PLoS Genet. 6:40. 929 
+Buckler ES et al. 2009. The Genetic Architecture of Maize. 325:714. 930 
+Cao S, Luo X, Xie L, Gao C, Wang D, Holt BF, Lin H, Chu C, Xia X. 2020. The florigen 931 
+interactor BdES43 represses flowering in the model temperate grass Brachypodium 932 
+distachyon. Plant J. 102:262–275. 933 
+Capblancq T and Forester B. 2023. Redundancy analysis: A Swiss Army Knife for land-934 
+scape genomics. Methods Ecol Evol. 2021;12:2298–2309. 935 
+Cingolani P , Platts A, Wang L, Coon M, Nguyen T, Wang L, Land SJ, Lu X, Ruden  DM. 936 
+2012. A program for annotating and predicting the effects of single nucleotide 937 
+polymorphisms, SnpEff: SNPs in the genome of Drosophila melanogaster strain. Fly 938 
+6:80-92. 939 
+Chouard P. 1960. Vernalization and its Relations to Dormancy. Annu. Rev. Plant Physiol. 940 
+11:191–238. 941 
+Danecek P, Auton A, Abecasis G, Albers CA, Banks E, Depristo MA, Handsaker RE, Lunter 942 
+G, Marth GT, Sherry ST, et al. 2011. The variant call format and VCFtools. 943 
+Bioinformatics 27:2156–2158. 944 
+Del’Acqua MD, Zuccolo A, Tuna M, Gianfranceschi L, Pè ME. 2014. Targeting 945 
+environmental adaptation in the monocot model Brachypodium distachyon  : a 946 
+multi-faceted approach. BMC Genomics15:801. 947 
+Duncan S, Holm S, Questa J, Irwin J, Grant A, Dean C. 2015. Seasonal shift in timing of 948 
+vernalization as an adaptation to extreme winter. eLife e06620.  949 
+Eichten S, Stuart T, Srivastava A, Borevitz J. 2016. DNA Methylation profiles of diverse 950 
+Brachypodium distachyon aligns with underlying genetic diversity.  Genome Res. 951 
+26(11):1520-1531. 952 
+Gaudinier A, Blackman Benjamin K. 2020. Evolutionary processes from the perspective 953 
+of flowering time diversity. New Phytol. 225:1883–1898. 954 
+Gautier M. 2015. Genome -Wide Scan for Adaptive Divergence and Association with 955 
+Population-Specific Covariates. Genetics 201(4):1555-79. 956 
+Gautier M, Vitalis R (2012). rehh: An R package to detect footprints of selection in 957 
+genome-wide SNP data from haplotype structure. Bioinformatics, 28(8) 1176-1177. 958 
+Gehlenborg N. 2019. UpSetR: A More Scalable Alternative to Venn and Euler Diagrams 959 
+for Visualizing Intersecting Sets. R package version 1.4.0. https://CRAN.R -pro-960 
+ject.org/package=UpSetR. 961 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+49 
+ 
+Gloss AD, Vergnol A, Morton TC, Laurin PJ, Roux F, Bergelson J. 2022. Genome -wide 962 
+association mapping within a local Arabidopsis thaliana population more fully 963 
+reveals the genetic architecture for defensive metabolite diversity. Philos. Trans. R. 964 
+Soc. B Biol. Sci. 377: 20200512. 965 
+Gordon SP, Contreras-Moreira B, Levy JJ, Djamei A, Czedik -Eysenberg A, Tartaglio VS, 966 
+Session A, Martin J, Cartwright A, Katz A, et al. 2020. Gradual polyploid genome 967 
+evolution revealed by pan -genomic analysis of Brachypodium hybridum and its 968 
+diploid progenitors. Nat. Commun. 11:1–16.  969 
+Gordon SP, Contreras-moreira B, Woods DP, Marais DL Des, Burgess D, Shu S, Stritt C, 970 
+Roulin AC, Schackwitz W, Tyler L, et al. 2017. Extensive gene content variation in the 971 
+Brachypodium distachyon pan -genome correlates with population structure. Nat. 972 
+Commun. 8:2184.  973 
+Gould BA, Stinchcombe JR. 2017. Population genomic scans suggest novel genes 974 
+underlie convergent flowering time evolution in the introduced range of 975 
+Arabidopsis thaliana. Mol. Ecol. 26:92–106. 976 
+Gupta S, Harkess A, Soble A, Etten M Van, Leebens -Mack J, Baucom RS. 2023. Inter -977 
+chromosomal linkage disequilibrium and linked fitness cost loci associated with 978 
+selection for herbicide resistance. New Phytol. 238:1263-1277.  979 
+Hall, Willis, Hall MC, Willis JH. 2006. Divergent selection on flowering time contributes 980 
+to local adaptation in Mimulus guttatuspopulations. Evolution. 60:2466–2477. 981 
+Haller BC, Messer PW. 2019. SLIM 3: forward genetic simulations beyond the Wright –982 
+Fisher model. Molecular Biology and Evolution 36: 632–637. 983 
+Hasterok R, Catalan P, Hazen SP, Roulin AC, Vogel JP, Wang K, Mur LAJ. 2022. 984 
+Brachypodium: 20 years as a grass biology model system; the way forward? Trends 985 
+Plant Sci. 27:1002–1016.  986 
+Higgins JA, Bailey PC, Laurie DA. 2010. Comparative genomics of flowering time 987 
+pathways using Brachypodium distachyon as a model for the temperate Grasses. 988 
+PLoS One. 5(4): e10065. 989 
+Hijmans RJ,  Van Etten J. (2012) Geographic analysis and modeling with raster data. 990 
+http://raster.r-forge.r-project.org/ 991 
+Hohenlohe PA, Bassham S, Currey M, Cresko WA. 2012. Extensive linkage 992 
+disequilibrium and parallel adaptive divergence across threespine stickleback 993 
+genomes. Philos. Trans. R. Soc. B Biol. Sci. 367:395–408. 994 
+Huo N, Garvin DF, You FM, Luo SMM, Gu YQ, Lazo GR, Philip J. 2011. Comparison of a 995 
+high-density genetic linkage map to genome features in the model grass 996 
+Brachypodium distachyon. Theor. Appl. Genet. 123:455–464. 997 
+International Brachypodium Initiative. 2010. Genome sequencing and analysis of the 998 
+model grass {B}rachypodium distachyon. Nature 463:763–768. 999 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+50 
+ 
+Izawa T. 2007. Adaptation of flowering -time by natural and artificial selection in 1000 
+Arabidopsis and rice. J. Exp. Bot. 58:3091–3097. 1001 
+Jaegle B, Pisupati R, Soto -Jiménez LM, Burns R, Rabanal FA, Nordborg M. 2023. 1002 
+Extensive sequence duplication in Arabidopsis revealed by pseudo -heterozygosity. 1003 
+Genome Biol. 24:1–19.  1004 
+Keitt TH, Bivand R, Pebesma E, Rowlingson B. 2010. RGDAL: bindings for the 1005 
+‘Geospatial’ data abstraction library. R package v.1.5 -27. https://cran.r -1006 
+project.org/web/packages/rgdal/index.html 1007 
+Kennedy A, Geuten K. 2020. The Role of FLOWERING LOCUS C Relatives in Cereals. 1008 
+Front. Plant Sci. 11:617340. 1009 
+Lomax A, Woods DP, Dong Y, Bouché F, Rong Y, Mayer KS, Zhong X, Amasino RM. 1010 
+2018. An ortholog of CURLY LEAF/ENHANCER OF ZESTE like-1 is required for proper 1011 
+flowering in Brachypodium distachyon. Plant J. 93:871–882. 1012 
+Lottheros K. 2023. The paradox of adaptive trait clines with nonclinal patterns in the 1013 
+underlying genes. Proc. Natl. Acad. Sci. 120: e2220313120 1014 
+Malmberg RL, Held S, Waits A, Mauricio R. 2005. Epistasis for fitness -related 1015 
+quantitative traits in Arabidopsis thaliana grown in the field and in the greenhouse. 1016 
+Genetics 171:2013–2027. 1017 
+Des Marais DL, Lasky JR, Verslues PE, Chang TZ, Juenger TE. 2017. Interactive effects of 1018 
+water limitation and elevated temperature on the physiology, development and 1019 
+fitness of diverse accessions of Brachypodium distachyon. New Phytol. 214:132–144. 1020 
+Minadakis N, Williams H, Horvath R, Stritt C, Thieme M, Bourgeois Y, Roulin AC. 2023. 1021 
+New resources for environmental genomics in the wild Mediterranean grass 1022 
+Brachypodium. distachyon. bioRxiv https://doi.org/10.1101/2023.06.01.543285 1023 
+Monnahan PJ, Kelly JK. 2017. The genomic architecture of flowering time varies across 1024 
+space and time in mimulus guttatus. Genetics 206:1621–1635. 1025 
+Nakagawa S, Schielzeth H. 2013. A general and simple method for obtaining R2 from 1026 
+generalized linear mixed-effects models. Methods Ecol. Evol. 4:133–142. 1027 
+Navarro JAR, Wilcox M, Burgueño J, Romay C, Swarts K, Trachsel S, Preciado E, Terron 1028 
+A, Delgado HV, Vidal V, et al. 2017. A study of allelic diversity underlying flowering-1029 
+time adaptation in maize landraces. Nature genetics 49: 476–480. 1030 
+Nunes TDG, Zhang D, Raissig MT. 2020. Form, development and function of grass 1031 
+stomata. Plant J. 101:780–799. 1032 
+Nunes TDG, Berg LS, Slawinska MW, Zhang D, Redt L, Sibout R, Vogel J, Laudencia -1033 
+Chingcuanco D, Jesenofsky B, Lindner H, Raissig MT. 2023. Regulation of hair cell 1034 
+and stomatal size by a hair cell -specific peroxidase in the grass Brachypodium 1035 
+distachyon. Curr. Biol. 33, 1844–1854. 1036 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+51 
+ 
+Oksanen J, Simpson JL, Guillaume F et al. (2022). vegan: Community Ecology Package. 1037 
+R package version 2.6-4. https://CRAN.R-project.org/package=vegan 1038 
+Park L. 2019. Population -specific long -range linkage disequilibrium in the human 1039 
+genome and its influence on identifying common disease variants. Sci. Rep. 9:1–13. 1040 
+Perdry H, Dandine -Roulland C (2022). gaston: Genetic Data Handling (QC, GRM, LD, 1041 
+PCA) & Linear Mixed Models. R package version 1.5.9. https://CRAN.R -1042 
+project.org/package=gaston. 1043 
+Purcell S, Neale B, Todd-Brown K, Thomas L, Ferreira MAR, Bender D, Maller J, Sklar P, 1044 
+De Bakker PIW, Daly MJ, et al. 2007. PLINK: A tool set for whole-genome association 1045 
+and population-based linkage analyses. Am. J. Hum. Genet. 81:559–575. 1046 
+Qian C, Yan X, Shi Y, Yin H, Chang Y, Chen J, Ingvarsson PK, Nevo E, Ma XF. 2020. 1047 
+Adaptive signals of flowering time pathways in wild barley from Israel over 28 1048 
+generations. Heredity 124:62–76.  1049 
+Qin Z, Bai Y, Muhammad S, Wu X, Deng P, Wu J, An H, Wu L. 2019. Divergent roles of 1050 
+FT-like 9 in flowering transition under different day lengths in Brachypodium 1051 
+distachyon. Nat. Commun. 10:812 1052 
+Raissig MT, Woods DP. 2022. The wild grass Brachypodium distachyon as a 1053 
+developmental model system. Current Topics in Developmental Biology 147:33-71 1054 
+Ream TS, Woods DP, Amasino RM. 2012. The molecular basis of vernalization in 1055 
+different plant groups. Cold Spring Harb. Symp. Quant. Biol. 77:105–115. 1056 
+Ream TS, Woods DP, Schwartz CJ, Sanabria CP, Mahoy JA, Walters EM, Kaeppler HF, 1057 
+Amasino RM. 2014. Interaction of Photoperiod and Vernalization Determines 1058 
+Flowering Time of Brachypodium distachyon. Plant Physiol. 164:694–709. 1059 
+Ruelens P, Maagd RA, Proost S, Teissen G, Geuten K, Kaufmann K. 2013. FLOWERING 1060 
+LOCUS C in monocots and the tandem origin of angiosperm-specific. Nature Com. 1061 
+4:2280 1062 
+Sharma N, Ruelens P, D’hauw M, Maggen T, Dochy N, Torfs S, Kaufmann K, Rohde A, 1063 
+Geuten K. 2017. A flowering locus C homolog is a vernalization-regulated repressor 1064 
+in Brachypodium and is cold regulated in wheat. Plant Physiol. 173:1301–1315. 1065 
+Shaw LM, Li C , Woods DP, Alvarez MA, Lin H, Lau MY, Chen A, Dubcovsky J. 2020. 1066 
+Epistatic interactions between modulate the photoperiodic response in wheat. PLoS 1067 
+Genet 16(7): e1008812. 1068 
+Skalska A, Stritt C, Wyler M, Williams HW, Vickers M, Han J, Tuna M, Tuna GS, Susek K, 1069 
+Swain M, et al. 2020. Genetic and methylome variation in Turkish brachypodium 1070 
+distachyon accessions differentiate two geographically distinct subpopulations. Int. 1071 
+J. Mol. Sci. 21:1–17. 1072 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+52 
+ 
+Stritt C, Gimmi EL, Wyler M, Bakali AH, Skalska A, Hasterok R, Mur LAJ, Pecchioni N, 1073 
+Roulin AC. 2022. Migration without interbreeding: Evolutionary history of a highly 1074 
+selfing Mediterranean grass inferred from whole genomes. Mol. Ecol. 31:70–85. 1075 
+Stritt C, Gordon SP, Wicker T, Vogel JP, Roulin AC. 2018. Recent activity in expanding 1076 
+populations and purifying selection have shaped transposable element landscapes 1077 
+across natural accessions of themediterranean grass brachypodium distachyon. 1078 
+Genome Biol. Evol. 10:304–318. 1079 
+Stritt C, Thieme O, Roulin  A.C. 2021. Detecting signatures of TE polymorphisms in 1080 
+short-read sequencing data. Methods Mol Biol. 2250:177-187.  1081 
+Stritt C, Wyler M, Gimmi EL, Pippel M, Roulin AC. 2020. Diversity, dynamics and effects 1082 
+of long terminal repeat retrotransposons in the model grass {B}rachypodium 1083 
+distachyon. New Phytol. 227:1736–1748. 1084 
+Takou M, Wieters B, Kopriva S, Coupland G, Linstädter A, De Meaux J. 2019. Linking 1085 
+genes with ecological strategies in Arabidopsis thaliana. J. Exp. Bot. 70:1141–1151. 1086 
+Wadgymar SM, Lowry DB, Gould BA, Byron CN, Mactavish RM, Anderson JT. 2017. 1087 
+Identifying targets and agents of selection: innovative methods to evaluate the 1088 
+processes that contribute to local adaptation. Methods Ecol. Evol. 8:738–749. 1089 
+Weinig C, Ungerer MC, Dorn LA, Kane NC, Toyonaga Y, Halldorsdottir SS, Mackay TFC, 1090 
+Purugganan MD, Schmitt J. 2002. Novel loci control variation in reproductive timing 1091 
+in Arabidopsis thaliana in natural environments. Genetics 162:1875–1884. 1092 
+Wickham H. 2016. ggplot2: Elegant Graphics for Data Analysis. Available from: 1093 
+https://ggplot2.tidyverse.org 1094 
+Wilczek AM, Burghardt LT, Cobb AR, Cooper MD, Welch SM, Schmitt J. 2010. Genetic 1095 
+and physiological bases for phenological responses to current and predicted 1096 
+climates. Philos. Trans. R. Soc. B Biol. Sci. 365:3129–3147. 1097 
+Wilhelm EP, Turner AS, Laurie DA. 2009. Photoperiod insensitive Ppd-A1a mutations in 1098 
+tetraploid wheat (Triticum durum Desf .). Theor. Appl Genet 118:285–294.  1099 
+Wilson PB, Streich JC, Murray KD, Eichten SR, Cheng R, Aitken NC, Spokas K, 1100 
+Warthmann N, Gordon SP, Vogel JP, et al. 2019. Global diversity of the 1101 
+Brachypodium species complex as a resource for genome-wide association studies 1102 
+demonstrated for agronomic traits in response to climate. Genetics 211:317–331. 1103 
+Woods DP, Li W, Sibout R, Shao M, Laudencia -Chingcuanco, Vogel J, Dubcovsky J,  1104 
+Amasino RM. 2023. PHYTOCHROME C regulation of photoperiodic flowering via 1105 
+PHOTOPERIOD1 is mediated by EARLY FLOWERING 3 in Brachypodium distachyon. 1106 
+PLoS Genet 19(5): e1010706.  1107 
+Woods D, Dong Y, Bouche F, Bednarek R, Rowe M, Ream T, Amasino R. 2019. A florigen 1108 
+paralog is required for short-day vernalization in a pooid grass. Elife 8:1–16. 1109 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint 
+
+53 
+ 
+Woods DP, Bednarek R, Bouché F, Gordon SP, Vogel JP, Garvin DF, Amasino RM. 2017a. 1110 
+Genetic architecture of flowering-time variation in Brachypodium distachyon. Plant 1111 
+Physiol. 173:269–279. 1112 
+Woods DP, Dong Y, Bouché F, Mayer K, Varner L, Ream TS, Thrower N, Wilkerson C, 1113 
+Cartwright A, Sibout R, et al. 2020.  Mutations in the predicted DNA polymerase 1114 
+subunit POLD3 result in more rapid flowering of Brachypodium distachyon . New 1115 
+Phytol. 227: 1725–1735 1116 
+Woods DP, McKeown MA, Dong Y, Preston JC, Amasino RM. 2016. Evolution of 1117 
+VRN2/Ghd7-like genes in vernalization -mediated repression of grass flowering. 1118 
+Plant Physiol. 170:2124–2135. 1119 
+Woods DP, Ream TS, Bouché F, Lee J, Thrower N, Wilkerson C, Amasino RM. 2017 b. 1120 
+Establishment of a vernalization requirement in Brachypodium distachyon requires 1121 
+REPRESSOR OF VERNALIZATION1. Proc. Natl. Acad. Sci. 114:6623–6628. 1122 
+Woods DP, Ream TS, Minevich G, Hobert O, Amasino RM. 2014. PHYTOCHROME C is 1123 
+an essential light receptor for photoperiodic flowering in the temperate grass, 1124 
+Brachypodium distachyon. Genetics 198:397–408. 1125 
+Wu L, Liu Dongfeng, Wu J, Zhang R, Qin Z, Liu Danmei, Li A, Fu D, Zhai W, Mao L. 2013. 1126 
+Regulation of FLOWERING LOCUS T by a MicroRNA in Brachypodium distachyon. 1127 
+The Plant Cell. 25 :4363–4377, 1128 
+Würschum T, Boeven PHG, Langer SM, Longin CFH, Leiser WL. 2015. Multiply to 1129 
+conquer : Copy number variations at Ppd-B1 and Vrn-A1 facilitate global adaptation 1130 
+in wheat. BMC Genetics. 16:96  1131 
+Yan W, Wang B, Chan E, Mitchell-Olds T. 2021. Genetic architecture and adaptation of 1132 
+flowering time among environments. New Phytol. 230:1214–1227. 1133 
+Yeaman S. 2022. Evolution of polygenic traits under global vs local adaptation. 1134 
+Genetics 220(1) : iyab134 1135 
+Yeaman S, Gerstein AC, Hodgins KA, Whitlock MC. 2018. Quantifying how constraints 1136 
+limit the diversity of viable routes to adaptation. PLoS Genet. 14:1–25. 1137 
+Yeaman S, Hodgins KA, Lotterhos KE, Suren H, Nadeau S, Degner JC, Nurkowski KA, 1138 
+Smets P, Wang T, Gray LK, et al. 2016. Convergent local adaptation to climate in 1139 
+distantly related conifers. Science. 353:1431–1433. 1140 
+Zan Y, Carlborg Ö. 2019. A Polygenic Genetic Architecture of Flowering Time in the 1141 
+Worldwide Arabidopsis thaliana Population. Mol. Biol. Evol. 36:141–154. 1142 
+Zhang D, Abrash EB, Nunes TDG, Prados IH, Gil MXA, Jesenofsky B, Lindner H, 1143 
+Bergmann DC, Raissig MT. 2022. Opposite polarity programs regulate asymmetric 1144 
+subsidiary cell divisions in grasses. Elife 11:e79913.  1145 
+Zhou X, Stephens M. 2012. Genome -wide efficient mixed -model analysis for 1146 
+association studies. Nat. Genet. 44:821–824. 1147 
+.CC-BY 4.0 International licenseperpetuity. It is made available under a 
+preprint (which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in 
+The copyright holder for thisthis version posted January 12, 2024. ; https://doi.org/10.1101/2023.07.11.548268doi: bioRxiv preprint

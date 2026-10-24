@@ -1,0 +1,439 @@
+Nature AND Nurture: Enabling formate-dependent growth in Methanosarcina acetivorans
+
+Methanogenic archaea are crucial in global carbon cycling as around 1 Gt of the potent greenhouse gas, methane, is produced annually. Major contributors belong to the order Methanosarcinales, which contain some of the most versatile methanogens that are capable of acetotrophic, methylotrophic and CO2-reducing methanogenesis. The genetically tractable model methanogen, Methanosarcina acetivorans, by its nature shows versatility in substrate utilization and energy conservation pathways but cannot utilize formate. In this study, we expanded the primary metabolism of M. acetivorans to include formate-dependent methanogenesis. By introducing an exogenous formate dehydrogenase, the two metabolically engineered M. acetivorans strains acquired the capacity for formate-dependent methanogenesis pathways with one capable of formate-dependent methyl-reduction and the other capable of formate-dependent CO2-reduction. Through nurturing the strain capable of CO2-reduction with adaptive laboratory evolution, we were able to enable growth and methanogenesis of M. acetivorans solely on formate, a metabolism only reported in methanogens without cytochromes which are limited by their versatility. M. acetivorans also showed acetogenic potential where the formate-dependent CO2-reducing strain was able to divert {approx} 10% of carbon to acetate instead of methane. Our results show that even though M. acetivorans lacks energy converting hydrogenase and cannot use H2, it has yet-uncharacterized capacity to obtain reduced ferredoxins from oxidizing formate. Our work encourages reevaluation of our understanding of formate utilization in Methanosarcinales. By enabling formate-dependent methanogenesis, we have expanded the substrate spectrum of a versatile model methanogen with cytochromes to include formate as well.
+
+Nat ur e A ND N urt u r e: Enabl ing formate- d ep end ent  growth  i n Methanosarcina acetivorans 
+Jiche n Bao 1,# , Tejas Somv anshi 1 , Y uf a ng Tian 1 ,  M a xi m e L ai r d 1 ,  P i e r r e  S i m o n  G a r c i a 2 , Chris ti a n  
+Sc höne 3 , Micha e l Ro the r 3 , Guill au me Bor rel 2 , Silvan Sc heller 1,#  
+ 
+1.  Department  o f Biopr oduc ts and B i os ystems , Sc hoo l of  C he mical E ng ineering , Aal t o  
+Univers ity,  FI-02150,  Espoo, Finland 
+2.  Instit u t Pasteur , Univer sité Par is Cité,  U M R CN R S6047, Evolu ti onar y Biol ogy o f the  
+Micr obial Ce l l, Par is,  F r ance 
+3.  Instit u te of Micr obi ology,  Technis che Universität Dresden,  01062  Dr e sd en, G ermany 
+#C orr e sponding a utho r: Si lva n Schel le r ( silvan. sche ller@aa l t o. fi ); Jic he n B a o  
+( j i c h e n . b ao@ a alto . f i ) 
+ 
+ 
+Abstract 
+M e t h a n o g e n s  a r e  e s s e n t i a l p la y e r s  i n  t h e  g lo b a l c a r b o n  c y c le .  Methanosarcinales  p o s s e s s  o n e  o f  
+the most dive rs e  metabo lic r epe r toires for methan og enesis ,  but they have  never been obs e rve d  
+to u ti lize for mate as  a  s ubstr ate. 
+We suc cessful ly r epro gramme d the  primar y metabo lis m o f Methanosarcina acetivorans  b y  
+introduc ing an e xogeno us  for mate dehydr ogenas e deri ve d  fr om a  c losely  related spe cie s .  T he  
+engine ered strain s  acquir ed the c apacity to ha rness energy f r om f orma t e - de pendent  
+met hano ge nesis pathways , inc luding  for ma te-dependent  me t hyl reduc t i on and for ma te-
+dependent c arbo n  dioxid e r eduction. 
+The abili ty of M. acetivorans  t o t hrive on for ma t e  sugge sts the exis t e nce of essential ac cessory 
+mac hinery and meta bo lic  r edundanc y for g enera t ing  re duced fe rre doxin s  fro m F 420 H 2 . T his  
+re marka ble p l asticity in  e nergy  me tabol is m rais e s the po ssibility t hat  an a nc estra l linea ge o f  
+Methanosarcinales  ma y have pos sessed  the ca pacity to u tilize  forma te.  
+By com bining t his genetic al ly m odif ie d s t r ain with a disruption in me thy l d is p ropor t iona t i on,  
+we have  cr eated a novel t o ol  for inves t ig ating a nd  manip u lating the  c o m ponents o f  t he F 420  
+re duction and met hanog enesis  pathways independently.  
+Introduction  
+A n a e r o b i c  m e t h a n o g e n e s i s  s t a n d s  a s  o n e  o f  t h e  m o s t  a n c i e n t  b i o c h e m i c a l p a t h w a y s ,  c o n t i n u i n g  
+t o  p la y  a  c r u c i a l r o le  i n  t h e  g l o b a l c a r b o n  c y c le .  I t s  i n t r i c a t e  n e t w o r k  o f  m e t a b o li c  i n t e r a c t i o n s  
+intertwine s a div e r se a rray of me t a bo lit e s. Among the t hre e primar y  methan og enesis pathways  
+– hydr ogenotro phic , met hyl otrop hic , and ac eticlas t ic  – a ll  three  are pr e se nt  i n Methanosarcina , 
+wit h addit io n a l m odific atio n s  for  com pounds like dimet hyl su lfide, met han ethi ol, and car bon 
+mon oxide 1 . Remark ably, despite this  versa t ility,  Methanosarcina lacks  the capac it y  to u tilize  
+forma t e  for  met hanog enesis 2 .  This abs ence i s  par t ic ularly  intriguing  c onsider ing that cer t a in 
+Methanosarcina  s pecie s  enco d e  formate de hydroge nase,  and strains d evoid of a c o mple t e  
+forma t e  dehydr ogenas e  s t ill posse s s acc es s ory p roteins 3 .  FdhAB  has been  identified in t he  
+genome  of M. bar ker i ,  b ut i ts ex pre ssi on or  activity has not  been dem o n s trated. In c o n tr ast, M.  
+acetivorans  e n c o d e s  t h e  fdhD  gene. For mate-dependent car bon  diox i de - r educing  
+met hano ge nesis i s  enabled by fdhAB; howeve r, it's essential to no te t hat me re fdhAB p r e s e n c e  
+.CC-BY-NC-ND 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.08.574737doi: bioRxiv preprint 
+
+d o e s  n o t  g u a r a n t e e  f o r m a t e  u t i li z a t i o n .  A t  le a s t  i n  The rmococci  and Methanococci , the pres ence 
+of a f o rmate tr anspor t e r is c r ucial f o r for mate u tiliza tion 4 .  
+Beyond t he enzy ma t ic  oxidati on o f formate,  a no the r cr itical step invol ves th e efficie nt  tra nsfer  
+of elec trons der ive d from for mate t o appropr iate pathways. T he se ele ctrons se r ve as ess e nt ia l  
+ener gy s ourc es  for  both c arbo n  diox ide reduc tion and anabolic  p r oce sses.  In met hanoge ns t ha t  
+ca n uti liz e f o rmate as  a substr ate, the elec t r on shu tt le protein ener gy co n s e rving hydrog enase 
+(Eha/E hb )  co nve rts formate-der ived electr ons in to reduc ed fer redo xin s 5,6 . H ow ever , M.  
+acetivorans  la cks t his  enzyme . T o  ac quire the  r educe d  ferr edoxin s  requir ed for it s  
+met hylo trophic  or ac eticl as t ic  grow t h, M. acetivorans  e mp loys an alter native stra t e gy: it  
+par t ia lly oxidize s a por tion o f  t he c arbo n it u tilize s, ge nerating C O 2  and rele asing e lectr ons t ha t  
+ca n be s hu ttled t o ferr edoxin s.  T his pr ocess i s pr imarily facilitated  by the  met hyl -
+tetrahy drome than opter in: coenz yme M met hyltra nsfer a se (mtr) enzy me in met hylo trophic  
+met hano ge nesis. The com binati on o f subs trates  such a s met hano l and ac etat e or me tha no l and  
+ca rbon m onoxide has been sho wn  t o  disr upt t his enzyme  wi th o ut c omp lete ly ha lti n g  
+met hano ge nesis. I n bo t h ca ses, r educ ed ferr edo xins  c an still be gene rated b y oxidiz in g  car bon 
+mon oxide or a cetate to CO 2 7 . 
+Given the met hylotr op hic orig in of me than ogenes is 8 , the pr e senc e of forma t e  dehydrog enase in  
+the Las t U nive rsa l Com mon Ances t or  (L U CA) 9 , a nd t h e ab undance  of f ormate o n early  Earth 10 , it  
+is p l ausible that t he me t hy l o t r ophic  or igin of met hanog enesis  was  facilitated no t o nly by  
+hydr ogen bu t als o by for mate. 
+ 
+Resul t s  
+I)  Imp ac t  of formate on transcr i ption profi le o f M. acetivorans  W WM 73  
+To ev alua te the po t e nt ia l  impac t of for mate on wild -type c ells that  lack a forma t e  
+dehydr ogenas e enzyme , M. acetivorans  was cu ltiva t e d  wi t h and wit ho u t  ad ded forma t e  in HS  
+mediu m  s upp le mented wit h  me t hano l  as  t he  car bon  sour ce.   M. acetivorans  showed  a n inabi li ty  
+to uti lize  forma t e  pre sent in the me dium.  T his was confir med by meas uring forma te levels  
+thro ug ho ut t he g row th per iod. No t a bly, t he final me thane  yield fro m m e t ha n ol rema ined  
+uncha n ged reg a rdless of forma t e  pr ese nce  or  a bs enc e.  H o wever , a sign ific ant d if fer ence  
+emer ged in g r owt h r ate. M. acetivorans  e x h i b i t e d  s lo w e r  g r o w t h  i n  t h e  p r e s e n c e  o f  f o r m a t e  
+compa red to its  gro wth wi t ho u t  for mate. The  do ub ling ti me wi th for ma te was  ~8 ho urs, 
+compa red to ~ 6 hours  witho ut f orma te  ( Fig . 1).  
+R N A-seq analys is of M. acetivorans  W WM73 g rown wit h and  wi tho u t fo rmate rev ealed 836 
+differe nt ia l ly exp r e ss e d ge ne s (DE Gs )  that e xhibi ted signific ant upreg ula tio n or dow nregula t io n.  
+Mos t o f thes e genes  wer e annota te d as pr edicted hy pothe t ic a l pro teins , sugg esting their  
+poten tial invo lve men t in yet- unchar act er ized  me t a bo lic pr oces s es. Sev e ral ge nes  we r e class i fie d  
+as  t r an scriptional r egula tor s or c ontained DN A-bindi ng  do mains, s ugges t ing  t he ir rol e in 
+re gulating gene  e xpression. Me t hy lt r ansfer a s e s respon s ible for me th yl trans fer fr om 
+met hyla ted amines  w ere als o s ignific a n tly downr egu lated in the  pr esence of for mate. The nif 
+oper on, r e spons ible for nitr ogen fix ation,  was dow nregul ated in the pres ence of formate.  
+Alt ho ug h for ma te’s inhibi t or y e ff e c t on ni t r ogen fixati on wa s e vident, it  did not co mple tel y  
+abolis h gr ow th in medi um devoid of am monia up t o a  conc entration of 60 m M.  
+ 
+II)  In vitro characterization of fdhAB and cell suspension test  
+.CC-BY-NC-ND 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.08.574737doi: bioRxiv preprint 
+
+To deter mine w het her  the ge ne encode s a f u n c tio nal pro t e i n,  F 420 - reduc ing for mate  
+dehydr ogenas e  ( fdhAB) from M. barkeri  was  exp resse d from a plasmid under t h e P mcr _tetO1  
+p r om ot er  i n  M. acetivorans  W W M 7 3 .  T h e  a c t i v i t y  o f  t h e  r e c o m b i n a n t  e n z y m e  w a s  a s s e s s e d  b y  
+meas uring its abili ty t o r educe  be nzyl  violo gen in cel l-fr ee extra cts. The enzyme  e xhibited an  
+ac t iv it y of 720 mU  mg -1  of t ota l pro t e i n.  
+Subs eq uent c ell  s uspens ion e xpe ri me nt s  demo nstrated t hat t he fdhAB-encode d for ma t e  
+dehydr ogenas e mediated the conv ersion of forma te t o c arbon dioxide and me tha ne, bu t  no t  
+ac etate. T he  c ombi natio n of C O  and for mate res ulted in a significa nt ly hig her  me t ha ne yie ld  
+compa red to e it he r s ubstrate alone.  
+   
+ 
+ 
+III)  Formate dep en d ent methylotro phi c  methanogenesis  
+To enable f or mate-d e pendent me thy l ot r op hic met han oge nesis, t he  fdhAB g ene wa s integr a t e d 
+into t he  g en o me of M. acetivorans  W WM73, res ulting in the disr upti on of t he me thy l-
+THM PT:C oenz yme M methy lt r ansfer a s e ( mtr ) gene.  This g enetic modific ation re ndered  t he  
+str ain incapa ble of uti lizing met hyl gro up dis propor t iona t ion to o btain t he r e duc in g  eq uivale n ts  
+nec es s a ry for  methan ol r educti on. Th erefor e , the stra in r elied on the oxida t ion of f orma te t o  
+gene rate F 420 H 2 . Cons equen tly, the s train lo st the abi lity t o gr ow s olely on met hano l or any other  
+sing le met hano g enic s ubstra t e . H owe ver, it  cou ld sti ll gr ow e ffic ient ly on  a  com bina t i on o f  
+ac etate and methan ol.  
+M. acetivorans  wa s gro wn on a me diu m s upple mented wit h 60 m M me than ol and forma te.  As 
+ac etate f or mati on wa s min i ma l in cell  sus pension studies,  5 mM  ac eta te a nd tra ce pyruva t e  
+wer e added to the medi u m to provide  cell u lar  car bon. This media  c o mpositi on was  designa t e d 
+as  MFAcP media . The d ou blin g t ime  in MFAcP media  was  ~11 ho u rs.  Meta bo lite a na lysis 
+r ev e a le d  t h at  al l f o r m at e  a n d  m et h an ol w e r e c o m p le t ely  c o n s u m ed  b y  t h e e n d  o f  g ro w th .  W h en 
+pro vided w it h 5 m M aceta te and trac e p y ruvate for  c ellu lar  c arbon,  the bio mas s wa s 
+sig nif ic antly hig her  co mp a red to w ild- t ype  cells  g r own in methano l- only me dia  ( Fig  2) . 
+To co rrobo rate the c ell s uspensio n  stu dies  indic ating tha t cell ula r c arbon c an not be s ynthesize d 
+from me than ol and forma te al one , M. acetivorans  J B A 0 1  w a s  g r o w n  i n  c u lt u r e  m e d i a  w i t h o u t  
+added ac etate or pyr uvate. S urpris ingl y, the s t r ain was  abl e t o grow , albeit wit h lower  O D an d  
+met hane yield .  This  f inding wa s unexpec ted given that M. acetivorans  lacks  e nergy - c onve r t ing  
+hydr ogenas e (E c h) ,  a key  enzyme in v o lved in pro d u cing  r educed fer re d o xin s (Fd red ) .  M et abo lit e  
+analy sis r ev eal ed t ha t no t al l met han o l was  r educe d, where a s all for mate w as c onsumed.  This  
+sug gests  that a por t ion o f  the  f ormate w as utiliz ed for c ell u lar  car bon synt he si s,  thereby  limitin g  
+the av ailabi lity of f or mate f or me t ha n ol  red uc tion.  
+The abi lity of  M. acetivorans  JBA0 1 to g row on a mediu m c on taining o nly  me than ol  and f orma t e  
+re mains an  intrigu i ng  aspec t  of its metabo lis m. Further  studies are wa r ra nt e d to eluc ida te the  
+mec hanisms  by  w hich  this  strain u ti l ize s for mate for c ellul ar  car bon synt hes is in t he ab sence  o f  
+Ech.  
+IV)  Whole transc ript ome analysis  of  M. acetivorans  JB A01 
+The w h ole trans criptome was  analyze d to unders t a nd h ow  t he stra in wa s able to  s ynthesize  
+Fd red  and in t urn cel lu lar  ca rbon w he n gro wn  in me than ol  and for ma te on ly as mtr  w a s  
+dis r upted. Wit ho u t  mtr  ca rbon fr om  m ethan ol ca nnot  be  oxidized in  M. acetivorans  as no by pass 
+.CC-BY-NC-ND 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.08.574737doi: bioRxiv preprint 
+
+exis ts 11 .   T h e  t r a n s c r i p t o m e  r e v e a le d  s o m e  i n t e r e s t i n g  c h a n g e s  w i t h  o r  w i t h o u t  a d d e d  a c e t a t e  
+and pyr uvate. A  to tal  of  1814 D E Gs we re  signific antly upre gula ted or  d ownre gu lated. Fir stly, the  
+fdhAB, ins e rted in the mtr  operon was upre gulated in media wit h o ut ace t a t e  and p y ruvate,  
+whic h mig h t  be an ar t ifa ct since  fdhAB  w as in s e rted in the s ame loc atio n as mtr . Along wi t h, rnf  
+was  significa nt ly  upregu la ted.  A  lo t of the su b units o f the m ul ti- s u b unit fpo c o m p le x  w e r e  a ls o  
+s i gn i f i ca n t ly  u p r e gu l at ed  alt h ou g h  cr uc i ally  fpoF  was not one of the m. The hydro genases that  
+w e r e  s h o w n  t o  b e  s i le n t 12  i n  M. acet ivor ans  we re al so slig htly  upregula t e d in  a bsenc e of ace t a t e  
+and pyr uvate. Other inter esting s ignificantly upr egu la ted DEG s  were  cdh, mcr, mta, fwd, coo . A s 
+was  the cas e pre viously,  a lo t  of  the DEGs w ere a nnot a t e d as pr edicted/c onser ved hypothe tica l  
+pro t e i ns  with s ome of t hem being  tran scriptional regula t or s. 
+V)  Formate dep en d ent CO 2  reduction  
+Aft e r suc cessful ly atte mp t ing  for mate -d e pendent me thy lo t r ophic me t hanog enes i s, we  wa nt e d 
+to a tte mp t f orma te de pendent C O 2  r educing metha n ogenes is . This  met hano g enes i s pa t hw ay has  
+neve r been show n  in Methanosarcinales . To a ttemp t this, we integr at ed fdhAB w i t h o u t  
+dis r upting mtr  as it w ou ld be  e ss e nt ia l for  this  me tha no genesis pathway. The ob tained stra in  
+was  de sig nated a s  M. acetivorans  JBAF01. We us e d adaptive la b evoluti on t o incr ea s e the fitness  
+of JB AF01 to be able to g row and per form met hanogene sis s olely on forma te.  The s t r ain with  
+good g rowt h  fi tness  on f ormate wa s des ignated as J BAF02. Repeated s eria l tr an s f e r s  decreas e d 
+the do ub ling ti me of metha nogenes is from co uple o f days  to a round 12 hour s.  The trans f ers 
+wer e pe r formed over a round one year .  As ex p e cted , midw ay t hroug h t he t r ansfers the d o u bli ng  
+t i m e  d r o p p e d  o f f  a  c li f f .  T h e  f i n a l d o u b li n g  t i m e  o f  b i o m a s s  o f  J B A F 0 2  o b t a i n e d  w a s  a r o u n d  1 2  
+ho ur s ( Fig  3). The genome  o f  s elec t  tr a nsfer s train s  w a s sequence d  a nd  a n alyzed to identi fy if  
+the s harp d r op-in doub ling ti me c ou ld cor re s pond to any c hange in  t he  genome.   
+Alt ho ug h t he str ain ex hibit s  s imilar meta bo lis m t o n on- c yt ochr o me c on tai ning me tha nogens,  
+cy t oc hro me s ar e  still in tegr al to t he gr owt h o f M. acetivorans .  T h i s  wa s  co n f i r m e d  b y a d d i t i o n  o f 
+Diphenyleneiod oni um  c h loride to  the  media,  whic h inhi bited t he  grow th of M. acetivorans  
+JBA F02 bu t  did n o t  d o  the same  for M. maripaludis. 13  
+Finally,  w e ha ve a strain of M. acetivorans  t hat  c an perfor m for ma te depen dent CO 2  reduc in g  
+met hano ge nesis, a  nov el metabo lis m in the genus . 
+VI)  Phylo g eny of  the formate deh ydroge nase 
+We wer e interested in under standing t he or igin o f t his for ma t e  dehydrog enase  in  
+Methanosarcinales . It wa s int e res t ing  to see  that t he  ge ne w as int e rsper s e d in the group b u t  
+cou ld not  provide t he  capability of f ormate u ti liza t io n.  
+W e  s e a r c h e d  f o r  t h e  h o m o lo g u e s  o f  F d h A  i n  a  d a t a b a s e  b u i lt  i n  a  p r e v i o u s  s t u d y 14  a n d  
+enc ompass ing ba cteria l and ar chaea l pr ot e omes.  Af ter alignmen t of  t he Fd hA  se quences , t he  
+phyl oge ny sho wed tha t t he sequenc es of methan oge n s  c las s  I and cla s s  II c l uster  toget her  
+(Figure  X). The sequenc es of  FdhA  for m m o n o phy le tic groups  corr es p ondin g  to or d e r s 
+( Methanobacteriale s , Methanococcales , Methanocellales , Methanoflorentales , Methanosarcinales ),  
+exc ept f o r Methanomicrobiales that are  in two grou p s . The relative  pla cement of t he  dif fer ent 
+cla des sugge sts that me t hanoge ns c la ss II acq uir ed FdhA by  h or izontal g ene tr ansfer  (H GT)  
+f r o m  m e t h a n o g e n s  c la s s  I .  S t i ll,  i t  r e m a i n s  u n c le a r  i f  t h e  H G T  o c c u r r e d  a t  t h e  a n c e s t o r  o f  
+met hano ge ns clas s II o r at the  a n c estor  of Methanomicrobiales , Methanoflorentales , 
+Methanocellales ,  and Halobacteria . T he  former  ca se w ould i mply a l oss at t he anc estor of  
+Methanosarcinales . Finally, conside ri ng the  ver y low  nu mber of s equ ences  p r e se n t in 
+Methanosarcinales  a n d  t h ei r  g r o u p i n g w i th  Methanomicrobiales ,  it is likely tha t Methanosaeta 
+and Methanosarcina  acquir ed FdhA by  a  s ec ond H GT fr om Me t hano micr obiale s .    
+.CC-BY-NC-ND 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.08.574737doi: bioRxiv preprint 
+
+ 
+Dis cussion 
+I)  M. acetivorans  WW M73 and fo r m a t e 
+i.  Formate as trans cript ional effector 
+M. acetivorans  ha s 49 H istidine kina ses identified and ab ou t  11 res pons e reg ulat ors 15 . T he  
+trans c r ipt ion lev els f or a lo t o f t he se re gulat ors  wer e  s ignificantly affec t e d by  t he pre senc e of 
+forma t e  in t he media. Also,  ot her  gen es  w it h D N A binding  do ma ins, poss ibly belo nging to  t he  
+f a m ily  o f  t r a n sc ri p t i o n al re g u lat o rs  w e re  a f f e ct ed  b y f o rm at e .  T h i s  i m p li e s t h at  fo rm at e  b r i n g s  
+abou t c hange s in t he trans cr i pt ome  o f M. acetivorans  and as suc h t he pre s ence  of forma t e  is  
+se n sed by and res ponded to. This w ou ld make  se nse as M. acetivorans  h as  been shown t o  
+pro d uc e forma te w hen grow in g  on c ar bon m onox ide a n d wo u ld probab ly  have  mec hanisms  
+nec es s a ry to s en se t he  shif t in the envi r onment. This wo ul d also be be n e ficia l as formate w o u l d 
+be compe ted for by ot her  anae robes in t he  vic in ity w her e it g rows .  Alter natively, it is also 
+poss ible tha t thes e res pons es  are r emnants of pa st meta bo lism w her e Methanosarcina  w o u ld  
+have  been ab le to use  formate f o r gr owth and met han og enesis.  
+ 
+II)  Functi onal fdhAB  
+i.  Environm en tal cues t o trigger  fdh express ion 
+The fdhAB e n c o d e d  b y  M. barkeri  was  s hown to be f uncti onal,  at leas t whe n ex p re s s ed using 
+differe nt  pr omo ter in M. acetivorans . A po ss ible  rea s on why M. barkeri  was  not s how n to grow  
+using  forma te c o uld be bec ause  of the  reg ulat ory el ements or  enviro nment a l cues  not identi f ie d 
+in M. barkeri .  Rece nt  st udies  ha ve s h own F PKM values  f or  fdhA and fdhB ar ound 40 and 80 
+respec t iv ely in c ont r ol s amples 16 . 
+ii.  Formate transporter  
+Apart from fdhD, th ere are no ot he r f ormate dehydr ogenas e a s s ocia t e d  pr o teins annotated in  
+the geno me o f M.  acetivorans  (no t acc oun ting for  t he formylme than of ur an de hydroge nase s ) .  
+Ther e a r e no f o rmate trans porters an nota ted in the geno me. Rece nt  studie s  hav e s hown the  
+i m p o r t a n c e  o f  f o r m a t e  t r a n s p o r t e r s  f o r  g r o w t h  o n  f o r m a t e .  I n  Methanococci  and Thermococci , 
+g r o w t h  o n  f o r m a t e  w a s  n o t  d e p e n d e n t  o n  t h e  f o r m a t e  d e h y d r o g e n a s e  g e n e s  b u t  r a t h e r  o n  t h e  
+presenc e of a for mate tra nsporter  fdhC 4 . As t he re is  no fdhC  found in the gen ome of M.  
+acetivorans ,  it  eit her us es promisc uity i n some  o ther tr anspor t e r for  formate i nt a ke or has a  yet-
+unidenti fied forma t e  trans porter  in  the genome . 
+iii.  An notate d  f dhD gene  
+The gen o me o f M. acetivorans  e n c o d e s  a  fd h D  g e n e w h i c h i s a  f o r m a t e  d ehy d r o ge n a s e f am i ly 
+ac cessor y  p rotein ca t a lyzing t he sulf u r  tr an sfer from IscS to formate dehydr ogena se. In E.  coli,  
+fdh D ha s been shown to be es s ential for forma t e  dehy drogena se activity 17 . T he  fac t t ha t t his  
+gene  was  alr eady p re s ent and express e d in M. acetivorans  c ou ld ha ve be en wha t made M.  
+acetivorans  a mmenab le for  gr owt h and methan oge nesis  f rom for ma te. 
+III)  M. acetivorans  JBA 01  
+i.  Mtr disru ptio n applies p re ss ure t o obtain  reducing equivalents  
+In M. acetivorans  J BA 01,  mtr  dis r upt i on applied pre ssur e on fdh A B  f o r  f o r m a t e  o x i d a t i o n  t o  
+o b t a i n  r e d u c i n g  p o w e r .  A p a r t  f r o m  fd h A B, t her e appears to be a r edundancy  in  e nergy  
+meta bo lis m natively pr es e n t to ob tain Fd red .  Given t his  redunda ncy,  M. acetivorans  J BA01 can be  
+.CC-BY-NC-ND 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.08.574737doi: bioRxiv preprint 
+
+use d to  chec k  oxidation  c apabi lity of  o t her  comp o unds or for  direc ted evol u ti on o f F 420  reduc in g  
+enz ymes by  applying selec t ion pressure.  
+IV)  Whole transc ript ome of M. acetivorans  JBA 01  
+i.  Ferr edox i ns  f or  anab o lis m  
+M. acetivorans  on me t hy lo t r ophic met hanoge nesis , synthes ize s  Fd red  by oxid iz ing one m olec ule  
+of met hano l t o C O 2  for t hr ee mo lec ules of met han ol r educed.  T he se Fd red  e i t h e r  r e d u c e  
+met hanop hena zine or a re us ed for ac etyl- CoA a nd py ruvate s ynthesis . In M. acetivorans  J BA 01,  
+bec ause of dis ruption o f mtr , t he ce ll  ne eds to gener ate Fd red  f r o m  F 420 H 2  o n ly .  T h e r e  a r e  t h r e e  
+poss ible pathways  for t his. One c o uld be  H dr A 2B2C2 co mp lex , t ha t  ha s been s hown in vit r o t o  
+ca t a lyze t he e nd e rgonic  reduc tio n o f f d by co up ling oxidation of  F420H 2  to e x ergonic  reduc tion  
+of heter odisulfide 18 . hdrA2  has been sh o wn to be no t es sential in M. acetivorans . H enc e, with  mtr 
+dis r uption, the c e ll wo uld  be in c en tivized t o u se HdrA2B2C2 tha t  it  w o u ld no t normal ly use. T he  
+ot her  c ould be the Rnf  c o mp lex running  in r ev erse to c atalyze for mation o f Fd red  f r o m  r e d u c e d  
+met hanop hena zine. Rnf co mple x runni ng i n re verse has  been obs e rve d  in oth er ba cteri a l 19 . T he  
+final pos sibility is  the  fpo c o mplex.  It h as  been shown in M. mazei 20  th a t  fpoF,  present se pa rately  
+in cytoplas m, is able t o cata lyz e reduc t ion of F 420  u s i n g  F d red .  I t  c o u ld  a ls o  b e  a ll 3  i n  t a n d e m  
+wor king to get her  as inc re a sed exp r e ssi on is s een for  all 3. Surp r isingly,  of all t he sub units o f fpo, 
+fpoF w as the only not signific antly upr e gula ted. 
+ 
+V)  Phylo g eny of  fdhAB  
+F o r m a t e  h a s  b e e n  s h o w n  t o  b e  a b i o t i c a lly  f o r m e d  n e a r  h y d r o t h e r m a l v e n t s  4,10  and was  p resent 
+in ear l y  earth. Met hanog enesis  has  be e n hypot hesiz ed to have o riginated methylo t r op hicall y by  
+using  H 2  a s the reduc t a n t  pr i o r to e vo lu tio n of m tr t hat enab led dispr oportionatio n of  me thy l  
+gr oups. Given t he  presenc e  o f  forma te  on ear ly earth, formate dehydr ogenas e o r at lea st its 
+anc estor be ing present in LU C A and L UCA  ha ving the  F420- c ofact or  biosynt hesis  pathway,  it is  
+poss ible tha t for ma te-d e pendent me t hyl otr op hic met hanogenes is cou ld have co - e volved wi t h  
+hydr ogen-dependent met hylo tr ophic met hano ge nesis.  
+Even if not in t he orig in o f me than og enes i s but s omew her e along the  line there  wo ul d  have  
+poss ibly ex isted a metha nogen anc e stor  to M. acetivorans  capa b le o f r educing me thy l ated  
+subs trates  with f or mate. T he q uestion r emains as  to  w hy t his  abi li ty was los t ?  W a s i t  
+compe t iti on for  forma t e  or la ck of fitne s s  due t o f o rmate?  
+VI)  Case stu dy for A LE  
+Eff orts to ma ke M. barkeri  g r o w  o n  f o r m a t e  h a v e  f a i le d  i n  t h e  p a s t .  A s  m e n t i o n e d  a b o v e ,  p r o p e r  
+envir onmental c ue s and/ or  r egulator y par t s  of the path wa y mig ht need o pt i m iza t io n  to all ow M.  
+barkeri  t o  g r o w  o n  f o r m a t e  a s  w e ll.  T h e  A L E  m e t h o d  t h a t  w e  u s e d  t o  g e t  M. acetivorans  to grow  
+s o le l y  o n  f o r m a t e  p r o v i d e s  a  r o a d m a p  f o r  f u t u r e  t o  o b t a i n  a  s t r a i n  o f  M. barkeri  li k e  t h a t  o f  M.  
+acetivorans  tha t w o uld be able  to sole l y  grow  on forma t e . 
+ 
+Methods 
+Strains and media  
+Lys ogenic br ot h c on t a in ing  50 mg L -1  a mpicil lin was us ed for  plasmi d cons t r uction in  
+Eshcherichia coli  N E B 5 α .  M. acetivorans  w a s  c u lt u r e d  i n  a  h i g h - s a lt  m e d i u m  t a i lo r e d  t o  t h e  
+spe cific requir ements of t he ex per ime n t 21 . Depending on t he e xperi me nt a l condi tions,  
+.CC-BY-NC-ND 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.08.574737doi: bioRxiv preprint 
+
+subs trates  were  add ed as  f o ll ows: 60 m M met hano l a lone ; 60  m M me than ol  c o mbined wi t h 60  
+m M f ormate;  a  mix tur e of 60 m M met hano l,  6 0 m M for mate, alon g wi th 5 m M e ach o f ac eta t e  
+and py r uvate; o r 12 0 mM for ma te alo ne .  
+Molecular metho ds  
+Gibson as sembly  and g olden  ga t e  ass emb ly wer e use d to c onstr uc t the  plas mids 22,23 . Lipos o me-
+mediated me thods  and polye thy lene g l yc ol- mediated met hods were  used to tr an sfor m DN A in t o 
+M. a cetivor ans 24,25 . 
+Nu c lei c  acid isolatio n, sequen c in g,  a nd  an alys is 
+The gen omic  D NA  wa s extra cted wit h  W iza rd® Geno mic DN A  P urificati on Kit (Pro me ga). The  
+Micr obial WGS  was per formed us ing I l lu min a  N ovaS eq 6000 by  Novog ene (UK) Co mpany . The  
+resultan t data was  cleane d  us ing T rimmo ma tic 26 , aligne d using BW A-me m2 27  t o  M. acetivorans  
+C2A g eno me and analyze d for  S N P s and SVs us in g  S amto ols 28  and B rea kD a nce r 29 . For 
+t r a n s c r i p t o m i c s ,  t h e  c u l t u r e s  w e r e  g r o w n  t o  a n  O D  o f  0 . 3 - 0 . 4  a n d  p e lle t e d  i n  R N A p r o t e c t .  R N A  
+was  isola t e d  using Qiagen RNA  is ola tio n kit. The t o tal RNA was  sent to Nov og ene whe re libr ary 
+pre p a nd sequenc in g  w as per formed. The r esultan t da ta was c leaned using Trimm oma t ic  and  
+analy zed us in g  Geneious Pr ime 2023. 1 . 2  W or kbench.  The differential expres sion was calc ulate d  
+using  D ESE Q2 30  ins ide  Geneious  Prime 2023.1 .2.  
+Phylo g enetic analysis  
+Detailed P hyl oge netic ana lysis i s  av aila ble in supplemen tar y mater ials  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.CC-BY-NC-ND 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.08.574737doi: bioRxiv preprint 
+
+F i gure 1  Gro wt h cu rv es an d m etab o li te  prof i les of M. acetivoran s  W W M73  g ro wth i n  pres e n ce  a nd  abse n ce  of fo rmate  
+JBA01_MFAcP JBA01_MF 
+ JBA01_MFAcP J
+Figu re  2 Gro wt h c u rv es a nd m etab o l ite  pro fi les o f M.  acetivora ns  JBA 0 1  g rowt h in  prese n c e a nd  ab s e n c e o f a c etate a nd pyruva te  
+ 
+ 
+Figures 
+ 
+ 
+ 
+J BA01_MF 
+.CC-BY-NC-ND 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.08.574737doi: bioRxiv preprint 
+
+JBAF02_Me 
+JBAF02_Formate 
+Figure 3 Growth curves and metabolite profiles of M. acetivorans JBAF02 growth ion formate vs methanol  
+ 
+ 
+ 
+ 
+  
+.CC-BY-NC-ND 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.08.574737doi: bioRxiv preprint 
+
+ 
+ 
+Refer ences  
+1. Kurth, J. M., Op den Camp, H. J. M. & Welte, C. U. Several ways one goal—methanogenesis 
+from unconventional substrates. Appl Mi crobiol Biot echnol  104, 6839–6854 (2020).  
+2. Mand, T. D. & Metcalf, W. W. Energy Conservation and Hydrogenase Function in 
+Metha nogenic Archaea, in Particular the Genus Methanosarcina . Mic robiol ogy  and 
+M o le c u la r  B io lo g y R e v ie ws  83 , (2019). 
+3. Maeder, D. L. et al . The Methanosarcina barkeri genome: Comparative analy sis with 
+Metha nosarcina acetivorans and Methanosarcina mazei reveals extensive rearrangement 
+within methanosarcinal genomes. J Bacter i ol  188, 7922–7931 (2006). 
+4. Holden, J. F. & Sistu, H. Formate and hydrogen in hydrothermal vents and their use by 
+extremely thermophilic methanoge ns and heterotrophs. Fr ont Microbiol  14 , 1–17 (2023).  
+5. Welte, C. & Deppenmeie r, U. Bi oenergetics and anaerobic respiratory chains of ac eticla stic 
+methanogens. Biochi m Biophys Acta Bi oenerg  1837, 1130–1147 (2014). 
+6. Thauer, R. K., Kaster, A. K., Seedorf, H., Buckel, W. & Hedderich, R. Methanogenic archaea: 
+Ecologically relevant differences in energy conserva tion. Nat Rev Microbiol  6 , 579–591 
+(2008). 
+7. Schone, C. et al .  Deconstructing Methanosarcina acetivoran s into an acetogenic archaeon. 
+Proc Natl Acad Sci  U S A  119, 1–7 (2022). 
+8. Wang, Y. et  a l.  A methylotrophic origin of methanogenesis and early divergence of anaerobic 
+multicarbon alkane metaboli sm. Sci A dv  7 , 1–12 (2021). 
+9. Ouzounis, C. A., Kunin, V., Darzentas, N. & Goldovsky, L. A minimal estimate for the gene 
+content of the la st universal common ancestor - Exobiology from a terrestrial perspective. 
+Re s Mic robi ol  157 , 57–68 (2006 ). 
+10. Mohammadi, E. et a l.  Formic Acid, a Ubiquitous but Overlooked Component of the Early 
+Earth Atmosphere. Ch emi stry - A Eur opean Journal  26 , 12075–12080 (2020). 
+11. Schöne, C., Poehlein, A. & Rother, M. Genetic and Physiological Pro bing of Cytoplasmic 
+Bypasses for the Ene rgy-Converting Methyltransferase Mtr in Methanosarcina acetivorans. 
+Appl Environ Microbi ol  (2023) doi:10.112 8/aem.02161 -22. 
+12. Guss, A. M., Kulkarni, G. & Me tcalf, W. W. Differenc es in hydrogenase Gene expression 
+between methanosarcina acetivorans and methanosarcina barkeri. J Bacteri ol  191, 2826–
+2833 (2009).  
+13. Steiniger, F., Sorokin, D. Y. & Deppenmeier, U. Process of energy conservation in the 
+extremely haloalkaliphilic methyl-reducing methanogen Methanonatronarchaeum 
+thermophilum. FEBS Journal  289, 549–563 (2022). 
+14. Garcia, P. S., Gribaldo, S. & Borrel, G. Diversity and Evolution of Methane-Rela ted Pathways in 
+Archaea. Annu Rev M i crobiol  76 , 727–755 (2022). 
+.CC-BY-NC-ND 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.08.574737doi: bioRxiv preprint 
+
+15. Galagan, J. E. et a l.  The genome of M . acet ivorans reveals extens ive met abolic and 
+physiological diversi ty. Ge no me Re s  12 , 532–542 (2002). 
+16. Harris, R. L. et al . Transcripti onal response to prolonged perchlorate exposure in the 
+methanogen Me thanosa rcina barkeri and implications for Martian habitability. Sci R ep  11 , 1–
+16 (2021). 
+17. Thomé, R. et al.  A sulfurtransferase is essential for ac tivity of formate dehydrogen ases in 
+Escherichia coli. J ournal of Bi ological Che mistry  287 , 4671–4678 (2012). 
+18. Yan, Z., Wang, M. & Fe rry, J. G. A Ferredoxin- and F420H2-Dependent, Electron-Bifurcating, 
+Heterodisulfide Reductase with Homologs in the Domains Bacteria and Archaea. mBio  (2017). 
+19. Buckel, W. & Thauer, R. K. Flavin-based electron bifurca tion, ferredoxin, flavodoxin, and 
+anaerobic re spiration with protons (Ech) or NAD+ (Rnf) as electron acceptors: A historical 
+review. Front Microbio l  9 , (2018). 
+20. Welte, C. & Deppenmeie r, U. Re-evalua ti on of the func tion of the F420 dehydrogenase in 
+electron transport of Methanosarcina mazei. FEBS Journal  278 , 1277–1287 (2011). 
+21. Sowers, K. R., Boone, J. E. & Gunsalus, R. P. D i saggregation of Met han osarcina spp. and 
+G ro w th  a s  Sing le  C e lls  a t E leva ted  O sm o la rity . AP PL IED AND  EN VIRONME N T A L  
+MICROBI OL OG Y  vol. 59 (1993).  
+22. Engler, C., Kandzia, R. & Marillonnet, S. A one pot, one step, precision cloning method with 
+high throughput capability. PLoS One 3 , (2008). 
+23. Gibson, D. G. et al .  Enzymatic assembly of DNA molecules up to several hundred kilobases. 
+Nat Me thods  6 , 343–345 (2009). 
+24. Oelgeschläger, E. & Rother, M. In vivo role of three fuse d corrinoid/methyl transfer proteins 
+in Methanosarcina acetivorans. Mol Mic robiol  72 , 1260–1272 (2009). 
+25. Metcalf, W. W., Zhang, J. K., Apolina rio, E., Sowers, K. R. & Wolfe, R. S. A ge netic system for 
+Archaea of t he genus Methanosarcin a: Li posome-mediated trans for mation and construction 
+of shuttl e vector s . vol. 94 www.pnas.org. (1997). 
+26. Bolger, A. M., Lohse, M. & Usadel, B. Trimmomatic: A flexible trimmer for Illumina sequence 
+data . Bioin formatic s  30 , (2014). 
+27. Md, V., Misra, S., Li, H. & Aluru, S. Efficient architecture-aware acceleration of BWA-MEM for 
+mult icore syst ems . in Proceedi ngs - 2019 IEEE 33rd Internati onal Par allel and Di stributed 
+Proc es sing Symposi um, IPDPS 2019  (201 9). doi:10.1109/IPDPS.2019.00041. 
+28. Li, H. et al.  The Sequenc e Alignment/Ma p format and SAMtools. Bioi nf ormatics  25 , (2009). 
+29. Chen, K. et  a l.  BreakDancer: An algorithm for high-resolution mapping of genomic struc tural 
+variation. Na t Met ho ds  6 , (2009). 
+30. Love, M. I., Huber, W. & Anders, S. Moderated estimation of fold change and dispersion for 
+RNA-seq data with DESeq2. Ge n o me  B i o l  15 , (2014). 
+  
+.CC-BY-NC-ND 4.0 International licenseavailable under a 
+(which was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity. It is made 
+The copyright holder for this preprintthis version posted January 9, 2024. ; https://doi.org/10.1101/2024.01.08.574737doi: bioRxiv preprint

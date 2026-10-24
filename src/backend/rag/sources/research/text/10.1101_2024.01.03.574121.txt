@@ -1,0 +1,503 @@
+Soil respiration is correlated with rainfall and soil moisture at multiple temporal scales in a seasonal wet tropical forest.
+
+Soil respiration is the second largest natural flux of carbon (C) between terrestrial ecosystems and the atmosphere, with tropical forests amongst the largest contributors of such soil-derived carbon efflux. With climate change expected to drive changes in both temperature and rainfall, our ability to predict responses of the carbon cycle in the future hinges upon an understanding of how these factors influence soil respiration (Rs). However, these relationships remain poorly characterised across the seasonal tropics, especially south Asia. Here, for two seasonal tropical sites in the Western Ghats of India, we characterised annual, seasonal and temporal variation in Rs and assessed its temperature and moisture sensitivity over 6 years. At both sites, Rs was positively correlated with temperature at the instantaneous scale, but showed no relationship with temperature at seasonal or annual scales. In contrast, Rs showed significant relationships with rainfall and soil moisture at all temporal scales. At the annual scale, respiration was negatively correlated with total annual rainfall. At the seasonal scale, wet season Rs was significantly lower than in the dry season. At the instantaneous scale, Rs showed a parabolic relationship with soil moisture, where soil respiration increased with soil moisture up to [~]21% and decreased beyond that point. Our results suggest that future responses of soil respiration in this seasonal tropical forest will largely be driven by changes in the Indian Summer Monsoon, not only mean annual precipitation, but also the frequency and intensity of extreme rainfall events.
+
+Soil respiration is correlated with rainfall and soil moisture at multiple temporal scales in a 1 
+seasonal wet tropical forest. 2 
+Dayani Chakravarthy1,2, H. V. Raghavendra1, Jayashree Ratnam1& Mahesh Sankaran1      3 
+1. National Centre for Biological Sciences, TIFR, Bellary Road, Bengaluru 560092, 4 
+Karnataka, India 5 
+2. Author for correspondence 6 
+Email : dayanichakravarthy@gmail.com 7 
+Postal Address:  Lab 22, National Centre for Biological Sciences, Tata Institute of 8 
+Fundamental Research, Bellary Road, Bangalore 560065, Karnataka, India 9 
+   10 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+Abstract 11 
+Soil respiration is the second largest natural flux of carbon (C) between terrestrial ecosystems 12 
+and the atmosphere, with tropical forests amongst the largest contributors of such soil-derived 13 
+carbon efflux. With climate change expected to drive changes in both temperature and rainfall, 14 
+our ability to predict responses of the carbon cycle in the future hinges upon an understanding of 15 
+how these factors influence soil respiration (Rs). However, these relationships remain poorly 16 
+characterised across the seasonal tropics, especially south Asia. Here, for two seasonal tropical 17 
+sites in the Western Ghats of India, we characterised annual, seasonal and temporal variation in 18 
+Rs and assessed its temperature and moisture sensitivity over 6 years. At both sites, Rs was 19 
+positively correlated with temperature at the instantaneous scale, but showed no relationship with 20 
+temperature at seasonal or annual scales. In contrast, Rs showed significant relationships with 21 
+rainfall and soil moisture at all temporal scales. At the annual scale, respiration was negatively 22 
+correlated with total annual rainfall. At the seasonal scale, wet season Rs was significantly lower 23 
+than in the dry season. At the instantaneous scale, Rs showed a parabolic relationship with soil 24 
+moisture, where soil respiration increased with soil moisture up to ~21% and decreased beyond 25 
+that point. Our results suggest that future responses of soil respiration in this seasonal tropical 26 
+forest will largely be driven by changes in the Indian Summer Monsoon, not only mean annual 27 
+precipitation, but also the frequency and intensity of extreme rainfall events. 28 
+ 29 
+Keywords: Soil Respiration; Soil Carbon; IRGA; Soil moisture; Rainfall; Carbon efflux; 30 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+1. Introduction:  31 
+Tropical forests store about 55% of the global terrestrial carbon, of which nearly a third (~32%) 32 
+is sequestered in soils (Pan et al., 2011). Given that soils are so carbon rich, the release of carbon 33 
+from soils is of much importance, and can play critical roles in regulating atmospheric CO2 34 
+concentrations and regional and global climate. Soil respiration (Rs) - comprising both 35 
+autotrophic (root), and heterotrophic (bacterial and mycorrhizal) respiration - is a major 36 
+contributor to the land-atmosphere carbon flux, releasing ~75-98 Pg y-1 of C back to the 37 
+atmosphere globally (Bond-Lamberty and Thomson, 2010a; Raich and Potter, 1995), with 38 
+tropical forests amongst the largest contributors of these soil derived atmospheric carbon fluxes 39 
+(Raich and Schlesinger, 1992; Warner et al., 2019). 40 
+Rates of soil respiration (Rs) are governed by complex interactions between a range of biotic and 41 
+abiotic drivers, of which climatic factors such as temperature and moisture availability are 42 
+particularly important (Bond-Lamberty and Thomson, 2010a; Hursh et al., 2017; Lei et al., 2021; 43 
+Raich and Tufekciogul, 2000). Future projected changes in both temperature and rainfall patterns 44 
+are thus likely to have significant impacts on soil derived land-atmosphere fluxes of CO2, with 45 
+potential feedbacks on regional and global climates. Although temperature explains much of the 46 
+variability in Rs across different biomes, other factors such as rainfall, soil carbon and carbon 47 
+inputs to soils (e.g., litterfall) appear to be equally or more important in explaining observed 48 
+variability in Rs within biomes (Bond-Lamberty and Thomson, 2010a; Huang et al., 2020; Hursh 49 
+et al., 2017; Raich et al., 2002). For example, in tropical biomes, Rs is often uncorrelated or only 50 
+weakly correlated with temperature (Davidson et al., 2000; Rubio and Detto, 2017), possibly a 51 
+consequence of the low intra-annual variability in temperatures experienced by these biomes 52 
+when compared to temperate ecosystems.  53 
+On the other hand, soil moisture has been shown to be an important driver of Rs in tropical 54 
+systems (Adachi et al., 2009; Hashimoto et al., 2004; Rubio and Detto, 2017; Valentini et al., 55 
+2008; Wood et al., 2013). However, the exact nature of this relationship is unclear and appears 56 
+variable, with studies reporting positive (Hashimoto et al., 2004), negative (Epron et al., 2006) 57 
+and parabolic relationships of Rs with soil moisture (Adachi et al., 2009; Gaumont-Guay et al., 58 
+2006; Rubio and Detto, 2017; Sotta et al., 2004; Takahashi et al., 2011). Soil moisture can also 59 
+mediate the effect of temperature on Rs, with low moisture typically constraining the response of 60 
+Rs to temperature (Deng et al., 2012; Flanagan and Johnson, 2005; Hursh et al., 2017; Wen et al., 61 
+2006; Wood et al., 2013), although the opposite – higher temperature sensitivity of Rs at low soil 62 
+moisture - has also been observed (Guntiñas et al., 2013).  63 
+As climate predictions for the future include changes in both temperature and rainfall patterns  64 
+(IPCC, 2023), our ability to predict responses of the carbon cycle hinges upon a better 65 
+understanding of the factors that influence soil carbon fluxes across different biomes. In 66 
+particular, the limited numbers of empirical observations from tropical forests, which have 67 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+amongst the highest predicted Rs rates, preclude good estimates of the variance in these rates, 68 
+and have been identified as a major factor limiting robust global estimates of Rs, and for 69 
+calibrating and reducing uncertainty in earth-system models (Hursh et al., 2017). The tropical 70 
+forests of South Asia, in particular, are severely under-represented in most global syntheses of 71 
+soil respiration (Akande et al., 2023; Bond-Lamberty and Thomson, 2010b, 2010a; Hursh et al., 72 
+2017; Lei et al., 2021). 73 
+In this study, we characterise the response of soil respiration to changes in moisture availability 74 
+and temperature in two seasonal wet evergreen forest plots in the Western Ghats, India.  These 75 
+forests differ from other seasonal tropical wet forests in the length of the dry season (> 6 months) 76 
+and in the intensity of rainfall they receive during the wet season (>2500 mm).  Specifically, our 77 
+objectives were to 1) quantify and characterise inter-annual and seasonal variation of soil 78 
+respiration and 2) examine the effects of temperature and moisture availability on soil respiration 79 
+rates at annual, seasonal and instantaneous temporal scales. 80 
+2. Methods 81 
+2.1 Site description:   82 
+We conducted the study at two long-term wet evergreen forest monitoring sites – Hosagadde 83 
+(14.478° N, 74.760° E) and Mulagunda (14.471°N,74.693 °E) – located in the Uttara Kannada 84 
+district in the state of Karnataka in the central Western Ghats, India. Both sites are at an 85 
+elevation of ~550 m and have a long-term mean annual temperature of 24°C. The mean annual 86 
+rainfall during the study period was 3730 mm and 4228 mm at Hosagadde and Mulagunda, 87 
+respectively (University of East Anglia Climatic Research Unit; Harris et al., 2020). We assigned 88 
+months with more than 100 mm rainfall as wet season (June – October), and months with <100 89 
+mm rainfall as the dry season (November – May). Soils in the region have been classified as a 90 
+mixture of Eutric Nitosols and Acrisols under the FAO system (FAO-UNESCO, 1988; 91 
+Krishnaswamy et al., 2017; Rome, FAO, 1998). From our measurements, soils in Hosagadde 92 
+have 28.1% clay, 63.5 % sand and a water holding capacity of 83.22%, and soils in Mulagunda 93 
+have 21.6% clay, 70.41% sand and a water holding capacity of 77.41%. 94 
+2.2 Field Measurements: 95 
+We established 1ha permanent vegetation monitoring plots at Hosagadde and Mulagunda in 2013 96 
+and 2014, respectively, based on the RAINFOR-GEM (Marthews et al., 2014) and CTFS 97 
+protocols (Condit, 1998). All trees >10 cm girth at breast height (GBH) in plots were identified, 98 
+spatially mapped, tagged and their GBH measured. Plots were re-censused annually. We 99 
+additionally quantified soil respiration in plots following the protocols outlined in Marthews et 100 
+al., (2014). In each plot, we established 25 polyvinyl carbonate (PVC) soil collars (10 cm height 101 
+and 10.6 cm diameter) by inserting them 5-6 cm into the soil.  We used portable Infra-red gas 102 
+analysers (IRGA) EGM-4 and EGM5 (PP Systems, USA) to measure instantaneous Rs (g CO2 m-103 
+2.h-1). Soil respiration was measured fortnightly from January 2014 to August 2020 in 104 
+Hosagadde, and from January 2015 till August 2020 in Mulagunda.  105 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+Along with instantaneous collar-level Rs readings, we measured soil temperature using a digital 106 
+thermometer with a 125mm stainless steel penetration probe (Hanna instruments). We also 107 
+quantified instantaneous soil moisture at 30 cm depth during each sampling occasion using a 108 
+FieldScout TDR 200 soil moisture meter (Spectrum Technologies, USA) at 3 points beside each 109 
+soil collar, which were then averaged. For ambient air-temperature measurements, we used data 110 
+from Thermochron i-button loggers (Maxim Integrated) placed at the centre and four corners of 111 
+the 1 ha plot which recorded temperatures at 30 min intervals. Daily rainfall measurements were 112 
+obtained from a tipping bucket rain gauge installed adjacent to the plot (Krishnaswamy et al., 113 
+unpublished data). 114 
+2.3 Soil Respiration measurement and calculations: 115 
+We calculated Rs following Marthews et al. (2014) as follows: 116 
+/g1844 /g3048/g3030/g3404 /g3436 /g1829 /g2869/g2868/g3398/g1829 /g2869
+/g1872 /g2869/g2868/g3398/g1872 /g2869
+/g3440/g3436 /g1842
+/g1846 /g3028
+/g3440/g3436 /g1848 /g3031
+/g1827 /g3440/g3436 44.01 /g1499 0.36
+/g1844 /g3048
+/g3440/g1859 /g1829 /g1841 /g2870/g1865 /g2870/g1860 /g2879/g2869                  /g4666/g1831/g1869. 1/g4667  
+/g1844 /g3046/g3404/g1844 /g3048/g3030/g3436 /g1848 /g3031/g3397/g1848 /g3028/g3031/g3031/g3032/g3031
+/g1848 /g3031
+/g3440/g1859 /g1829 /g1841 /g2870/g1865 /g2870/g1860 /g2879/g2869                                                       /g4666/g1831/g1869. 2/g4667  
+Here, Ruc is the uncorrected soil respiration (g CO2 m-2 h-1), estimated as the difference in CO2 117 
+concentrations C1 and C10, measured between times t1 and t10, where t10 was the last reading and 118 
+t1 was typically 40 seconds before t10, P is the ambient pressure (mb) at time t10 as recorded by 119 
+the IRGA, Ta is air temperature at time t10 in Kelvin, Vd the volume of the soil respiration 120 
+chamber (0.001229 m3), A is the ground area of the soil collar over which Ruc was measured, and 121 
+Ru, the Universal Gas Constant (8.314 J K-1 mol-1). Rs is the soil respiration corrected for the 122 
+additional volume of the soil collar Vadded (in m3) based on the h cm of PVC collar protruding 123 
+above the soil surface. 124 
+In order to maintain data-quality during field measurements, we compared the CO2 concentration 125 
+at the end of each measurement to that at the start, and only included measurements where we 126 
+observed a linear increase of CO2 between t1 and t10. (Marthews et al., 2014).  We also repeated 127 
+measurements where the end CO2 value was lower than the start value. If the end measurement 128 
+was equal to the stat measurement, i.e., no respiration, we repeated the measurement for a total 129 
+of three times before recording zero respiration. Additionally, during data processing, we 130 
+excluded eight negative Rs values (4 each in Hosagadde and Mulagunda) that were missed 131 
+during the field data check. Annual estimates of Rs at the plot level were obtained by spatially 132 
+averaging hourly flux rates (gCO2.m-2.h-1) across all 25 collars in plots and scaling these up for 133 
+the corresponding year (average hourly flux rates x 24 x 365).  Seasonal fluxes were similarly 134 
+obtained by first estimating average hourly flux rates for each season, and then scaling them up 135 
+for the duration of the season. 136 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+2.4 Statistical methods:  137 
+We assessed the effects of temperature and moisture availability on Rs at multiple temporal 138 
+scales – annual, seasonal and instantaneous.  At the annual scale, we used linear models to test 139 
+the relationship between annual Rs and a) annual rainfall, b) mean annual temperature, c) 140 
+number of rainy days, and d) number of days with heavy rainfall (>50mm). 141 
+ 142 
+At the seasonal scale, we used a linear mixed effects model (LMMs) to test whether Rs values 143 
+differed between wet and dry seasons, with season (wet, dry) included as a fixed factor and soil 144 
+collar number nested within year within site as a random factor to account for inherent 145 
+differences between soil collars within each site, and non-independence of measurements over 146 
+time at each collar. We had 11-24 data points/collar/year/site for a total of 6886 observations.  147 
+Finally, we used linear mixed effects models to test whether spatially averaged temperature and 148 
+moisture levels could predict instantaneous Rs. For this, we used spatially averaged Rs (averaged 149 
+over 25 collars) within each sampling period for each site as the response variable and spatially 150 
+averaged temperature (as recorded by the IRGA) and a quadratic term with spatially averaged 151 
+soil moisture and site ID as fixed factors. We used the calendar year as a random factor to 152 
+account for inter-annual differences in soil respiration rates. We tested two candidate models: 153 
+one which included an interaction term between temperature and soil moisture, and one without. 154 
+In all, we had 13-24 sampling times/year/site and a total 276 spatially averaged Rs values. Rs 155 
+values were square root transformed to meet model assumptions of linearity and 156 
+homoscedasticity. 157 
+We used the R packages glmmTMB for all models, DHARMa for model diagnostics, boxcox to 158 
+inform us about suitable transformations to meet model assumptions, ggeffects, ggpubr and 159 
+ggplot2 for data visualization and to plot model predictions, and dplyr for data cleaning and 160 
+organisation. All analyses were carried out using R version 4.3.0 (R Core Team 2023). 161 
+3. Results 162 
+3.1. Rainfall, soil moisture and temperature seasonality: 163 
+During the study period, annual rainfall in Hosagadde varied between 2800 - 5300 mm and in 164 
+Mulagunda between 3700 - 7600 mm. Rainfall was very seasonal, occurring primarily during the 165 
+south-west monsoon from June to October. Hosagadde received very heavy rains (>1000mm 166 
+month-1) in July and August and Mulagunda between June and August. Outside of the monsoon, 167 
+both sites received <100 mm rainfall month-1 (Fig 1A). Similar to rainfall variations, soil 168 
+moisture levels were also strongly seasonal (Fig 1B). In both sites, they were lowest from 169 
+February to April (average volumetric water content of 13.9% and 9.1%) and highest between 170 
+July and October (35.6% and 30.2%). Mean annual temperatures during the study period at both 171 
+sites were ~22°C. Soil temperatures (at 125mm depth) ranged between 17-26°C in Hosagadde 172 
+and 19 to 30°C in Mulagunda (Fig 1C).  173 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+ 174 
+175 
+Figure 1: Monthly Variation in means and standard errors of A) Monthly Rainfall B) Soil 176 
+Moisture C) Soil surface temperature and D) Soil Respiration (Mg C. ha-1. month-1). Months 177 
+within dashed lines (Jun - Oct) represent the wet season. 178 
+3.2 Soil Respiration:  179 
+Annual Rs ranged from 10.9 – 20.2 Mg C ha-1y-1 in Hosagadde (mean= 14.58, SD=3.38 180 
+cv=0.23), and 8.44 – 12.05 Mg ha-1 y-1 in Mulagunda (mean = 9.85, SD=1.6, cv=0.16) (Fig. S1) 181 
+and was negatively related to total annual rainfall (p < 0.01) (Fig 2A). Annual Rs was not 182 
+correlated with annual mean temperature (p=0.8), or number of rainy days in a year (p=0.23) 183 
+(Table S1). However, it was significantly negatively correlated with the number of days where 184 
+the rainfall was higher than 50 mm (p=0.002) (fig. 2B). Soil respiration in both sites was 185 
+significantly lower during the wet season than during the dry season (p<0.001) (Fig 2C). In both 186 
+sites, Rs was strongly seasonal, reaching high levels pre- and post-monsoon, and were lowest 187 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+during the monsoon in July and August, months which received >1000mm rainfall (Fig 1D). At 188 
+the instantaneous scale, the model without the interaction term between temperature and soil 189 
+moisture had better support (lower AIC, Table S3) than the one with the interaction term 190 
+included. Spatially averaged instantaneous Rs showed a parabolic relationship with soil moisture 191 
+at both sites (significant quadratic term; p<0.001) with respiration peaking at ~21% soil moisture 192 
+(Fig 2D).  For any given soil moisture level, respiration rates increased with increasing soil 193 
+temperatures (Fig 2D).  194 
+ 195 
+ 196 
+Figure 2: Soil respiration was correlated with rainfall and soil moisture at annual (A&B), 197 
+seasonal (C) and instantaneous (D) timescales. In A, B &D, lines and bands show estimates and 198 
+confidence intervals from models and points show data. In C, points and bars show means and 199 
+standard errors of instantaneous soil respiration within each season. 200 
+ 201 
+4. Discussion 202 
+In this highly seasonal rainforest in the Western Ghats, rainfall was the dominant driver of soil 203 
+respiration (Rs), influencing Rs at annual, seasonal and instantaneous time scales. Rs was lowest 204 
+during periods of high soil moisture availability, i.e. during the wet-season in wetter years, and 205 
+highest when soil moisture was lower, i.e. during the dry season and in drier years.  In contrast, 206 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+temperature was only of secondary importance, with warmer temperatures leading to higher rates 207 
+of instantaneous CO2 efflux for any given soil moisture level. 208 
+Instantaneous soil respiration showed a parabolic relationship with soil moisture availability, 209 
+peaking at ~21% VWC and declining with both increases and decreases in soil moisture. Dry 210 
+conditions can reduce Rs because of limited water availability for both microbial and root 211 
+respiration, while high moisture availability can reduce rates of CO2 diffusion in waterlogged 212 
+soils while also reducing microbial activity and root respiration as a result of soils becoming 213 
+anoxic (Adachi et al., 2009; Cusack et al., 2019; Gaumont-Guay et al., 2006; Rubio and Detto, 214 
+2017; Valentini et al., 2008; Wood et al., 2013). Similar parabolic relationships of Rs with soil 215 
+moisture have also been reported from other tropical forests across the globe (Adachi et al., 216 
+2009; Cusack et al., 2019; Koehler et al., 2009; Matson et al., 2017; Schwendenmann et al., 217 
+2003; Sotta et al., 2004). The soil moisture at peak respiration at our sites is comparable with 218 
+reported values from Southeast Asian forests (~21%) (Adachi et al., 2009; Takahashi et al., 219 
+2011), but lower than those from the Neotropics (30-40%; Sotta et al., 2004; Gaumont-Guay et 220 
+al., 2006; Rubio and Detto, 2017; Wood et al., 2013), potentially a consequence of differences in 221 
+soil texture across these sites. Soil wa ter content for optimal R s  has previously be en shown to be 222 
+correlated with soil text ure and clay content (Balogh et al. , 201 1; Cabl e et al ., 20 08) .  223 
+Patterns of seasonal Rs in our sites are consistent with earlier results from neo-tropical forests 224 
+that report lower Rs in wet seasons relative to dry seasons in high rainfall sites (>4000 mm 225 
+MAP). In contrast, studies from drier sites report higher wet-season Rs relative to dry-season Rs 226 
+(Cusack et al., 2019; Fernandes et al., 2002; Hashimoto et al., 2004; Koehler et al., 2009; Matson 227 
+et al., 2017; Rubio and Detto, 2017; Schwendenmann et al., 2003; Sotta et al., 2006, 2004). Our 228 
+results are also in accordance with experimental dry-down studies that report increases in Rs 229 
+following rainfall reductions in wet sites, and decreases in Rs with drought in drier sites 230 
+(Cleveland et al., 2010; van Straaten et al., 2011; Wood et al., 2013). Thus, at a global scale, the 231 
+nature of the relationship between seasonal Rs and rainfall is likely determined by where sites lie 232 
+along the dry-wet gradient. 233 
+In both our study sites, annual soil respiration was negatively correlated with the frequency of 234 
+high rainfall events (>50mm day-1), but was not correlated with the frequency of rainy days, 235 
+indicating that rainfall intensity is a key factor in limiting soil respiration in these forests. Not 236 
+only do these sites receive extremely high rainfall, most of this rainfall occurs during the five 237 
+monsoon months, with the wettest months receiving >1000mm rainfall month-1, while the rest of 238 
+the year is mostly dry. Inhibition of soil respiration following extreme rain events has also been 239 
+previously reported from other Asian monsoonal forests (Yu et al., 2021), and suggest that future 240 
+increases in the frequency and intensity of extreme rain events are likely to significantly impact 241 
+annual soil CO2 effluxes in these forests. Temperature, on the other hand, did not appear to be a 242 
+strong driver of annual soil respiration rates in our study site, as has also been reported from 243 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+other tropical forests (Deng et al., 2018; Rubio and Detto, 2017), possibly because it was largely 244 
+invariant, with a range of less than 10 degrees in both of our sites.  245 
+Despite our two study sites being in close proximity to one another, soil CO2 efflux rates differed 246 
+substantially between the two sites. Mean annual Rs ranged from 8.44 – 12.05 Mg.ha-1.yr-1 247 
+(mean = 9.85 Mg.ha-1.yr-1) at Mulagunda, and from 10.9 – 20.2 Mg.ha-1.yr-1 (mean = 14.58 248 
+Mg.ha-1.yr-1) at Hosagadde, as compared to the global mean of ~13.1 Mg.ha-1.yr-1 reported for 249 
+tropical broadleaved forests (Raich et al., 2002; Warner et al., 2019). The higher rainfall levels 250 
+experienced in Mulgunda (Fig 1a) is a potential contributor to the lower fluxes at this site.  251 
+However, even for the same level of soil moisture, instantaneous Rs tended to be lower in 252 
+Mulgunda compared to Hosagadde (Fig 2d). While the reasons underlying these differences are 253 
+currently unclear, it is likely that other factors including edaphic properties – which have been 254 
+shown to exert significant controls on soil respiration rates, potentially more so than climatic 255 
+factors (Haaf et al., 2021), soil nutrient availability, litter production and availability of substrate 256 
+for microbes also contribute to the observed differences (Davidson et al., 2002; Yao et al., 2021). 257 
+ 258 
+Our study, the first to detail soil respiration at multiple temporal scales from a highly seasonal 259 
+rainforest in the Western Ghats of India contributes to the growing body of literature on controls 260 
+of soil respiration across the tropics. The combination of very high rainfall and extreme 261 
+seasonality in these sites places them in a unique climatic niche globally, and adds valuable 262 
+insights into our broader understanding of the potential relationships between rainfall regimes 263 
+and soil respiration. Our key finding that both high annual rainfall and extremely rainy days 264 
+suppress soil respiration indicates that future changes in the climatology of the monsoon in this 265 
+region is likely to significantly influence carbon effluxes from these system in the future. 266 
+Experimental studies that manipulate the intensity and frequency of heavy rainfall events can 267 
+help to better quantify these patterns and thereby better parameterize earth system models. 268 
+Further, separation of autotrophic and heterotrophic components of respiration can allow us to 269 
+quantify the sensitivity of each component and better understand the biology underlying carbon 270 
+fluxes in this ecosystem. 271 
+ 272 
+Funding 273 
+We thank and acknowledge funding provided by the Changing Water Cycle programme, jointly 274 
+administered by the Ministry of Earth Sciences (Grant Ref: MoES/NERC/16/02/10 PC-11), 275 
+Government of India and Natural Environment Research Council (Grant Ref: NE/I022450/1), 276 
+United Kingdom; The Science and Engineering Research Board, Department of Science and 277 
+Technology, Government of India (Grant No: EMR/2016/003722); and the National Centre for 278 
+Biological Sciences; Department of Atomic Energy, Government of India, Grant/Award 279 
+Number: RTI 4006.  MS also acknowledges funding provided by Science and Engineering 280 
+Research Board, Department of Science and Technology, Government of India (Grant No: 281 
+DIA/2018/000038) and the R. M. Tulpule Charitable Trust. 282 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+Acknowledgements 283 
+We would like to thank Mahesha from Amminhalli for collecting data throughout the study with 284 
+HVR. Thanks to Jagdish Krishnaswamy and FERAL for providing us with rainfall data, 285 
+Balachandra Hedge for maintaining the weather station at Hosagadde, Sandeep Pulla, Anand MO 286 
+and Deepak Barua for discussions during analysis, and BEER Lab folks at NCBS, especially 287 
+Manaswi Raghurama and Mayank Kohli for their detailed suggestions on the manuscript. 288 
+Finally, we would like to thank the Karnataka Forest Department for granting permission to 289 
+conduct the study. 290 
+ 291 
+References 292 
+Adachi, M., Ishida, A., Bunyavejchewin, S., Okuda, T., Koizumi, H., 2009. Spatial and temporal 293 
+variation in soil respiration in a seasonally dry tropical forest, Thailand. Journal of Tropical 294 
+Ecology 25, 531–539. https://doi.org/10.1017/s026646740999006x 295 
+Akande, O.J., Ma, Z., Huang, C., He, F., Chang, S.X., 2023. Meta-analysis shows forest soil 296 
+CO(2) effluxes are dependent on the disturbance regime and biome type. Ecol Lett 26, 765–777. 297 
+https://doi.org/10.1111/ele.14201 298 
+Balogh, J., Pintér, K., Fóti, Sz., Cserhalmi, D., Papp, M., Nagy, Z., 2011. Dependence of soil 299 
+respiration on soil moisture, clay content, soil organic matter, and CO2 uptake in dry grasslands. 300 
+Soil Biology and Biochemistry 43, 1006–1013. https://doi.org/10.1016/j.soilbio.2011.01.017 301 
+Bond-Lamberty, B., Thomson, A., 2010a. Temperature-associated increases in the global soil 302 
+respiration record. Nature 464, 579–82. https://doi.org/10.1038/nature08930 303 
+Bond-Lamberty, B., Thomson, A., 2010b. A global database of soil respiration data. 304 
+Biogeosciences 7, 1915–1926. https://doi.org/10.5194/bg-7-1915-2010 305 
+Cable, J.M., Ogle, K., Williams, D.G., Weltzin, J.F., Huxman, T.E., 2008. Soil Texture Drives 306 
+Responses of Soil Respiration to Precipitation Pulses in the Sonoran Desert: Implications for 307 
+Climate Change. Ecosystems 11, 961–979. https://doi.org/10.1007/s10021-008-9172-x 308 
+Cleveland, C.C., Wieder, W.R., Reed, S.C., Townsend, A.R., 2010. Experimental drought in a 309 
+tropical rain forest increases soil carbon dioxide losses to the atmosphere. Ecology 91, 2313–23. 310 
+https://doi.org/10.1890/09-1582.1 311 
+Condit, R., 1998. The CTFS and the Standardization of Methodology, in: Condit, R. (Ed.), 312 
+Tropical Forest Census Plots: Methods and Results from Barro Colorado Island, Panama and a 313 
+Comparison with Other Plots, Environmental Intelligence Unit. Springer, Berlin, Heidelberg, pp. 314 
+3–7. https://doi.org/10.1007/978-3-662-03664-8_1 315 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+Cusack, D.F., Ashdown, D., Dietterich, L.H., Neupane, A., Ciochina, M., Turner, B.L., 2019. 316 
+Seasonal changes in soil respiration linked to soil moisture and phosphorus availability along a 317 
+tropical rainfall gradient. Biogeochemistry 145, 235–254. https://doi.org/10.1007/s10533-019-318 
+00602-4 319 
+Davidson, E.A., Savage, K., Bolstad, P., Clark, D.A., Curtis, P.S., Ellsworth, D.S., Hanson, P.J., 320 
+Law, B.E., Luo, Y., Pregitzer, K.S., Randolph, J.C., Zak, D., 2002. Belowground carbon 321 
+allocation in forests estimated from litterfall and IRGA-based soil respiration measurements. 322 
+Agricultural and Forest Meteorology 113, 39–51. https://doi.org/10.1016/s0168-1923(02)00101-323 
+6 324 
+Davidson, E.A., Verchot, L.V., Cattânio, J.H., Ackerman, I.L., Carvalho, J.E.M., 2000. Effects 325 
+of Soil Water Content on Soil Respiration in Forests and Cattle Pastures of Eastern Amazonia. 326 
+Biogeochemistry 48, 53–69. https://doi.org/10.1023/a:1006204113917 327 
+Deng, Q., Hui, D., Zhang, D., Zhou, G., Liu, J., Liu, S., Chu, G., Li, J., 2012. Effects of 328 
+precipitation increase on soil respiration: a three-year field experiment in subtropical forests in 329 
+China. PLoS One 7, e41493. https://doi.org/10.1371/journal.pone.0041493 330 
+Deng, Q., Zhang, D., Han, X., Chu, G., Zhang, Q., Hui, D., 2018. Changing rainfall frequency 331 
+rather than drought rapidly alters annual soil respiration in a tropical forest. Soil Biology and 332 
+Biochemistry 121, 8–15. https://doi.org/10.1016/j.soilbio.2018.02.023 333 
+Epron, D., Bosc, A., Bonal, D., Freycon, V., 2006. Spatial variation of soil respiration across a 334 
+topographic gradient in a tropical rain forest in French Guiana. Journal of Tropical Ecology 22, 335 
+565–574. https://doi.org/10.1017/s0266467406003415 336 
+FAO-UNESCO, 1988. FAO-UNESCO soil map of the world. Revised legend. Paris. 337 
+Fernandes, S.A.P., Bernoux, M., Cerri, C.C., Feigl, B.J., Piccolo, M.C., 2002. Seasonal variation 338 
+of soil chemical properties and CO2 and CH4 fluxes in unfertilized and P-fertilized pastures in 339 
+an Ultisol of the Brazilian Amazon. Geoderma 107, 227–241. https://doi.org/10.1016/s0016-340 
+7061(01)00150-1 341 
+Flanagan, L.B., Johnson, B.G., 2005. Interacting effects of temperature, soil moisture and plant 342 
+biomass production on ecosystem respiration in a northern temperate grassland. Agricultural and 343 
+Forest Meteorology 130, 237–253. https://doi.org/10.1016/j.agrformet.2005.04.002 344 
+Gaumont-Guay, D., Black, T.A., Griffis, T.J., Barr, A.G., Jassal, R.S., Nesic, Z., 2006. 345 
+Interpreting the dependence of soil respiration on soil temperature and water content in a boreal 346 
+aspen stand. Agricultural and Forest Meteorology 140, 220–235. 347 
+https://doi.org/10.1016/j.agrformet.2006.08.003 348 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+Guntiñas, M.E., Gil-Sotres F, Leirós, M.C., Trasar-Cepeda, C., 2013. Sensitivity of soil 349 
+respiration to moisture and temperature. Journal of Soil Science and Plant Nutrition 13, 445–461. 350 
+http://dx.doi.org/10.4067/S0718-95162013005000035 351 
+Haaf, D., Six, J., Doetterl, S., 2021. Global patterns of geo-ecological controls on the response of 352 
+soil respiration to warming. Nat. Clim. Chang. 11, 623–627. https://doi.org/10.1038/s41558-021-353 
+01068-9 354 
+Harris, I., Osborn, T.J., Jones, P., Lister, D., 2020. Version 4 of the CRU TS monthly high-355 
+resolution gridded multivariate climate dataset. Sci Data 7, 109. https://doi.org/10.1038/s41597-356 
+020-0453-3 357 
+Hashimoto, S., Tanaka, N., Suzuki, M., Inoue, A., Takizawa, H., Kosaka, I., Tanaka, K., 358 
+Tantasirin, C., Tangtham, N., 2004. Soil respiration and soil CO2 concentration in a tropical 359 
+forest, Thailand. Journal of Forest Research 9, 75–79. https://doi.org/10.1007/s10310-003-0046-360 
+y 361 
+Huang, N., Wang, L., Song, X.P., Black, T.A., Jassal, R.S., Myneni, R.B., Wu, C.Y., Wang, L., 362 
+Song, W.J., Ji, D.B., Yu, S.S., Niu, Z., 2020. Spatial and temporal variations in global soil 363 
+respiration and their relationships with climate and land cover. Sci Adv 6. https://doi.org/ARTN 364 
+eabb8508 10.1126/sciadv.abb8508 365 
+Hursh, A., Ballantyne, A., Cooper, L., Maneta, M., Kimball, J., Watts, J., 2017. The sensitivity 366 
+of soil respiration to soil temperature, moisture, and carbon supply at the global scale. Glob 367 
+Chang Biol 23, 2090–2103. https://doi.org/10.1111/gcb.13489 368 
+Intergovernmental Panel on Climate Change (IPCC) (Ed.), 2023. Summary for Policymakers, in: 369 
+Climate Change 2022 – Impacts, Adaptation and Vulnerability: Working Group II Contribution 370 
+to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge 371 
+University Press, Cambridge, pp. 3–34. https://doi.org/10.1017/9781009325844.001 372 
+Koehler, B., Corre, M.D., Veldkamp, E., Sueta, J.P., 2009. Chronic nitrogen addition causes a 373 
+reduction in soil carbon dioxide efflux during the high stem-growth period in a tropical montane 374 
+forest but no response from a tropical lowland forest on a decadal time scale. Biogeosciences 6, 375 
+2973–2983. https://doi.org/10.5194/bg-6-2973-2009 376 
+Krishnaswamy, J., Chappel, N., Bhalla, R., Sankaran, M., Vaidyanathan, S., Badiger, S., 377 
+Varghese, S., 2017. Hydrologic and Carbon Services in the Western Ghats: Response of Forest 378 
+and Agroecosystems to Extreme Rainfall Events (Technical Report submitted to Ministry of 379 
+Earth Sciences, Government of India.). 380 
+Lei, J., Guo, X., Zeng, Y., Zhou, J., Gao, Q., Yang, Y., 2021. Temporal changes in global soil 381 
+respiration since 1987. Nat Commun 12, 403. https://doi.org/10.1038/s41467-020-20616-z 382 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+Marthews, T.R., Riutta, T., Oliveras Menor, I., Urrutia, R., Moore, S., Metcalfe, D., Malhi, Y., 383 
+Phillips, O., Huaraca Huasco, W., Ruiz Jaén, M., 2014. Measuring tropical forest carbon 384 
+allocation and cycling: a RAINFOR-GEM field manual for intensive census plots (v3. 0). 385 
+Manual, Global Ecosystems Monitoring network. 386 
+Matson, A.L., Corre, M.D., Langs, K., Veldkamp, E., 2017. Soil trace gas fluxes along 387 
+orthogonal precipitation and soil fertility gradients in tropical lowland forests of Panama. 388 
+Biogeosciences 14, 3509–3524. https://doi.org/10.5194/bg-14-3509-2017 389 
+Pan, Y., Birdsey, R.A., Fang, J., Houghton, R., Kauppi, P.E., Kurz, W.A., Phillips, O.L., 390 
+Shvidenko, A., Lewis, S.L., Canadell, J.G., Ciais, P., Jackson, R.B., Pacala, S.W., McGuire, 391 
+A.D., Piao, S., Rautiainen, A., Sitch, S., Hayes, D., 2011. A large and persistent carbon sink in 392 
+the world’s forests. Science 333, 988–93. https://doi.org/10.1126/science.1201609 393 
+Raich, J.W., Potter, C.S., 1995. Global patterns of carbon dioxide emissions from soils. Global 394 
+Biogeochemical Cycles 9, 23–36. https://doi.org/10.1029/94gb02723 395 
+Raich, J.W., Potter, C.S., Bhagawati, D., 2002. Interannual variability in global soil respiration, 396 
+1980-94. Global Change Biology 8, 800–812. https://doi.org/10.1046/j.1365-2486.2002.00511.x 397 
+Raich, J.W., Schlesinger, W.H., 1992. The global carbon dioxide flux in soil respiration and its 398 
+relationship to vegetation and climate. Tellus B 44, 81–99. https://doi.org/10.1034/j.1600-399 
+0889.1992.t01-1-00001.x 400 
+Raich, J.W., Tufekciogul, A., 2000. Vegetation and Soil Respiration: Correlations and Controls. 401 
+Biogeochemistry 48, 71–90. https://doi.org/10.1023/a:1006112000616 402 
+Rome, FAO-UN, 1998. World Reference Base for soil Resources. FAO. 403 
+Rubio, V.E., Detto, M., 2017. Spatiotemporal variability of soil respiration in a seasonal tropical 404 
+forest. Ecol Evol 7, 7104–7116. https://doi.org/10.1002/ece3.3267 405 
+Schwendenmann, L., Veldkamp, E., Brenes, T., O’Brien, J.J., Mackensen, J., 2003. Spatial and 406 
+temporal variation in soil CO2 efflux in an old-growth neotropical rain forest, La Selva, Costa 407 
+Rica. Biogeochemistry 64, 111–128. https://doi.org/10.1023/a:1024941614919 408 
+Sotta, E.D., Meir, P., Malhi, Y., Donato nobre, A., Hodnett, M., Grace, J., 2004. Soil CO2 efflux 409 
+in a tropical forest in the central Amazon. Global Change Biology 10, 601–617. 410 
+https://doi.org/10.1111/j.1529-8817.2003.00761.x 411 
+Sotta, E.D., Veldkamp, E., Guimarães, B.R., Paixão, R.K., Ruivo, M.L.P., Almeida, S.S., 2006. 412 
+Landscape and climatic controls on spatial and temporal variation in soil CO2 efflux in an 413 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint 
+
+Eastern Amazonian Rainforest, Caxiuanã, Brazil. Forest Ecology and Management 237, 57–64. 414 
+https://doi.org/10.1016/j.foreco.2006.09.027 415 
+Takahashi, M., Hirai, K., Limtong, P., Leaungvutivirog, C., Panuthai, S., Suksawang, S., 416 
+Anusontpornperm, S., Marod, D., 2011. Topographic variation in heterotrophic and autotrophic 417 
+soil respiration in a tropical seasonal forest in Thailand. Soil Science and Plant Nutrition 57, 418 
+452–465. https://doi.org/10.1080/00380768.2011.589363 419 
+Valentini, C.M.A., Sanches, L., de Paula, S.R., Vourlitis, G.L., de Souza Nogueira, J., Pinto, 420 
+O.B., de Almeida Lobo, F., 2008. Soil respiration and aboveground litter dynamics of a tropical 421 
+transitional forest in northwest Mato Grosso, Brazil. Journal of Geophysical Research: 422 
+Biogeosciences 113, n/a-n/a. https://doi.org/10.1029/2007jg000619 423 
+van Straaten, O., Veldkamp, E., Corre, M.D., 2011. Simulated drought reduces soil CO2 efflux 424 
+and production in a tropical forest in Sulawesi, Indonesia. Ecosphere 2, art119. 425 
+https://doi.org/10.1890/ES11-00079.1 426 
+Warner, D.L., Bond/i1Lamberty, B., Jian, J., Stell, E., Vargas, R., 2019. Spatial Predictions and 427 
+Associated Uncertainty of Annual Soil Respiration at the Global Scale. Global Biogeochemical 428 
+Cycles 33, 1733–1745. https://doi.org/10.1029/2019gb006264 429 
+Wen, X.-F., Yu, G.-R., Sun, X.-M., Li, Q.-K., Liu, Y.-F., Zhang, L.-M., Ren, C.-Y., Fu, Y.-L., 430 
+Li, Z.-Q., 2006. Soil moisture effect on the temperature dependence of ecosystem respiration in a 431 
+subtropical Pinus plantation of southeastern China. Agricultural and Forest Meteorology 137, 432 
+166–175. https://doi.org/10.1016/j.agrformet.2006.02.005 433 
+Wood, T.E., Detto, M., Silver, W.L., 2013. Sensitivity of soil respiration to variability in soil 434 
+moisture and temperature in a humid tropical forest. PLoS One 8, e80965. 435 
+https://doi.org/10.1371/journal.pone.0080965 436 
+Yao, Y., Ciais, P., Viovy, N., Li, W., Cresto-Aleina, F., Yang, H., Joetzjer, E., Bond-Lamberty, 437 
+B., 2021. A Data-Driven Global Soil Heterotrophic Respiration Dataset and the Drivers of Its 438 
+Inter-Annual Variability. Global Biogeochemical Cycles 35, e2020GB006918. 439 
+https://doi.org/10.1029/2020GB006918 440 
+Yu, J.-C., Chiang, P.-N., Lai, Y.-J., Tsai, M.-J., Wang, Y.-N., 2021. High Rainfall Inhibited Soil 441 
+Respiration in an Asian Monsoon Forest in Taiwan. Forests 12, 239. 442 
+https://doi.org/10.3390/f12020239 443 
+ 444 
+(which was not certified by peer review) is the author/funder. All rights reserved. No reuse allowed without permission. 
+The copyright holder for this preprintthis version posted January 4, 2024. ; https://doi.org/10.1101/2024.01.03.574121doi: bioRxiv preprint
