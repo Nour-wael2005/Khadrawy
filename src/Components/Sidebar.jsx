@@ -961,46 +961,46 @@ export default function Sidebar({ isOpen, onClose }) {
               </svg>
             ),
           },
-          {
-            name:
-              t.careSchedule ||
-              (lang === "ar" ? "جدول العناية" : "Care Schedule"),
-            path: "/care-schedule",
-            icon: (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="1em"
-                height="1em"
-                viewBox="0 0 24 24"
-              >
-                <path d="M0 0h24v24H0z" fill="none" />
-                <path
-                  fill="currentColor"
-                  d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 16H5V10h14zM9 14H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2zm-8 4H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2z"
-                />
-              </svg>
-            ),
-          },
-          {
-            name:
-              t.diagnosisHistory ||
-              (lang === "ar" ? "سجل التشخيصات" : "Diagnosis History"),
-            path: "/diagnosis-history",
-            icon: (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="1em"
-                height="1em"
-                viewBox="0 0 24 24"
-              >
-                <path d="M0 0h24v24H0z" fill="none" />
-                <path
-                  fill="currentColor"
-                  d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8zm2 16H8v-2h8zm0-4H8v-2h8zm-3-5V3.5L18.5 9z"
-                />
-              </svg>
-            ),
-          },
+          // {
+          //   name:
+          //     t.careSchedule ||
+          //     (lang === "ar" ? "جدول العناية" : "Care Schedule"),
+          //   path: "/care-schedule",
+          //   icon: (
+          //     <svg
+          //       xmlns="http://www.w3.org/2000/svg"
+          //       width="1em"
+          //       height="1em"
+          //       viewBox="0 0 24 24"
+          //     >
+          //       <path d="M0 0h24v24H0z" fill="none" />
+          //       <path
+          //         fill="currentColor"
+          //         d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 16H5V10h14zM9 14H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2zm-8 4H7v-2h2zm4 0h-2v-2h2zm4 0h-2v-2h2z"
+          //       />
+          //     </svg>
+          //   ),
+          // },
+          // {
+          //   name:
+          //     t.diagnosisHistory ||
+          //     (lang === "ar" ? "سجل التشخيصات" : "Diagnosis History"),
+          //   path: "/diagnosis-history",
+          //   icon: (
+          //     <svg
+          //       xmlns="http://www.w3.org/2000/svg"
+          //       width="1em"
+          //       height="1em"
+          //       viewBox="0 0 24 24"
+          //     >
+          //       <path d="M0 0h24v24H0z" fill="none" />
+          //       <path
+          //         fill="currentColor"
+          //         d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8zm2 16H8v-2h8zm0-4H8v-2h8zm-3-5V3.5L18.5 9z"
+          //       />
+          //     </svg>
+          //   ),
+          // },
         ];
     }
   };
